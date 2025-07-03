@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/ClashStrategic/stats/compare/v0.1.1...v0.1.2) (2025-07-03)
+
+
+### Bug Fixes
+
+* **cards:** Removes unprepared special data of the normal and evolution types from the charts. ([75a0c94](https://github.com/ClashStrategic/stats/commit/75a0c940d02f5f3a0dde77f949449c5cbeaec529))
+
 ## [0.1.1](https://github.com/ClashStrategic/stats/compare/v0.1.0...v0.1.1) (2025-07-03)
 
 
