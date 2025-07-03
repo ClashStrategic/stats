@@ -4,7 +4,7 @@
             "name": "Knight",
             "id": 26000000,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -68,7 +68,7 @@
             "name": "Archers",
             "id": 26000001,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -132,7 +132,7 @@
             "name": "Goblins",
             "id": 26000002,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -196,7 +196,7 @@
             "name": "Giant",
             "id": 26000003,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -260,7 +260,7 @@
             "name": "P.E.K.K.A",
             "id": 26000004,
             "elixirCost": 7,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -324,7 +324,7 @@
             "name": "Minions",
             "id": 26000005,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -388,7 +388,7 @@
             "name": "Balloon",
             "id": 26000006,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -452,7 +452,7 @@
             "name": "Witch",
             "id": 26000007,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -516,7 +516,7 @@
             "name": "Barbarians",
             "id": 26000008,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -580,7 +580,7 @@
             "name": "Golem",
             "id": 26000009,
             "elixirCost": 8,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -644,7 +644,7 @@
             "name": "Skeletons",
             "id": 26000010,
             "elixirCost": 1,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -708,7 +708,7 @@
             "name": "Valkyrie",
             "id": 26000011,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -772,7 +772,7 @@
             "name": "Skeleton Army",
             "id": 26000012,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -836,7 +836,7 @@
             "name": "Bomber",
             "id": 26000013,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -900,7 +900,7 @@
             "name": "Musketeer",
             "id": 26000014,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -964,7 +964,7 @@
             "name": "Baby Dragon",
             "id": 26000015,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -1028,7 +1028,7 @@
             "name": "Prince",
             "id": 26000016,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -1092,7 +1092,7 @@
             "name": "Wizard",
             "id": 26000017,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -1156,7 +1156,7 @@
             "name": "Mini P.E.K.K.A",
             "id": 26000018,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -1220,7 +1220,7 @@
             "name": "Spear Goblins",
             "id": 26000019,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -1284,7 +1284,7 @@
             "name": "Giant Skeleton",
             "id": 26000020,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -1348,7 +1348,7 @@
             "name": "Hog Rider",
             "id": 26000021,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -1412,7 +1412,7 @@
             "name": "Minion Horde",
             "id": 26000022,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -1476,7 +1476,7 @@
             "name": "Ice Wizard",
             "id": 26000023,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -1540,7 +1540,7 @@
             "name": "Royal Giant",
             "id": 26000024,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -1605,7 +1605,7 @@
             "name": "Guards",
             "id": 26000025,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -1669,7 +1669,7 @@
             "name": "Princess",
             "id": 26000026,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -1733,7 +1733,7 @@
             "name": "Dark Prince",
             "id": 26000027,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -1797,7 +1797,7 @@
             "name": "Three Musketeers",
             "id": 26000028,
             "elixirCost": 9,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -1861,7 +1861,7 @@
             "name": "Lava Hound",
             "id": 26000029,
             "elixirCost": 7,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -1925,7 +1925,7 @@
             "name": "Ice Spirit",
             "id": 26000030,
             "elixirCost": 1,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -1989,7 +1989,7 @@
             "name": "Fire Spirit",
             "id": 26000031,
             "elixirCost": 1,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -2053,7 +2053,7 @@
             "name": "Miner",
             "id": 26000032,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -2117,7 +2117,7 @@
             "name": "Sparky",
             "id": 26000033,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -2181,7 +2181,7 @@
             "name": "Bowler",
             "id": 26000034,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -2245,7 +2245,7 @@
             "name": "Lumberjack",
             "id": 26000035,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -2309,7 +2309,7 @@
             "name": "Battle Ram",
             "id": 26000036,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "est",
                 "ter"
             ],
@@ -2373,7 +2373,7 @@
             "name": "Inferno Dragon",
             "id": 26000037,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -2437,7 +2437,7 @@
             "name": "Ice Golem",
             "id": 26000038,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -2501,7 +2501,7 @@
             "name": "Mega Minion",
             "id": 26000039,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -2565,7 +2565,7 @@
             "name": "Dart Goblin",
             "id": 26000040,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -2629,7 +2629,7 @@
             "name": "Goblin Gang",
             "id": 26000041,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -2693,7 +2693,7 @@
             "name": "Electro Wizard",
             "id": 26000042,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -2757,7 +2757,7 @@
             "name": "Elite Barbarians",
             "id": 26000043,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -2821,7 +2821,7 @@
             "name": "Hunter",
             "id": 26000044,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -2885,7 +2885,7 @@
             "name": "Executioner",
             "id": 26000045,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -2949,7 +2949,7 @@
             "name": "Bandit",
             "id": 26000046,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3013,7 +3013,7 @@
             "name": "Royal Recruits",
             "id": 26000047,
             "elixirCost": 7,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3077,7 +3077,7 @@
             "name": "Night Witch",
             "id": 26000048,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3141,7 +3141,7 @@
             "name": "Bats",
             "id": 26000049,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -3205,7 +3205,7 @@
             "name": "Royal Ghost",
             "id": 26000050,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3269,7 +3269,7 @@
             "name": "Ram Rider",
             "id": 26000051,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "est",
                 "ter"
             ],
@@ -3333,7 +3333,7 @@
             "name": "Zappies",
             "id": 26000052,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -3397,7 +3397,7 @@
             "name": "Rascals",
             "id": 26000053,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -3461,7 +3461,7 @@
             "name": "Cannon Cart",
             "id": 26000054,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3525,7 +3525,7 @@
             "name": "Mega Knight",
             "id": 26000055,
             "elixirCost": 7,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3589,7 +3589,7 @@
             "name": "Skeleton Barrel",
             "id": 26000056,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -3653,7 +3653,7 @@
             "name": "Flying Machine",
             "id": 26000057,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -3717,7 +3717,7 @@
             "name": "Wall Breakers",
             "id": 26000058,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -3781,7 +3781,7 @@
             "name": "Royal Hogs",
             "id": 26000059,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -3845,7 +3845,7 @@
             "name": "Goblin Giant",
             "id": 26000060,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -3909,7 +3909,7 @@
             "name": "Fisherman",
             "id": 26000061,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -3973,7 +3973,7 @@
             "name": "Magic Archer",
             "id": 26000062,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -4037,7 +4037,7 @@
             "name": "Electro Dragon",
             "id": 26000063,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -4101,7 +4101,7 @@
             "name": "Firecracker",
             "id": 26000064,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -4165,7 +4165,7 @@
             "name": "Mighty Miner",
             "id": 26000065,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -4229,7 +4229,7 @@
             "name": "Elixir Golem",
             "id": 26000067,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -4293,7 +4293,7 @@
             "name": "Battle Healer",
             "id": 26000068,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -4357,7 +4357,7 @@
             "name": "Skeleton King",
             "id": 26000069,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -4421,7 +4421,7 @@
             "name": "Archer Queen",
             "id": 26000072,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -4485,7 +4485,7 @@
             "name": "Golden Knight",
             "id": 26000074,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -4549,7 +4549,7 @@
             "name": "Monk",
             "id": 26000077,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -4613,7 +4613,7 @@
             "name": "Skeleton Dragons",
             "id": 26000080,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -4677,7 +4677,7 @@
             "name": "Mother Witch",
             "id": 26000083,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -4741,7 +4741,7 @@
             "name": "Electro Spirit",
             "id": 26000084,
             "elixirCost": 1,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -4805,7 +4805,7 @@
             "name": "Electro Giant",
             "id": 26000085,
             "elixirCost": 7,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -4869,7 +4869,7 @@
             "name": "Phoenix",
             "id": 26000087,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -4933,7 +4933,7 @@
             "name": "Little Prince",
             "id": 26000093,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "aer",
                 "ter"
             ],
@@ -4997,7 +4997,7 @@
             "name": "Goblin Demolisher",
             "id": 26000095,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -5061,7 +5061,7 @@
             "name": "Goblin Machine",
             "id": 26000096,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -5125,7 +5125,7 @@
             "name": "Suspicious Bush",
             "id": 26000097,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -5189,7 +5189,7 @@
             "name": "Goblinstein",
             "id": 26000099,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "est",
                 "ter"
             ],
@@ -5253,7 +5253,7 @@
             "name": "Rune Giant",
             "id": 26000101,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "est",
                 "null"
             ],
@@ -5317,7 +5317,7 @@
             "name": "Berserker",
             "id": 26000102,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -5381,7 +5381,7 @@
             "name": "Boss Bandit",
             "id": 26000103,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "ter",
                 "null"
             ],
@@ -5445,7 +5445,7 @@
             "name": "Cannon",
             "id": 27000000,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "ter"
             ],
@@ -5509,7 +5509,7 @@
             "name": "Goblin Hut",
             "id": 27000001,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -5573,7 +5573,7 @@
             "name": "Mortar",
             "id": 27000002,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "est"
             ],
@@ -5637,7 +5637,7 @@
             "name": "Inferno Tower",
             "id": 27000003,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -5701,7 +5701,7 @@
             "name": "Bomb Tower",
             "id": 27000004,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "ter"
             ],
@@ -5765,7 +5765,7 @@
             "name": "Barbarian Hut",
             "id": 27000005,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "ter",
                 "ter"
             ],
@@ -5829,7 +5829,7 @@
             "name": "Tesla",
             "id": 27000006,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -5893,7 +5893,7 @@
             "name": "Elixir Collector",
             "id": 27000007,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "aer",
                 "null"
             ],
@@ -5957,7 +5957,7 @@
             "name": "X-Bow",
             "id": 27000008,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "ter",
                 "est"
             ],
@@ -6021,7 +6021,7 @@
             "name": "Tombstone",
             "id": 27000009,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "ter",
                 "ter"
             ],
@@ -6085,7 +6085,7 @@
             "name": "Furnace",
             "id": 27000010,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "ter"
             ],
@@ -6149,7 +6149,7 @@
             "name": "Goblin Cage",
             "id": 27000012,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "ter",
                 "ter"
             ],
@@ -6213,7 +6213,7 @@
             "name": "Goblin Drill",
             "id": 27000013,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "est",
                 "ter"
             ],
@@ -6277,7 +6277,7 @@
             "name": "Fireball",
             "id": 28000000,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "hech3",
                 "null"
             ],
@@ -6341,7 +6341,7 @@
             "name": "Arrows",
             "id": 28000001,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "hech2",
                 "null"
             ],
@@ -6405,7 +6405,7 @@
             "name": "Rage",
             "id": 28000002,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -6469,7 +6469,7 @@
             "name": "Rocket",
             "id": 28000003,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "hech4",
                 "null"
             ],
@@ -6533,7 +6533,7 @@
             "name": "Goblin Barrel",
             "id": 28000004,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "est",
                 "ter"
             ],
@@ -6597,7 +6597,7 @@
             "name": "Freeze",
             "id": 28000005,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -6661,7 +6661,7 @@
             "name": "Mirror",
             "id": 28000006,
             "elixirCost": 0,
-            "Attack": [
+            "targets": [
                 "hech0",
                 "null"
             ],
@@ -6725,7 +6725,7 @@
             "name": "Lightning",
             "id": 28000007,
             "elixirCost": 6,
-            "Attack": [
+            "targets": [
                 "hech4",
                 "null"
             ],
@@ -6789,7 +6789,7 @@
             "name": "Zap",
             "id": 28000008,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -6853,7 +6853,7 @@
             "name": "Poison",
             "id": 28000009,
             "elixirCost": 4,
-            "Attack": [
+            "targets": [
                 "hech3",
                 "null"
             ],
@@ -6917,7 +6917,7 @@
             "name": "Graveyard",
             "id": 28000010,
             "elixirCost": 5,
-            "Attack": [
+            "targets": [
                 "est",
                 "ter"
             ],
@@ -6981,7 +6981,7 @@
             "name": "The log",
             "id": 28000011,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -7045,7 +7045,7 @@
             "name": "Tornado",
             "id": 28000012,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -7109,7 +7109,7 @@
             "name": "Clone",
             "id": 28000013,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "hech0",
                 "null"
             ],
@@ -7173,7 +7173,7 @@
             "name": "Earthquake",
             "id": 28000014,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -7237,7 +7237,7 @@
             "name": "Barbarian Barrel",
             "id": 28000015,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -7301,7 +7301,7 @@
             "name": "Heal Spirit",
             "id": 28000016,
             "elixirCost": 1,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -7365,7 +7365,7 @@
             "name": "Giant Snowball",
             "id": 28000017,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -7429,7 +7429,7 @@
             "name": "Royal Delivery",
             "id": 28000018,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "hech2",
                 "null"
             ],
@@ -7493,7 +7493,7 @@
             "name": "Void",
             "id": 28000023,
             "elixirCost": 3,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "hech2"
             ],
@@ -7557,7 +7557,7 @@
             "name": "Goblin Curse",
             "id": 28000024,
             "elixirCost": 2,
-            "Attack": [
+            "targets": [
                 "hech1",
                 "null"
             ],
@@ -7623,7 +7623,7 @@
             "name": "Tower Princess",
             "id": 159000000,
             "elixirCost": 0,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -7687,7 +7687,7 @@
             "name": "Cannoneer",
             "id": 159000001,
             "elixirCost": 0,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -7751,7 +7751,7 @@
             "name": "Dagger Duchess",
             "id": 159000002,
             "elixirCost": 0,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
@@ -7815,7 +7815,7 @@
             "name": "Royal Chef",
             "id": 159000004,
             "elixirCost": 0,
-            "Attack": [
+            "targets": [
                 "ter",
                 "aer"
             ],
