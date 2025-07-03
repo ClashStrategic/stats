@@ -5,7 +5,7 @@
             "id": 26000000,
             "elixirCost": 3,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -68,8 +68,8 @@
             "id": 26000001,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 2,
             "duration": null,
@@ -131,7 +131,7 @@
             "id": 26000002,
             "elixirCost": 2,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 4,
@@ -194,7 +194,7 @@
             "id": 26000003,
             "elixirCost": 5,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -257,7 +257,7 @@
             "id": 26000004,
             "elixirCost": 7,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -320,7 +320,7 @@
             "id": 26000005,
             "elixirCost": 3,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 3,
@@ -383,7 +383,7 @@
             "id": 26000006,
             "elixirCost": 5,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -446,8 +446,8 @@
             "id": 26000007,
             "elixirCost": 5,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -509,7 +509,7 @@
             "id": 26000008,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 5,
@@ -572,7 +572,7 @@
             "id": 26000009,
             "elixirCost": 8,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -635,7 +635,7 @@
             "id": 26000010,
             "elixirCost": 1,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 3,
@@ -698,7 +698,7 @@
             "id": 26000011,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -761,7 +761,7 @@
             "id": 26000012,
             "elixirCost": 3,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 15,
@@ -824,7 +824,7 @@
             "id": 26000013,
             "elixirCost": 2,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -887,8 +887,8 @@
             "id": 26000014,
             "elixirCost": 4,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -950,7 +950,7 @@
             "id": 26000015,
             "elixirCost": 4,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -1013,7 +1013,7 @@
             "id": 26000016,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -1076,8 +1076,8 @@
             "id": 26000017,
             "elixirCost": 5,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -1139,7 +1139,7 @@
             "id": 26000018,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -1202,8 +1202,8 @@
             "id": 26000019,
             "elixirCost": 2,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 3,
             "duration": null,
@@ -1265,7 +1265,7 @@
             "id": 26000020,
             "elixirCost": 6,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -1328,7 +1328,7 @@
             "id": 26000021,
             "elixirCost": 4,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -1391,7 +1391,7 @@
             "id": 26000022,
             "elixirCost": 5,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 6,
@@ -1454,8 +1454,8 @@
             "id": 26000023,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -1517,7 +1517,7 @@
             "id": 26000024,
             "elixirCost": 6,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -1580,7 +1580,7 @@
             "id": 26000025,
             "elixirCost": 3,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 3,
@@ -1643,8 +1643,8 @@
             "id": 26000026,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -1706,7 +1706,7 @@
             "id": 26000027,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -1769,8 +1769,8 @@
             "id": 26000028,
             "elixirCost": 9,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 3,
             "duration": null,
@@ -1832,7 +1832,7 @@
             "id": 26000029,
             "elixirCost": 7,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -1895,8 +1895,8 @@
             "id": 26000030,
             "elixirCost": 1,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -1958,8 +1958,8 @@
             "id": 26000031,
             "elixirCost": 1,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -2021,7 +2021,7 @@
             "id": 26000032,
             "elixirCost": 3,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -2084,7 +2084,7 @@
             "id": 26000033,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -2147,7 +2147,7 @@
             "id": 26000034,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -2210,7 +2210,7 @@
             "id": 26000035,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -2273,8 +2273,8 @@
             "id": 26000036,
             "elixirCost": 4,
             "targets": [
-                "est",
-                "ter"
+                "buildings",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2336,7 +2336,7 @@
             "id": 26000037,
             "elixirCost": 4,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -2399,7 +2399,7 @@
             "id": 26000038,
             "elixirCost": 2,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -2462,7 +2462,7 @@
             "id": 26000039,
             "elixirCost": 3,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -2525,8 +2525,8 @@
             "id": 26000040,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2588,8 +2588,8 @@
             "id": 26000041,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 6,
             "duration": null,
@@ -2651,8 +2651,8 @@
             "id": 26000042,
             "elixirCost": 4,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2714,7 +2714,7 @@
             "id": 26000043,
             "elixirCost": 6,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 2,
@@ -2777,8 +2777,8 @@
             "id": 26000044,
             "elixirCost": 4,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2840,8 +2840,8 @@
             "id": 26000045,
             "elixirCost": 6,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2903,7 +2903,7 @@
             "id": 26000046,
             "elixirCost": 3,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -2966,7 +2966,7 @@
             "id": 26000047,
             "elixirCost": 7,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 6,
@@ -3029,7 +3029,7 @@
             "id": 26000048,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -3092,7 +3092,7 @@
             "id": 26000049,
             "elixirCost": 2,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 5,
@@ -3155,7 +3155,7 @@
             "id": 26000050,
             "elixirCost": 3,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -3218,8 +3218,8 @@
             "id": 26000051,
             "elixirCost": 5,
             "targets": [
-                "est",
-                "ter"
+                "buildings",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -3281,8 +3281,8 @@
             "id": 26000052,
             "elixirCost": 4,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 3,
             "duration": null,
@@ -3344,8 +3344,8 @@
             "id": 26000053,
             "elixirCost": 5,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 3,
             "duration": null,
@@ -3407,7 +3407,7 @@
             "id": 26000054,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -3470,7 +3470,7 @@
             "id": 26000055,
             "elixirCost": 7,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -3533,7 +3533,7 @@
             "id": 26000056,
             "elixirCost": 3,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 7,
@@ -3596,7 +3596,7 @@
             "id": 26000057,
             "elixirCost": 4,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -3659,7 +3659,7 @@
             "id": 26000058,
             "elixirCost": 2,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 2,
@@ -3722,7 +3722,7 @@
             "id": 26000059,
             "elixirCost": 5,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 4,
@@ -3785,7 +3785,7 @@
             "id": 26000060,
             "elixirCost": 6,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -3848,7 +3848,7 @@
             "id": 26000061,
             "elixirCost": 3,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -3911,8 +3911,8 @@
             "id": 26000062,
             "elixirCost": 4,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -3974,7 +3974,7 @@
             "id": 26000063,
             "elixirCost": 5,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -4037,8 +4037,8 @@
             "id": 26000064,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -4100,7 +4100,7 @@
             "id": 26000065,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -4163,7 +4163,7 @@
             "id": 26000067,
             "elixirCost": 3,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -4226,7 +4226,7 @@
             "id": 26000068,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -4289,7 +4289,7 @@
             "id": 26000069,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -4352,8 +4352,8 @@
             "id": 26000072,
             "elixirCost": 5,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -4415,7 +4415,7 @@
             "id": 26000074,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -4478,7 +4478,7 @@
             "id": 26000077,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -4541,7 +4541,7 @@
             "id": 26000080,
             "elixirCost": 4,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 2,
@@ -4604,8 +4604,8 @@
             "id": 26000083,
             "elixirCost": 4,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -4667,8 +4667,8 @@
             "id": 26000084,
             "elixirCost": 1,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -4730,7 +4730,7 @@
             "id": 26000085,
             "elixirCost": 7,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -4793,7 +4793,7 @@
             "id": 26000087,
             "elixirCost": 4,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -4856,8 +4856,8 @@
             "id": 26000093,
             "elixirCost": 3,
             "targets": [
-                "aer",
-                "ter"
+                "air",
+                "ground"
             ],
             "units": 2,
             "duration": null,
@@ -4919,7 +4919,7 @@
             "id": 26000095,
             "elixirCost": 4,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -4982,7 +4982,7 @@
             "id": 26000096,
             "elixirCost": 5,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -5045,7 +5045,7 @@
             "id": 26000097,
             "elixirCost": 2,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 2,
@@ -5108,8 +5108,8 @@
             "id": 26000099,
             "elixirCost": 5,
             "targets": [
-                "est",
-                "ter"
+                "buildings",
+                "ground"
             ],
             "units": 2,
             "duration": null,
@@ -5171,7 +5171,7 @@
             "id": 26000101,
             "elixirCost": 4,
             "targets": [
-                "est",
+                "buildings",
                 "null"
             ],
             "units": 1,
@@ -5234,7 +5234,7 @@
             "id": 26000102,
             "elixirCost": 2,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -5297,7 +5297,7 @@
             "id": 26000103,
             "elixirCost": 6,
             "targets": [
-                "ter",
+                "ground",
                 "null"
             ],
             "units": 1,
@@ -5360,8 +5360,8 @@
             "id": 27000000,
             "elixirCost": 3,
             "targets": [
-                "ter",
-                "ter"
+                "ground",
+                "ground"
             ],
             "units": 1,
             "duration": 30,
@@ -5423,8 +5423,8 @@
             "id": 27000001,
             "elixirCost": 5,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": 29,
@@ -5486,8 +5486,8 @@
             "id": 27000002,
             "elixirCost": 4,
             "targets": [
-                "ter",
-                "est"
+                "ground",
+                "buildings"
             ],
             "units": 1,
             "duration": 30,
@@ -5549,8 +5549,8 @@
             "id": 27000003,
             "elixirCost": 5,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": 30,
@@ -5612,8 +5612,8 @@
             "id": 27000004,
             "elixirCost": 4,
             "targets": [
-                "ter",
-                "ter"
+                "ground",
+                "ground"
             ],
             "units": 1,
             "duration": 30,
@@ -5675,8 +5675,8 @@
             "id": 27000005,
             "elixirCost": 6,
             "targets": [
-                "ter",
-                "ter"
+                "ground",
+                "ground"
             ],
             "units": 1,
             "duration": 30,
@@ -5738,8 +5738,8 @@
             "id": 27000006,
             "elixirCost": 4,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": 30,
@@ -5801,7 +5801,7 @@
             "id": 27000007,
             "elixirCost": 6,
             "targets": [
-                "aer",
+                "air",
                 "null"
             ],
             "units": 1,
@@ -5864,8 +5864,8 @@
             "id": 27000008,
             "elixirCost": 5,
             "targets": [
-                "ter",
-                "est"
+                "ground",
+                "buildings"
             ],
             "units": 1,
             "duration": 30,
@@ -5927,8 +5927,8 @@
             "id": 27000009,
             "elixirCost": 3,
             "targets": [
-                "ter",
-                "ter"
+                "ground",
+                "ground"
             ],
             "units": 1,
             "duration": 30,
@@ -5990,8 +5990,8 @@
             "id": 27000010,
             "elixirCost": 4,
             "targets": [
-                "ter",
-                "ter"
+                "ground",
+                "ground"
             ],
             "units": 1,
             "duration": 28,
@@ -6053,8 +6053,8 @@
             "id": 27000012,
             "elixirCost": 4,
             "targets": [
-                "ter",
-                "ter"
+                "ground",
+                "ground"
             ],
             "units": 1,
             "duration": 20,
@@ -6116,8 +6116,8 @@
             "id": 27000013,
             "elixirCost": 4,
             "targets": [
-                "est",
-                "ter"
+                "buildings",
+                "ground"
             ],
             "units": 1,
             "duration": 10,
@@ -6431,8 +6431,8 @@
             "id": 28000004,
             "elixirCost": 3,
             "targets": [
-                "est",
-                "ter"
+                "buildings",
+                "ground"
             ],
             "units": 3,
             "duration": null,
@@ -6809,8 +6809,8 @@
             "id": 28000010,
             "elixirCost": 5,
             "targets": [
-                "est",
-                "ter"
+                "buildings",
+                "ground"
             ],
             "units": 19,
             "duration": 9.5,
@@ -7187,8 +7187,8 @@
             "id": 28000016,
             "elixirCost": 1,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": 1.0,
@@ -7504,8 +7504,8 @@
             "id": 159000000,
             "elixirCost": 0,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -7567,8 +7567,8 @@
             "id": 159000001,
             "elixirCost": 0,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -7630,8 +7630,8 @@
             "id": 159000002,
             "elixirCost": 0,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -7693,8 +7693,8 @@
             "id": 159000004,
             "elixirCost": 0,
             "targets": [
-                "ter",
-                "aer"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
