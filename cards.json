@@ -9,20 +9,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -55,8 +55,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -73,20 +73,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -119,8 +119,8 @@
             },
             "hitspeed": 0.9,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.0,
             "territory": "Wide",
@@ -136,20 +136,20 @@
             ],
             "units": 4,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -182,8 +182,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -199,20 +199,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -245,8 +245,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -262,20 +262,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -308,8 +308,8 @@
             },
             "hitspeed": 1.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -325,20 +325,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -371,8 +371,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -388,20 +388,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -434,8 +434,8 @@
             },
             "hitspeed": 2.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -452,20 +452,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -498,8 +498,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": 7.0,
-            "GenerationUnits": 4,
+            "generationSpeed": 7.0,
+            "generationUnits": 4,
             "speed": "Medium",
             "range": 5.5,
             "territory": "Wide",
@@ -515,20 +515,20 @@
             ],
             "units": 5,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -561,8 +561,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -578,20 +578,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": 224,
                 "level15": 326
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -624,8 +624,8 @@
             },
             "hitspeed": 2.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -641,20 +641,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -687,8 +687,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -704,20 +704,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -750,8 +750,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -767,20 +767,20 @@
             ],
             "units": 15,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -813,8 +813,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -830,20 +830,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -876,8 +876,8 @@
             },
             "hitspeed": 1.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 4.5,
             "territory": "Wide",
@@ -894,20 +894,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -940,8 +940,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 6.0,
             "territory": "Wide",
@@ -957,20 +957,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1003,8 +1003,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": 3.5,
             "territory": "Wide",
@@ -1020,20 +1020,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": 784,
                 "level15": 1141
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1066,8 +1066,8 @@
             },
             "hitspeed": 1.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -1084,20 +1084,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1130,8 +1130,8 @@
             },
             "hitspeed": 1.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.5,
             "territory": "Wide",
@@ -1147,20 +1147,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1193,8 +1193,8 @@
             },
             "hitspeed": 1.6,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -1211,20 +1211,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1257,8 +1257,8 @@
             },
             "hitspeed": 1.7,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": 5.5,
             "territory": "Wide",
@@ -1274,20 +1274,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1320,8 +1320,8 @@
             },
             "hitspeed": 1.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -1337,20 +1337,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1383,8 +1383,8 @@
             },
             "hitspeed": 1.6,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -1400,20 +1400,20 @@
             ],
             "units": 6,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1446,8 +1446,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -1464,20 +1464,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1510,8 +1510,8 @@
             },
             "hitspeed": 1.7,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.5,
             "territory": "Wide",
@@ -1528,20 +1528,20 @@
             "units": 1,
             "radio": 5,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1574,8 +1574,8 @@
             },
             "hitspeed": 1.7,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": 5.0,
             "territory": "Wide",
@@ -1591,20 +1591,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1637,8 +1637,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -1655,20 +1655,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1701,8 +1701,8 @@
             },
             "hitspeed": 3.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 9.0,
             "territory": "Wide",
@@ -1718,20 +1718,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": 496,
                 "level15": 722
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1764,8 +1764,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -1782,20 +1782,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1828,8 +1828,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 6.0,
             "territory": "Wide",
@@ -1845,20 +1845,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1891,8 +1891,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": 3.5,
             "territory": "Wide",
@@ -1909,20 +1909,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": true,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -1955,8 +1955,8 @@
             },
             "hitspeed": 0.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": 2.5,
             "territory": "Wide",
@@ -1973,20 +1973,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": true,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2019,8 +2019,8 @@
             },
             "hitspeed": 0.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": 2.0,
             "territory": "Wide",
@@ -2036,20 +2036,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 48,
                 "level15": 70
             },
@@ -2082,8 +2082,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -2099,20 +2099,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2145,8 +2145,8 @@
             },
             "hitspeed": 4.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": 5.0,
             "territory": "Wide",
@@ -2162,20 +2162,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2208,8 +2208,8 @@
             },
             "hitspeed": 2.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 4.0,
             "territory": "Wide",
@@ -2225,20 +2225,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2271,8 +2271,8 @@
             },
             "hitspeed": 0.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -2289,20 +2289,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": 572,
                 "level15": 834
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2335,8 +2335,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -2352,20 +2352,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2398,8 +2398,8 @@
             },
             "hitspeed": 0.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 3.5,
             "territory": "Wide",
@@ -2415,20 +2415,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": 84,
                 "level15": 123
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2461,8 +2461,8 @@
             },
             "hitspeed": 2.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -2478,20 +2478,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2524,8 +2524,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -2542,20 +2542,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2588,8 +2588,8 @@
             },
             "hitspeed": 0.7,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": 6.5,
             "territory": "Wide",
@@ -2606,20 +2606,20 @@
             ],
             "units": 6,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2652,8 +2652,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -2670,20 +2670,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2716,8 +2716,8 @@
             },
             "hitspeed": 1.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.0,
             "territory": "Wide",
@@ -2733,20 +2733,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": 572,
                 "level15": 834
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2779,8 +2779,8 @@
             },
             "hitspeed": 1.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -2797,20 +2797,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2843,8 +2843,8 @@
             },
             "hitspeed": 2.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": 4.0,
             "territory": "Wide",
@@ -2861,20 +2861,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2907,8 +2907,8 @@
             },
             "hitspeed": 2.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 4.5,
             "territory": "Wide",
@@ -2924,20 +2924,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -2970,8 +2970,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -2987,20 +2987,20 @@
             ],
             "units": 6,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3033,8 +3033,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -3050,20 +3050,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3096,8 +3096,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": 5.0,
-            "GenerationUnits": 2,
+            "generationSpeed": 5.0,
+            "generationUnits": 2,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3113,20 +3113,20 @@
             ],
             "units": 5,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3159,8 +3159,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3176,20 +3176,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3222,8 +3222,8 @@
             },
             "hitspeed": 1.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3240,20 +3240,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": 532,
                 "level15": 774
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3286,8 +3286,8 @@
             },
             "hitspeed": 1.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -3304,20 +3304,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3350,8 +3350,8 @@
             },
             "hitspeed": 2.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 4.5,
             "territory": "Wide",
@@ -3368,20 +3368,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3414,8 +3414,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -3431,20 +3431,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3477,8 +3477,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.5,
             "territory": "Wide",
@@ -3494,20 +3494,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3540,8 +3540,8 @@
             },
             "hitspeed": 1.7,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -3557,20 +3557,20 @@
             ],
             "units": 7,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": 133,
                 "level15": 193
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3603,8 +3603,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3620,20 +3620,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3666,8 +3666,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 6.0,
             "territory": "Wide",
@@ -3683,20 +3683,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": true,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3729,8 +3729,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3746,20 +3746,20 @@
             ],
             "units": 4,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3792,8 +3792,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3809,20 +3809,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3855,8 +3855,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -3872,20 +3872,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3918,8 +3918,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -3936,20 +3936,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -3982,8 +3982,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 7.0,
             "territory": "Wide",
@@ -3999,20 +3999,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4045,8 +4045,8 @@
             },
             "hitspeed": 2.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 3.5,
             "territory": "Wide",
@@ -4063,20 +4063,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4109,8 +4109,8 @@
             },
             "hitspeed": 3.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 6.0,
             "territory": "Wide",
@@ -4126,20 +4126,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4172,8 +4172,8 @@
             },
             "hitspeed": 0.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -4189,20 +4189,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4235,8 +4235,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -4252,20 +4252,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4298,8 +4298,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -4315,20 +4315,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4361,8 +4361,8 @@
             },
             "hitspeed": 1.6,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -4379,20 +4379,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4425,8 +4425,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": 5.0,
             "territory": "Wide",
@@ -4442,20 +4442,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4488,8 +4488,8 @@
             },
             "hitspeed": 0.9,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -4505,20 +4505,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4551,8 +4551,8 @@
             },
             "hitspeed": 0.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -4568,20 +4568,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4614,8 +4614,8 @@
             },
             "hitspeed": 1.9,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": 3.5,
             "territory": "Wide",
@@ -4632,20 +4632,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4678,8 +4678,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.5,
             "territory": "Wide",
@@ -4696,20 +4696,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": true,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4742,8 +4742,8 @@
             },
             "hitspeed": 0.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": 2.5,
             "territory": "Wide",
@@ -4759,20 +4759,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4805,8 +4805,8 @@
             },
             "hitspeed": 2.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Slow",
             "range": "Melee",
             "territory": "Wide",
@@ -4822,20 +4822,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4868,8 +4868,8 @@
             },
             "hitspeed": 1.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -4886,20 +4886,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4932,8 +4932,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 6.0,
             "territory": "Wide",
@@ -4949,20 +4949,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": 465,
                 "level15": 677
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -4995,8 +4995,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.0,
             "territory": "Wide",
@@ -5012,20 +5012,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5058,8 +5058,8 @@
             },
             "hitspeed": 0.9,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 5.0,
             "territory": "Wide",
@@ -5075,20 +5075,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "typeAttack": false,
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5121,8 +5121,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 0,
             "territory": "Wide",
@@ -5139,20 +5139,20 @@
             ],
             "units": 2,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "typeAttack": false,
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5185,8 +5185,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -5202,20 +5202,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "typeAttack": false,
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5248,8 +5248,8 @@
             },
             "hitspeed": 1.5,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -5265,20 +5265,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "typeAttack": false,
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5311,8 +5311,8 @@
             },
             "hitspeed": 0.6,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -5328,20 +5328,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "typeAttack": false,
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5374,8 +5374,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -5392,20 +5392,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5438,8 +5438,8 @@
             },
             "hitspeed": 0.9,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 5.5,
             "territory": "Wide",
@@ -5456,20 +5456,20 @@
             ],
             "units": 1,
             "duration": 29,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5502,8 +5502,8 @@
             },
             "hitspeed": 1.7,
             "radius": false,
-            "GenerationSpeed": 11.0,
-            "GenerationUnits": 3,
+            "generationSpeed": 11.0,
+            "generationUnits": 3,
             "speed": "Very Fast",
             "range": false,
             "territory": "Wide",
@@ -5520,20 +5520,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 3.5,
+            "deploymentTime": 3.5,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5566,8 +5566,8 @@
             },
             "hitspeed": 5.0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 11.5,
             "territory": "Wide",
@@ -5584,20 +5584,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5630,8 +5630,8 @@
             },
             "hitspeed": 0.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 6.0,
             "territory": "Wide",
@@ -5648,20 +5648,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5694,8 +5694,8 @@
             },
             "hitspeed": 1.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 6.0,
             "territory": "Wide",
@@ -5712,20 +5712,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5758,8 +5758,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": 15.0,
-            "GenerationUnits": 3,
+            "generationSpeed": 15.0,
+            "generationUnits": 3,
             "speed": false,
             "range": false,
             "territory": "Wide",
@@ -5776,20 +5776,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5822,8 +5822,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 5.5,
             "territory": "Wide",
@@ -5839,20 +5839,20 @@
             ],
             "units": 1,
             "duration": 65,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": false,
+            "typeAttack": false,
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5885,8 +5885,8 @@
             },
             "hitspeed": 0,
             "radius": false,
-            "GenerationSpeed": 12.0,
-            "GenerationUnits": 0,
+            "generationSpeed": 12.0,
+            "generationUnits": 0,
             "speed": false,
             "range": false,
             "territory": "Wide",
@@ -5903,20 +5903,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 3.5,
+            "deploymentTime": 3.5,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -5949,8 +5949,8 @@
             },
             "hitspeed": 0.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 11.5,
             "territory": "Wide",
@@ -5967,20 +5967,20 @@
             ],
             "units": 1,
             "duration": 30,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6013,8 +6013,8 @@
             },
             "hitspeed": 2.5,
             "radius": false,
-            "GenerationSpeed": 4.0,
-            "GenerationUnits": 2,
+            "generationSpeed": 4.0,
+            "generationUnits": 2,
             "speed": false,
             "range": 2.0,
             "territory": "Wide",
@@ -6031,20 +6031,20 @@
             ],
             "units": 1,
             "duration": 28,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": true,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6077,8 +6077,8 @@
             },
             "hitspeed": 0,
             "radius": false,
-            "GenerationSpeed": 5.0,
-            "GenerationUnits": 1,
+            "generationSpeed": 5.0,
+            "generationUnits": 1,
             "speed": false,
             "range": false,
             "territory": "Wide",
@@ -6095,20 +6095,20 @@
             ],
             "units": 1,
             "duration": 20,
-            "DeploymentTime": 1,
+            "deploymentTime": 1,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6141,8 +6141,8 @@
             },
             "hitspeed": 1.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 5.0,
             "territory": "Wide",
@@ -6159,20 +6159,20 @@
             ],
             "units": 1,
             "duration": 10,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6205,8 +6205,8 @@
             },
             "hitspeed": 1.1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Fast",
             "range": false,
             "territory": "Wide",
@@ -6223,20 +6223,20 @@
             ],
             "units": 0,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 206,
                 "level15": 301
             },
@@ -6269,8 +6269,8 @@
             },
             "hitspeed": 0,
             "radius": 2.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -6287,20 +6287,20 @@
             ],
             "units": 0,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 36,
                 "level15": 53
             },
@@ -6333,8 +6333,8 @@
             },
             "hitspeed": 0,
             "radius": 1.4,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -6351,20 +6351,20 @@
             ],
             "units": 0,
             "duration": 5.5,
-            "DeploymentTime": 0.5,
+            "deploymentTime": 0.5,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 56,
                 "level15": 84
             },
@@ -6397,8 +6397,8 @@
             },
             "hitspeed": 0,
             "radius": 1.0,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -6415,20 +6415,20 @@
             ],
             "units": 0,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 371,
                 "level15": 540
             },
@@ -6461,8 +6461,8 @@
             },
             "hitspeed": 0,
             "radius": 2.0,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -6479,20 +6479,20 @@
             ],
             "units": 3,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6525,8 +6525,8 @@
             },
             "hitspeed": 1.1,
             "radius": 1.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Wide",
@@ -6543,20 +6543,20 @@
             ],
             "units": 0,
             "duration": 4.0,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 34,
                 "level15": 50
             },
@@ -6589,8 +6589,8 @@
             },
             "hitspeed": 0,
             "radius": 3,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -6604,20 +6604,20 @@
             "targets": [],
             "units": 0,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6650,8 +6650,8 @@
             },
             "hitspeed": 0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": false,
             "territory": "Wide",
@@ -6668,20 +6668,20 @@
             ],
             "units": 0,
             "duration": 1.5,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 294,
                 "level15": 462
             },
@@ -6714,8 +6714,8 @@
             },
             "hitspeed": 0,
             "radius": 3.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": false,
             "territory": "Wide",
@@ -6732,20 +6732,20 @@
             ],
             "units": 0,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 57,
                 "level15": 83
             },
@@ -6778,8 +6778,8 @@
             },
             "hitspeed": 0,
             "radius": 2.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 5,
             "territory": "Wide",
@@ -6796,20 +6796,20 @@
             ],
             "units": 0,
             "duration": 8.0,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 192,
                 "level15": 320
             },
@@ -6842,8 +6842,8 @@
             },
             "hitspeed": 0,
             "radius": 3.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 4.5,
             "territory": "Wide",
@@ -6860,20 +6860,20 @@
             ],
             "units": 19,
             "duration": 9.5,
-            "DeploymentTime": 1,
+            "deploymentTime": 1,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -6906,8 +6906,8 @@
             },
             "hitspeed": 1.0,
             "radius": 4.0,
-            "GenerationSpeed": 0.5,
-            "GenerationUnits": 19,
+            "generationSpeed": 0.5,
+            "generationUnits": 19,
             "speed": "Fast",
             "range": "Melee",
             "territory": "Wide",
@@ -6924,20 +6924,20 @@
             ],
             "units": 0,
             "duration": false,
-            "DeploymentTime": 1.0,
+            "deploymentTime": 1.0,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 58,
                 "level15": 85
             },
@@ -6970,8 +6970,8 @@
             },
             "hitspeed": 0,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 10.1,
             "territory": "Wide",
@@ -6988,20 +6988,20 @@
             ],
             "units": 0,
             "duration": 1.1,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 60,
                 "level15": 84
             },
@@ -7034,8 +7034,8 @@
             },
             "hitspeed": 0,
             "radius": 5.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 5.5,
             "territory": "Wide",
@@ -7052,20 +7052,20 @@
             ],
             "units": 0,
             "duration": 1.0,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7098,8 +7098,8 @@
             },
             "hitspeed": 0,
             "radius": 3.0,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 3.0,
             "territory": "Wide",
@@ -7116,20 +7116,20 @@
             ],
             "units": 0,
             "duration": 3.0,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 150,
                 "level15": 234
             },
@@ -7162,8 +7162,8 @@
             },
             "hitspeed": 1,
             "radius": 3.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 3.5,
             "territory": "Wide",
@@ -7180,20 +7180,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7226,8 +7226,8 @@
             },
             "hitspeed": 1.3,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 4.5,
             "territory": "Wide",
@@ -7244,20 +7244,20 @@
             ],
             "units": 1,
             "duration": 1.0,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": true,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7290,8 +7290,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Very Fast",
             "range": 2.5,
             "territory": "Wide",
@@ -7308,20 +7308,20 @@
             ],
             "units": 0,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": true,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 53,
                 "level15": 78
             },
@@ -7354,8 +7354,8 @@
             },
             "hitspeed": 1,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": false,
             "range": 5.0,
             "territory": "Wide",
@@ -7372,20 +7372,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7418,8 +7418,8 @@
             },
             "hitspeed": 1.3,
             "radius": 3.0,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": "Melee",
             "territory": "Restricted",
@@ -7436,20 +7436,20 @@
             ],
             "units": 0,
             "duration": 4.9,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 48,
                 "level15": 69
             },
@@ -7482,8 +7482,8 @@
             },
             "hitspeed": 0,
             "radius": 2.5,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -7500,20 +7500,20 @@
             ],
             "units": 0,
             "duration": 6,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "splash",
+            "typeAttack": "splash",
             "proyectil": false,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": 48,
                 "level15": false
             },
@@ -7546,8 +7546,8 @@
             },
             "hitspeed": 0,
             "radius": 4.0,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": false,
             "territory": "Wide",
@@ -7566,20 +7566,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7612,8 +7612,8 @@
             },
             "hitspeed": 0.8,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 7.5,
             "territory": "Restricted",
@@ -7630,20 +7630,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7676,8 +7676,8 @@
             },
             "hitspeed": 2.4,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 7.5,
             "territory": "Restricted",
@@ -7694,20 +7694,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7740,8 +7740,8 @@
             },
             "hitspeed": 1.2,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 7.5,
             "territory": "Restricted",
@@ -7758,20 +7758,20 @@
             ],
             "units": 1,
             "duration": false,
-            "DeploymentTime": false,
+            "deploymentTime": false,
             "evolution": false,
-            "TypeAttack": "unique",
+            "typeAttack": "unique",
             "proyectil": true,
             "suicide": false,
-            "FatalDamage": {
+            "fatalDamage": {
                 "level11": false,
                 "level15": false
             },
-            "ChargeDamage": {
+            "chargeDamage": {
                 "level11": false,
                 "level15": false
             },
-            "TowerDamage": {
+            "towerDamage": {
                 "level11": false,
                 "level15": false
             },
@@ -7804,8 +7804,8 @@
             },
             "hitspeed": 0.9,
             "radius": false,
-            "GenerationSpeed": false,
-            "GenerationUnits": false,
+            "generationSpeed": false,
+            "generationUnits": false,
             "speed": "Medium",
             "range": 7.5,
             "territory": "Restricted",
