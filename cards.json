@@ -6278,8 +6278,8 @@
             "id": 28000000,
             "elixirCost": 4,
             "targets": [
-                "hech3",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": false,
@@ -6342,8 +6342,8 @@
             "id": 28000001,
             "elixirCost": 3,
             "targets": [
-                "hech2",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": false,
@@ -6406,8 +6406,8 @@
             "id": 28000002,
             "elixirCost": 2,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 5.5,
@@ -6470,8 +6470,8 @@
             "id": 28000003,
             "elixirCost": 6,
             "targets": [
-                "hech4",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": false,
@@ -6598,8 +6598,8 @@
             "id": 28000005,
             "elixirCost": 4,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 4.0,
@@ -6661,10 +6661,7 @@
             "name": "Mirror",
             "id": 28000006,
             "elixirCost": 0,
-            "targets": [
-                "hech0",
-                "null"
-            ],
+            "targets": [],
             "units": 0,
             "duration": false,
             "DeploymentTime": false,
@@ -6726,8 +6723,8 @@
             "id": 28000007,
             "elixirCost": 6,
             "targets": [
-                "hech4",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 1.5,
@@ -6790,8 +6787,8 @@
             "id": 28000008,
             "elixirCost": 2,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": false,
@@ -6854,8 +6851,8 @@
             "id": 28000009,
             "elixirCost": 4,
             "targets": [
-                "hech3",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 8.0,
@@ -6982,8 +6979,8 @@
             "id": 28000011,
             "elixirCost": 2,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": false,
@@ -7046,8 +7043,8 @@
             "id": 28000012,
             "elixirCost": 3,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 1.1,
@@ -7110,8 +7107,8 @@
             "id": 28000013,
             "elixirCost": 3,
             "targets": [
-                "hech0",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 1.0,
@@ -7174,8 +7171,8 @@
             "id": 28000014,
             "elixirCost": 3,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 3.0,
@@ -7238,8 +7235,8 @@
             "id": 28000015,
             "elixirCost": 2,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": false,
@@ -7366,8 +7363,8 @@
             "id": 28000017,
             "elixirCost": 2,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": false,
@@ -7430,8 +7427,8 @@
             "id": 28000018,
             "elixirCost": 3,
             "targets": [
-                "hech2",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": false,
@@ -7558,8 +7555,8 @@
             "id": 28000024,
             "elixirCost": 2,
             "targets": [
-                "hech1",
-                "null"
+                "ground",
+                "air"
             ],
             "units": 0,
             "duration": 6,
