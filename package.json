@@ -1,6 +1,6 @@
 {
     "name": "clash-strategic-stats",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
