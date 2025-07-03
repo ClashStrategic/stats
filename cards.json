@@ -52,13 +52,8 @@
                 "dps": {
                     "level11": 168,
                     "level15": 244
-                },
-                "specialEvo": {
-                    "damageReduction": "60%",
-                    "hitpointsUp": true
                 }
             },
-            "special": {},
             "hitspeed": 1.2,
             "radius": false,
             "GenerationSpeed": false,
@@ -121,14 +116,8 @@
                 "dps": {
                     "level11": 118,
                     "level15": 173
-                },
-                "specialEvo": {
-                    "powerShotDamage": 181,
-                    "powerShopRange": 4.5,
-                    "rangeUp": true
                 }
             },
-            "special": {},
             "hitspeed": 0.9,
             "radius": false,
             "GenerationSpeed": false,
@@ -191,10 +180,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.1,
             "radius": false,
             "GenerationSpeed": false,
@@ -257,10 +244,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.5,
             "radius": false,
             "GenerationSpeed": false,
@@ -323,14 +308,8 @@
                 "dps": {
                     "level11": 453,
                     "level15": 660
-                },
-                "specialEvo": {
-                    "healPerDeath": {
-                        "maxHitpoints": true
-                    }
                 }
             },
-            "special": {},
             "hitspeed": 1.8,
             "radius": false,
             "GenerationSpeed": false,
@@ -393,10 +372,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -459,11 +436,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "bomb": true
+                }
             },
             "hitspeed": 2.0,
             "radius": false,
@@ -527,11 +500,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -595,16 +564,8 @@
                 "dps": {
                     "level11": 735,
                     "level15": false
-                },
-                "specialEvo": {
-                    "Boost": {
-                        "poncentage": "35%",
-                        "BoostDuration": 3
-                    },
-                    "hitpointsUp": true
                 }
             },
-            "special": {},
             "hitspeed": 1.3,
             "radius": false,
             "GenerationSpeed": false,
@@ -667,11 +628,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "division": 2
+                }
             },
             "hitspeed": 2.5,
             "radius": false,
@@ -735,16 +692,8 @@
                 "dps": {
                     "level11": 81,
                     "level15": 119
-                },
-                "specialEvo": {
-                    "unitsIncrement": {
-                        "Count": 4,
-                        "MaxCount": 8
-                    },
-                    "unitsUp": true
                 }
             },
-            "special": {},
             "hitspeed": 1.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -807,17 +756,8 @@
                 "dps": {
                     "level11": 178,
                     "level15": false
-                },
-                "specialEvo": {
-                    "hitpointsUp": true,
-                    "tornado": {
-                        "tornadoRadius": 5.5,
-                        "toranadoDamage": 76,
-                        "tornadoDuration": 0.5
-                    }
                 }
             },
-            "special": {},
             "hitspeed": 1.5,
             "radius": false,
             "GenerationSpeed": false,
@@ -880,10 +820,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -946,14 +884,8 @@
                 "dps": {
                     "level11": 123,
                     "level15": false
-                },
-                "specialEvo": {
-                    "bounces": {
-                        "bounceDamage": 334
-                    }
                 }
             },
-            "special": {},
             "hitspeed": 1.8,
             "radius": false,
             "GenerationSpeed": false,
@@ -1016,13 +948,8 @@
                 "dps": {
                     "level11": 218,
                     "level15": 318
-                },
-                "specialEvo": {
-                    "reach": true,
-                    "powerShotDamage": true
                 }
             },
-            "special": {},
             "hitspeed": 1.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -1085,10 +1012,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.5,
             "radius": false,
             "GenerationSpeed": false,
@@ -1151,11 +1076,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "chargeDamage": true
+                }
             },
             "hitspeed": 1.4,
             "radius": false,
@@ -1219,15 +1140,8 @@
                 "dps": {
                     "level11": 200,
                     "level15": 292
-                },
-                "specialEvo": {
-                    "shield": {
-                        "hitpoints": true,
-                        "explosion": true
-                    }
                 }
             },
-            "special": {},
             "hitspeed": 1.4,
             "radius": false,
             "GenerationSpeed": false,
@@ -1290,10 +1204,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.6,
             "radius": false,
             "GenerationSpeed": false,
@@ -1356,10 +1268,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.7,
             "radius": false,
             "GenerationSpeed": false,
@@ -1422,11 +1332,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "bomb": true
+                }
             },
             "hitspeed": 1.4,
             "radius": false,
@@ -1490,10 +1396,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.6,
             "radius": false,
             "GenerationSpeed": false,
@@ -1556,10 +1460,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -1622,11 +1524,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "slowDown": true
+                }
             },
             "hitspeed": 1.7,
             "radius": false,
@@ -1691,12 +1589,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {
-                    "recoilDamage": 81
                 }
             },
-            "special": {},
             "hitspeed": 1.7,
             "radius": false,
             "GenerationSpeed": false,
@@ -1759,11 +1653,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "shield": true
+                }
             },
             "hitspeed": 1.0,
             "radius": false,
@@ -1827,10 +1717,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 3.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -1893,12 +1781,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "shield": true,
-                "chargeDamage": true
+                }
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -1962,10 +1845,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -2028,11 +1909,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "division": 5
+                }
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -2096,16 +1973,7 @@
                 "dps": {
                     "level11": 91,
                     "level15": false
-                },
-                "specialEvo": {
-                    "iceBlast": {
-                        "iceBlastDamage": 220,
-                        "x": 2
-                    }
                 }
-            },
-            "special": {
-                "freeze": 1.2
             },
             "hitspeed": 0.3,
             "radius": false,
@@ -2169,10 +2037,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0.3,
             "radius": false,
             "GenerationSpeed": false,
@@ -2235,11 +2101,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "transportation": true
+                }
             },
             "hitspeed": 1.2,
             "radius": false,
@@ -2303,10 +2165,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 4.0,
             "radius": false,
             "GenerationSpeed": false,
@@ -2369,11 +2229,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reach": true
+                }
             },
             "hitspeed": 2.5,
             "radius": false,
@@ -2437,13 +2293,7 @@
                 "dps": {
                     "level11": 302,
                     "level15": 400
-                },
-                "specialEvo": {
-                    "invisible": true
                 }
-            },
-            "special": {
-                "boost": true
             },
             "hitspeed": 0.8,
             "radius": false,
@@ -2507,19 +2357,6 @@
                 "dps": {
                     "level11": 147,
                     "level15": 177
-                },
-                "specialEvo": {
-                    "pushBack": 309,
-                    "push": true,
-                    "barbarosBoost": true
-                }
-            },
-            "special": {
-                "chargeDamage": true,
-                "multipleLives": true,
-                "differentUnits": {
-                    "Battle Ram": 1,
-                    "Barbarians": 2
                 }
             },
             "hitspeed": 1.3,
@@ -2584,13 +2421,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "dpsIncrement": {
-                    "typeIncrement": "hitspeed",
-                    "damgeIncrement": "90-1057"
                 }
             },
             "hitspeed": 0.4,
@@ -2655,10 +2485,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 2.5,
             "radius": false,
             "GenerationSpeed": false,
@@ -2721,10 +2549,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.5,
             "radius": false,
             "GenerationSpeed": false,
@@ -2787,10 +2613,8 @@
                 "dps": {
                     "level11": 187,
                     "level15": 272
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0.7,
             "radius": false,
             "GenerationSpeed": false,
@@ -2853,13 +2677,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "differentUnits": {
-                    "Goblins": 3,
-                    "Spear Goblins": 2
                 }
             },
             "hitspeed": 1.1,
@@ -2924,12 +2741,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reset": true,
-                "slowDown": true
+                }
             },
             "hitspeed": 1.8,
             "radius": false,
@@ -2993,10 +2805,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.4,
             "radius": false,
             "GenerationSpeed": false,
@@ -3059,12 +2869,8 @@
                 "dps": {
                     "level11": 380,
                     "level15": 550
-                },
-                "specialEvo": {
-                    "freeze": 4.0
                 }
             },
-            "special": {},
             "hitspeed": 2.2,
             "radius": false,
             "GenerationSpeed": false,
@@ -3127,14 +2933,7 @@
                 "dps": {
                     "level11": 140,
                     "level15": 140
-                },
-                "specialEvo": {
-                    "move": true,
-                    "damageUp": true
                 }
-            },
-            "special": {
-                "reach": true
             },
             "hitspeed": 2.4,
             "radius": false,
@@ -3198,11 +2997,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "chargeDamage": true
+                }
             },
             "hitspeed": 1.0,
             "radius": false,
@@ -3266,13 +3061,7 @@
                 "dps": {
                     "level11": 642,
                     "level15": false
-                },
-                "specialEvo": {
-                    "chargeDamage": 273
                 }
-            },
-            "special": {
-                "shield": 240
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -3336,11 +3125,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -3404,16 +3189,8 @@
                 "dps": {
                     "level11": 310,
                     "level15": false
-                },
-                "specialEvo": {
-                    "hitpointsUp": true,
-                    "healing": {
-                        "Healing/sec": 76,
-                        "maxHitpoints": 244
-                    }
                 }
             },
-            "special": {},
             "hitspeed": 1.3,
             "radius": false,
             "GenerationSpeed": false,
@@ -3476,11 +3253,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "invisible": true
+                }
             },
             "hitspeed": 1.8,
             "radius": false,
@@ -3544,16 +3317,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "chargeDamage": true,
-                "differentUnits": {
-                    "Ram Rider": 1,
-                    "MontaCarnero": 1
-                },
-                "slowDown": true
+                }
             },
             "hitspeed": 1.8,
             "radius": false,
@@ -3617,12 +3381,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "slowDown": true,
-                "reset": true
+                }
             },
             "hitspeed": 2.1,
             "radius": false,
@@ -3686,13 +3445,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "differentUnits": {
-                    "Pillas": 2,
-                    "Pillo": 1
                 }
             },
             "hitspeed": 1.5,
@@ -3757,11 +3509,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "multipleLives": true
+                }
             },
             "hitspeed": 1.0,
             "radius": false,
@@ -3825,14 +3573,7 @@
                 "dps": {
                     "level11": 157,
                     "level15": 229
-                },
-                "specialEvo": {
-                    "move": 4
                 }
-            },
-            "special": {
-                "chargeDamage": true,
-                "move": true
             },
             "hitspeed": 1.7,
             "radius": false,
@@ -3896,11 +3637,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "multipleLives": true
+                }
             },
             "hitspeed": 1.0,
             "radius": false,
@@ -3964,10 +3701,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.1,
             "radius": false,
             "GenerationSpeed": false,
@@ -4030,13 +3765,8 @@
                 "dps": {
                     "level11": 784,
                     "level15": false
-                },
-                "specialEvo": {
-                    "multipleLives": true,
-                    "bomb": true
                 }
             },
-            "special": {},
             "hitspeed": 1.2,
             "radius": false,
             "GenerationSpeed": false,
@@ -4099,10 +3829,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.2,
             "radius": false,
             "GenerationSpeed": false,
@@ -4165,17 +3893,7 @@
                 "dps": {
                     "level11": 177,
                     "level15": 0
-                },
-                "specialEvo": {
-                    "generationUnits": true
                 }
-            },
-            "special": {
-                "differentUnits": {
-                    "Goblin Giant": 1,
-                    "Spear Goblins": 2
-                },
-                "multipleLives": 2
             },
             "hitspeed": 1.5,
             "radius": false,
@@ -4239,12 +3957,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "move": true,
-                "slowDown": true
+                }
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -4308,11 +4021,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reach": true
+                }
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -4376,14 +4085,7 @@
                 "dps": {
                     "level11": 91,
                     "level15": 132
-                },
-                "specialEvo": {
-                    "chainedInfinite": true
                 }
-            },
-            "special": {
-                "reset": true,
-                "slowDown": true
             },
             "hitspeed": 2.1,
             "radius": false,
@@ -4447,16 +4149,7 @@
                 "dps": {
                     "level11": 192,
                     "level15": false
-                },
-                "specialEvo": {
-                    "lava": {
-                        "damage/sec": 192,
-                        "crownTowerDamage/sec": 60
-                    }
                 }
-            },
-            "special": {
-                "reach": true
             },
             "hitspeed": 3.0,
             "radius": false,
@@ -4520,17 +4213,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "bomb": true,
-                "transportation": true,
-                "champeonAbility": {
-                    "dpsIncrement": {
-                        "typeIncrement": "hitspeed",
-                        "damgeIncrement": "100-1000"
-                    }
                 }
             },
             "hitspeed": 0.4,
@@ -4595,11 +4277,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "division": 6
+                }
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -4663,11 +4341,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "healing": true
+                }
             },
             "hitspeed": 1.5,
             "radius": false,
@@ -4731,13 +4405,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "champeonAbility": {
-                    "generationUnits": true,
-                    "recolectorAlmas": true
                 }
             },
             "hitspeed": 1.6,
@@ -4802,18 +4469,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "champeonAbility": {
-                    "invisible": true,
-                    "dpsIncrement": {
-                        "typeIncrement": "%",
-                        "damgeIncrement": "180"
-                    }
-                },
-                "boost": true
+                }
             },
             "hitspeed": 1.2,
             "radius": false,
@@ -4877,12 +4533,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "champeonAbility": {
-                    "chargeDamage": true
                 }
             },
             "hitspeed": 0.9,
@@ -4947,14 +4597,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "move": true,
-                "champeonAbility": {
-                    "shield": true,
-                    "damageReturn": true
                 }
             },
             "hitspeed": 0.8,
@@ -5019,10 +4661,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 1.9,
             "radius": false,
             "GenerationSpeed": false,
@@ -5085,11 +4725,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "unitConversion": true
+                }
             },
             "hitspeed": 1.0,
             "radius": false,
@@ -5153,12 +4789,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reset": true,
-                "slowDown": true
+                }
             },
             "hitspeed": 0.3,
             "radius": false,
@@ -5222,12 +4853,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reset": true,
-                "slowDown": true
+                }
             },
             "hitspeed": 2.1,
             "radius": false,
@@ -5291,11 +4917,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "multipleLives": true
+                }
             },
             "hitspeed": 1.0,
             "radius": false,
@@ -5359,17 +4981,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "dpsIncrement": {
-                    "typeIncrement": "hitspeed",
-                    "damgeIncrement": "110-1057"
-                },
-                "champeonAbility": {
-                    "generationUnits": 1,
-                    "move": true
                 }
             },
             "hitspeed": 1.2,
@@ -5434,12 +5045,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "bomb": 50,
-                "move": true
+                }
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -5503,11 +5109,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reach": true
+                }
             },
             "hitspeed": 0.9,
             "radius": false,
@@ -5571,11 +5173,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "invisible": true
+                }
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -5639,13 +5237,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "champeonAbility": {
-                    "reset": true,
-                    "reach": true
                 }
             },
             "hitspeed": 1.5,
@@ -5710,11 +5301,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "damageUp": true
+                }
             },
             "hitspeed": 1.5,
             "radius": false,
@@ -5778,10 +5365,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0.6,
             "radius": false,
             "GenerationSpeed": false,
@@ -5844,11 +5429,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "dash": true
+                }
             },
             "hitspeed": 1.2,
             "radius": false,
@@ -5912,12 +5493,8 @@
                 "dps": {
                     "level11": 235,
                     "level15": 342
-                },
-                "specialEvo": {
-                    "bomb": true
                 }
             },
-            "special": {},
             "hitspeed": 0.9,
             "radius": false,
             "GenerationSpeed": false,
@@ -5980,11 +5557,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 1.7,
             "radius": false,
@@ -6048,14 +5621,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {
-                    "hitspeedUp": 4,
-                    "goblin": true
                 }
-            },
-            "special": {
-                "shield": true
             },
             "hitspeed": 5.0,
             "radius": false,
@@ -6119,13 +5685,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "dpsIncrement": {
-                    "typeIncrement": "hitspeed",
-                    "damgeIncrement": "90-1057"
                 }
             },
             "hitspeed": 0.4,
@@ -6190,11 +5749,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "bomb": true
+                }
             },
             "hitspeed": 1.8,
             "radius": false,
@@ -6258,11 +5813,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -6326,17 +5877,7 @@
                 "dps": {
                     "level11": 209,
                     "level15": false
-                },
-                "specialEvo": {
-                    "pulse": {
-                        "pulseDamage": true,
-                        "pelseDuration": 1,
-                        "pulseRadius": 6
-                    }
                 }
-            },
-            "special": {
-                "invisible": true
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -6400,11 +5941,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "elixirGeneration": true
+                }
             },
             "hitspeed": 0,
             "radius": false,
@@ -6468,10 +6005,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0.3,
             "radius": false,
             "GenerationSpeed": false,
@@ -6534,11 +6069,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 2.5,
             "radius": false,
@@ -6602,11 +6133,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 0,
             "radius": false,
@@ -6670,13 +6197,7 @@
                 "dps": {
                     "level11": 278,
                     "level15": 0
-                },
-                "specialEvo": {
-                    "Capture": true
                 }
-            },
-            "special": {
-                "generationUnits": true
             },
             "hitspeed": 1.4,
             "radius": false,
@@ -6740,14 +6261,7 @@
                 "dps": {
                     "level11": 227,
                     "level15": 351
-                },
-                "specialEvo": {
-                    "transportation": true
                 }
-            },
-            "special": {
-                "transportation": true,
-                "generationUnits": true
             },
             "hitspeed": 1.1,
             "radius": false,
@@ -6811,11 +6325,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "move": true
+                }
             },
             "hitspeed": 0,
             "radius": 2.5,
@@ -6879,10 +6389,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0,
             "radius": 1.4,
             "GenerationSpeed": false,
@@ -6945,12 +6453,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "boost": "35%",
-                "damage": 200
+                }
             },
             "hitspeed": 0,
             "radius": 1.0,
@@ -7014,10 +6517,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0,
             "radius": 2.0,
             "GenerationSpeed": false,
@@ -7080,14 +6581,7 @@
                 "dps": {
                     "level11": 109,
                     "level15": 158
-                },
-                "specialEvo": {
-                    "Duplicate": true
                 }
-            },
-            "special": {
-                "generationUnits": true,
-                "transportation": true
             },
             "hitspeed": 1.1,
             "radius": 1.5,
@@ -7151,11 +6645,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "freeze": true
+                }
             },
             "hitspeed": 0,
             "radius": 3,
@@ -7219,10 +6709,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0,
             "radius": false,
             "GenerationSpeed": false,
@@ -7285,11 +6773,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "reset": true
+                }
             },
             "hitspeed": 0,
             "radius": 3.5,
@@ -7353,14 +6837,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {
-                    "zap": 3,
-                    "radius": "2.5-3.5"
                 }
-            },
-            "special": {
-                "reset": true
             },
             "hitspeed": 0,
             "radius": 2.5,
@@ -7424,11 +6901,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "slowDown": true
+                }
             },
             "hitspeed": 0,
             "radius": 3.5,
@@ -7492,12 +6965,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "transportation": true,
-                "generationUnits": true
+                }
             },
             "hitspeed": 1.0,
             "radius": 4.0,
@@ -7561,11 +7029,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "move": true
+                }
             },
             "hitspeed": 0,
             "radius": false,
@@ -7629,11 +7093,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "agroup": true
+                }
             },
             "hitspeed": 0,
             "radius": 5.5,
@@ -7697,11 +7157,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 0,
             "radius": 3.0,
@@ -7765,11 +7221,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "slowDown": true
+                }
             },
             "hitspeed": 1,
             "radius": 3.5,
@@ -7833,11 +7285,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": true
+                }
             },
             "hitspeed": 1.3,
             "radius": false,
@@ -7901,11 +7349,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "healing": true
+                }
             },
             "hitspeed": 1.2,
             "radius": false,
@@ -7969,14 +7413,7 @@
                 "dps": {
                     "level11": 179,
                     "level15": 260
-                },
-                "specialEvo": {
-                    "move": true
                 }
-            },
-            "special": {
-                "slowDown": true,
-                "move": true
             },
             "hitspeed": 1,
             "radius": false,
@@ -8040,11 +7477,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "generationUnits": 1
+                }
             },
             "hitspeed": 1.3,
             "radius": 3.0,
@@ -8108,10 +7541,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0,
             "radius": 2.5,
             "GenerationSpeed": false,
@@ -8174,12 +7605,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "unitConversion": true,
-                "dpsIncrement": true
+                }
             },
             "hitspeed": 0,
             "radius": 4.0,
@@ -8245,10 +7671,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 0.8,
             "radius": false,
             "GenerationSpeed": false,
@@ -8311,10 +7735,8 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
+                }
             },
-            "special": {},
             "hitspeed": 2.4,
             "radius": false,
             "GenerationSpeed": false,
@@ -8377,13 +7799,6 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "daggerPush": {
-                    "hitspeed": 0.3,
-                    "maxdagger": 8
                 }
             },
             "hitspeed": 1.2,
@@ -8448,11 +7863,7 @@
                 "dps": {
                     "level11": false,
                     "level15": false
-                },
-                "specialEvo": {}
-            },
-            "special": {
-                "levelUp": true
+                }
             },
             "hitspeed": 0.9,
             "radius": false,
