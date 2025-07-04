@@ -1545,7 +1545,6 @@
                 "null"
             ],
             "units": 1,
-            "radio": 5,
             "duration": false,
             "DeploymentTime": false,
             "evolution": true,
