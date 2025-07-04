@@ -48,8 +48,9 @@ The general format is: `<type>(optional scope): <description>`
 ## ✍️ Code Style
 
 *   **Simplicity and Readability**: Write clear, concise, and easy-to-understand code.
-*   **Descriptive Names**: Use meaningful names for variables, functions, and classes.
-*   **Maintainability**: Aim for small functions with a single responsibility.
+*   **Descriptive Names**: Use meaningful and consistent naming conventions for data fields and file names.
+*   **Consistency**: Ensure data formats (e.g., JSON structure, field types) are consistent across all data files.
+*   **Accuracy**: Verify the correctness of all data added or modified.
 
 ## 🐛 Bug Reports and Suggestions
 
