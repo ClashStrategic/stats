@@ -9,3 +9,5 @@ Currently, this API only provides data related to **Clash Royale Cards**. We are
 ## Contribution ❤️
 
 We welcome contributions from the community! If you're interested in helping us expand this API with more data, improve existing features, or fix bugs, please feel free to open an issue or submit a pull request. Your contributions are highly appreciated! ✨
+
+Please see our [Contributing Guide](CONTRIBUTING.md) for more details.
