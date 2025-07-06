@@ -1,3 +1,10 @@
+## [0.1.4](https://github.com/ClashStrategic/stats/compare/v0.1.3...v0.1.4) (2025-07-06)
+
+
+### Bug Fixes
+
+* **DeploymentTime:** remove inconsistent DeploymentTime attribute ([e5f6837](https://github.com/ClashStrategic/stats/commit/e5f68376e30696c46ba50f24b819742986bd42ea))
+
 ## [0.1.3](https://github.com/ClashStrategic/stats/compare/v0.1.2...v0.1.3) (2025-07-06)
 
 
