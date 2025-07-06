@@ -5132,7 +5132,7 @@
             "duration": false,
             "DeploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "TypeAttack": "unique",
             "proyectil": true,
             "suicide": false,
             "FatalDamage": {
@@ -5196,7 +5196,7 @@
             "duration": false,
             "DeploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "TypeAttack": "unique",
             "proyectil": true,
             "suicide": false,
             "FatalDamage": {
@@ -5260,7 +5260,7 @@
             "duration": false,
             "DeploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "TypeAttack": "unique",
             "proyectil": true,
             "suicide": false,
             "FatalDamage": {
@@ -5324,7 +5324,7 @@
             "duration": false,
             "DeploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "TypeAttack": "unique",
             "proyectil": true,
             "suicide": false,
             "FatalDamage": {
@@ -5388,7 +5388,7 @@
             "duration": false,
             "DeploymentTime": false,
             "evolution": false,
-            "TypeAttack": false,
+            "TypeAttack": "unique",
             "proyectil": true,
             "suicide": false,
             "FatalDamage": {
