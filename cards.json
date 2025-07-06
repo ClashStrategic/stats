@@ -59,7 +59,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -187,7 +187,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -251,7 +251,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -315,7 +315,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -379,7 +379,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -443,7 +443,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -571,7 +571,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -635,7 +635,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -699,7 +699,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -763,7 +763,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -827,7 +827,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -1083,7 +1083,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -1211,7 +1211,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -1339,7 +1339,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -1403,7 +1403,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -1467,7 +1467,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -1659,7 +1659,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -1787,7 +1787,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -2107,7 +2107,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -2299,7 +2299,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -2363,7 +2363,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -2491,7 +2491,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -2555,7 +2555,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -2683,7 +2683,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -2811,7 +2811,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -3003,7 +3003,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -3067,7 +3067,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -3131,7 +3131,7 @@
             "GenerationSpeed": 5.0,
             "GenerationUnits": 2,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -3195,7 +3195,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -3259,7 +3259,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -3323,7 +3323,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -3451,7 +3451,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -3579,7 +3579,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -3643,7 +3643,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -3771,7 +3771,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -3835,7 +3835,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -3899,7 +3899,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -3963,7 +3963,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -4219,7 +4219,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Champion",
             "type": "Troop"
@@ -4283,7 +4283,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -4347,7 +4347,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Rare",
             "type": "Troop"
@@ -4411,7 +4411,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Champion",
             "type": "Troop"
@@ -4539,7 +4539,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Champion",
             "type": "Troop"
@@ -4603,7 +4603,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Champion",
             "type": "Troop"
@@ -4859,7 +4859,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Slow",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -4923,7 +4923,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Very Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Troop"
@@ -5243,7 +5243,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Champion",
             "type": "Troop"
@@ -5307,7 +5307,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Troop"
@@ -5371,7 +5371,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Common",
             "type": "Troop"
@@ -5435,7 +5435,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Champion",
             "type": "Troop"
@@ -6587,7 +6587,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Epic",
             "type": "Spell"
@@ -6971,7 +6971,7 @@
             "GenerationSpeed": 0.5,
             "GenerationUnits": 19,
             "speed": "Fast",
-            "range": "Melee",
+            "range": null,
             "territory": "Wide",
             "rarity": "Legendary",
             "type": "Spell"
@@ -7483,7 +7483,7 @@
             "GenerationSpeed": null,
             "GenerationUnits": null,
             "speed": "Medium",
-            "range": "Melee",
+            "range": null,
             "territory": "Restricted",
             "rarity": "Common",
             "type": "Spell"
