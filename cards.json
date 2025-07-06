@@ -56,11 +56,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Archers",
@@ -119,11 +119,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Goblins",
@@ -181,11 +181,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Giant",
@@ -243,11 +243,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "P.E.K.K.A",
@@ -305,11 +305,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Minions",
@@ -367,11 +367,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Balloon",
@@ -429,11 +429,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Witch",
@@ -492,11 +492,11 @@
             "radius": null,
             "generationSpeed": 7.0,
             "generationUnits": 4,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Barbarians",
@@ -554,11 +554,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Golem",
@@ -616,11 +616,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Skeletons",
@@ -678,11 +678,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Valkyrie",
@@ -740,11 +740,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Skeleton Army",
@@ -802,11 +802,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Bomber",
@@ -864,11 +864,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 4.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Musketeer",
@@ -927,11 +927,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Baby Dragon",
@@ -989,11 +989,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": 3.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Prince",
@@ -1051,11 +1051,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Wizard",
@@ -1114,11 +1114,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Mini P.E.K.K.A",
@@ -1176,11 +1176,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Spear Goblins",
@@ -1239,11 +1239,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Giant Skeleton",
@@ -1301,11 +1301,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Hog Rider",
@@ -1363,11 +1363,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Minion Horde",
@@ -1425,11 +1425,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Ice Wizard",
@@ -1488,11 +1488,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Royal Giant",
@@ -1550,11 +1550,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Guards",
@@ -1612,11 +1612,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Princess",
@@ -1675,11 +1675,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 9.0,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Dark Prince",
@@ -1737,11 +1737,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Three Musketeers",
@@ -1800,11 +1800,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Lava Hound",
@@ -1862,11 +1862,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": 3.5,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Ice Spirit",
@@ -1925,11 +1925,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": 2.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Fire Spirit",
@@ -1988,11 +1988,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": 2.0,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Miner",
@@ -2050,11 +2050,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Sparky",
@@ -2112,11 +2112,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Bowler",
@@ -2174,11 +2174,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 4.0,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Lumberjack",
@@ -2236,11 +2236,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Battle Ram",
@@ -2299,11 +2299,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Inferno Dragon",
@@ -2361,11 +2361,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 3.5,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Ice Golem",
@@ -2423,11 +2423,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Mega Minion",
@@ -2485,11 +2485,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Dart Goblin",
@@ -2548,11 +2548,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": 6.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Goblin Gang",
@@ -2611,11 +2611,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Electro Wizard",
@@ -2674,11 +2674,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Elite Barbarians",
@@ -2736,11 +2736,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Hunter",
@@ -2799,11 +2799,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": 4.0,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Executioner",
@@ -2862,11 +2862,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 4.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Bandit",
@@ -2924,11 +2924,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Royal Recruits",
@@ -2986,11 +2986,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Night Witch",
@@ -3048,11 +3048,11 @@
             "radius": null,
             "generationSpeed": 5.0,
             "generationUnits": 2,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Bats",
@@ -3110,11 +3110,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Royal Ghost",
@@ -3172,11 +3172,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Ram Rider",
@@ -3235,11 +3235,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Zappies",
@@ -3298,11 +3298,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 4.5,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Rascals",
@@ -3361,11 +3361,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Cannon Cart",
@@ -3423,11 +3423,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Mega Knight",
@@ -3485,11 +3485,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Skeleton Barrel",
@@ -3547,11 +3547,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Flying Machine",
@@ -3609,11 +3609,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Wall Breakers",
@@ -3671,11 +3671,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Royal Hogs",
@@ -3733,11 +3733,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Goblin Giant",
@@ -3795,11 +3795,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Fisherman",
@@ -3857,11 +3857,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Magic Archer",
@@ -3920,11 +3920,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 7.0,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Electro Dragon",
@@ -3982,11 +3982,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 3.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Firecracker",
@@ -4045,11 +4045,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Mighty Miner",
@@ -4107,11 +4107,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Elixir Golem",
@@ -4169,11 +4169,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Battle Healer",
@@ -4231,11 +4231,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Skeleton King",
@@ -4293,11 +4293,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Archer Queen",
@@ -4356,11 +4356,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Golden Knight",
@@ -4418,11 +4418,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Monk",
@@ -4480,11 +4480,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Skeleton Dragons",
@@ -4542,11 +4542,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": 3.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Mother Witch",
@@ -4605,11 +4605,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Electro Spirit",
@@ -4668,11 +4668,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": 2.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Electro Giant",
@@ -4730,11 +4730,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Slow",
+            "speed": "slow",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Phoenix",
@@ -4792,11 +4792,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Little Prince",
@@ -4855,11 +4855,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Goblin Demolisher",
@@ -4917,11 +4917,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Goblin Machine",
@@ -4979,11 +4979,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         },
         {
             "name": "Suspicious Bush",
@@ -5041,11 +5041,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "troop"
         },
         {
             "name": "Goblinstein",
@@ -5104,11 +5104,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Rune Giant",
@@ -5166,11 +5166,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "troop"
         },
         {
             "name": "Berserker",
@@ -5228,11 +5228,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "troop"
         },
         {
             "name": "Boss Bandit",
@@ -5290,11 +5290,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Champion",
-            "type": "Troop"
+            "territory": "wide",
+            "rarity": "champion",
+            "type": "troop"
         },
         {
             "name": "Cannon",
@@ -5355,9 +5355,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "building"
         },
         {
             "name": "Goblin Hut",
@@ -5416,11 +5416,11 @@
             "radius": null,
             "generationSpeed": 11.0,
             "generationUnits": 3,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "Mortar",
@@ -5481,9 +5481,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 11.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "building"
         },
         {
             "name": "Inferno Tower",
@@ -5544,9 +5544,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "Bomb Tower",
@@ -5607,9 +5607,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 6.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "Barbarian Hut",
@@ -5670,9 +5670,9 @@
             "generationUnits": 3,
             "speed": null,
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "Tesla",
@@ -5733,9 +5733,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "building"
         },
         {
             "name": "Elixir Collector",
@@ -5793,9 +5793,9 @@
             "generationUnits": 0,
             "speed": null,
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "X-Bow",
@@ -5856,9 +5856,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 11.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "building"
         },
         {
             "name": "Tombstone",
@@ -5919,9 +5919,9 @@
             "generationUnits": 2,
             "speed": null,
             "range": 2.0,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "building"
         },
         {
             "name": "Furnace",
@@ -5982,9 +5982,9 @@
             "generationUnits": 1,
             "speed": null,
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "Goblin Cage",
@@ -6045,9 +6045,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "building"
         },
         {
             "name": "Goblin Drill",
@@ -6106,11 +6106,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Building"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "building"
         },
         {
             "name": "Fireball",
@@ -6169,11 +6169,11 @@
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "spell"
         },
         {
             "name": "Arrows",
@@ -6232,11 +6232,11 @@
             "radius": 1.4,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "spell"
         },
         {
             "name": "Rage",
@@ -6295,11 +6295,11 @@
             "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Rocket",
@@ -6358,11 +6358,11 @@
             "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "spell"
         },
         {
             "name": "Goblin Barrel",
@@ -6421,11 +6421,11 @@
             "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Freeze",
@@ -6484,11 +6484,11 @@
             "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Mirror",
@@ -6546,9 +6546,9 @@
             "generationUnits": null,
             "speed": null,
             "range": null,
-            "territory": "Wide",
-            "rarity": "Special",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "spell"
         },
         {
             "name": "Lightning",
@@ -6609,9 +6609,9 @@
             "generationUnits": null,
             "speed": null,
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Zap",
@@ -6672,9 +6672,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 5,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "spell"
         },
         {
             "name": "Poison",
@@ -6735,9 +6735,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 4.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Graveyard",
@@ -6796,11 +6796,11 @@
             "radius": 4.0,
             "generationSpeed": 0.5,
             "generationUnits": 19,
-            "speed": "Fast",
+            "speed": "fast",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "spell"
         },
         {
             "name": "The log",
@@ -6861,9 +6861,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 10.1,
-            "territory": "Wide",
-            "rarity": "Legendary",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "spell"
         },
         {
             "name": "Tornado",
@@ -6924,9 +6924,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 5.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Clone",
@@ -6987,9 +6987,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 3.0,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Earthquake",
@@ -7050,9 +7050,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 3.5,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "spell"
         },
         {
             "name": "Barbarian Barrel",
@@ -7111,11 +7111,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 4.5,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Heal Spirit",
@@ -7174,11 +7174,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Very Fast",
+            "speed": "very-fast",
             "range": 2.5,
-            "territory": "Wide",
-            "rarity": "Rare",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "rare",
+            "type": "spell"
         },
         {
             "name": "Giant Snowball",
@@ -7239,9 +7239,9 @@
             "generationUnits": null,
             "speed": null,
             "range": 5.0,
-            "territory": "Wide",
-            "rarity": "Common",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "common",
+            "type": "spell"
         },
         {
             "name": "Royal Delivery",
@@ -7300,11 +7300,11 @@
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Restricted",
-            "rarity": "Common",
-            "type": "Spell"
+            "territory": "restricted",
+            "rarity": "common",
+            "type": "spell"
         },
         {
             "name": "Void",
@@ -7363,11 +7363,11 @@
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         },
         {
             "name": "Goblin Curse",
@@ -7426,11 +7426,11 @@
             "radius": 4.0,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": null,
-            "territory": "Wide",
-            "rarity": "Epic",
-            "type": "Spell"
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         }
     ],
     "towerCards": [
@@ -7491,11 +7491,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 7.5,
-            "territory": "Restricted",
-            "rarity": "Common",
-            "type": "Tower"
+            "territory": "restricted",
+            "rarity": "common",
+            "type": "tower"
         },
         {
             "name": "Cannoneer",
@@ -7554,11 +7554,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 7.5,
-            "territory": "Restricted",
-            "rarity": "Epic",
-            "type": "Tower"
+            "territory": "restricted",
+            "rarity": "epic",
+            "type": "tower"
         },
         {
             "name": "Dagger Duchess",
@@ -7617,11 +7617,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 7.5,
-            "territory": "Restricted",
+            "territory": "restricted",
             "rarity": "legendary",
-            "type": "Tower"
+            "type": "tower"
         },
         {
             "name": "Royal Chef",
@@ -7680,11 +7680,11 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "Medium",
+            "speed": "medium",
             "range": 7.5,
-            "territory": "Restricted",
+            "territory": "restricted",
             "rarity": "legendary",
-            "type": "Tower"
+            "type": "tower"
         }
     ]
 }
