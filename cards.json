@@ -11,7 +11,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -74,7 +74,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -136,7 +136,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -198,7 +198,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -260,7 +260,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -322,7 +322,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -384,7 +384,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -447,7 +447,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -509,7 +509,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -571,7 +571,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": 224,
@@ -633,7 +633,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -695,7 +695,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -757,7 +757,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -819,7 +819,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -882,7 +882,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -944,7 +944,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1006,7 +1006,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1069,7 +1069,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1131,7 +1131,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1194,7 +1194,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1256,7 +1256,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1318,7 +1318,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1380,7 +1380,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1443,7 +1443,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1505,7 +1505,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1567,7 +1567,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1630,7 +1630,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1692,7 +1692,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1755,7 +1755,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1817,7 +1817,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1880,7 +1880,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -1943,7 +1943,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -2005,7 +2005,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2067,7 +2067,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2129,7 +2129,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2191,7 +2191,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2254,7 +2254,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2316,7 +2316,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2378,7 +2378,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": 84,
@@ -2440,7 +2440,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2503,7 +2503,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2566,7 +2566,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2629,7 +2629,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2691,7 +2691,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2754,7 +2754,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2817,7 +2817,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2879,7 +2879,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2941,7 +2941,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3003,7 +3003,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3065,7 +3065,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3127,7 +3127,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3190,7 +3190,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3253,7 +3253,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3316,7 +3316,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3378,7 +3378,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3440,7 +3440,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3502,7 +3502,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": 133,
@@ -3564,7 +3564,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3626,7 +3626,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -3688,7 +3688,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3750,7 +3750,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3812,7 +3812,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3875,7 +3875,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3937,7 +3937,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4000,7 +4000,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4062,7 +4062,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4124,7 +4124,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4186,7 +4186,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4248,7 +4248,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4311,7 +4311,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4373,7 +4373,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4435,7 +4435,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4497,7 +4497,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4560,7 +4560,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4623,7 +4623,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -4685,7 +4685,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4747,7 +4747,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4810,7 +4810,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4872,7 +4872,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": 465,
@@ -4934,7 +4934,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4996,7 +4996,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5059,7 +5059,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5121,7 +5121,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5183,7 +5183,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5245,7 +5245,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5308,7 +5308,7 @@
             "duration": 30,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5371,7 +5371,7 @@
             "duration": 29,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5434,7 +5434,7 @@
             "duration": 30,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5497,7 +5497,7 @@
             "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5560,7 +5560,7 @@
             "duration": 30,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5623,7 +5623,7 @@
             "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5686,7 +5686,7 @@
             "duration": 30,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5746,7 +5746,7 @@
             "duration": 65,
             "evolution": false,
             "typeAttack": null,
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5809,7 +5809,7 @@
             "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5872,7 +5872,7 @@
             "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5935,7 +5935,7 @@
             "duration": 28,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -5998,7 +5998,7 @@
             "duration": 20,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6061,7 +6061,7 @@
             "duration": 10,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6124,7 +6124,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6187,7 +6187,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6250,7 +6250,7 @@
             "duration": 5.5,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6313,7 +6313,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6376,7 +6376,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6439,7 +6439,7 @@
             "duration": 4.0,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6499,7 +6499,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6562,7 +6562,7 @@
             "duration": 1.5,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6625,7 +6625,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6688,7 +6688,7 @@
             "duration": 8.0,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6751,7 +6751,7 @@
             "duration": 9.5,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6814,7 +6814,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6877,7 +6877,7 @@
             "duration": 1.1,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6940,7 +6940,7 @@
             "duration": 1.0,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7003,7 +7003,7 @@
             "duration": 3.0,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7066,7 +7066,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7129,7 +7129,7 @@
             "duration": 1.0,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -7192,7 +7192,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7255,7 +7255,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7318,7 +7318,7 @@
             "duration": 4.9,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7381,7 +7381,7 @@
             "duration": 6,
             "evolution": false,
             "typeAttack": "splash",
-            "proyectil": false,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7446,7 +7446,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7509,7 +7509,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7572,7 +7572,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7635,7 +7635,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "proyectil": true,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
