@@ -1,3 +1,13 @@
+## [0.1.3](https://github.com/ClashStrategic/stats/compare/v0.1.2...v0.1.3) (2025-07-06)
+
+
+### Bug Fixes
+
+* **data:** normalize boolean false to null for card attributes ([478b6ca](https://github.com/ClashStrategic/stats/commit/478b6ca91317babb73ac575f5866839d1dc93eef))
+* **radio:** Removes the inconsistent "radio" attribute from the "Royal Giant" card. ([66b772d](https://github.com/ClashStrategic/stats/commit/66b772d9579d5a99740878b4b87a1c809434a48d))
+* **range:** normalize range attribute to null for melee cards ([ef2be60](https://github.com/ClashStrategic/stats/commit/ef2be604742bb757977cae0097531aa97a55eb2b))
+* **TypeAttack:** resolve inconsistent TypeAttack boolean values ([657d2ed](https://github.com/ClashStrategic/stats/commit/657d2edea0944b22126be53f8dff36cf67dc13c9))
+
 ## [0.1.2](https://github.com/ClashStrategic/stats/compare/v0.1.1...v0.1.2) (2025-07-03)
 
 
