@@ -1,3 +1,33 @@
+# [1.0.0](https://github.com/ClashStrategic/stats/compare/v0.1.4...v1.0.0) (2025-07-07)
+
+
+### Bug Fixes
+
+* **cards:** correct 'proyectil' spelling to 'projectile' ([af7042e](https://github.com/ClashStrategic/stats/commit/af7042e462d93312324b52181398a5b4fafb9573))
+* **cards:** standardize numeric fields to floats ([4701967](https://github.com/ClashStrategic/stats/commit/470196714591697e105417d3f1cad3388f46c211))
+
+
+### Code Refactoring
+
+* **cards:** normalize card property string values ([1edceba](https://github.com/ClashStrategic/stats/commit/1edceba3e50c264610f5bc83455e8089b165fd5b))
+* **cards:** remove redundant dps field ([1257115](https://github.com/ClashStrategic/stats/commit/12571159ef643f53a70c4326d2a0b2957a0d41ef))
+* **cards:** rename 'Attack' property to 'targets' ([8dd5511](https://github.com/ClashStrategic/stats/commit/8dd5511eade69f2c2dd8cecaff5f715d0995e59e))
+* **cards:** standardize card targets to ground/air ([297a560](https://github.com/ClashStrategic/stats/commit/297a5600e062839134c84cc38a7f6b16e8f109e4))
+* **cards:** standardize data keys to camelCase ([b81377b](https://github.com/ClashStrategic/stats/commit/b81377bc0cd0ff4a040df1535f02239eed25eeb2))
+* **cards:** standardize target type values ([7cd5d69](https://github.com/ClashStrategic/stats/commit/7cd5d691d80696e39b4e6693800eb5a1a981c986))
+
+
+### BREAKING CHANGES
+
+* **cards:** Removed the 'dps' attribute from all card entries. This metric is inherently calculable from the 'damage' and 'hitspeed' properties. Eliminating its storage reduces the overall data footprint and enforces a consistent computation model for derived statistics.
+* **cards:** Standardizes 'speed', 'territory', 'rarity', and 'type' fields to use
+lowercase or kebab-case for consistency across the dataset.
+* **cards:** Corrected/Modified the spelling of the 'proyectil' key to 'projectile' across all card entries in cards.json. This ensures data consistency and accuracy.
+* **cards:** All property names starting with an uppercase letter are changed to lowercase, updating access to these properties
+* **cards:** The "hechX" values ​​are removed from all spells and are replaced by "ground" & "air", now to identify a spell type you must analyze its "elixirCost", damage, etc.
+* **cards:** The old values 'ter', 'aer', and 'est' ​​must be replaced with the new values
+* **cards:** The 'Attack' property in card data has been renamed to 'targets'. Consumers of card data must update their code to use the new property name.
+
 ## [0.1.4](https://github.com/ClashStrategic/stats/compare/v0.1.3...v0.1.4) (2025-07-06)
 
 
