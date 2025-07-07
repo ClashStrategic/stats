@@ -4394,7 +4394,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 0,
+            "range": 0.0,
             "territory": "wide",
             "rarity": "rare",
             "type": "troop"
@@ -4625,7 +4625,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": true,
@@ -4680,7 +4680,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 29,
+            "duration": 29.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": true,
@@ -4735,7 +4735,7 @@
                 "buildings"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
@@ -4790,7 +4790,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": true,
@@ -4845,7 +4845,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -4900,7 +4900,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -4955,7 +4955,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5007,7 +5007,7 @@
             "elixirCost": 6,
             "targets": [],
             "units": 1,
-            "duration": 65,
+            "duration": 65.0,
             "evolution": false,
             "typeAttack": null,
             "projectile": false,
@@ -5043,7 +5043,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": null,
             "generationSpeed": 12.0,
             "generationUnits": 0,
@@ -5062,7 +5062,7 @@
                 "buildings"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": true,
@@ -5117,7 +5117,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5172,7 +5172,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 28,
+            "duration": 28.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": false,
@@ -5208,7 +5208,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": null,
             "generationSpeed": 5.0,
             "generationUnits": 1,
@@ -5227,7 +5227,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 20,
+            "duration": 20.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5282,7 +5282,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 10,
+            "duration": 10.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5373,7 +5373,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5428,7 +5428,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 1.4,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5483,7 +5483,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5538,7 +5538,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5648,8 +5648,8 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
-            "radius": 3,
+            "hitspeed": 0.0,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5700,7 +5700,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5755,7 +5755,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5810,12 +5810,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5,
+            "range": 5.0,
             "territory": "wide",
             "rarity": "common",
             "type": "spell"
@@ -5865,7 +5865,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5975,7 +5975,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6030,7 +6030,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 5.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6085,7 +6085,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6140,7 +6140,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6305,7 +6305,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6415,7 +6415,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6434,7 +6434,7 @@
                 "air"
             ],
             "units": 0,
-            "duration": 6,
+            "duration": 6.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": false,
@@ -6470,7 +6470,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0,
+            "hitspeed": 0.0,
             "radius": 4.0,
             "generationSpeed": null,
             "generationUnits": null,
