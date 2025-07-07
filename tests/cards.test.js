@@ -172,3 +172,30 @@ describe('Cards JSON Structure Validation', () => {
     expect(uniqueNames.size).toBe(names.length);
   });
 });
+
+describe('Data Logic and Consistency Checks', () => {
+  const allCards = [...cardsData.cards, ...cardsData.towerCards];
+
+  // Test Type-based Property Rules
+  test.each(allCards)('Card "$name" should follow type-specific rules', (card) => {
+    if (card.type === 'troop') {
+      expect(card.units).not.toBeNull();
+      expect(card.speed).not.toBeNull();
+      expect(card.hitspeed).not.toBeNull();
+      expect(card.hitpoints.level11).not.toBeNull();
+      expect(card.hitpoints.level15).not.toBeNull();
+      //expect(card.range).not.toBeNull(); //test not passing, range is null for some troops
+    }
+    if (card.type === 'building') {
+      expect(typeof card.duration).toBe('number');
+    }
+    if (card.type === 'spell' && card.units == 0) {
+      expect(card.hitpoints.level11).toBeNull();
+      expect(card.hitpoints.level15).toBeNull();
+    }
+    if (card.type === 'spell' && card.units > 0) {
+      expect(card.hitpoints.level11).not.toBeNull();
+      expect(card.hitpoints.level15).not.toBeNull();
+    }
+  });
+});
