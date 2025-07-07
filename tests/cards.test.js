@@ -1,0 +1,174 @@
+const Ajv = require('ajv');
+const cardsData = require('../cards.json');
+
+describe('Cards JSON Structure Validation', () => {
+  let ajv;
+  let schema;
+
+  beforeAll(() => {
+    ajv = new Ajv({ allErrors: true });
+
+    // Reusable definition for stats that vary by level
+    const levelBasedStats = {
+      type: 'object',
+      properties: {
+        level11: { type: ['number', 'null'] },
+        level15: { type: ['number', 'null'] }
+      },
+      required: ['level11', 'level15']
+    };
+
+    // Reusable definition for stats that must be null
+    const levelBasedNullStats = {
+      type: 'object',
+      properties: {
+        level11: { const: null },
+        level15: { const: null }
+      },
+      required: ['level11', 'level15'],
+      additionalProperties: false
+    };
+
+    // Schema for stats when a card has an evolution
+    const evolvedStatsSchema = {
+      type: 'object',
+      properties: {
+        cycles: { type: 'number', minimum: 1 },
+        damage: { ...levelBasedStats },
+        hitpoints: { ...levelBasedStats }
+      },
+      required: ['cycles', 'damage', 'hitpoints'],
+      additionalProperties: false
+    };
+
+    // Schema for stats when a card does NOT have an evolution
+    const unevolvedStatsSchema = {
+      type: 'object',
+      properties: {
+        cycles: { const: null },
+        damage: { ...levelBasedNullStats },
+        hitpoints: { ...levelBasedNullStats }
+      },
+      required: ['cycles', 'damage', 'hitpoints'],
+      additionalProperties: false
+    };
+
+    const cardArraySchema = {
+      type: 'array',
+      items: {
+        type: 'object',
+        additionalProperties: false,
+        properties: {
+          name: { type: 'string' },
+          id: { type: 'number' },
+          elixirCost: { type: 'number' },
+          targets: {
+            type: 'array',
+            items: {
+              type: 'string',
+              enum: ['ground', 'air', 'buildings']
+            },
+          },
+          units: { type: 'number' },
+          duration: { type: ['number', 'null'] },
+          evolution: { type: 'boolean' },
+          typeAttack: { type: ['string', 'null'] },
+          projectile: { type: 'boolean' },
+          suicide: { type: 'boolean' },
+          fatalDamage: { ...levelBasedStats },
+          chargeDamage: { ...levelBasedStats },
+          towerDamage: { ...levelBasedStats },
+          damage: { ...levelBasedStats },
+          hitpoints: { ...levelBasedStats },
+          statsEvo: { type: 'object' },
+          hitspeed: { type: 'number' },
+          radius: { type: ['number', 'null'] },
+          generationSpeed: { type: ['number', 'null'] },
+          generationUnits: { type: ['number', 'null'] },
+          speed: {
+            type: ['string', 'null'],
+            enum: ['slow', 'medium', 'fast', 'very-fast', null]
+          },
+          range: { type: ['number', 'null'] },
+          territory: {
+            type: 'string',
+            enum: ['wide', 'restricted']
+          },
+          rarity: {
+            type: 'string',
+            enum: ['common', 'rare', 'epic', 'legendary', 'champion']
+          },
+          type: {
+            type: 'string',
+            enum: ['troop', 'building', 'spell', 'tower']
+          }
+        },
+        allOf: [
+          {
+            if: {
+              properties: { evolution: { const: true } }
+            },
+            then: {
+              properties: { statsEvo: evolvedStatsSchema }
+            },
+            else: {
+              properties: { statsEvo: unevolvedStatsSchema }
+            }
+          }
+        ],
+        required: [
+          'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
+          'evolution', 'typeAttack', 'projectile',
+          'suicide', 'fatalDamage', 'chargeDamage', 'towerDamage',
+          'damage', 'hitpoints', 'statsEvo', 'hitspeed',
+          'radius', 'generationSpeed', 'generationUnits', 'speed',
+          'range', 'territory', 'rarity', 'type'
+        ]
+      }
+    };
+
+    // Define the schema for card validation
+    schema = {
+      type: 'object',
+      properties: {
+        cards: cardArraySchema,
+        towerCards: cardArraySchema
+      },
+      required: ['cards', 'towerCards']
+    };
+  });
+
+  test('should validate cards.json structure', () => {
+    const validate = ajv.compile(schema);
+    const valid = validate(cardsData);
+
+    if (!valid) {
+      console.log('Validation errors:', JSON.stringify(validate.errors, null, 2));
+    }
+
+    expect(validate.errors).toBeNull();
+  });
+
+  test('should have cards array with at least one card', () => {
+    expect(cardsData.cards).toBeDefined();
+    expect(Array.isArray(cardsData.cards)).toBe(true);
+    expect(cardsData.cards.length).toBeGreaterThan(0);
+  });
+
+  test('should have towerCards array', () => {
+    expect(cardsData.towerCards).toBeDefined();
+    expect(Array.isArray(cardsData.towerCards)).toBe(true);
+  });
+
+  test('all card IDs and names should be unique', () => {
+    const allCards = [...cardsData.cards, ...cardsData.towerCards];
+    const ids = allCards.map(card => card.id);
+    const names = allCards.map(card => card.name);
+
+    const uniqueIds = new Set(ids);
+    const uniqueNames = new Set(names);
+
+    expect(uniqueIds.size).toBe(ids.length);
+    expect(uniqueNames.size).toBe(names.length);
+  });
+});
