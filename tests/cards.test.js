@@ -1,4 +1,6 @@
 const Ajv = require('ajv');
+const fs = require('fs');
+const path = require('path');
 const cardsData = require('../cards.json');
 
 describe('Cards JSON Structure Validation', () => {
@@ -197,5 +199,25 @@ describe('Data Logic and Consistency Checks', () => {
       expect(card.hitpoints.level11).not.toBeNull();
       expect(card.hitpoints.level15).not.toBeNull();
     }
+  });
+
+  test('numeric fields that can be floats should be represented as such for consistency', () => {
+    const jsonPath = path.join(__dirname, '..', 'cards.json');
+    const rawJson = fs.readFileSync(jsonPath, 'utf-8');
+    const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+    const allMismatches = [];
+
+    fieldsToCheck.forEach(field => {
+      const integerRegex = new RegExp(`"${field}":\\s*\\d+\\s*[,}]`, 'g');
+      const matches = rawJson.match(integerRegex);
+
+      if (matches) allMismatches.push(...matches);
+    });
+
+    if (allMismatches.length > 0) {
+      console.error('Inconsistent numeric format. Use floats (e.g., 1.0 instead of 1) for these fields:', allMismatches);
+    }
+
+    expect(allMismatches).toHaveLength(0);
   });
 });
