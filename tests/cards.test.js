@@ -1,4 +1,6 @@
 const Ajv = require('ajv');
+const fs = require('fs');
+const path = require('path');
 const cardsData = require('../cards.json');
 
 describe('Cards JSON Structure Validation', () => {
@@ -197,5 +199,50 @@ describe('Data Logic and Consistency Checks', () => {
       expect(card.hitpoints.level11).not.toBeNull();
       expect(card.hitpoints.level15).not.toBeNull();
     }
+  });
+
+  test('numeric fields that can be floats should be represented as such for consistency', () => {
+    const jsonPath = path.join(__dirname, '..', 'cards.json');
+    const rawJson = fs.readFileSync(jsonPath, 'utf-8');
+    const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+    const allMismatches = [];
+
+    fieldsToCheck.forEach(field => {
+      const integerRegex = new RegExp(`"${field}":\\s*\\d+\\s*[,}]`, 'g');
+      const matches = rawJson.match(integerRegex);
+
+      if (matches) allMismatches.push(...matches);
+    });
+
+    if (allMismatches.length > 0) {
+      console.error('Inconsistent numeric format. Use floats (e.g., 1.0 instead of 1) for these fields:', allMismatches);
+    }
+
+    expect(allMismatches).toHaveLength(0);
+  });
+
+  test.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
+    // These fields must always be integers
+    expect(Number.isInteger(card.id)).toBe(true);
+    expect(Number.isInteger(card.elixirCost)).toBe(true);
+    expect(Number.isInteger(card.units)).toBe(true);
+
+    // These fields can be null, but if they have a value, it must be an integer
+    if (card.generationUnits !== null) expect(Number.isInteger(card.generationUnits)).toBe(true);
+    if (card.statsEvo.cycles !== null) expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
+
+    // Helper function to check if level-based stats are integers when not null
+    const checkLevelBasedStats = (statObject) => {
+      if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
+      if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
+    };
+
+    checkLevelBasedStats(card.fatalDamage);
+    checkLevelBasedStats(card.chargeDamage);
+    checkLevelBasedStats(card.towerDamage);
+    checkLevelBasedStats(card.damage);
+    checkLevelBasedStats(card.hitpoints);
+    checkLevelBasedStats(card.statsEvo.damage);
+    checkLevelBasedStats(card.statsEvo.hitpoints);
   });
 });
