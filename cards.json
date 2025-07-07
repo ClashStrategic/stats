@@ -33,10 +33,6 @@
                 "level11": 1766,
                 "level15": 2566
             },
-            "dps": {
-                "level11": 168,
-                "level15": 244
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -46,10 +42,6 @@
                 "hitpoints": {
                     "level11": 2119,
                     "level15": 2566
-                },
-                "dps": {
-                    "level11": 168,
-                    "level15": 244
                 }
             },
             "hitspeed": 1.2,
@@ -96,10 +88,6 @@
                 "level11": 304,
                 "level15": 442
             },
-            "dps": {
-                "level11": 118,
-                "level15": 173
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -109,10 +97,6 @@
                 "hitpoints": {
                     "level11": 378,
                     "level15": null
-                },
-                "dps": {
-                    "level11": 118,
-                    "level15": 173
                 }
             },
             "hitspeed": 0.9,
@@ -158,10 +142,6 @@
                 "level11": 202,
                 "level15": 293
             },
-            "dps": {
-                "level11": 109,
-                "level15": 158
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -169,10 +149,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -220,10 +196,6 @@
                 "level11": 4091,
                 "level15": 5963
             },
-            "dps": {
-                "level11": 169,
-                "level15": 246
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -231,10 +203,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -282,10 +250,6 @@
                 "level11": 3760,
                 "level15": 5475
             },
-            "dps": {
-                "level11": 453,
-                "level15": 660
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -295,10 +259,6 @@
                 "hitpoints": {
                     "level11": 3760,
                     "level15": 5475
-                },
-                "dps": {
-                    "level11": 453,
-                    "level15": 660
                 }
             },
             "hitspeed": 1.8,
@@ -344,10 +304,6 @@
                 "level11": 230,
                 "level15": 334
             },
-            "dps": {
-                "level11": 117,
-                "level15": 171
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -355,10 +311,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -406,10 +358,6 @@
                 "level11": 1680,
                 "level15": 2446
             },
-            "dps": {
-                "level11": 320,
-                "level15": 466
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -417,10 +365,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -469,10 +413,6 @@
                 "level11": 838,
                 "level15": 1220
             },
-            "dps": {
-                "level11": 121,
-                "level15": 177
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -480,10 +420,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -531,10 +467,6 @@
                 "level11": 670,
                 "level15": 974
             },
-            "dps": {
-                "level11": 147,
-                "level15": 214
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -543,10 +475,6 @@
                 },
                 "hitpoints": {
                     "level11": 837,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 735,
                     "level15": null
                 }
             },
@@ -593,10 +521,6 @@
                 "level11": 5120,
                 "level15": 7456
             },
-            "dps": {
-                "level11": 124,
-                "level15": 181
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -604,10 +528,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -655,10 +575,6 @@
                 "level11": 81,
                 "level15": 119
             },
-            "dps": {
-                "level11": 81,
-                "level15": 119
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -666,10 +582,6 @@
                     "level15": 119
                 },
                 "hitpoints": {
-                    "level11": 81,
-                    "level15": 119
-                },
-                "dps": {
                     "level11": 81,
                     "level15": 119
                 }
@@ -717,10 +629,6 @@
                 "level11": 1908,
                 "level15": 2781
             },
-            "dps": {
-                "level11": 178,
-                "level15": 259
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -729,10 +637,6 @@
                 },
                 "hitpoints": {
                     "level11": 1908,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 178,
                     "level15": null
                 }
             },
@@ -779,10 +683,6 @@
                 "level11": 81,
                 "level15": 119
             },
-            "dps": {
-                "level11": 81,
-                "level15": 119
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -790,10 +690,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -841,10 +737,6 @@
                 "level11": 332,
                 "level15": 483
             },
-            "dps": {
-                "level11": 123,
-                "level15": 179
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -854,10 +746,6 @@
                 "hitpoints": {
                     "level11": 332,
                     "level15": 483
-                },
-                "dps": {
-                    "level11": 123,
-                    "level15": null
                 }
             },
             "hitspeed": 1.8,
@@ -904,10 +792,6 @@
                 "level11": 720,
                 "level15": 1050
             },
-            "dps": {
-                "level11": 218,
-                "level15": 318
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -917,10 +801,6 @@
                 "hitpoints": {
                     "level11": 720,
                     "level15": 1050
-                },
-                "dps": {
-                    "level11": 218,
-                    "level15": 318
                 }
             },
             "hitspeed": 1.0,
@@ -966,10 +846,6 @@
                 "level11": 1152,
                 "level15": 1677
             },
-            "dps": {
-                "level11": 106,
-                "level15": 155
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -977,10 +853,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1028,10 +900,6 @@
                 "level11": 1920,
                 "level15": 2796
             },
-            "dps": {
-                "level11": 280,
-                "level15": 407
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1039,10 +907,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1091,10 +955,6 @@
                 "level11": 720,
                 "level15": 1050
             },
-            "dps": {
-                "level11": 200,
-                "level15": 292
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -1104,10 +964,6 @@
                 "hitpoints": {
                     "level11": 720,
                     "level15": 1050
-                },
-                "dps": {
-                    "level11": 200,
-                    "level15": 292
                 }
             },
             "hitspeed": 1.4,
@@ -1153,10 +1009,6 @@
                 "level11": 1361,
                 "level15": 1983
             },
-            "dps": {
-                "level11": 450,
-                "level15": 656
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1164,10 +1016,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1216,10 +1064,6 @@
                 "level11": 133,
                 "level15": 193
             },
-            "dps": {
-                "level11": 47,
-                "level15": 70
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1227,10 +1071,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1278,10 +1118,6 @@
                 "level11": 3424,
                 "level15": 4986
             },
-            "dps": {
-                "level11": 190,
-                "level15": 277
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1289,10 +1125,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1340,10 +1172,6 @@
                 "level11": 1696,
                 "level15": 2472
             },
-            "dps": {
-                "level11": 198,
-                "level15": 289
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1351,10 +1179,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1402,10 +1226,6 @@
                 "level11": 230,
                 "level15": 334
             },
-            "dps": {
-                "level11": 117,
-                "level15": 171
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1413,10 +1233,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1465,10 +1281,6 @@
                 "level11": 874,
                 "level15": 1001
             },
-            "dps": {
-                "level11": 49,
-                "level15": 77
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1476,10 +1288,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1527,10 +1335,6 @@
                 "level11": 3072,
                 "level15": 4464
             },
-            "dps": {
-                "level11": 180,
-                "level15": 262
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -1539,10 +1343,6 @@
                 },
                 "hitpoints": {
                     "level11": 3379,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": null,
                     "level15": null
                 }
             },
@@ -1589,10 +1389,6 @@
                 "level11": 81,
                 "level15": 118
             },
-            "dps": {
-                "level11": 121,
-                "level15": 177
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1600,10 +1396,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1652,10 +1444,6 @@
                 "level11": 261,
                 "level15": 380
             },
-            "dps": {
-                "level11": 56,
-                "level15": 82
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1663,10 +1451,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1714,10 +1498,6 @@
                 "level11": 1200,
                 "level15": 1747
             },
-            "dps": {
-                "level11": 190,
-                "level15": 277
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1725,10 +1505,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1777,10 +1553,6 @@
                 "level11": 720,
                 "level15": 1050
             },
-            "dps": {
-                "level11": 218,
-                "level15": 318
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1788,10 +1560,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1839,10 +1607,6 @@
                 "level11": 3581,
                 "level15": 5209
             },
-            "dps": {
-                "level11": 41,
-                "level15": 60
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1850,10 +1614,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -1902,10 +1662,6 @@
                 "level11": 230,
                 "level15": 334
             },
-            "dps": {
-                "level11": 110,
-                "level15": 159
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -1914,10 +1670,6 @@
                 },
                 "hitpoints": {
                     "level11": 230,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 91,
                     "level15": null
                 }
             },
@@ -1965,10 +1717,6 @@
                 "level11": 230,
                 "level15": 334
             },
-            "dps": {
-                "level11": 207,
-                "level15": 301
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -1976,10 +1724,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2027,10 +1771,6 @@
                 "level11": 1210,
                 "level15": 1760
             },
-            "dps": {
-                "level11": 160,
-                "level15": 234
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2038,10 +1778,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2089,10 +1825,6 @@
                 "level11": 1452,
                 "level15": 2112
             },
-            "dps": {
-                "level11": 332,
-                "level15": 484
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2100,10 +1832,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2151,10 +1879,6 @@
                 "level11": 2080,
                 "level15": 3029
             },
-            "dps": {
-                "level11": 115,
-                "level15": 167
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2162,10 +1886,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2213,10 +1933,6 @@
                 "level11": 1282,
                 "level15": 1696
             },
-            "dps": {
-                "level11": 302,
-                "level15": 400
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -2226,10 +1942,6 @@
                 "hitpoints": {
                     "level11": 1282,
                     "level15": 1696
-                },
-                "dps": {
-                    "level11": 302,
-                    "level15": 400
                 }
             },
             "hitspeed": 0.8,
@@ -2276,10 +1988,6 @@
                 "level11": 966,
                 "level15": 1409
             },
-            "dps": {
-                "level11": 147,
-                "level15": 177
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -2289,10 +1997,6 @@
                 "hitpoints": {
                     "level11": 966,
                     "level15": 1409
-                },
-                "dps": {
-                    "level11": 147,
-                    "level15": 177
                 }
             },
             "hitspeed": 1.3,
@@ -2338,10 +2042,6 @@
                 "level11": 1292,
                 "level15": 1883
             },
-            "dps": {
-                "level11": 1057,
-                "level15": 1540
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2349,10 +2049,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2400,10 +2096,6 @@
                 "level11": 1197,
                 "level15": 1745
             },
-            "dps": {
-                "level11": 33,
-                "level15": 49
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2411,10 +2103,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2462,10 +2150,6 @@
                 "level11": 837,
                 "level15": 1220
             },
-            "dps": {
-                "level11": 207,
-                "level15": 302
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2473,10 +2157,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2525,10 +2205,6 @@
                 "level11": 260,
                 "level15": 380
             },
-            "dps": {
-                "level11": 187,
-                "level15": 272
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -2538,10 +2214,6 @@
                 "hitpoints": {
                     "level11": 260,
                     "level15": 380
-                },
-                "dps": {
-                    "level11": 187,
-                    "level15": 272
                 }
             },
             "hitspeed": 0.7,
@@ -2588,10 +2260,6 @@
                 "level11": 202,
                 "level15": 293
             },
-            "dps": {
-                "level11": 109,
-                "level15": 158
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2599,10 +2267,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2651,10 +2315,6 @@
                 "level11": 713,
                 "level15": 1038
             },
-            "dps": {
-                "level11": 122,
-                "level15": 176
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2662,10 +2322,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2713,10 +2369,6 @@
                 "level11": 1341,
                 "level15": 1949
             },
-            "dps": {
-                "level11": 274,
-                "level15": 398
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2724,10 +2376,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2776,10 +2424,6 @@
                 "level11": 838,
                 "level15": 1220
             },
-            "dps": {
-                "level11": 380,
-                "level15": 550
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -2789,10 +2433,6 @@
                 "hitpoints": {
                     "level11": 838,
                     "level15": 1220
-                },
-                "dps": {
-                    "level11": 380,
-                    "level15": 550
                 }
             },
             "hitspeed": 2.2,
@@ -2839,10 +2479,6 @@
                 "level11": 1280,
                 "level15": 1864
             },
-            "dps": {
-                "level11": 140,
-                "level15": 204
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -2852,10 +2488,6 @@
                 "hitpoints": {
                     "level11": 1280,
                     "level15": 1864
-                },
-                "dps": {
-                    "level11": 140,
-                    "level15": 140
                 }
             },
             "hitspeed": 2.4,
@@ -2901,10 +2533,6 @@
                 "level11": 907,
                 "level15": 1200
             },
-            "dps": {
-                "level11": 193,
-                "level15": 281
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -2912,10 +2540,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -2963,10 +2587,6 @@
                 "level11": 532,
                 "level15": 773
             },
-            "dps": {
-                "level11": 102,
-                "level15": 148
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -2975,10 +2595,6 @@
                 },
                 "hitpoints": {
                     "level11": 588,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 642,
                     "level15": null
                 }
             },
@@ -3025,10 +2641,6 @@
                 "level11": 907,
                 "level15": 1320
             },
-            "dps": {
-                "level11": 241,
-                "level15": 351
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3036,10 +2648,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3087,10 +2695,6 @@
                 "level11": 81,
                 "level15": 119
             },
-            "dps": {
-                "level11": 62,
-                "level15": 91
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -3099,10 +2703,6 @@
                 },
                 "hitpoints": {
                     "level11": 122,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 310,
                     "level15": null
                 }
             },
@@ -3149,10 +2749,6 @@
                 "level11": 1210,
                 "level15": 1760
             },
-            "dps": {
-                "level11": 145,
-                "level15": 211
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3160,10 +2756,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3212,10 +2804,6 @@
                 "level11": 1767,
                 "level15": 2571
             },
-            "dps": {
-                "level11": 147,
-                "level15": 215
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3223,10 +2811,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3275,10 +2859,6 @@
                 "level11": 530,
                 "level15": 772
             },
-            "dps": {
-                "level11": 55,
-                "level15": 80
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3286,10 +2866,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3338,10 +2914,6 @@
                 "level11": 261,
                 "level15": 379
             },
-            "dps": {
-                "level11": 133,
-                "level15": 193
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3349,10 +2921,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3400,10 +2968,6 @@
                 "level11": 892,
                 "level15": 1300
             },
-            "dps": {
-                "level11": 212,
-                "level15": 309
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3411,10 +2975,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3462,10 +3022,6 @@
                 "level11": 3993,
                 "level15": 5808
             },
-            "dps": {
-                "level11": 157,
-                "level15": 229
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -3475,10 +3031,6 @@
                 "hitpoints": {
                     "level11": 3993,
                     "level15": 5808
-                },
-                "dps": {
-                    "level11": 157,
-                    "level15": 229
                 }
             },
             "hitspeed": 1.7,
@@ -3524,10 +3076,6 @@
                 "level11": 532,
                 "level15": 773
             },
-            "dps": {
-                "level11": 133,
-                "level15": 193
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3535,10 +3083,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3586,10 +3130,6 @@
                 "level11": 614,
                 "level15": 896
             },
-            "dps": {
-                "level11": 155,
-                "level15": 227
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3597,10 +3137,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3648,10 +3184,6 @@
                 "level11": 331,
                 "level15": 482
             },
-            "dps": {
-                "level11": 784,
-                "level15": 570
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -3660,10 +3192,6 @@
                 },
                 "hitpoints": {
                     "level11": 331,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 784,
                     "level15": null
                 }
             },
@@ -3710,10 +3238,6 @@
                 "level11": 837,
                 "level15": 1220
             },
-            "dps": {
-                "level11": 61,
-                "level15": 90
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3721,10 +3245,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3772,10 +3292,6 @@
                 "level11": 3336,
                 "level15": 4858
             },
-            "dps": {
-                "level11": 177,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -3785,10 +3301,6 @@
                 "hitpoints": {
                     "level11": 3336,
                     "level15": 4858
-                },
-                "dps": {
-                    "level11": 177,
-                    "level15": null
                 }
             },
             "hitspeed": 1.5,
@@ -3834,10 +3346,6 @@
                 "level11": 871,
                 "level15": 1267
             },
-            "dps": {
-                "level11": 148,
-                "level15": 216
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3845,10 +3353,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3897,10 +3401,6 @@
                 "level11": 532,
                 "level15": 774
             },
-            "dps": {
-                "level11": 121,
-                "level15": 177
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -3908,10 +3408,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -3959,10 +3455,6 @@
                 "level11": 950,
                 "level15": 1384
             },
-            "dps": {
-                "level11": 91,
-                "level15": 132
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -3972,10 +3464,6 @@
                 "hitpoints": {
                     "level11": 950,
                     "level15": 1384
-                },
-                "dps": {
-                    "level11": 91,
-                    "level15": 132
                 }
             },
             "hitspeed": 2.1,
@@ -4022,10 +3510,6 @@
                 "level11": 304,
                 "level15": 442
             },
-            "dps": {
-                "level11": 105,
-                "level15": 155
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -4034,10 +3518,6 @@
                 },
                 "hitpoints": {
                     "level11": 394,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 192,
                     "level15": null
                 }
             },
@@ -4084,10 +3564,6 @@
                 "level11": 2250,
                 "level15": 3285
             },
-            "dps": {
-                "level11": 100,
-                "level15": 1460
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4095,10 +3571,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4146,10 +3618,6 @@
                 "level11": 1568,
                 "level15": 2286
             },
-            "dps": {
-                "level11": 230,
-                "level15": 336
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4157,10 +3625,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4208,10 +3672,6 @@
                 "level11": 1717,
                 "level15": 2502
             },
-            "dps": {
-                "level11": 98,
-                "level15": 144
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4219,10 +3679,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4270,10 +3726,6 @@
                 "level11": 2300,
                 "level15": 3358
             },
-            "dps": {
-                "level11": 128,
-                "level15": 186
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4281,10 +3733,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4333,10 +3781,6 @@
                 "level11": 1000,
                 "level15": 1460
             },
-            "dps": {
-                "level11": 187,
-                "level15": 273
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4344,10 +3788,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4395,10 +3835,6 @@
                 "level11": 1800,
                 "level15": 2628
             },
-            "dps": {
-                "level11": 177,
-                "level15": 258
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4406,10 +3842,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4457,10 +3889,6 @@
                 "level11": 2000,
                 "level15": 2920
             },
-            "dps": {
-                "level11": 175,
-                "level15": 255
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4468,10 +3896,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4519,10 +3943,6 @@
                 "level11": 563,
                 "level15": 818
             },
-            "dps": {
-                "level11": 84,
-                "level15": 123
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4530,10 +3950,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4582,10 +3998,6 @@
                 "level11": 532,
                 "level15": 774
             },
-            "dps": {
-                "level11": 133,
-                "level15": 193
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4593,10 +4005,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4645,10 +4053,6 @@
                 "level11": 230,
                 "level15": 334
             },
-            "dps": {
-                "level11": 99,
-                "level15": 145
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4656,10 +4060,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4707,10 +4107,6 @@
                 "level11": 3856,
                 "level15": 5615
             },
-            "dps": {
-                "level11": 77,
-                "level15": 112
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4718,10 +4114,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4769,10 +4161,6 @@
                 "level11": 1052,
                 "level15": 1531
             },
-            "dps": {
-                "level11": 217,
-                "level15": 316
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4780,10 +4168,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4832,10 +4216,6 @@
                 "level11": 700,
                 "level15": 1022
             },
-            "dps": {
-                "level11": 83,
-                "level15": 133
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4843,10 +4223,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4894,10 +4270,6 @@
                 "level11": 1300,
                 "level15": 1889
             },
-            "dps": {
-                "level11": 169,
-                "level15": 246
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4905,10 +4277,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -4956,10 +4324,6 @@
                 "level11": 2598,
                 "level15": 3775
             },
-            "dps": {
-                "level11": 150,
-                "level15": 218
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -4967,10 +4331,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5018,10 +4378,6 @@
                 "level11": 304,
                 "level15": 442
             },
-            "dps": {
-                "level11": 162,
-                "level15": 236
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5029,10 +4385,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5081,10 +4433,6 @@
                 "level11": 2752,
                 "level15": 3999
             },
-            "dps": {
-                "level11": 85,
-                "level15": 124
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5092,10 +4440,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5143,10 +4487,6 @@
                 "level11": 2803,
                 "level15": 4073
             },
-            "dps": {
-                "level11": 80,
-                "level15": 116
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5154,10 +4494,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5205,10 +4541,6 @@
                 "level11": 832,
                 "level15": 1209
             },
-            "dps": {
-                "level11": 170,
-                "level15": 246
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5216,10 +4548,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5267,10 +4595,6 @@
                 "level11": 2803,
                 "level15": 4073
             },
-            "dps": {
-                "level11": 223,
-                "level15": 325
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5278,10 +4602,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5330,10 +4650,6 @@
                 "level11": 824,
                 "level15": 1197
             },
-            "dps": {
-                "level11": 235,
-                "level15": 342
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -5343,10 +4659,6 @@
                 "hitpoints": {
                     "level11": 824,
                     "level15": 1197
-                },
-                "dps": {
-                    "level11": 235,
-                    "level15": 342
                 }
             },
             "hitspeed": 0.9,
@@ -5393,10 +4705,6 @@
                 "level11": 848,
                 "level15": 1236
             },
-            "dps": {
-                "level11": 39,
-                "level15": 57
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5404,10 +4712,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5456,10 +4760,6 @@
                 "level11": 1369,
                 "level15": 1990
             },
-            "dps": {
-                "level11": 53,
-                "level15": 77
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -5468,10 +4768,6 @@
                 },
                 "hitpoints": {
                     "level11": 1643,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": null,
                     "level15": null
                 }
             },
@@ -5519,10 +4815,6 @@
                 "level11": 1749,
                 "level15": 2549
             },
-            "dps": {
-                "level11": 2120,
-                "level15": 3090
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5530,10 +4822,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5582,10 +4870,6 @@
                 "level11": 1356,
                 "level15": 1977
             },
-            "dps": {
-                "level11": 123,
-                "level15": 180
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5593,10 +4877,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5645,10 +4925,6 @@
                 "level11": 1166,
                 "level15": 1699
             },
-            "dps": {
-                "level11": 147,
-                "level15": 214
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5656,10 +4932,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5708,10 +4980,6 @@
                 "level11": 1152,
                 "level15": 1674
             },
-            "dps": {
-                "level11": 209,
-                "level15": 303
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -5720,10 +4988,6 @@
                 },
                 "hitpoints": {
                     "level11": 1382,
-                    "level15": null
-                },
-                "dps": {
-                    "level11": 209,
                     "level15": null
                 }
             },
@@ -5768,10 +5032,6 @@
                 "level11": 1070,
                 "level15": 1560
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5779,10 +5039,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5831,10 +5087,6 @@
                 "level11": 1600,
                 "level15": 2330
             },
-            "dps": {
-                "level11": 136,
-                "level15": 200
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5842,10 +5094,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5894,10 +5142,6 @@
                 "level11": 530,
                 "level15": 772
             },
-            "dps": {
-                "level11": 81,
-                "level15": 119
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5905,10 +5149,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -5957,10 +5197,6 @@
                 "level11": 848,
                 "level15": 1236
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -5968,10 +5204,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6020,10 +5252,6 @@
                 "level11": 742,
                 "level15": 1081
             },
-            "dps": {
-                "level11": 278,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
@@ -6033,10 +5261,6 @@
                 "hitpoints": {
                     "level11": 1081,
                     "level15": 1081
-                },
-                "dps": {
-                    "level11": 278,
-                    "level15": null
                 }
             },
             "hitspeed": 1.4,
@@ -6083,10 +5307,6 @@
                 "level11": 1600,
                 "level15": 2330
             },
-            "dps": {
-                "level11": 227,
-                "level15": 351
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -6096,10 +5316,6 @@
                 "hitpoints": {
                     "level11": 1600,
                     "level15": 2330
-                },
-                "dps": {
-                    "level11": 227,
-                    "level15": 351
                 }
             },
             "hitspeed": 1.1,
@@ -6146,10 +5362,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 689,
-                "level15": 1004
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6157,10 +5369,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6209,10 +5417,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 244,
-                "level15": 178
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6220,10 +5424,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6272,10 +5472,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 179,
-                "level15": 279
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6283,10 +5479,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6335,10 +5527,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 1484,
-                "level15": 2163
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6346,10 +5534,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6398,10 +5582,6 @@
                 "level11": 202,
                 "level15": 293
             },
-            "dps": {
-                "level11": 109,
-                "level15": 158
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -6411,10 +5591,6 @@
                 "hitpoints": {
                     "level11": 202,
                     "level15": 293
-                },
-                "dps": {
-                    "level11": 109,
-                    "level15": 158
                 }
             },
             "hitspeed": 1.1,
@@ -6461,10 +5637,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 115,
-                "level15": 167
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6472,10 +5644,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6521,10 +5689,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6532,10 +5696,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6584,10 +5744,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 985,
-                "level15": 1537
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6595,10 +5751,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6647,10 +5799,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 192,
-                "level15": 279
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -6658,10 +5806,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6710,10 +5854,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 84,
-                "level15": 132
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6721,10 +5861,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6773,10 +5909,6 @@
                 "level11": 81,
                 "level15": 119
             },
-            "dps": {
-                "level11": 81,
-                "level15": 119
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6784,10 +5916,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6836,10 +5964,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6847,10 +5971,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6899,10 +6019,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 158,
-                "level15": 246
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6910,10 +6026,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -6962,10 +6074,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -6973,10 +6081,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7025,10 +6129,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 76,
-                "level15": 120
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7036,10 +6136,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7088,10 +6184,6 @@
                 "level11": 670,
                 "level15": 947
             },
-            "dps": {
-                "level11": 227,
-                "level15": 351
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7099,10 +6191,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7151,10 +6239,6 @@
                 "level11": 216,
                 "level15": 336
             },
-            "dps": {
-                "level11": 104,
-                "level15": 160
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7162,10 +6246,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7214,10 +6294,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": 179,
-                "level15": 260
-            },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
@@ -7227,10 +6303,6 @@
                 "hitpoints": {
                     "level11": null,
                     "level15": null
-                },
-                "dps": {
-                    "level11": 179,
-                    "level15": 260
                 }
             },
             "hitspeed": 1,
@@ -7277,10 +6349,6 @@
                 "level11": 547,
                 "level15": 796
             },
-            "dps": {
-                "level11": 102,
-                "level15": 148
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7288,10 +6356,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7340,10 +6404,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7351,10 +6411,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7403,10 +6459,6 @@
                 "level11": null,
                 "level15": null
             },
-            "dps": {
-                "level11": null,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7414,10 +6466,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7468,10 +6516,6 @@
                 "level11": 3052,
                 "level15": 4424
             },
-            "dps": {
-                "level11": 136,
-                "level15": 197
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7479,10 +6523,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7531,10 +6571,6 @@
                 "level11": 2616,
                 "level15": 3468
             },
-            "dps": {
-                "level11": 167,
-                "level15": 235
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7542,10 +6578,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7594,10 +6626,6 @@
                 "level11": 2743,
                 "level15": null
             },
-            "dps": {
-                "level11": 125,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7605,10 +6633,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
@@ -7657,10 +6681,6 @@
                 "level11": 2703,
                 "level15": null
             },
-            "dps": {
-                "level11": 121,
-                "level15": null
-            },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
@@ -7668,10 +6688,6 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                },
-                "dps": {
                     "level11": null,
                     "level15": null
                 }
