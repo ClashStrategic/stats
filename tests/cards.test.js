@@ -220,4 +220,29 @@ describe('Data Logic and Consistency Checks', () => {
 
     expect(allMismatches).toHaveLength(0);
   });
+
+  test.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
+    // These fields must always be integers
+    expect(Number.isInteger(card.id)).toBe(true);
+    expect(Number.isInteger(card.elixirCost)).toBe(true);
+    expect(Number.isInteger(card.units)).toBe(true);
+
+    // These fields can be null, but if they have a value, it must be an integer
+    if (card.generationUnits !== null) expect(Number.isInteger(card.generationUnits)).toBe(true);
+    if (card.statsEvo.cycles !== null) expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
+
+    // Helper function to check if level-based stats are integers when not null
+    const checkLevelBasedStats = (statObject) => {
+      if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
+      if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
+    };
+
+    checkLevelBasedStats(card.fatalDamage);
+    checkLevelBasedStats(card.chargeDamage);
+    checkLevelBasedStats(card.towerDamage);
+    checkLevelBasedStats(card.damage);
+    checkLevelBasedStats(card.hitpoints);
+    checkLevelBasedStats(card.statsEvo.damage);
+    checkLevelBasedStats(card.statsEvo.hitpoints);
+  });
 });
