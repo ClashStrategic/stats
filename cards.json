@@ -6479,6 +6479,61 @@
             "territory": "wide",
             "rarity": "epic",
             "type": "spell"
+        },
+        {
+            "name": "Spirit Empress",
+            "id": 28000025,
+            "elixirCost": 6,
+            "targets": [
+                "ground",
+                "air"
+            ],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": true,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": 307,
+                "level15": 446
+            },
+            "hitpoints": {
+                "level11": 1254,
+                "level15": 1822
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": 1.5,
+            "radius": null,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": "medium",
+            "range": 4.5,
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         }
     ],
     "towerCards": [
