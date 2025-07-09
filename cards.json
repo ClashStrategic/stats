@@ -5931,7 +5931,7 @@
             "type": "spell"
         },
         {
-            "name": "The log",
+            "name": "The Log",
             "id": 28000011,
             "elixirCost": 2,
             "targets": [
