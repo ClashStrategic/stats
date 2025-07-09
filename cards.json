@@ -2018,7 +2018,7 @@
             ],
             "units": 1,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -2043,14 +2043,14 @@
                 "level15": 1883
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 36,
+                    "level15": 52
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 1292,
+                    "level15": 1883
                 }
             },
             "hitspeed": 0.4,
