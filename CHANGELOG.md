@@ -1,3 +1,18 @@
+# [1.1.0](https://github.com/ClashStrategic/stats/compare/v1.0.0...v1.1.0) (2025-07-09)
+
+
+### Bug Fixes
+
+* **cards:** capitalize 'The Log' card name ([587f47d](https://github.com/ClashStrategic/stats/commit/587f47db8ed09808f21ec2f86a3e59332ad65cc0))
+
+
+### Features
+
+* **cards:** add Spirit Empress card data ([f330bb3](https://github.com/ClashStrategic/stats/commit/f330bb3b0387b1e0b470ffde75dc192b5356d14a))
+* **Inferno Dragon:** Enable Inferno Dragon evolution and define stats ([30ed44c](https://github.com/ClashStrategic/stats/commit/30ed44c91fab26d6cd14d9ced2fc4f6c539318a3))
+* **Skeleton Barrel:** Enable Skeleton Barrel evolution and define stats ([9045999](https://github.com/ClashStrategic/stats/commit/9045999cef0a452a3c713821a1047de99bd6fb44))
+* **Witch:** Enable Witch evolution and define stats ([acba5e5](https://github.com/ClashStrategic/stats/commit/acba5e5ac8520c8a4fdbc406432033843206bb10))
+
 # [1.0.0](https://github.com/ClashStrategic/stats/compare/v0.1.4...v1.0.0) (2025-07-07)
 
 
