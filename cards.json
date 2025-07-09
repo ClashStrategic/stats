@@ -389,7 +389,7 @@
             ],
             "units": 1,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -414,14 +414,14 @@
                 "level15": 1220
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 1,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 134,
+                    "level15": 195
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 838,
+                    "level15": 1220
                 }
             },
             "hitspeed": 1.1,
@@ -2018,7 +2018,7 @@
             ],
             "units": 1,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -2043,14 +2043,14 @@
                 "level15": 1883
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 36,
+                    "level15": 52
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 1292,
+                    "level15": 1883
                 }
             },
             "hitspeed": 0.4,
@@ -3052,7 +3052,7 @@
             ],
             "units": 7,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3077,14 +3077,14 @@
                 "level15": 773
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
                     "level11": null,
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 665,
+                    "level15": 967
                 }
             },
             "hitspeed": 1.0,
@@ -5931,7 +5931,7 @@
             "type": "spell"
         },
         {
-            "name": "The log",
+            "name": "The Log",
             "id": 28000011,
             "elixirCost": 2,
             "targets": [
@@ -6479,6 +6479,61 @@
             "territory": "wide",
             "rarity": "epic",
             "type": "spell"
+        },
+        {
+            "name": "Spirit Empress",
+            "id": 28000025,
+            "elixirCost": 6,
+            "targets": [
+                "ground",
+                "air"
+            ],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": true,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": 307,
+                "level15": 446
+            },
+            "hitpoints": {
+                "level11": 1254,
+                "level15": 1822
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": 1.5,
+            "radius": null,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": "medium",
+            "range": 4.5,
+            "territory": "wide",
+            "rarity": "legendary",
+            "type": "troop"
         }
     ],
     "towerCards": [
