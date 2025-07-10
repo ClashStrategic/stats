@@ -1,0 +1,62 @@
+name: Deploy STATS via FTP
+
+on:
+  # Deploy after successful release
+  workflow_run:
+    workflows: ["Release"]
+    types:
+      - completed
+    branches:
+      - main
+  # Allow manual deployment
+  workflow_dispatch:
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    # Only deploy if the release workflow succeeded or if manually triggered
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Display deployment information
+        run: |
+          echo "🚀 Starting STATS deployment..."
+          echo "Commit: ${{ github.sha }}"
+          echo "Branch: ${{ github.ref_name }}"
+          echo "Workflow: ${{ github.workflow }}"
+          echo "Repository: stats"
+
+      - name: Deploy STATS via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/api/stats/
+          local-dir: ./
+          exclude: |
+            .git/
+            **/.git/**
+            **/.gitignore
+            **/.github/**
+            **/node_modules/**
+            **/tests/**
+            **/scripts/**
+            **/.releaserc*
+            **/package-lock.json
+            **/package.json
+            **/.vscode/**
+            **/README*.md
+            **/CHANGELOG.md
+            **/CONTRIBUTING.md
+            **/LICENSE.md
+            **/*.log
+
+      - name: Verify deployment
+        run: |
+          echo "✅ STATS deployment completed successfully"
