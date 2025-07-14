@@ -4661,7 +4661,7 @@
                     "level15": 1197
                 }
             },
-            "hitspeed": 0.9,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4702,8 +4702,8 @@
                 "level15": 98
             },
             "hitpoints": {
-                "level11": 848,
-                "level15": 1236
+                "level11": 1308,
+                "level15": 1906
             },
             "statsEvo": {
                 "cycles": null,
@@ -4812,8 +4812,8 @@
                 "level15": 1236
             },
             "hitpoints": {
-                "level11": 1749,
-                "level15": 2549
+                "level11": 1751,
+                "level15": 2552
             },
             "statsEvo": {
                 "cycles": null,
@@ -4867,8 +4867,8 @@
                 "level15": 324
             },
             "hitpoints": {
-                "level11": 1356,
-                "level15": 1977
+                "level11": 1358,
+                "level15": 1980
             },
             "statsEvo": {
                 "cycles": null,
@@ -4973,8 +4973,8 @@
                 "level15": null
             },
             "damage": {
-                "level11": 230,
-                "level15": 334
+                "level11": 220,
+                "level15": 319
             },
             "hitpoints": {
                 "level11": 1152,
@@ -5080,8 +5080,8 @@
                 "level15": null
             },
             "damage": {
-                "level11": 41,
-                "level15": 60
+                "level11": 43,
+                "level15": 62
             },
             "hitpoints": {
                 "level11": 1600,
@@ -5249,8 +5249,8 @@
                 "level15": null
             },
             "hitpoints": {
-                "level11": 742,
-                "level15": 1081
+                "level11": 782,
+                "level15": 1140
             },
             "statsEvo": {
                 "cycles": 1,
@@ -5300,12 +5300,12 @@
                 "level15": null
             },
             "damage": {
-                "level11": 227,
-                "level15": 351
+                "level11": 83,
+                "level15": 121
             },
             "hitpoints": {
-                "level11": 1600,
-                "level15": 2330
+                "level11": 1312,
+                "level15": 1910
             },
             "statsEvo": {
                 "cycles": 2,
