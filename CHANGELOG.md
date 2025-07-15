@@ -1,3 +1,13 @@
+## [1.1.1](https://github.com/ClashStrategic/stats/compare/v1.1.0...v1.1.1) (2025-07-15)
+
+
+### Bug Fixes
+
+* **building-cards:** Update building card stats for balance changes ([1044c3e](https://github.com/ClashStrategic/stats/commit/1044c3e79c643453ce36266817143e1883d6144d))
+* **spell-cards:** update spell card stats for balance changes ([03867a9](https://github.com/ClashStrategic/stats/commit/03867a95ef2ee07e8e6d30721baf00564ee043a5))
+* **tower-cards:** update tower card stats for balance changes ([c74a171](https://github.com/ClashStrategic/stats/commit/c74a1714314fe08d65b9340d297401e8ff0696a7))
+* **troop-cards:** Update troop card stats for balance changes ([f8fb2a2](https://github.com/ClashStrategic/stats/commit/f8fb2a2842c01287eaa85f76f4264ae7492ccec0))
+
 # [1.1.0](https://github.com/ClashStrategic/stats/compare/v1.0.0...v1.1.0) (2025-07-09)
 
 
