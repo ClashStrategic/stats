@@ -4621,7 +4621,6 @@
             "id": 27000000,
             "elixirCost": 3,
             "targets": [
-                "ground",
                 "ground"
             ],
             "units": 1,
@@ -4841,7 +4840,6 @@
             "id": 27000004,
             "elixirCost": 4,
             "targets": [
-                "ground",
                 "ground"
             ],
             "units": 1,
@@ -4896,7 +4894,6 @@
             "id": 27000005,
             "elixirCost": 6,
             "targets": [
-                "ground",
                 "ground"
             ],
             "units": 1,
@@ -5113,7 +5110,6 @@
             "id": 27000009,
             "elixirCost": 3,
             "targets": [
-                "ground",
                 "ground"
             ],
             "units": 1,
@@ -5169,7 +5165,7 @@
             "elixirCost": 4,
             "targets": [
                 "ground",
-                "ground"
+                "air"
             ],
             "units": 1,
             "duration": 28.0,
@@ -5223,7 +5219,6 @@
             "id": 27000012,
             "elixirCost": 4,
             "targets": [
-                "ground",
                 "ground"
             ],
             "units": 1,
