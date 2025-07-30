@@ -5935,8 +5935,7 @@
             "id": 28000011,
             "elixirCost": 2,
             "targets": [
-                "ground",
-                "air"
+                "ground"
             ],
             "units": 0,
             "duration": null,
@@ -6100,8 +6099,7 @@
             "id": 28000014,
             "elixirCost": 3,
             "targets": [
-                "ground",
-                "air"
+                "ground"
             ],
             "units": 0,
             "duration": 3.0,
@@ -6155,8 +6153,7 @@
             "id": 28000015,
             "elixirCost": 2,
             "targets": [
-                "ground",
-                "air"
+                "ground"
             ],
             "units": 1,
             "duration": null,
