@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/ClashStrategic/stats/compare/v1.1.1...v1.1.2) (2025-07-30)
+
+
+### Bug Fixes
+
+* **cards:** standardize and correct card targets ([e9da8e1](https://github.com/ClashStrategic/stats/commit/e9da8e1960d6e2756a8aa74f9a675d1126f8a98a))
+* **spell-cards:** update targets to ground only ([0f1ed25](https://github.com/ClashStrategic/stats/commit/0f1ed254bb8d90879b0e323dbf2c8017ff318a4b))
+
 ## [1.1.1](https://github.com/ClashStrategic/stats/compare/v1.1.0...v1.1.1) (2025-07-15)
 
 
