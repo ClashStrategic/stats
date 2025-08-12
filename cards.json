@@ -1743,7 +1743,8 @@
             "id": 26000032,
             "elixirCost": 3,
             "targets": [
-                "buildings"
+                "buildings",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -1959,8 +1960,7 @@
             "id": 26000036,
             "elixirCost": 4,
             "targets": [
-                "buildings",
-                "ground"
+                "buildings"
             ],
             "units": 1,
             "duration": null,
@@ -2068,7 +2068,7 @@
             "id": 26000038,
             "elixirCost": 2,
             "targets": [
-                "ground"
+                "buildings"
             ],
             "units": 1,
             "duration": null,
@@ -2775,8 +2775,7 @@
             "id": 26000051,
             "elixirCost": 5,
             "targets": [
-                "buildings",
-                "ground"
+                "buildings"
             ],
             "units": 1,
             "duration": null,
@@ -4405,7 +4404,8 @@
             "elixirCost": 5,
             "targets": [
                 "buildings",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 2,
             "duration": null,
