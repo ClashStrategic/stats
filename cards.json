@@ -5149,7 +5149,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 2.5,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": 4.0,
             "generationUnits": 2,
@@ -6242,7 +6242,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.2,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6250,7 +6250,7 @@
             "range": 2.5,
             "territory": "wide",
             "rarity": "rare",
-            "type": "spell"
+            "type": "troop"
         },
         {
             "name": "Giant Snowball",
