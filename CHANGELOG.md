@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/ClashStrategic/stats/compare/v1.1.2...v1.1.3) (2025-08-15)
+
+
+### Bug Fixes
+
+* **cards:** correct card type and hitspeed values ([84ad30d](https://github.com/ClashStrategic/stats/commit/84ad30d300f8dcfa12c5afd8cdcdc44870e7b8b2))
+* **spells:** adjust targeting properties ([b8d7eaa](https://github.com/ClashStrategic/stats/commit/b8d7eaa54929be755656d7c2633a8e7aab69d46f))
+
 ## [1.1.2](https://github.com/ClashStrategic/stats/compare/v1.1.1...v1.1.2) (2025-07-30)
 
 
