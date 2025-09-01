@@ -5168,11 +5168,11 @@
                 "air"
             ],
             "units": 1,
-            "duration": 28.0,
-            "evolution": false,
-            "typeAttack": "splash",
-            "projectile": false,
-            "suicide": true,
+            "duration": null,
+            "evolution": true,
+            "typeAttack": "unique",
+            "projectile": true,
+            "suicide": false,
             "fatalDamage": {
                 "level11": null,
                 "level15": null
@@ -5194,25 +5194,25 @@
                 "level15": 1302
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 135,
+                    "level15": 197
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 896,
+                    "level15": 1302
                 }
             },
             "hitspeed": 1.8,
             "radius": null,
-            "generationSpeed": 5.0,
+            "generationSpeed": 7.0,
             "generationUnits": 1,
-            "speed": null,
-            "range": null,
+            "speed": "slow",
+            "range": 6.0,
             "territory": "wide",
             "rarity": "rare",
-            "type": "building"
+            "type": "troop"
         },
         {
             "name": "Goblin Cage",
