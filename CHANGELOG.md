@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/ClashStrategic/stats/compare/v1.1.3...v1.2.0) (2025-09-02)
+
+
+### Bug Fixes
+
+* **cards:** correct hitpoints and damage values across multiple cards ([7a5b091](https://github.com/ClashStrategic/stats/commit/7a5b091acc1a19d3c25b2d7037a40e8d3a1f7200))
+
+
+### Features
+
+* **balance-changes:** update cards, hitspeed and damage values for multiple cards ([f58b805](https://github.com/ClashStrategic/stats/commit/f58b805d63e5b3628ddbd568a0b033d5c5ca80a8))
+* **furnace-evo:** correct card type from building to troop and enable evolution ([e7f9b46](https://github.com/ClashStrategic/stats/commit/e7f9b464b2a89ac0db17c590fac23f595645beb6))
+
 ## [1.1.3](https://github.com/ClashStrategic/stats/compare/v1.1.2...v1.1.3) (2025-08-15)
 
 
