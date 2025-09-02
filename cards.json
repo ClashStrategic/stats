@@ -315,7 +315,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -1491,8 +1491,8 @@
                 "level15": null
             },
             "damage": {
-                "level11": 248,
-                "level15": 360
+                "level11": 266,
+                "level15": 386
             },
             "hitpoints": {
                 "level11": 1200,
@@ -5947,12 +5947,12 @@
                 "level15": null
             },
             "towerDamage": {
-                "level11": 40,
-                "level15": 58
+                "level11": 41,
+                "level15": 59
             },
             "damage": {
-                "level11": 266,
-                "level15": 386
+                "level11": 268,
+                "level15": 390
             },
             "hitpoints": {
                 "level11": null,
@@ -6440,12 +6440,12 @@
                 "level15": null
             },
             "towerDamage": {
-                "level11": 36,
-                "level15": 54
+                "level11": 42,
+                "level15": 66
             },
             "damage": {
-                "level11": 180,
-                "level15": 264
+                "level11": 210,
+                "level15": 312
             },
             "hitpoints": {
                 "level11": null,
