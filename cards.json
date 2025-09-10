@@ -1239,12 +1239,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -3167,7 +3167,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "projectile": true,
+            "projectile": false,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -4458,7 +4458,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 5.5,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -5052,7 +5052,7 @@
             "hitspeed": 0.0,
             "radius": null,
             "generationSpeed": 12.0,
-            "generationUnits": 0,
+            "generationUnits": null,
             "speed": null,
             "range": null,
             "territory": "restricted",
@@ -5433,7 +5433,7 @@
                 }
             },
             "hitspeed": 0.0,
-            "radius": 1.4,
+            "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5488,7 +5488,7 @@
                 }
             },
             "hitspeed": 0.0,
-            "radius": 1.0,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5874,7 +5874,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 4.5,
+            "range": 3.5,
             "territory": "wide",
             "rarity": "epic",
             "type": "spell"
@@ -6307,7 +6307,7 @@
                 }
             },
             "hitspeed": 1.0,
-            "radius": null,
+            "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -6472,7 +6472,7 @@
                 }
             },
             "hitspeed": 0.0,
-            "radius": 4.0,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
