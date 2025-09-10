@@ -818,7 +818,8 @@
             "id": 26000015,
             "elixirCost": 4,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -1198,7 +1199,8 @@
             "id": 26000022,
             "elixirCost": 5,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 6,
             "duration": null,
@@ -2014,7 +2016,8 @@
             "id": 26000037,
             "elixirCost": 4,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2122,7 +2125,8 @@
             "id": 26000039,
             "elixirCost": 3,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2667,7 +2671,8 @@
             "id": 26000049,
             "elixirCost": 2,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 5,
             "duration": null,
@@ -3101,7 +3106,8 @@
             "id": 26000057,
             "elixirCost": 4,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -3426,7 +3432,8 @@
             "id": 26000063,
             "elixirCost": 5,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -3914,7 +3921,8 @@
             "id": 26000080,
             "elixirCost": 4,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 2,
             "duration": null,
@@ -4132,7 +4140,8 @@
             "id": 26000087,
             "elixirCost": 4,
             "targets": [
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
