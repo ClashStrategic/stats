@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/ClashStrategic/stats/compare/v1.2.0...v1.2.1) (2025-09-11)
+
+
+### Bug Fixes
+
+* **cards:** adjust hitspeed, range, and radius values for multiple cards ([57aca5a](https://github.com/ClashStrategic/stats/commit/57aca5a50f987dcaa005802a10da21dd14a9f1ed))
+* **cards:** restrict card territory and adjust stats ([c900b9c](https://github.com/ClashStrategic/stats/commit/c900b9c50e5e76b3a87f107d2eecf30aa2d5e2a4))
+* **cards:** update card targets to include ground units ([a466486](https://github.com/ClashStrategic/stats/commit/a466486333c4358288c68f64cbdd61dd687de90b))
+
 # [1.2.0](https://github.com/ClashStrategic/stats/compare/v1.1.3...v1.2.0) (2025-09-02)
 
 
