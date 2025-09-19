@@ -5049,7 +5049,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": null,
             "generationSpeed": 12.0,
             "generationUnits": null,
@@ -5377,7 +5377,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5432,7 +5432,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5487,7 +5487,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5542,7 +5542,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5652,7 +5652,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5704,7 +5704,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5759,7 +5759,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5814,7 +5814,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5978,7 +5978,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6033,7 +6033,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 5.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6088,7 +6088,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6306,7 +6306,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6416,7 +6416,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6471,7 +6471,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
