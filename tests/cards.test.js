@@ -83,7 +83,7 @@ describe('Cards JSON Structure Validation', () => {
           damage: { ...levelBasedStats },
           hitpoints: { ...levelBasedStats },
           statsEvo: { type: 'object' },
-          hitspeed: { type: 'number' },
+          hitspeed: { type: ['number', 'null'] },
           radius: { type: ['number', 'null'] },
           generationSpeed: { type: ['number', 'null'] },
           generationUnits: { type: ['number', 'null'] },
