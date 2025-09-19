@@ -1,3 +1,12 @@
+## [1.2.2](https://github.com/ClashStrategic/stats/compare/v1.2.1...v1.2.2) (2025-09-19)
+
+
+### Bug Fixes
+
+* **cards:** correct hitspeed to null for several cards ([3c9d2c7](https://github.com/ClashStrategic/stats/commit/3c9d2c7c76b287e224c914df10ef959e1f27658a))
+* **cards:** correct projectile status for multiple cards ([8ddadc9](https://github.com/ClashStrategic/stats/commit/8ddadc94ff2e5823bafc519913fb964f433006fd))
+* **cards:** correct target types and nullify typeAttack ([18cb988](https://github.com/ClashStrategic/stats/commit/18cb98834529d96b2e745ddbba335f8c817d5436))
+
 ## [1.2.1](https://github.com/ClashStrategic/stats/compare/v1.2.0...v1.2.1) (2025-09-11)
 
 
