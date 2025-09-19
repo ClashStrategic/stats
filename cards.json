@@ -2780,7 +2780,9 @@
             "id": 26000051,
             "elixirCost": 5,
             "targets": [
-                "buildings"
+                "buildings",
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -5670,7 +5672,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": null,
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6054,7 +6056,7 @@
             "units": 0,
             "duration": 1.0,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": null,
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
