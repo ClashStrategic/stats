@@ -4364,7 +4364,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4528,7 +4528,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4582,7 +4582,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
