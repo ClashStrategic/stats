@@ -2780,7 +2780,9 @@
             "id": 26000051,
             "elixirCost": 5,
             "targets": [
-                "buildings"
+                "buildings",
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -4364,7 +4366,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4528,7 +4530,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4582,7 +4584,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5049,7 +5051,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": null,
             "generationSpeed": 12.0,
             "generationUnits": null,
@@ -5377,7 +5379,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5432,7 +5434,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5487,7 +5489,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5542,7 +5544,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5652,7 +5654,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5670,7 +5672,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": null,
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -5704,7 +5706,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5759,7 +5761,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5814,7 +5816,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5978,7 +5980,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6033,7 +6035,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 5.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6054,7 +6056,7 @@
             "units": 0,
             "duration": 1.0,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": null,
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6088,7 +6090,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6306,7 +6308,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6416,7 +6418,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6471,7 +6473,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.0,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
