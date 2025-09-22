@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ClashStrategic/stats/compare/v1.2.2...v1.3.0) (2025-09-22)
+
+
+### Features
+
+* **package:** add main entry point and configure package metadata ([5c63c10](https://github.com/ClashStrategic/stats/commit/5c63c1007ad09f11d49bffbb34915fa7aa7d6310))
+
 ## [1.2.2](https://github.com/ClashStrategic/stats/compare/v1.2.1...v1.2.2) (2025-09-19)
 
 
