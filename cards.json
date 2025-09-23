@@ -143,7 +143,7 @@
                 "level15": 293
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -197,7 +197,7 @@
                 "level15": 5944
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -306,7 +306,7 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -360,7 +360,7 @@
                 "level15": 2440
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -523,7 +523,7 @@
                 "level15": 7440
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -685,7 +685,7 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -849,7 +849,7 @@
                 "level15": 1674
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -903,7 +903,7 @@
                 "level15": 2790
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1012,7 +1012,7 @@
                 "level15": 2075
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1067,7 +1067,7 @@
                 "level15": 193
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1121,7 +1121,7 @@
                 "level15": 5256
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1175,7 +1175,7 @@
                 "level15": 2466
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1230,7 +1230,7 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1282,7 +1282,7 @@
                 "level15": 1003
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1390,7 +1390,7 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1445,7 +1445,7 @@
                 "level15": 380
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1499,7 +1499,7 @@
                 "level15": 1744
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1554,7 +1554,7 @@
                 "level15": 1050
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1610,7 +1610,7 @@
                 "level15": 5218
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1720,7 +1720,7 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1774,7 +1774,7 @@
                 "level15": 1763
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1828,7 +1828,7 @@
                 "level15": 2115
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -1882,7 +1882,7 @@
                 "level15": 3024
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2099,7 +2099,7 @@
                 "level15": 1915
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2154,7 +2154,7 @@
                 "level15": 1216
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2263,7 +2263,7 @@
                 "level15": 293
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2315,7 +2315,7 @@
                 "level15": 1040
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2369,7 +2369,7 @@
                 "level15": 1949
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2533,7 +2533,7 @@
                 "level15": 1320
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2641,7 +2641,7 @@
                 "level15": 1320
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2750,7 +2750,7 @@
                 "level15": 1763
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2804,7 +2804,7 @@
                 "level15": 2472
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2859,7 +2859,7 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2913,7 +2913,7 @@
                 "level15": 379
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -2967,7 +2967,7 @@
                 "level15": 2630
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3130,7 +3130,7 @@
                 "level15": 892
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3240,7 +3240,7 @@
                 "level15": 1216
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3348,7 +3348,7 @@
                 "level15": 1267
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3403,7 +3403,7 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3567,7 +3567,7 @@
                 "level15": 3285
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3621,7 +3621,7 @@
                 "level15": 2280
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3675,7 +3675,7 @@
                 "level15": 2496
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3729,7 +3729,7 @@
                 "level15": 3358
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3784,7 +3784,7 @@
                 "level15": 1460
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3838,7 +3838,7 @@
                 "level15": 2628
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3892,7 +3892,7 @@
                 "level15": 2920
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -3947,7 +3947,7 @@
                 "level15": 814
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4002,7 +4002,7 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4057,7 +4057,7 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4111,7 +4111,7 @@
                 "level15": 5602
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4166,7 +4166,7 @@
                 "level15": 1532
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4221,7 +4221,7 @@
                 "level15": 1022
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4275,7 +4275,7 @@
                 "level15": 1889
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4329,7 +4329,7 @@
                 "level15": 3358
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4383,7 +4383,7 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4437,7 +4437,7 @@
                 "level15": 3999
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4491,7 +4491,7 @@
                 "level15": 3868
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4545,7 +4545,7 @@
                 "level15": 1302
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4599,7 +4599,7 @@
                 "level15": 4073
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4703,7 +4703,7 @@
                 "level15": 1897
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4810,7 +4810,7 @@
                 "level15": 2540
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4862,7 +4862,7 @@
                 "level15": 1971
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -4914,7 +4914,7 @@
                 "level15": 1692
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5021,7 +5021,7 @@
                 "level15": 1560
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5073,7 +5073,7 @@
                 "level15": 2325
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5125,7 +5125,7 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5341,7 +5341,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5396,7 +5396,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5448,7 +5448,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5503,7 +5503,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5607,7 +5607,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5659,7 +5659,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5711,7 +5711,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5815,7 +5815,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5867,7 +5867,7 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5919,7 +5919,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -5971,7 +5971,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6023,7 +6023,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6075,7 +6075,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6127,7 +6127,7 @@
                 "level15": 947
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6182,7 +6182,7 @@
                 "level15": 336
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6289,7 +6289,7 @@
                 "level15": 796
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6341,7 +6341,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6393,7 +6393,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6445,7 +6445,7 @@
                 "level15": 1826
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6497,7 +6497,7 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6551,7 +6551,7 @@
                 "level15": 4424
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6603,7 +6603,7 @@
                 "level15": 3792
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6655,7 +6655,7 @@
                 "level15": 4013
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
@@ -6707,7 +6707,7 @@
                 "level15": 4234
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 0,
                 "damage": {
                     "level11": null,
                     "level15": null
