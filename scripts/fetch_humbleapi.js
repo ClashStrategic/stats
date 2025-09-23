@@ -69,8 +69,8 @@ function spellToCard(spell) {
         hitpoints: { level11: 0, level15: 0 },
         statsEvo: evo ? {
             cycles: null,
-            damage: { level11: 0, level15: 0 },
-            hitpoints: { level11: 0, level15: 0 }
+            damage: { level11: null, level15: null },
+            hitpoints: { level11: null, level15: null }
         } : { cycles: null, damage: { level11: 0, level15: 0 }, hitpoints: { level11: null, level15: null } },
         hitspeed: summon.hitSpeed ? summon.hitSpeed / 1000 : null,
         radius: spell.radius ? spell.radius / 1000 : null,
