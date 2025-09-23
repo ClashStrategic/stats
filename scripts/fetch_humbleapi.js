@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const convert = require('./convert-to-floats');
 
 const CARDS_PATH = path.join(__dirname, '..', 'cards.json');
 const API_URL = 'https://humbleapi.galacticapricot.workers.dev/gamedata-v4.json';
@@ -116,6 +117,7 @@ async function humble() {
     }
 
     cardsData.cards = Object.values(cardMap);
+    cardsData.cards = convert.convertIntegersToFloats(cardsData.cards);
     fs.writeFileSync(CARDS_PATH, JSON.stringify(cardsData, null, 4));
     console.log('cards.json updated!');
 }
