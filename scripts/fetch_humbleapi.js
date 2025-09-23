@@ -103,21 +103,35 @@ async function humble() {
         return;
     }
 
-    const cards = cardsData.cards || [];
-    const cardMap = Object.fromEntries(cards.map(card => [card.id, card]));
+    cardsData.cards = cardsData.cards || [];
+    cardsData.towerCards = cardsData.towerCards || [];
+
+    // Create maps for fast lookup
+    const cardMap = Object.fromEntries(cardsData.cards.map(card => [card.id, card]));
+    const towerCardMap = Object.fromEntries(cardsData.towerCards.map(card => [card.id, card]));
 
     for (const spell of spells) {
         const newCard = spellToCard(spell);
         if (!newCard.id) continue;
-        if (cardMap[newCard.id]) {
-            cardMap[newCard.id] = mergeCardData(cardMap[newCard.id], newCard);
+
+        if (spell.tidType === 'TID_TYPE_TOWER_TROOP') {
+            if (towerCardMap[newCard.id]) {
+                towerCardMap[newCard.id] = mergeCardData(towerCardMap[newCard.id], newCard);
+            } else {
+                towerCardMap[newCard.id] = newCard;
+            }
         } else {
-            cardMap[newCard.id] = newCard;
+            if (cardMap[newCard.id]) {
+                cardMap[newCard.id] = mergeCardData(cardMap[newCard.id], newCard);
+            } else {
+                cardMap[newCard.id] = newCard;
+            }
         }
     }
 
-    cardsData.cards = Object.values(cardMap);
-    cardsData.cards = convert.convertIntegersToFloats(cardsData.cards);
+
+    cardsData.cards = convert.convertIntegersToFloats(Object.values(cardMap));
+    cardsData.towerCards = convert.convertIntegersToFloats(Object.values(towerCardMap));
     fs.writeFileSync(CARDS_PATH, JSON.stringify(cardsData, null, 4));
     console.log('cards.json updated!');
 }

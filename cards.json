@@ -6516,214 +6516,6 @@
             "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
-        },
-        {
-            "name": "Tower Princess",
-            "id": 159000000,
-            "elixirCost": null,
-            "targets": [],
-            "units": 1,
-            "duration": null,
-            "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
-            "suicide": false,
-            "fatalDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "chargeDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "towerDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "damage": {
-                "level11": null,
-                "level15": null
-            },
-            "hitpoints": {
-                "level11": null,
-                "level15": null
-            },
-            "statsEvo": {
-                "cycles": null,
-                "damage": {
-                    "level11": null,
-                    "level15": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                }
-            },
-            "hitspeed": null,
-            "radius": null,
-            "generationSpeed": null,
-            "generationUnits": null,
-            "speed": null,
-            "range": null,
-            "territory": "restricted",
-            "rarity": "common",
-            "type": null
-        },
-        {
-            "name": "Cannoneer",
-            "id": 159000001,
-            "elixirCost": null,
-            "targets": [],
-            "units": 1,
-            "duration": null,
-            "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
-            "suicide": false,
-            "fatalDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "chargeDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "towerDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "damage": {
-                "level11": null,
-                "level15": null
-            },
-            "hitpoints": {
-                "level11": null,
-                "level15": null
-            },
-            "statsEvo": {
-                "cycles": null,
-                "damage": {
-                    "level11": null,
-                    "level15": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                }
-            },
-            "hitspeed": null,
-            "radius": null,
-            "generationSpeed": null,
-            "generationUnits": null,
-            "speed": null,
-            "range": null,
-            "territory": "restricted",
-            "rarity": "epic",
-            "type": null
-        },
-        {
-            "name": "Dagger Duchess",
-            "id": 159000002,
-            "elixirCost": null,
-            "targets": [],
-            "units": 1,
-            "duration": null,
-            "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
-            "suicide": false,
-            "fatalDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "chargeDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "towerDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "damage": {
-                "level11": null,
-                "level15": null
-            },
-            "hitpoints": {
-                "level11": null,
-                "level15": null
-            },
-            "statsEvo": {
-                "cycles": null,
-                "damage": {
-                    "level11": null,
-                    "level15": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                }
-            },
-            "hitspeed": null,
-            "radius": null,
-            "generationSpeed": null,
-            "generationUnits": null,
-            "speed": null,
-            "range": null,
-            "territory": "restricted",
-            "rarity": "legendary",
-            "type": null
-        },
-        {
-            "name": "Royal Chef",
-            "id": 159000004,
-            "elixirCost": null,
-            "targets": [],
-            "units": 1,
-            "duration": null,
-            "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
-            "suicide": false,
-            "fatalDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "chargeDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "towerDamage": {
-                "level11": null,
-                "level15": null
-            },
-            "damage": {
-                "level11": null,
-                "level15": null
-            },
-            "hitpoints": {
-                "level11": null,
-                "level15": null
-            },
-            "statsEvo": {
-                "cycles": null,
-                "damage": {
-                    "level11": null,
-                    "level15": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level15": null
-                }
-            },
-            "hitspeed": null,
-            "radius": null,
-            "generationSpeed": null,
-            "generationUnits": null,
-            "speed": null,
-            "range": null,
-            "territory": "restricted",
-            "rarity": "legendary",
-            "type": null
         }
     ],
     "towerCards": [
@@ -6731,15 +6523,12 @@
             "name": "Tower Princess",
             "id": 159000000,
             "elixirCost": 0,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6786,15 +6575,12 @@
             "name": "Cannoneer",
             "id": 159000001,
             "elixirCost": 0,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6841,15 +6627,12 @@
             "name": "Dagger Duchess",
             "id": 159000002,
             "elixirCost": 0,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6896,15 +6679,12 @@
             "name": "Royal Chef",
             "id": 159000004,
             "elixirCost": 0,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
