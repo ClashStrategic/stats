@@ -104,7 +104,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -370,7 +370,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 2,
+            "hitspeed": 2.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -427,7 +427,7 @@
             },
             "hitspeed": 1.1,
             "radius": null,
-            "generationSpeed": 7,
+            "generationSpeed": 7.0,
             "generationUnits": 4,
             "speed": "medium",
             "range": 5.5,
@@ -587,7 +587,7 @@
                     "level15": 119
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -695,7 +695,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -804,12 +804,12 @@
                     "level15": 1050
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1082,7 +1082,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1293,7 +1293,7 @@
                 }
             },
             "hitspeed": 1.7,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1351,7 +1351,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1400,7 +1400,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -1455,12 +1455,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 3,
+            "hitspeed": 3.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 9,
+            "range": 9.0,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -1564,12 +1564,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1838,12 +1838,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 4,
+            "hitspeed": 4.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -1897,7 +1897,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": 4,
+            "range": 4.0,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -2326,11 +2326,11 @@
                 }
             },
             "hitspeed": 1.8,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2439,7 +2439,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 4,
+            "range": 4.0,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -2543,7 +2543,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -2653,7 +2653,7 @@
             },
             "hitspeed": 1.3,
             "radius": null,
-            "generationSpeed": 5,
+            "generationSpeed": 5.0,
             "generationUnits": 2,
             "speed": "medium",
             "range": 1.6,
@@ -3145,7 +3145,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3418,7 +3418,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 7,
+            "range": 7.0,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -3523,12 +3523,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 3,
+            "hitspeed": 3.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -3799,7 +3799,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4012,7 +4012,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4176,7 +4176,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4290,7 +4290,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -4398,7 +4398,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 0,
+            "range": 0.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -4625,7 +4625,7 @@
             "elixirCost": 3,
             "targets": [],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
@@ -4661,7 +4661,7 @@
                     "level15": 1197
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4677,7 +4677,7 @@
             "elixirCost": 4,
             "targets": [],
             "units": 1,
-            "duration": 29,
+            "duration": 29.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -4713,9 +4713,9 @@
                     "level15": null
                 }
             },
-            "hitspeed": 10,
+            "hitspeed": 10.0,
             "radius": null,
-            "generationSpeed": 11,
+            "generationSpeed": 11.0,
             "generationUnits": 3,
             "speed": "very-fast",
             "range": null,
@@ -4729,7 +4729,7 @@
             "elixirCost": 4,
             "targets": [],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
@@ -4765,7 +4765,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 5,
+            "hitspeed": 5.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4784,7 +4784,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -4825,7 +4825,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -4836,7 +4836,7 @@
             "elixirCost": 4,
             "targets": [],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -4877,7 +4877,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -4888,7 +4888,7 @@
             "elixirCost": 6,
             "targets": [],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -4924,9 +4924,9 @@
                     "level15": null
                 }
             },
-            "hitspeed": 10,
+            "hitspeed": 10.0,
             "radius": null,
-            "generationSpeed": 15,
+            "generationSpeed": 15.0,
             "generationUnits": 3,
             "speed": null,
             "range": null,
@@ -4943,7 +4943,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -4995,7 +4995,7 @@
             "elixirCost": 6,
             "targets": [],
             "units": 1,
-            "duration": 65,
+            "duration": 65.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5033,7 +5033,7 @@
             },
             "hitspeed": null,
             "radius": null,
-            "generationSpeed": 12,
+            "generationSpeed": 12.0,
             "generationUnits": null,
             "speed": null,
             "range": null,
@@ -5047,7 +5047,7 @@
             "elixirCost": 6,
             "targets": [],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -5099,7 +5099,7 @@
             "elixirCost": 3,
             "targets": [],
             "units": 1,
-            "duration": 30,
+            "duration": 30.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5135,12 +5135,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 10,
+            "hitspeed": 10.0,
             "radius": null,
-            "generationSpeed": 4,
+            "generationSpeed": 4.0,
             "generationUnits": 2,
             "speed": null,
-            "range": 2,
+            "range": 2.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -5192,10 +5192,10 @@
             },
             "hitspeed": 1.8,
             "radius": null,
-            "generationSpeed": 7,
+            "generationSpeed": 7.0,
             "generationUnits": 1,
             "speed": "slow",
-            "range": 6,
+            "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -5206,7 +5206,7 @@
             "elixirCost": 4,
             "targets": [],
             "units": 1,
-            "duration": 20,
+            "duration": 20.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5242,12 +5242,12 @@
                     "level15": 1081
                 }
             },
-            "hitspeed": 10,
+            "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -5260,7 +5260,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 10,
+            "duration": 10.0,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5459,7 +5459,7 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5514,7 +5514,7 @@
                 }
             },
             "hitspeed": null,
-            "radius": 2,
+            "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5581,7 +5581,7 @@
             "elixirCost": 4,
             "targets": [],
             "units": 1,
-            "duration": 4,
+            "duration": 4.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5618,7 +5618,7 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5778,7 +5778,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "spell"
@@ -5789,7 +5789,7 @@
             "elixirCost": 4,
             "targets": [],
             "units": 1,
-            "duration": 8,
+            "duration": 8.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5825,7 +5825,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5877,8 +5877,8 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
-            "radius": 4,
+            "hitspeed": 1.0,
+            "radius": 4.0,
             "generationSpeed": 0.5,
             "generationUnits": 19,
             "speed": "fast",
@@ -5997,7 +5997,7 @@
             "elixirCost": 3,
             "targets": [],
             "units": 1,
-            "duration": 1,
+            "duration": 1.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -6034,11 +6034,11 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 3,
+            "range": 3.0,
             "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
@@ -6049,7 +6049,7 @@
             "elixirCost": 3,
             "targets": [],
             "units": 1,
-            "duration": 3,
+            "duration": 3.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -6085,7 +6085,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6156,7 +6156,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 1,
+            "duration": 1.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -6252,7 +6252,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "spell"
@@ -6300,7 +6300,7 @@
                 }
             },
             "hitspeed": 1.3,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -6315,7 +6315,7 @@
             "elixirCost": 3,
             "targets": [],
             "units": 1,
-            "duration": 4,
+            "duration": 4.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -6367,7 +6367,7 @@
             "elixirCost": 2,
             "targets": [],
             "units": 1,
-            "duration": 6,
+            "duration": 6.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -6404,7 +6404,7 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -6717,7 +6717,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1,
+            "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,

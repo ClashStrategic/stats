@@ -133,7 +133,16 @@ async function humble() {
 
     cardsData.cards = convert.convertIntegersToFloats(Object.values(cardMap));
     cardsData.towerCards = convert.convertIntegersToFloats(Object.values(towerCardMap));
-    fs.writeFileSync(CARDS_PATH, JSON.stringify(cardsData, null, 4));
+    // i still have no idea why we need to do this again but ok
+    let modifiedContent = JSON.stringify(cardsData, null, 4);
+            // Replace integers with floats in the specific properties
+        const targetProperties = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+        targetProperties.forEach(prop => {
+            // Search for patterns like "hitspeed": 1, and replace them with "hitspeed": 1.0,
+            const regex = new RegExp(`"${prop}":\\s*(\\d+)([,\\n])`, 'g');
+            modifiedContent = modifiedContent.replace(regex, `"${prop}": $1.0$2`);
+        });
+    fs.writeFileSync(CARDS_PATH, modifiedContent);
     console.log('cards.json updated!');
 }
 humble();
