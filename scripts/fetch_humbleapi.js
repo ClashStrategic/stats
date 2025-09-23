@@ -28,6 +28,7 @@ function mergeCardData(existing, incoming) {
     // Makes sure that we don't overwite data good data with null values
     for (const key in incoming) {
         if (incoming[key] === null || incoming[key] === undefined) continue;
+        if (incoming[key] === 0 && existing[key]) continue;
         if (typeof incoming[key] === 'object' && !Array.isArray(incoming[key]) && existing[key]) {
             existing[key] = mergeCardData(existing[key], incoming[key]);
         } else {
@@ -53,7 +54,7 @@ function spellToCard(spell) {
     return {
         name: spell.englishName || spell.name,
         id: spell.id,
-        elixirCost: spell.manaCost || null,
+        elixirCost: spell.manaCost || 0,
         targets,
         units,
         duration: null,
@@ -64,13 +65,13 @@ function spellToCard(spell) {
         fatalDamage: { level11: null, level15: null },
         chargeDamage: { level11: null, level15: null },
         towerDamage: { level11: null, level15: null },
-        damage: { level11: null, level15: null },
-        hitpoints: { level11: null, level15: null },
+        damage: { level11: 0, level15: 0 },
+        hitpoints: { level11: 0, level15: 0 },
         statsEvo: evo ? {
             cycles: null,
-            damage: { level11: evo.damage || null, level15: null },
-            hitpoints: { level11: evo.hitpoints || null, level15: null }
-        } : { cycles: null, damage: { level11: null, level15: null }, hitpoints: { level11: null, level15: null } },
+            damage: { level11: 0, level15: 0 },
+            hitpoints: { level11: 0, level15: 0 }
+        } : { cycles: null, damage: { level11: 0, level15: 0 }, hitpoints: { level11: null, level15: null } },
         hitspeed: summon.hitSpeed ? summon.hitSpeed / 1000 : null,
         radius: spell.radius ? spell.radius / 1000 : null,
         generationSpeed: null,
