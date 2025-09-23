@@ -40,7 +40,7 @@
                     "level15": 293
                 },
                 "hitpoints": {
-                    "level11": 2119,
+                    "level11": 690,
                     "level15": 2566
                 }
             },
@@ -49,7 +49,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -59,13 +59,13 @@
             "id": 26000001,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 2,
             "duration": null,
             "evolution": true,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -95,7 +95,7 @@
                     "level15": 156
                 },
                 "hitpoints": {
-                    "level11": 378,
+                    "level11": 119,
                     "level15": null
                 }
             },
@@ -104,7 +104,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.0,
+            "range": 5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -158,7 +158,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -212,7 +212,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -266,7 +266,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -276,13 +276,14 @@
             "id": 26000005,
             "elixirCost": 3,
             "targets": [
+                "ground",
                 "air"
             ],
             "units": 3,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
+            "typeAttack": "splash",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -320,7 +321,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -336,7 +337,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -369,12 +370,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 2.0,
+            "hitspeed": 2,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.1,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -384,8 +385,8 @@
             "id": 26000007,
             "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -426,7 +427,7 @@
             },
             "hitspeed": 1.1,
             "radius": null,
-            "generationSpeed": 7.0,
+            "generationSpeed": 7,
             "generationUnits": 4,
             "speed": "medium",
             "range": 5.5,
@@ -474,7 +475,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 837,
+                    "level11": 288,
                     "level15": null
                 }
             },
@@ -483,7 +484,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.7,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -537,7 +538,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -582,16 +583,16 @@
                     "level15": 119
                 },
                 "hitpoints": {
-                    "level11": 81,
+                    "level11": 32,
                     "level15": 119
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
-            "range": null,
+            "speed": "fast",
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -606,7 +607,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -636,7 +637,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 1908,
+                    "level11": 819,
                     "level15": null
                 }
             },
@@ -645,7 +646,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -694,12 +695,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
-            "range": null,
+            "speed": "fast",
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -744,7 +745,7 @@
                     "level15": 334
                 },
                 "hitpoints": {
-                    "level11": 332,
+                    "level11": 130,
                     "level15": 483
                 }
             },
@@ -763,13 +764,13 @@
             "id": 26000014,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -803,12 +804,12 @@
                     "level15": 1050
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 6.0,
+            "range": 6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -818,12 +819,12 @@
             "id": 26000015,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -917,7 +918,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -927,8 +928,8 @@
             "id": 26000017,
             "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -963,7 +964,7 @@
                     "level15": 410
                 },
                 "hitpoints": {
-                    "level11": 720,
+                    "level11": 295,
                     "level15": 1050
                 }
             },
@@ -1026,7 +1027,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1036,13 +1037,13 @@
             "id": 26000019,
             "elixirCost": 2,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 3,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -1081,7 +1082,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": 5.5,
+            "range": 5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1134,8 +1135,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "slow",
-            "range": null,
+            "speed": "medium",
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1189,7 +1190,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1199,14 +1200,14 @@
             "id": 26000022,
             "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 6,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
+            "typeAttack": "splash",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1253,15 +1254,12 @@
             "name": "Ice Wizard",
             "id": 26000023,
             "elixirCost": 3,
-            "targets": [
-                "air",
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1295,7 +1293,7 @@
                 }
             },
             "hitspeed": 1.7,
-            "radius": null,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1314,7 +1312,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -1344,7 +1342,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 3379,
+                    "level11": 1236,
                     "level15": null
                 }
             },
@@ -1353,7 +1351,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": 5.0,
+            "range": 5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1402,12 +1400,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1417,13 +1415,13 @@
             "id": 26000026,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -1457,12 +1455,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 3.0,
+            "hitspeed": 3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 9.0,
+            "range": 9,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -1477,7 +1475,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -1516,7 +1514,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1526,13 +1524,13 @@
             "id": 26000028,
             "elixirCost": 9,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 3,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -1566,12 +1564,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 6.0,
+            "range": 6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1581,13 +1579,15 @@
             "id": 26000029,
             "elixirCost": 7,
             "targets": [
-                "buildings"
+                "buildings",
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
+            "typeAttack": "splash",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1642,7 +1642,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -1671,7 +1671,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 230,
+                    "level11": 90,
                     "level15": null
                 }
             },
@@ -1697,7 +1697,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -1735,7 +1735,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": 2.0,
+            "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1745,7 +1745,6 @@
             "id": 26000032,
             "elixirCost": 3,
             "targets": [
-                "buildings",
                 "ground"
             ],
             "units": 1,
@@ -1790,15 +1789,15 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
-            "territory": "wide",
+            "range": 1.2,
+            "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
         },
         {
             "name": "Sparky",
             "id": 26000033,
-            "elixirCost": 5,
+            "elixirCost": 6,
             "targets": [
                 "ground"
             ],
@@ -1839,12 +1838,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 4.0,
+            "hitspeed": 4,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": 5.0,
+            "range": 5,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -1897,8 +1896,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
-            "range": 4.0,
+            "speed": "slow",
+            "range": 4,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1952,7 +1951,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.7,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -1968,8 +1967,8 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "projectile": true,
-            "suicide": false,
+            "projectile": false,
+            "suicide": true,
             "fatalDamage": {
                 "level11": null,
                 "level15": null
@@ -1997,16 +1996,16 @@
                     "level15": 231
                 },
                 "hitpoints": {
-                    "level11": 966,
+                    "level11": 378,
                     "level15": 1409
                 }
             },
-            "hitspeed": 1.3,
+            "hitspeed": 0.4,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -2016,14 +2015,14 @@
             "id": 26000037,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2115,7 +2114,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -2125,14 +2124,14 @@
             "id": 26000039,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
-            "projectile": false,
+            "typeAttack": "splash",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2170,7 +2169,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -2180,13 +2179,13 @@
             "id": 26000040,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -2227,7 +2226,7 @@
             "speed": "very-fast",
             "range": 6.5,
             "territory": "restricted",
-            "rarity": "common",
+            "rarity": "rare",
             "type": "troop"
         },
         {
@@ -2235,14 +2234,13 @@
             "id": 26000041,
             "elixirCost": 3,
             "targets": [
-                "air",
                 "ground"
             ],
             "units": 6,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2280,7 +2278,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2289,15 +2287,12 @@
             "name": "Electro Wizard",
             "id": 26000042,
             "elixirCost": 4,
-            "targets": [
-                "air",
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2331,11 +2326,11 @@
                 }
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.0,
+            "range": 5,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2388,8 +2383,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
-            "range": null,
+            "speed": "fast",
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2399,8 +2394,8 @@
             "id": 26000044,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -2443,8 +2438,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "slow",
-            "range": 4.0,
+            "speed": "medium",
+            "range": 4,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -2452,10 +2447,10 @@
         {
             "name": "Executioner",
             "id": 26000045,
-            "elixirCost": 6,
+            "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -2494,7 +2489,7 @@
                     "level15": 1864
                 }
             },
-            "hitspeed": 2.4,
+            "hitspeed": 0.9,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -2548,12 +2543,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
-            "range": null,
+            "speed": "fast",
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2598,7 +2593,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 588,
+                    "level11": 214,
                     "level15": null
                 }
             },
@@ -2607,7 +2602,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2658,10 +2653,10 @@
             },
             "hitspeed": 1.3,
             "radius": null,
-            "generationSpeed": 5.0,
+            "generationSpeed": 5,
             "generationUnits": 2,
-            "speed": "fast",
-            "range": null,
+            "speed": "medium",
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2671,8 +2666,8 @@
             "id": 26000049,
             "elixirCost": 2,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 5,
             "duration": null,
@@ -2707,7 +2702,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 122,
+                    "level11": 48,
                     "level15": null
                 }
             },
@@ -2716,7 +2711,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2731,7 +2726,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -2770,7 +2765,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2780,15 +2775,13 @@
             "id": 26000051,
             "elixirCost": 5,
             "targets": [
-                "buildings",
-                "ground",
-                "air"
+                "buildings"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2826,7 +2819,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2836,14 +2829,14 @@
             "id": 26000052,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 3,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2891,14 +2884,13 @@
             "id": 26000053,
             "elixirCost": 5,
             "targets": [
-                "air",
                 "ground"
             ],
             "units": 3,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2936,7 +2928,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2951,7 +2943,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -3006,7 +2998,7 @@
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3044,7 +3036,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -3056,12 +3048,12 @@
             "targets": [
                 "buildings"
             ],
-            "units": 7,
+            "units": 1,
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
-            "suicide": false,
+            "suicide": true,
             "fatalDamage": {
                 "level11": 133,
                 "level15": 193
@@ -3093,11 +3085,11 @@
                     "level15": 967
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "fast",
             "range": null,
             "territory": "restricted",
             "rarity": "common",
@@ -3108,13 +3100,13 @@
             "id": 26000057,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -3152,8 +3144,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
-            "range": 6.0,
+            "speed": "fast",
+            "range": 6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3163,13 +3155,15 @@
             "id": 26000058,
             "elixirCost": 2,
             "targets": [
-                "buildings"
+                "buildings",
+                "ground",
+                "air"
             ],
             "units": 2,
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -3198,7 +3192,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 331,
+                    "level11": 129,
                     "level15": null
                 }
             },
@@ -3207,7 +3201,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -3260,8 +3254,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
-            "range": null,
+            "speed": "very-fast",
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3314,8 +3308,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
-            "range": null,
+            "speed": "medium",
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -3369,7 +3363,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -3379,8 +3373,8 @@
             "id": 26000062,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -3424,7 +3418,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 7.0,
+            "range": 7,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -3434,8 +3428,8 @@
             "id": 26000063,
             "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -3470,7 +3464,7 @@
                     "level15": 279
                 },
                 "hitpoints": {
-                    "level11": 950,
+                    "level11": 371,
                     "level15": 1384
                 }
             },
@@ -3489,13 +3483,13 @@
             "id": 26000064,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -3525,16 +3519,16 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 394,
+                    "level11": 119,
                     "level15": null
                 }
             },
-            "hitspeed": 3.0,
+            "hitspeed": 3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
-            "range": 6.0,
+            "speed": "fast",
+            "range": 6,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -3588,7 +3582,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3642,7 +3636,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3692,11 +3686,11 @@
                 }
             },
             "hitspeed": 1.5,
-            "radius": null,
+            "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3711,7 +3705,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -3750,7 +3744,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3760,13 +3754,13 @@
             "id": 26000072,
             "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -3804,8 +3798,8 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
-            "range": 5.0,
+            "speed": "medium",
+            "range": 5,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3859,7 +3853,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3913,7 +3907,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3923,8 +3917,8 @@
             "id": 26000080,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 2,
             "duration": null,
@@ -3978,13 +3972,13 @@
             "id": 26000083,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -4018,7 +4012,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4040,7 +4034,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -4093,7 +4087,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -4132,7 +4126,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -4142,8 +4136,8 @@
             "id": 26000087,
             "elixirCost": 4,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -4182,12 +4176,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
-            "range": null,
+            "speed": "medium",
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -4197,13 +4191,13 @@
             "id": 26000093,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
-            "units": 2,
+            "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -4242,7 +4236,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 6.0,
+            "range": 5.5,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4296,7 +4290,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.0,
+            "range": 5,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -4312,7 +4306,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4350,7 +4344,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.0,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -4362,12 +4356,12 @@
             "targets": [
                 "buildings"
             ],
-            "units": 2,
+            "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
-            "suicide": false,
+            "suicide": true,
             "fatalDamage": {
                 "level11": null,
                 "level15": null
@@ -4399,12 +4393,12 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.1,
+            "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 0.0,
+            "range": 0,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -4414,15 +4408,13 @@
             "id": 26000099,
             "elixirCost": 5,
             "targets": [
-                "buildings",
-                "ground",
-                "air"
+                "buildings"
             ],
             "units": 2,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4460,7 +4452,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.5,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4476,7 +4468,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4514,7 +4506,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -4622,7 +4614,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4631,13 +4623,11 @@
             "name": "Cannon",
             "id": 27000000,
             "elixirCost": 3,
-            "targets": [
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": true,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -4671,7 +4661,7 @@
                     "level15": 1197
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4684,16 +4674,13 @@
         {
             "name": "Goblin Hut",
             "id": 27000001,
-            "elixirCost": 5,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "elixirCost": 4,
+            "targets": [],
             "units": 1,
-            "duration": 29.0,
+            "duration": 29,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4726,9 +4713,9 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.7,
+            "hitspeed": 10,
             "radius": null,
-            "generationSpeed": 11.0,
+            "generationSpeed": 11,
             "generationUnits": 3,
             "speed": "very-fast",
             "range": null,
@@ -4740,12 +4727,9 @@
             "name": "Mortar",
             "id": 27000002,
             "elixirCost": 4,
-            "targets": [
-                "ground",
-                "buildings"
-            ],
+            "targets": [],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
@@ -4777,11 +4761,11 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 1643,
+                    "level11": 535,
                     "level15": null
                 }
             },
-            "hitspeed": 5.0,
+            "hitspeed": 5,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4800,10 +4784,10 @@
                 "air"
             ],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -4841,7 +4825,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 6.0,
+            "range": 6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -4850,11 +4834,9 @@
             "name": "Bomb Tower",
             "id": 27000004,
             "elixirCost": 4,
-            "targets": [
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -4895,7 +4877,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 6.0,
+            "range": 6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -4904,11 +4886,9 @@
             "name": "Barbarian Hut",
             "id": 27000005,
             "elixirCost": 6,
-            "targets": [
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -4944,9 +4924,9 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.3,
+            "hitspeed": 10,
             "radius": null,
-            "generationSpeed": 15.0,
+            "generationSpeed": 15,
             "generationUnits": 3,
             "speed": null,
             "range": null,
@@ -4963,7 +4943,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -4995,7 +4975,7 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 1382,
+                    "level11": 450,
                     "level15": null
                 }
             },
@@ -5015,9 +4995,9 @@
             "elixirCost": 6,
             "targets": [],
             "units": 1,
-            "duration": 65.0,
+            "duration": 65,
             "evolution": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -5053,7 +5033,7 @@
             },
             "hitspeed": null,
             "radius": null,
-            "generationSpeed": 12.0,
+            "generationSpeed": 12,
             "generationUnits": null,
             "speed": null,
             "range": null,
@@ -5064,15 +5044,12 @@
         {
             "name": "X-Bow",
             "id": 27000008,
-            "elixirCost": 5,
-            "targets": [
-                "ground",
-                "buildings"
-            ],
+            "elixirCost": 6,
+            "targets": [],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -5120,11 +5097,9 @@
             "name": "Tombstone",
             "id": 27000009,
             "elixirCost": 3,
-            "targets": [
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
-            "duration": 30.0,
+            "duration": 30,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5160,14 +5135,14 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 10,
             "radius": null,
-            "generationSpeed": 4.0,
+            "generationSpeed": 4,
             "generationUnits": 2,
             "speed": null,
-            "range": 2.0,
+            "range": 2,
             "territory": "restricted",
-            "rarity": "common",
+            "rarity": "rare",
             "type": "building"
         },
         {
@@ -5181,7 +5156,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -5211,16 +5186,16 @@
                     "level15": 197
                 },
                 "hitpoints": {
-                    "level11": 896,
+                    "level11": 284,
                     "level15": 1302
                 }
             },
             "hitspeed": 1.8,
             "radius": null,
-            "generationSpeed": 7.0,
+            "generationSpeed": 7,
             "generationUnits": 1,
             "speed": "slow",
-            "range": 6.0,
+            "range": 6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -5229,11 +5204,9 @@
             "name": "Goblin Cage",
             "id": 27000012,
             "elixirCost": 4,
-            "targets": [
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
-            "duration": 20.0,
+            "duration": 20,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5265,16 +5238,16 @@
                     "level15": null
                 },
                 "hitpoints": {
-                    "level11": 1081,
+                    "level11": 305,
                     "level15": 1081
                 }
             },
-            "hitspeed": 1.4,
+            "hitspeed": 10,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5.0,
+            "range": 5,
             "territory": "restricted",
             "rarity": "rare",
             "type": "building"
@@ -5284,11 +5257,10 @@
             "id": 27000013,
             "elixirCost": 4,
             "targets": [
-                "buildings",
                 "ground"
             ],
             "units": 1,
-            "duration": 10.0,
+            "duration": 10,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -5324,13 +5296,13 @@
                     "level15": 2330
                 }
             },
-            "hitspeed": 1.1,
+            "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
+            "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "building"
         },
@@ -5342,7 +5314,7 @@
                 "ground",
                 "air"
             ],
-            "units": 0,
+            "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
@@ -5385,7 +5357,7 @@
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "rare",
             "type": "spell"
         },
@@ -5397,7 +5369,7 @@
                 "ground",
                 "air"
             ],
-            "units": 0,
+            "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
@@ -5440,7 +5412,7 @@
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "common",
             "type": "spell"
         },
@@ -5448,15 +5420,12 @@
             "name": "Rage",
             "id": 28000002,
             "elixirCost": 2,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
+            "targets": [],
+            "units": 1,
             "duration": 5.5,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5490,12 +5459,12 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3.0,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -5507,7 +5476,7 @@
                 "ground",
                 "air"
             ],
-            "units": 0,
+            "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "splash",
@@ -5545,12 +5514,12 @@
                 }
             },
             "hitspeed": null,
-            "radius": 2.0,
+            "radius": 2,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "rare",
             "type": "spell"
         },
@@ -5558,15 +5527,12 @@
             "name": "Goblin Barrel",
             "id": 28000004,
             "elixirCost": 3,
-            "targets": [
-                "buildings",
-                "ground"
-            ],
-            "units": 3,
+            "targets": [],
+            "units": 1,
             "duration": null,
             "evolution": true,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5605,7 +5571,7 @@
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -5613,15 +5579,12 @@
             "name": "Freeze",
             "id": 28000005,
             "elixirCost": 4,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
-            "duration": 4.0,
+            "targets": [],
+            "units": 1,
+            "duration": 4,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5655,24 +5618,24 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3.0,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
         {
             "name": "Mirror",
             "id": 28000006,
-            "elixirCost": 0,
+            "elixirCost": 1,
             "targets": [],
-            "units": 0,
+            "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -5713,22 +5676,19 @@
             "speed": null,
             "range": null,
             "territory": "restricted",
-            "rarity": "rare",
+            "rarity": "epic",
             "type": "spell"
         },
         {
             "name": "Lightning",
             "id": 28000007,
             "elixirCost": 6,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
+            "targets": [],
+            "units": 1,
             "duration": 1.5,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5767,7 +5727,7 @@
             "generationUnits": null,
             "speed": null,
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -5775,15 +5735,12 @@
             "name": "Zap",
             "id": 28000008,
             "elixirCost": 2,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
+            "targets": [],
+            "units": 1,
             "duration": null,
             "evolution": true,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5821,8 +5778,8 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5.0,
-            "territory": "wide",
+            "range": 5,
+            "territory": "restricted",
             "rarity": "common",
             "type": "spell"
         },
@@ -5830,15 +5787,12 @@
             "name": "Poison",
             "id": 28000009,
             "elixirCost": 4,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
-            "duration": 8.0,
+            "targets": [],
+            "units": 1,
+            "duration": 8,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5871,13 +5825,13 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
             "range": 3.5,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -5885,11 +5839,8 @@
             "name": "Graveyard",
             "id": 28000010,
             "elixirCost": 5,
-            "targets": [
-                "buildings",
-                "ground"
-            ],
-            "units": 19,
+            "targets": [],
+            "units": 1,
             "duration": 9.5,
             "evolution": false,
             "typeAttack": "unique",
@@ -5926,13 +5877,13 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
-            "radius": 4.0,
+            "hitspeed": 1,
+            "radius": 4,
             "generationSpeed": 0.5,
             "generationUnits": 19,
             "speed": "fast",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "legendary",
             "type": "spell"
         },
@@ -5940,14 +5891,12 @@
             "name": "The Log",
             "id": 28000011,
             "elixirCost": 2,
-            "targets": [
-                "ground"
-            ],
-            "units": 0,
+            "targets": [],
+            "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": false,
+            "typeAttack": "unique",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5994,15 +5943,12 @@
             "name": "Tornado",
             "id": 28000012,
             "elixirCost": 3,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
+            "targets": [],
+            "units": 1,
             "duration": 1.1,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6041,7 +5987,7 @@
             "generationUnits": null,
             "speed": null,
             "range": 5.5,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -6049,14 +5995,11 @@
             "name": "Clone",
             "id": 28000013,
             "elixirCost": 3,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
-            "duration": 1.0,
+            "targets": [],
+            "units": 1,
+            "duration": 1,
             "evolution": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6091,12 +6034,12 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3.0,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 3.0,
-            "territory": "wide",
+            "range": 3,
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -6104,14 +6047,12 @@
             "name": "Earthquake",
             "id": 28000014,
             "elixirCost": 3,
-            "targets": [
-                "ground"
-            ],
-            "units": 0,
-            "duration": 3.0,
+            "targets": [],
+            "units": 1,
+            "duration": 3,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": true,
+            "typeAttack": "unique",
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6144,13 +6085,13 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": 3.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
             "range": 3.5,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "rare",
             "type": "spell"
         },
@@ -6158,14 +6099,12 @@
             "name": "Barbarian Barrel",
             "id": 28000015,
             "elixirCost": 2,
-            "targets": [
-                "ground"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
-            "projectile": false,
+            "typeAttack": "unique",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6217,10 +6156,10 @@
                 "air"
             ],
             "units": 1,
-            "duration": 1.0,
+            "duration": 1,
             "evolution": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
@@ -6253,7 +6192,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6261,7 +6200,7 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "spell"
         },
         {
             "name": "Giant Snowball",
@@ -6271,7 +6210,7 @@
                 "ground",
                 "air"
             ],
-            "units": 0,
+            "units": 1,
             "duration": null,
             "evolution": true,
             "typeAttack": "splash",
@@ -6313,8 +6252,8 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
-            "range": 5.0,
-            "territory": "wide",
+            "range": 5,
+            "territory": "restricted",
             "rarity": "common",
             "type": "spell"
         },
@@ -6322,14 +6261,11 @@
             "name": "Royal Delivery",
             "id": 28000018,
             "elixirCost": 3,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6364,7 +6300,7 @@
                 }
             },
             "hitspeed": 1.3,
-            "radius": 3.0,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -6377,14 +6313,11 @@
             "name": "Void",
             "id": 28000023,
             "elixirCost": 3,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
-            "duration": 4.0,
+            "targets": [],
+            "units": 1,
+            "duration": 4,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6424,7 +6357,7 @@
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -6432,14 +6365,11 @@
             "name": "Goblin Curse",
             "id": 28000024,
             "elixirCost": 2,
-            "targets": [
-                "ground",
-                "air"
-            ],
-            "units": 0,
-            "duration": 6.0,
+            "targets": [],
+            "units": 1,
+            "duration": 6,
             "evolution": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6474,12 +6404,12 @@
                 }
             },
             "hitspeed": null,
-            "radius": 3.0,
+            "radius": 3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
             "range": null,
-            "territory": "wide",
+            "territory": "restricted",
             "rarity": "epic",
             "type": "spell"
         },
@@ -6487,15 +6417,12 @@
             "name": "Spirit Empress",
             "id": 28000025,
             "elixirCost": 6,
-            "targets": [
-                "ground",
-                "air"
-            ],
+            "targets": [],
             "units": 1,
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": true,
+            "projectile": false,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6536,7 +6463,267 @@
             "range": 4.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "spell"
+        },
+        {
+            "name": "Vines",
+            "id": 28000026,
+            "elixirCost": 3,
+            "targets": [],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": false,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": null,
+                "level15": null
+            },
+            "hitpoints": {
+                "level11": null,
+                "level15": null
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": null,
+            "radius": 2.5,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": null,
+            "range": null,
+            "territory": "restricted",
+            "rarity": "epic",
+            "type": "spell"
+        },
+        {
+            "name": "Tower Princess",
+            "id": 159000000,
+            "elixirCost": null,
+            "targets": [],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": false,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": null,
+                "level15": null
+            },
+            "hitpoints": {
+                "level11": null,
+                "level15": null
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": null,
+            "radius": null,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": null,
+            "range": null,
+            "territory": "restricted",
+            "rarity": "common",
+            "type": null
+        },
+        {
+            "name": "Cannoneer",
+            "id": 159000001,
+            "elixirCost": null,
+            "targets": [],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": false,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": null,
+                "level15": null
+            },
+            "hitpoints": {
+                "level11": null,
+                "level15": null
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": null,
+            "radius": null,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": null,
+            "range": null,
+            "territory": "restricted",
+            "rarity": "epic",
+            "type": null
+        },
+        {
+            "name": "Dagger Duchess",
+            "id": 159000002,
+            "elixirCost": null,
+            "targets": [],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": false,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": null,
+                "level15": null
+            },
+            "hitpoints": {
+                "level11": null,
+                "level15": null
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": null,
+            "radius": null,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": null,
+            "range": null,
+            "territory": "restricted",
+            "rarity": "legendary",
+            "type": null
+        },
+        {
+            "name": "Royal Chef",
+            "id": 159000004,
+            "elixirCost": null,
+            "targets": [],
+            "units": 1,
+            "duration": null,
+            "evolution": false,
+            "typeAttack": "unique",
+            "projectile": false,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": null,
+                "level15": null
+            },
+            "hitpoints": {
+                "level11": null,
+                "level15": null
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": null,
+            "radius": null,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": null,
+            "range": null,
+            "territory": "restricted",
+            "rarity": "legendary",
+            "type": null
         }
     ],
     "towerCards": [
@@ -6750,7 +6937,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
