@@ -27,7 +27,7 @@ function fetchJson(url) {
 function mergeCardData(existing, incoming) {
     // Makes sure that we don't overwite data good data with null values
     for (const key in incoming) {
-        if (incoming[key] === null || incoming[key] === undefined) continue;
+        if ((incoming[key] === null || incoming[key] === undefined) && existing[key]) continue;
         if (incoming[key] === 0 && existing[key]) continue;
         if (typeof incoming[key] === 'object' && !Array.isArray(incoming[key]) && existing[key]) {
             existing[key] = mergeCardData(existing[key], incoming[key]);

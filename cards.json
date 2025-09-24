@@ -4398,7 +4398,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 0.0,
+            "range": null,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
