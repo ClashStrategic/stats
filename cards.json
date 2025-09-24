@@ -143,10 +143,10 @@
                 "level15": 293
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -197,10 +197,10 @@
                 "level15": 5944
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -306,10 +306,10 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -360,10 +360,10 @@
                 "level15": 2440
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -472,7 +472,7 @@
                 "cycles": 1,
                 "damage": {
                     "level11": 192,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 837,
@@ -523,10 +523,10 @@
                 "level15": 7440
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -634,7 +634,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 267,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 1908,
@@ -685,10 +685,10 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -741,7 +741,7 @@
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
-                    "level11": null,
+                    "level11": 0,
                     "level15": 334
                 },
                 "hitpoints": {
@@ -849,10 +849,10 @@
                 "level15": 1674
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -903,10 +903,10 @@
                 "level15": 2790
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1012,10 +1012,10 @@
                 "level15": 2075
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1067,10 +1067,10 @@
                 "level15": 193
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1121,10 +1121,10 @@
                 "level15": 5256
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1175,10 +1175,10 @@
                 "level15": 2466
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1230,10 +1230,10 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1282,10 +1282,10 @@
                 "level15": 1003
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1339,7 +1339,7 @@
                 "cycles": 1,
                 "damage": {
                     "level11": 307,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 3379,
@@ -1390,10 +1390,10 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1445,10 +1445,10 @@
                 "level15": 380
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1499,10 +1499,10 @@
                 "level15": 1744
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1554,10 +1554,10 @@
                 "level15": 1050
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1610,10 +1610,10 @@
                 "level15": 5218
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1668,7 +1668,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 110,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 230,
@@ -1720,10 +1720,10 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1774,10 +1774,10 @@
                 "level15": 1763
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1828,10 +1828,10 @@
                 "level15": 2115
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -1882,10 +1882,10 @@
                 "level15": 3024
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2099,10 +2099,10 @@
                 "level15": 1915
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2154,10 +2154,10 @@
                 "level15": 1216
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2263,10 +2263,10 @@
                 "level15": 293
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2315,10 +2315,10 @@
                 "level15": 1040
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2369,10 +2369,10 @@
                 "level15": 1949
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2533,10 +2533,10 @@
                 "level15": 1320
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2590,7 +2590,7 @@
                 "cycles": 1,
                 "damage": {
                     "level11": 140,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 588,
@@ -2641,10 +2641,10 @@
                 "level15": 1320
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2699,7 +2699,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 81,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 122,
@@ -2750,10 +2750,10 @@
                 "level15": 1763
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2804,10 +2804,10 @@
                 "level15": 2472
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2859,10 +2859,10 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2913,10 +2913,10 @@
                 "level15": 379
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -2967,10 +2967,10 @@
                 "level15": 2630
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3077,8 +3077,8 @@
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 665,
@@ -3130,10 +3130,10 @@
                 "level15": 892
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3188,8 +3188,8 @@
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 331,
@@ -3240,10 +3240,10 @@
                 "level15": 1216
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3348,10 +3348,10 @@
                 "level15": 1267
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3403,10 +3403,10 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3516,7 +3516,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 320,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 394,
@@ -3567,10 +3567,10 @@
                 "level15": 3285
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3621,10 +3621,10 @@
                 "level15": 2280
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3675,10 +3675,10 @@
                 "level15": 2496
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3729,10 +3729,10 @@
                 "level15": 3358
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3784,10 +3784,10 @@
                 "level15": 1460
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3838,10 +3838,10 @@
                 "level15": 2628
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3892,10 +3892,10 @@
                 "level15": 2920
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -3947,10 +3947,10 @@
                 "level15": 814
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4002,10 +4002,10 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4057,10 +4057,10 @@
                 "level15": 334
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4111,10 +4111,10 @@
                 "level15": 5602
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4166,10 +4166,10 @@
                 "level15": 1532
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4221,10 +4221,10 @@
                 "level15": 1022
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4275,10 +4275,10 @@
                 "level15": 1889
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4329,10 +4329,10 @@
                 "level15": 3358
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4383,10 +4383,10 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4437,10 +4437,10 @@
                 "level15": 3999
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4491,10 +4491,10 @@
                 "level15": 3868
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4545,10 +4545,10 @@
                 "level15": 1302
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4599,10 +4599,10 @@
                 "level15": 4073
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4703,10 +4703,10 @@
                 "level15": 1897
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4758,7 +4758,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 266,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 1643,
@@ -4810,10 +4810,10 @@
                 "level15": 2540
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4862,10 +4862,10 @@
                 "level15": 1971
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4914,10 +4914,10 @@
                 "level15": 1692
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -4972,7 +4972,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 230,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 1382,
@@ -5021,10 +5021,10 @@
                 "level15": 1560
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5073,10 +5073,10 @@
                 "level15": 2325
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5125,10 +5125,10 @@
                 "level15": 770
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5235,7 +5235,7 @@
                 "cycles": 1,
                 "damage": {
                     "level11": 306,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": 1081,
@@ -5341,10 +5341,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5396,10 +5396,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5448,10 +5448,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5503,10 +5503,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5607,10 +5607,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5659,10 +5659,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5711,10 +5711,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5766,7 +5766,7 @@
                 "cycles": 2,
                 "damage": {
                     "level11": 192,
-                    "level15": null
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5815,10 +5815,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5867,10 +5867,10 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5919,10 +5919,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -5971,10 +5971,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6023,10 +6023,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6075,10 +6075,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6127,10 +6127,10 @@
                 "level15": 947
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6182,10 +6182,10 @@
                 "level15": 336
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6289,10 +6289,10 @@
                 "level15": 796
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6341,10 +6341,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6393,10 +6393,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6445,10 +6445,10 @@
                 "level15": 1826
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6497,10 +6497,10 @@
                 "level15": 0
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6551,10 +6551,10 @@
                 "level15": 4424
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6603,10 +6603,10 @@
                 "level15": 3792
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6655,10 +6655,10 @@
                 "level15": 4013
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
@@ -6707,10 +6707,10 @@
                 "level15": 4234
             },
             "statsEvo": {
-                "cycles": 0,
+                "cycles": null,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 0,
+                    "level15": 0
                 },
                 "hitpoints": {
                     "level11": null,
