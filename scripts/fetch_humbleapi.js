@@ -48,7 +48,6 @@ function mergeCardData(existing, incoming) {
 function spellToCard(spell) {
     // API calls everything a spell. I don't know why, Doesn't make a difference :)
     const summon = spell.summonCharacterData || {};
-    const evo = spell.evolvedSpellsData?.summonCharacterData || {};
     const projectile = summon.projectileData || spell.projectileData || {};
     const units = spell.summonNumber || spell.summonCharacterSecondCount ? (spell.summonNumber || 1) + (spell.summonCharacterSecondCount || 0) : 1;
     const targets = [];
@@ -74,7 +73,7 @@ function spellToCard(spell) {
         towerDamage: { level11: null, level15: null },
         damage: { level11: 0, level15: 0 },
         hitpoints: { level11: 0, level15: 0 },
-        statsEvo: !!spell.evolvedSpellsData ? { cycles: -1, damage: { level11: 0, level15: 0 }, hitpoints: { level11: 0, level15: 0 } } : null,
+        statsEvo: !!spell.evolvedSpellsData ? { cycles: -1, damage: { level11: 0, level15: 0 }, hitpoints: { level11: 0, level15: 0 } } : { cycles: null, damage: { level11: null, level15: null }, hitpoints: { level11: null, level15: null } },
         hitspeed: summon.hitSpeed ? summon.hitSpeed / 1000 : null,
         radius: spell.radius ? spell.radius / 1000 : null,
         generationSpeed: null,

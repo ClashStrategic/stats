@@ -6496,7 +6496,17 @@
                 "level11": 0,
                 "level15": 0
             },
-            "statsEvo": null,
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
             "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
