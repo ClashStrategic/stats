@@ -1798,7 +1798,7 @@
         {
             "name": "Sparky",
             "id": 26000033,
-            "elixirCost": 5,
+            "elixirCost": 6,
             "targets": [
                 "ground"
             ],
@@ -2452,7 +2452,7 @@
         {
             "name": "Executioner",
             "id": 26000045,
-            "elixirCost": 6,
+            "elixirCost": 5,
             "targets": [
                 "air",
                 "ground"
@@ -4684,7 +4684,7 @@
         {
             "name": "Goblin Hut",
             "id": 27000001,
-            "elixirCost": 5,
+            "elixirCost": 4,
             "targets": [
                 "ground",
                 "air"
@@ -5064,7 +5064,7 @@
         {
             "name": "X-Bow",
             "id": 27000008,
-            "elixirCost": 5,
+            "elixirCost": 6,
             "targets": [
                 "ground",
                 "buildings"
