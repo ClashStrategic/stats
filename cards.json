@@ -1295,7 +1295,7 @@
                 }
             },
             "hitspeed": 1.7,
-            "radius": null,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -2331,7 +2331,7 @@
                 }
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -3692,7 +3692,7 @@
                 }
             },
             "hitspeed": 1.5,
-            "radius": null,
+            "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
