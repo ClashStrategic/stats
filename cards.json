@@ -2001,7 +2001,7 @@
                     "level15": 1409
                 }
             },
-            "hitspeed": 1.3,
+            "hitspeed": 0.4,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -2494,7 +2494,7 @@
                     "level15": 1864
                 }
             },
-            "hitspeed": 2.4,
+            "hitspeed": 0.9,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -3093,7 +3093,7 @@
                     "level15": 967
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4399,7 +4399,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.1,
+            "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4726,7 +4726,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.7,
+            "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": 11.0,
             "generationUnits": 3,
@@ -4944,7 +4944,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.3,
+            "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": 15.0,
             "generationUnits": 3,
@@ -5160,7 +5160,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": 4.0,
             "generationUnits": 2,
@@ -5269,7 +5269,7 @@
                     "level15": 1081
                 }
             },
-            "hitspeed": 1.4,
+            "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5324,7 +5324,7 @@
                     "level15": 2330
                 }
             },
-            "hitspeed": 1.1,
+            "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6253,7 +6253,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
