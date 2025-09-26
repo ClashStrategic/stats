@@ -49,7 +49,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -158,7 +158,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -212,7 +212,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -266,7 +266,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -320,7 +320,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -374,7 +374,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.1,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -483,7 +483,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.7,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -537,7 +537,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -591,7 +591,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -645,7 +645,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -699,7 +699,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -917,7 +917,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1026,7 +1026,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1081,7 +1081,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": 5.5,
+            "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1135,7 +1135,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1189,7 +1189,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -1407,7 +1407,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1516,7 +1516,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -1735,7 +1735,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": 2.0,
+            "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -1790,7 +1790,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 1.2,
             "territory": "wide",
             "rarity": "legendary",
             "type": "troop"
@@ -1952,7 +1952,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.7,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2006,7 +2006,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -2115,7 +2115,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -2170,7 +2170,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -2280,7 +2280,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2389,7 +2389,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2553,7 +2553,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2607,7 +2607,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2661,7 +2661,7 @@
             "generationSpeed": 5.0,
             "generationUnits": 2,
             "speed": "fast",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2716,7 +2716,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -2770,7 +2770,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2826,7 +2826,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -2936,7 +2936,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "common",
             "type": "troop"
@@ -3044,7 +3044,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -3207,7 +3207,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -3261,7 +3261,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3315,7 +3315,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -3369,7 +3369,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -3588,7 +3588,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3642,7 +3642,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3696,7 +3696,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
@@ -3750,7 +3750,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3859,7 +3859,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -3913,7 +3913,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4132,7 +4132,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -4187,7 +4187,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
-            "range": null,
+            "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -4242,7 +4242,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 6.0,
+            "range": 5.5,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4350,7 +4350,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.0,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
@@ -4460,7 +4460,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 5.5,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
@@ -4514,7 +4514,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": null,
+            "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
             "type": "troop"
@@ -4622,7 +4622,7 @@
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
-            "range": null,
+            "range": 0.8,
             "territory": "restricted",
             "rarity": "champion",
             "type": "troop"
