@@ -245,4 +245,32 @@ describe('Data Logic and Consistency Checks', () => {
     checkLevelBasedStats(card.statsEvo.damage);
     checkLevelBasedStats(card.statsEvo.hitpoints);
   });
+
+  test.each(allCards.filter(c => c.evolution))('Evolved card "$name" should have valid evolution stats based on type', (card) => {
+    const { statsEvo, type, units } = card;
+
+    // Universal checks for all evolved cards
+    expect(statsEvo).toBeDefined();
+    expect(statsEvo).not.toBeNull();
+
+    expect(statsEvo.cycles).not.toBeNull();
+    expect(Number.isInteger(statsEvo.cycles)).toBe(true);
+
+    expect(statsEvo.damage).not.toBeNull();
+    // level11 damage should always exist for evolved cards
+    expect(statsEvo.damage.level11).not.toBeNull();
+    expect(statsEvo.damage.level15).not.toBeNull();
+
+    if (type === 'spell' && units === 0) {
+      // For spells that don't spawn units, hitpoints stats are not expected
+      expect(statsEvo.hitpoints).not.toBeNull(); // The object should exist per schema
+      expect(statsEvo.hitpoints.level11).toBeNull();
+      expect(statsEvo.hitpoints.level15).toBeNull();
+    } else {
+      // For all other evolved cards (troops, buildings, unit-spawning spells), hitpoints are required
+      expect(statsEvo.hitpoints).not.toBeNull();
+      expect(statsEvo.hitpoints.level11).not.toBeNull();
+      expect(statsEvo.hitpoints.level15).not.toBeNull();
+    }
+  });
 });
