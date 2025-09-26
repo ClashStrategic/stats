@@ -2227,7 +2227,7 @@
             "speed": "very-fast",
             "range": 6.5,
             "territory": "restricted",
-            "rarity": "common",
+            "rarity": "rare",
             "type": "troop"
         },
         {
@@ -5167,7 +5167,7 @@
             "speed": null,
             "range": 2.0,
             "territory": "restricted",
-            "rarity": "common",
+            "rarity": "rare",
             "type": "building"
         },
         {
@@ -5713,7 +5713,7 @@
             "speed": null,
             "range": null,
             "territory": "restricted",
-            "rarity": "rare",
+            "rarity": "epic",
             "type": "spell"
         },
         {
