@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/ClashStrategic/stats/compare/v1.4.0...v1.4.1) (2025-09-26)
+
+
+### Bug Fixes
+
+* **spell-damage:** populate missing damage stats ([71afc3b](https://github.com/ClashStrategic/stats/commit/71afc3b304c72ac9d5c36e27326c927d58d7f895))
+* **stats-evo:** correct evolutionary stats for multiple cards ([c55e486](https://github.com/ClashStrategic/stats/commit/c55e486ad071ba7dbba3788ce0971c0a2fc611d2))
+* **vines:** populate missing card damage stats ([e997a3f](https://github.com/ClashStrategic/stats/commit/e997a3fa6d60fbdd74097c43c4ecd176051a47a1))
+
 # [1.4.0](https://github.com/ClashStrategic/stats/compare/v1.3.0...v1.4.0) (2025-09-26)
 
 
