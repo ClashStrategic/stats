@@ -1,3 +1,21 @@
+# [1.4.0](https://github.com/ClashStrategic/stats/compare/v1.3.0...v1.4.0) (2025-09-26)
+
+
+### Bug Fixes
+
+* **elixir-cost:** fix elixir costs for multiple cards ([f11a3a5](https://github.com/ClashStrategic/stats/commit/f11a3a50ec4b365f9953b6e20d9acb7a4fe65ed5))
+* **hitspeed:** update hitspeed values for multiple cards ([4667e7a](https://github.com/ClashStrategic/stats/commit/4667e7abd2ef57a00106e789888fcef094ec9659))
+* **projectile:** correct projectile property for cards ([b935f20](https://github.com/ClashStrategic/stats/commit/b935f2054f37bf4ce230179de817762c706b6dfa))
+* **radius:** set radius values for multiple cards ([31cda18](https://github.com/ClashStrategic/stats/commit/31cda1827ca10881c39b16ef7b4630946709bcce))
+* **range:** set range values for cards ([e20a58b](https://github.com/ClashStrategic/stats/commit/e20a58b7530cae627de8bc85326936e6483c9336))
+* **rarity:** update rarity for multiple cards ([871149a](https://github.com/ClashStrategic/stats/commit/871149a7cd51abe411439a7fb3d7bc3472b678e9))
+
+
+### Features
+
+* **baby-dragon-evo:** set evolution and statsEvo values for Baby Dragon ([60bfb08](https://github.com/ClashStrategic/stats/commit/60bfb08fe9b85467ab660decc7617a3ce5f88e65))
+* **vines:** add new card Vines ([41f1ba8](https://github.com/ClashStrategic/stats/commit/41f1ba81593b405a19b8f0aa2d98758423a566be))
+
 # [1.3.0](https://github.com/ClashStrategic/stats/compare/v1.2.2...v1.3.0) (2025-09-22)
 
 
