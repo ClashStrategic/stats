@@ -5684,12 +5684,12 @@
                 "level15": null
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null
+                "level11": 0,
+                "level15": 0
             },
             "damage": {
-                "level11": null,
-                "level15": null
+                "level11": 0,
+                "level15": 0
             },
             "hitpoints": {
                 "level11": null,
@@ -6068,12 +6068,12 @@
                 "level15": null
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null
+                "level11": 0,
+                "level15": 0
             },
             "damage": {
-                "level11": null,
-                "level15": null
+                "level11": 0,
+                "level15": 0
             },
             "hitpoints": {
                 "level11": null,
