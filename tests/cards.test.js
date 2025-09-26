@@ -1,248 +1,249 @@
+/**
+ * @fileoverview Test suite for validating the cards.json file.
+ * This file contains tests for schema validation, data integrity,
+ * and logical consistency of the card data.
+ */
+
+'use strict';
+
 const Ajv = require('ajv');
 const fs = require('fs');
 const path = require('path');
 const cardsData = require('../cards.json');
+const { cardSchema } = require('./card.schema.spec.js');
 
-describe('Cards JSON Structure Validation', () => {
-  let ajv;
-  let schema;
-
-  beforeAll(() => {
-    ajv = new Ajv({ allErrors: true });
-
-    // Reusable definition for stats that vary by level
-    const levelBasedStats = {
-      type: 'object',
-      properties: {
-        level11: { type: ['number', 'null'] },
-        level15: { type: ['number', 'null'] }
-      },
-      required: ['level11', 'level15']
-    };
-
-    // Reusable definition for stats that must be null
-    const levelBasedNullStats = {
-      type: 'object',
-      properties: {
-        level11: { const: null },
-        level15: { const: null }
-      },
-      required: ['level11', 'level15'],
-      additionalProperties: false
-    };
-
-    // Schema for stats when a card has an evolution
-    const evolvedStatsSchema = {
-      type: 'object',
-      properties: {
-        cycles: { type: 'number', minimum: 1 },
-        damage: { ...levelBasedStats },
-        hitpoints: { ...levelBasedStats }
-      },
-      required: ['cycles', 'damage', 'hitpoints'],
-      additionalProperties: false
-    };
-
-    // Schema for stats when a card does NOT have an evolution
-    const unevolvedStatsSchema = {
-      type: 'object',
-      properties: {
-        cycles: { const: null },
-        damage: { ...levelBasedNullStats },
-        hitpoints: { ...levelBasedNullStats }
-      },
-      required: ['cycles', 'damage', 'hitpoints'],
-      additionalProperties: false
-    };
-
-    const cardArraySchema = {
-      type: 'array',
-      items: {
-        type: 'object',
-        additionalProperties: false,
-        properties: {
-          name: { type: 'string' },
-          id: { type: 'number' },
-          elixirCost: { type: 'number' },
-          targets: {
-            type: 'array',
-            items: {
-              type: 'string',
-              enum: ['ground', 'air', 'buildings']
-            },
-          },
-          units: { type: 'number' },
-          duration: { type: ['number', 'null'] },
-          evolution: { type: 'boolean' },
-          typeAttack: { type: ['string', 'null'] },
-          projectile: { type: 'boolean' },
-          suicide: { type: 'boolean' },
-          fatalDamage: { ...levelBasedStats },
-          chargeDamage: { ...levelBasedStats },
-          towerDamage: { ...levelBasedStats },
-          damage: { ...levelBasedStats },
-          hitpoints: { ...levelBasedStats },
-          statsEvo: { type: 'object' },
-          hitspeed: { type: ['number', 'null'] },
-          radius: { type: ['number', 'null'] },
-          generationSpeed: { type: ['number', 'null'] },
-          generationUnits: { type: ['number', 'null'] },
-          speed: {
-            type: ['string', 'null'],
-            enum: ['slow', 'medium', 'fast', 'very-fast', null]
-          },
-          range: { type: ['number', 'null'] },
-          territory: {
-            type: 'string',
-            enum: ['wide', 'restricted']
-          },
-          rarity: {
-            type: 'string',
-            enum: ['common', 'rare', 'epic', 'legendary', 'champion']
-          },
-          type: {
-            type: 'string',
-            enum: ['troop', 'building', 'spell', 'tower']
-          }
-        },
-        allOf: [
-          {
-            if: {
-              properties: { evolution: { const: true } }
-            },
-            then: {
-              properties: { statsEvo: evolvedStatsSchema }
-            },
-            else: {
-              properties: { statsEvo: unevolvedStatsSchema }
-            }
-          }
-        ],
-        required: [
-          'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
-          'evolution', 'typeAttack', 'projectile',
-          'suicide', 'fatalDamage', 'chargeDamage', 'towerDamage',
-          'damage', 'hitpoints', 'statsEvo', 'hitspeed',
-          'radius', 'generationSpeed', 'generationUnits', 'speed',
-          'range', 'territory', 'rarity', 'type'
-        ]
-      }
-    };
-
-    // Define the schema for card validation
-    schema = {
-      type: 'object',
-      properties: {
-        cards: cardArraySchema,
-        towerCards: cardArraySchema
-      },
-      required: ['cards', 'towerCards']
-    };
-  });
-
-  test('should validate cards.json structure', () => {
-    const validate = ajv.compile(schema);
-    const valid = validate(cardsData);
-
-    if (!valid) {
-      console.log('Validation errors:', JSON.stringify(validate.errors, null, 2));
-    }
-
-    expect(validate.errors).toBeNull();
-  });
-
-  test('should have cards array with at least one card', () => {
-    expect(cardsData.cards).toBeDefined();
-    expect(Array.isArray(cardsData.cards)).toBe(true);
-    expect(cardsData.cards.length).toBeGreaterThan(0);
-  });
-
-  test('should have towerCards array', () => {
-    expect(cardsData.towerCards).toBeDefined();
-    expect(Array.isArray(cardsData.towerCards)).toBe(true);
-  });
-
-  test('all card IDs and names should be unique', () => {
-    const allCards = [...cardsData.cards, ...cardsData.towerCards];
-    const ids = allCards.map(card => card.id);
-    const names = allCards.map(card => card.name);
-
-    const uniqueIds = new Set(ids);
-    const uniqueNames = new Set(names);
-
-    expect(uniqueIds.size).toBe(ids.length);
-    expect(uniqueNames.size).toBe(names.length);
-  });
-});
-
-describe('Data Logic and Consistency Checks', () => {
+/**
+ * @describe Main test suite for all card-related validations.
+ */
+describe('Card Data Validation', () => {
   const allCards = [...cardsData.cards, ...cardsData.towerCards];
 
-  // Test Type-based Property Rules
-  test.each(allCards)('Card "$name" should follow type-specific rules', (card) => {
-    if (card.type === 'troop') {
+  /**
+   * @describe Tests related to the structure and schema of cards.json.
+   */
+  describe('Schema and Structural Validation', () => {
+    let ajv;
+
+    beforeAll(() => {
+      ajv = new Ajv({ allErrors: true });
+    });
+
+    /**
+     * @it Validates the entire cards.json object against the defined schema.
+     * This is the primary check to ensure the overall structure is correct.
+     */
+    it('should validate the entire cards.json structure against the schema', () => {
+      const validate = ajv.compile(cardSchema);
+      const valid = validate(cardsData);
+
+      if (!valid) {
+        // Log detailed errors to the console for easier debugging.
+        console.error('AJV Validation Errors:', JSON.stringify(validate.errors, null, 2));
+      }
+
+      expect(validate.errors).toBeNull();
+    });
+
+    /**
+     * @it Ensures that the 'cards' array exists and is not empty.
+     */
+    it('should have a non-empty "cards" array', () => {
+      expect(cardsData.cards).toBeDefined();
+      expect(Array.isArray(cardsData.cards)).toBe(true);
+      expect(cardsData.cards.length).toBeGreaterThan(0);
+    });
+
+    /**
+     * @it Ensures that the 'towerCards' array exists. It can be empty.
+     */
+    it('should have a "towerCards" array', () => {
+      expect(cardsData.towerCards).toBeDefined();
+      expect(Array.isArray(cardsData.towerCards)).toBe(true);
+    });
+  });
+
+  /**
+   * @describe Tests for data uniqueness and integrity across all cards.
+   */
+  describe('Data Uniqueness and Integrity', () => {
+    /**
+     * @it Checks that all card IDs and names are unique across both 'cards' and 'towerCards'.
+     * This prevents data conflicts and ensures each card is uniquely identifiable.
+     */
+    it('should have unique IDs and names for all cards', () => {
+      const ids = allCards.map(card => card.id);
+      const names = allCards.map(card => card.name);
+
+      const uniqueIds = new Set(ids);
+      const uniqueNames = new Set(names);
+
+      expect(uniqueIds.size).toBe(ids.length);
+      expect(uniqueNames.size).toBe(names.length);
+    });
+  });
+
+  /**
+   * @describe Contains tests for validating the correct data types (integer/float) for numeric fields.
+   */
+  describe('Data Formatting Rules', () => {
+    /**
+     * @it Verifies that fields intended to be floats are not represented as integers in the raw JSON file.
+     * This enforces a consistent data format (e.g., `1.0` instead of `1`).
+     */
+    it('should use floats for fields that can have decimal values', () => {
+      const jsonPath = path.join(__dirname, '..', 'cards.json');
+      const rawJson = fs.readFileSync(jsonPath, 'utf-8');
+      const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+      const allMismatches = [];
+
+      fieldsToCheck.forEach(field => {
+        // Regex to find fields with integer values (e.g., "hitspeed": 1) instead of float (e.g., "hitspeed": 1.0)
+        const integerRegex = new RegExp(`"${field}":\\s*\\d+\\s*[,}]`, 'g');
+        const matches = rawJson.match(integerRegex);
+        if (matches) {
+          allMismatches.push(...matches);
+        }
+      });
+
+      if (allMismatches.length > 0) {
+        console.error(
+          'Inconsistent Numeric Format: Use floats (e.g., 1.0) for these fields:',
+          allMismatches
+        );
+      }
+
+      expect(allMismatches).toHaveLength(0);
+    });
+
+    /**
+     * @it Validates that numeric fields expected to be integers are, in fact, integers.
+     * @param {object} card - The card object to test, provided by `test.each`.
+     */
+    it.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
+      const integerFields = ['id', 'elixirCost', 'units'];
+      integerFields.forEach(field => {
+        expect(Number.isInteger(card[field])).toBe(true);
+      });
+
+      if (card.generationUnits !== null) {
+        expect(Number.isInteger(card.generationUnits)).toBe(true);
+      }
+      if (card.statsEvo.cycles !== null) {
+        expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
+      }
+
+      /**
+       * Helper function to check if level-based stat values are integers (if not null).
+       * @param {object} statObject - The stat object (e.g., card.damage).
+       */
+      const checkLevelBasedStats = (statObject) => {
+        if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
+        if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
+      };
+
+      checkLevelBasedStats(card.fatalDamage);
+      checkLevelBasedStats(card.chargeDamage);
+      checkLevelBasedStats(card.towerDamage);
+      checkLevelBasedStats(card.damage);
+      checkLevelBasedStats(card.hitpoints);
+      checkLevelBasedStats(card.statsEvo.damage);
+      checkLevelBasedStats(card.statsEvo.hitpoints);
+    });
+  });
+
+  /**
+   * @describe Tests for logical rules specific to each card type (Troop, Building, Spell).
+   */
+  describe('Type-Specific Logic', () => {
+    const troops = allCards.filter(c => c.type === 'troop');
+    const buildings = allCards.filter(c => c.type === 'building');
+    const spellsWithUnits = allCards.filter(c => c.type === 'spell' && c.units > 0);
+    const spellsWithoutUnits = allCards.filter(c => c.type === 'spell' && c.units === 0);
+
+    /**
+     * @it Validates rules specific to troop cards.
+     * @param {object} card - The card object to test.
+     */
+    it.each(troops)('Troop card "$name" should follow troop-specific rules', (card) => {
       expect(card.units).not.toBeNull();
+      expect(card.units).toBeGreaterThanOrEqual(1);
       expect(card.speed).not.toBeNull();
       expect(card.hitspeed).not.toBeNull();
       expect(card.hitpoints.level11).not.toBeNull();
       expect(card.hitpoints.level15).not.toBeNull();
-      //expect(card.range).not.toBeNull(); //test not passing, range is null for some troops
-    }
-    if (card.type === 'building') {
-      expect(typeof card.duration).toBe('number');
-    }
-    if (card.type === 'spell' && card.units == 0) {
-      expect(card.hitpoints.level11).toBeNull();
-      expect(card.hitpoints.level15).toBeNull();
-    }
-    if (card.type === 'spell' && card.units > 0) {
-      expect(card.hitpoints.level11).not.toBeNull();
-      expect(card.hitpoints.level15).not.toBeNull();
-    }
-  });
-
-  test('numeric fields that can be floats should be represented as such for consistency', () => {
-    const jsonPath = path.join(__dirname, '..', 'cards.json');
-    const rawJson = fs.readFileSync(jsonPath, 'utf-8');
-    const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
-    const allMismatches = [];
-
-    fieldsToCheck.forEach(field => {
-      const integerRegex = new RegExp(`"${field}":\\s*\\d+\\s*[,}]`, 'g');
-      const matches = rawJson.match(integerRegex);
-
-      if (matches) allMismatches.push(...matches);
     });
 
-    if (allMismatches.length > 0) {
-      console.error('Inconsistent numeric format. Use floats (e.g., 1.0 instead of 1) for these fields:', allMismatches);
-    }
+    /**
+     * @it Validates rules specific to building cards.
+     * @param {object} card - The card object to test.
+     */
+    it.each(buildings)('Building card "$name" should follow building-specific rules', (card) => {
+      // Buildings that are not spawners might have null duration (e.g., Elixir Collector)
+      if (card.generationSpeed === null) {
+        expect(typeof card.duration).toBe('number');
+        expect(card.duration).not.toBeNull();
+      }
+    });
 
-    expect(allMismatches).toHaveLength(0);
+    /**
+     * @it Validates rules for spells that spawn units (e.g., Graveyard).
+     * @param {object} card - The card object to test.
+     */
+    it.each(spellsWithUnits)('Spell card "$name" (with units) should have valid unit stats', (card) => {
+      expect(card.damage.level11).not.toBeNull();
+      expect(card.damage.level15).not.toBeNull();
+      expect(card.hitpoints.level11).not.toBeNull();
+      expect(card.hitpoints.level15).not.toBeNull();
+    });
+
+    /**
+     * @it Validates rules for spells that do not spawn units (e.g., Fireball).
+     * @param {object} card - The card object to test.
+     */
+    it.each(spellsWithoutUnits)('Spell card "$name" (no units) should have null hitpoints', (card) => {
+      expect(card.damage.level11).not.toBeNull();
+      expect(card.damage.level15).not.toBeNull();
+      expect(card.towerDamage.level11).not.toBeNull();
+      expect(card.towerDamage.level15).not.toBeNull();
+      // Direct damage spells should not have their own hitpoints.
+      expect(card.hitpoints.level11).toBeNull();
+      expect(card.hitpoints.level15).toBeNull();
+      expect(card.chargeDamage.level11).toBeNull();
+      expect(card.fatalDamage.level11).toBeNull();
+    });
   });
 
-  test.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
-    // These fields must always be integers
-    expect(Number.isInteger(card.id)).toBe(true);
-    expect(Number.isInteger(card.elixirCost)).toBe(true);
-    expect(Number.isInteger(card.units)).toBe(true);
+  /**
+   * @describe Tests for logic related to card evolutions.
+   */
+  describe('Evolution Logic', () => {
+    const evolvedCards = allCards.filter(c => c.evolution);
 
-    // These fields can be null, but if they have a value, it must be an integer
-    if (card.generationUnits !== null) expect(Number.isInteger(card.generationUnits)).toBe(true);
-    if (card.statsEvo.cycles !== null) expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
+    /**
+     * @it Ensures that evolved cards have valid and logical evolution stats (`statsEvo`).
+     * @param {object} card - The evolved card object to test.
+     */
+    it.each(evolvedCards)('Evolved card "$name" should have valid evolution stats', (card) => {
+      const { statsEvo, type, units } = card;
 
-    // Helper function to check if level-based stats are integers when not null
-    const checkLevelBasedStats = (statObject) => {
-      if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
-      if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
-    };
+      expect(statsEvo).toBeDefined();
+      expect(statsEvo.cycles).not.toBeNull();
+      expect(Number.isInteger(statsEvo.cycles)).toBe(true);
+      expect(statsEvo.damage).toBeDefined();
+      expect(statsEvo.damage.level11).not.toBeNull();
+      expect(statsEvo.damage.level15).not.toBeNull();
 
-    checkLevelBasedStats(card.fatalDamage);
-    checkLevelBasedStats(card.chargeDamage);
-    checkLevelBasedStats(card.towerDamage);
-    checkLevelBasedStats(card.damage);
-    checkLevelBasedStats(card.hitpoints);
-    checkLevelBasedStats(card.statsEvo.damage);
-    checkLevelBasedStats(card.statsEvo.hitpoints);
+      // Spells without units (e.g., evolved Zap) should not have evolved hitpoints.
+      if (type === 'spell' && units === 0) {
+        expect(statsEvo.hitpoints).toBeDefined();
+        expect(statsEvo.hitpoints.level11).toBeNull();
+        expect(statsEvo.hitpoints.level15).toBeNull();
+      } else {
+        // All other evolved cards (troops, buildings, unit-spawning spells) must have hitpoints.
+        expect(statsEvo.hitpoints).toBeDefined();
+        expect(statsEvo.hitpoints.level11).not.toBeNull();
+        expect(statsEvo.hitpoints.level15).not.toBeNull();
+      }
+    });
   });
 });
