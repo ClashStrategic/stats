@@ -6537,6 +6537,61 @@
             "territory": "restricted",
             "rarity": "legendary",
             "type": "troop"
+        },
+        {
+            "name": "Vines",
+            "id": 28000026,
+            "elixirCost": 3,
+            "targets": [
+                "ground",
+                "air"
+            ],
+            "units": 0,
+            "duration": 2.5,
+            "evolution": false,
+            "typeAttack": "splash",
+            "projectile": false,
+            "suicide": false,
+            "fatalDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "chargeDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "towerDamage": {
+                "level11": null,
+                "level15": null
+            },
+            "damage": {
+                "level11": null,
+                "level15": null
+            },
+            "hitpoints": {
+                "level11": null,
+                "level15": null
+            },
+            "statsEvo": {
+                "cycles": null,
+                "damage": {
+                    "level11": null,
+                    "level15": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level15": null
+                }
+            },
+            "hitspeed": null,
+            "radius": 2.5,
+            "generationSpeed": null,
+            "generationUnits": null,
+            "speed": null,
+            "range": null,
+            "territory": "wide",
+            "rarity": "epic",
+            "type": "spell"
         }
     ],
     "towerCards": [
