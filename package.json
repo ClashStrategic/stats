@@ -23,6 +23,8 @@
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "@semantic-release/github": "^11.0.2",
+        "@types/ajv": "^0.0.5",
+        "@types/jest": "^30.0.0",
         "ajv": "^8.17.1",
         "jest": "^30.0.4",
         "jest-environment-jsdom": "^30.0.4",
