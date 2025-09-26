@@ -180,8 +180,10 @@ describe('Data Logic and Consistency Checks', () => {
 
   // Test Type-based Property Rules
   test.each(allCards)('Card "$name" should follow type-specific rules', (card) => {
+
     if (card.type === 'troop') {
       expect(card.units).not.toBeNull();
+      expect(card.units).toBeGreaterThanOrEqual(1);
       expect(card.speed).not.toBeNull();
       expect(card.hitspeed).not.toBeNull();
       expect(card.hitpoints.level11).not.toBeNull();
@@ -190,14 +192,7 @@ describe('Data Logic and Consistency Checks', () => {
     }
     if (card.type === 'building') {
       expect(typeof card.duration).toBe('number');
-    }
-    if (card.type === 'spell' && card.units == 0) {
-      expect(card.hitpoints.level11).toBeNull();
-      expect(card.hitpoints.level15).toBeNull();
-    }
-    if (card.type === 'spell' && card.units > 0) {
-      expect(card.hitpoints.level11).not.toBeNull();
-      expect(card.hitpoints.level15).not.toBeNull();
+      expect(card.duration).not.toBeNull();
     }
   });
 
@@ -244,6 +239,32 @@ describe('Data Logic and Consistency Checks', () => {
     checkLevelBasedStats(card.hitpoints);
     checkLevelBasedStats(card.statsEvo.damage);
     checkLevelBasedStats(card.statsEvo.hitpoints);
+  });
+
+  describe('Spell Cards - No Units', () => {
+    const spellCardsNoUnits = allCards.filter(c => c.type === 'spell' && c.units === 0);
+    test.each(spellCardsNoUnits)('"$name" should have correct properties for a spell with no units', (card) => {
+      expect(card.damage.level11).not.toBeNull();
+      expect(card.damage.level15).not.toBeNull();
+      expect(card.hitpoints.level11).toBeNull();
+      expect(card.hitpoints.level15).toBeNull();
+      expect(card.chargeDamage.level11).toBeNull();
+      expect(card.chargeDamage.level15).toBeNull();
+      expect(card.fatalDamage.level11).toBeNull();
+      expect(card.fatalDamage.level15).toBeNull();
+      expect(card.towerDamage.level11).not.toBeNull();
+      expect(card.towerDamage.level15).not.toBeNull();
+    });
+  });
+
+  describe('Spell Cards - With Units', () => {
+    const spellCardsWithUnits = allCards.filter(c => c.type === 'spell' && c.units > 0);
+    test.each(spellCardsWithUnits)('"$name" should have correct properties for a spell that spawns units', (card) => {
+      expect(card.damage.level11).not.toBeNull();
+      expect(card.damage.level15).not.toBeNull();
+      expect(card.hitpoints.level11).not.toBeNull();
+      expect(card.hitpoints.level15).not.toBeNull();
+    });
   });
 
   test.each(allCards.filter(c => c.evolution))('Evolved card "$name" should have valid evolution stats based on type', (card) => {
