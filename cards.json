@@ -5667,7 +5667,7 @@
         {
             "name": "Mirror",
             "id": 28000006,
-            "elixirCost": 0,
+            "elixirCost": 1,
             "targets": [],
             "units": 0,
             "duration": null,
