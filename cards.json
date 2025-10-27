@@ -1911,7 +1911,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": null,
+            "duration": 0.05,
             "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
@@ -2074,7 +2074,7 @@
                 "buildings"
             ],
             "units": 1,
-            "duration": null,
+            "duration": 1.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -2294,7 +2294,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": null,
+            "duration": 0.001,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": true,
@@ -4363,7 +4363,7 @@
                 "buildings"
             ],
             "units": 2,
-            "duration": null,
+            "duration": 1.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5453,7 +5453,7 @@
                 "air"
             ],
             "units": 0,
-            "duration": 5.5,
+            "duration": 4.5,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -5780,7 +5780,7 @@
                 "air"
             ],
             "units": 0,
-            "duration": null,
+            "duration": 0.001,
             "evolution": true,
             "typeAttack": "splash",
             "projectile": true,
@@ -5890,7 +5890,7 @@
                 "ground"
             ],
             "units": 19,
-            "duration": 9.5,
+            "duration": 9.0,
             "evolution": false,
             "typeAttack": "unique",
             "projectile": false,
@@ -5999,7 +5999,7 @@
                 "air"
             ],
             "units": 0,
-            "duration": 1.1,
+            "duration": 1.05,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": true,
@@ -6327,7 +6327,7 @@
                 "air"
             ],
             "units": 1,
-            "duration": null,
+            "duration": 2.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": false,
@@ -6547,7 +6547,7 @@
                 "air"
             ],
             "units": 0,
-            "duration": 2.5,
+            "duration": 2.0,
             "evolution": false,
             "typeAttack": "splash",
             "projectile": false,
