@@ -586,7 +586,7 @@
                     "level15": 119
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -694,7 +694,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 1.0,
+            "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4563,7 +4563,7 @@
                     "level15": null
                 }
             },
-            "hitspeed": 0.5,
+            "hitspeed": 0.6,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
