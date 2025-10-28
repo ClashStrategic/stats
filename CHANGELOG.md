@@ -1,3 +1,22 @@
+# [1.5.0](https://github.com/ClashStrategic/stats/compare/v1.4.1...v1.5.0) (2025-10-28)
+
+
+### Bug Fixes
+
+* **cards:** correct projectile status for multiple cards ([ff47542](https://github.com/ClashStrategic/stats/commit/ff47542b5254edd4182fa078012590bb3326a765))
+* **cards:** update damage and hitpoint values ([71a9141](https://github.com/ClashStrategic/stats/commit/71a914189e2666580d9ad37fc5049bc864cc9d64))
+* **cards:** update hitspeed for multiple cards ([ec8c2f4](https://github.com/ClashStrategic/stats/commit/ec8c2f458416d9972b36427fad6665e14a4ff858))
+* **cards:** update hitspeed for multiple cards ([e4fe536](https://github.com/ClashStrategic/stats/commit/e4fe5366a66cd89731684bdca1f6503450658fc6))
+* **cards:** update mirror card elixir cost ([5aae5a3](https://github.com/ClashStrategic/stats/commit/5aae5a334a42068f91f818e1135586a0cb2babbf))
+* **cards:** update multiple card durations ([94e2bab](https://github.com/ClashStrategic/stats/commit/94e2babe502fc434852e31098115762380465f87))
+* **cards:** update multiple card evolution stats ([8a53da3](https://github.com/ClashStrategic/stats/commit/8a53da37cab68258dbc9265e40b291f8ee996657))
+* **cards:** update various stats for multiple cards ([32810e3](https://github.com/ClashStrategic/stats/commit/32810e338e019a3511fd42b0dbcd414af5fb1e71))
+
+
+### Features
+
+* **cards:** activate evolution for two card types ([ea6f33c](https://github.com/ClashStrategic/stats/commit/ea6f33cdecde4af7d39ca6b50f2a2fcc6fad7f46))
+
 ## [1.4.1](https://github.com/ClashStrategic/stats/compare/v1.4.0...v1.4.1) (2025-09-26)
 
 
