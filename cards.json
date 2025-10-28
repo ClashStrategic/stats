@@ -659,7 +659,7 @@
             ],
             "units": 15,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -684,14 +684,14 @@
                 "level15": 119
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 82,
+                    "level15": 119
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 82,
+                    "level15": 119
                 }
             },
             "hitspeed": 1.1,
@@ -2730,7 +2730,7 @@
             ],
             "units": 1,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -2755,14 +2755,14 @@
                 "level15": 1760
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 261,
+                    "level15": 379
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 1211,
+                    "level15": 1760
                 }
             },
             "hitspeed": 1.8,
