@@ -6677,8 +6677,8 @@
                 "level15": null
             },
             "damage": {
-                "level11": 386,
-                "level15": 561
+                "level11": 273,
+                "level15": 395
             },
             "hitpoints": {
                 "level11": 2616,
@@ -6732,11 +6732,11 @@
                 "level15": null
             },
             "damage": {
-                "level11": 107,
-                "level15": 156
+                "level11": 92,
+                "level15": 133
             },
             "hitpoints": {
-                "level11": 2768,
+                "level11": 2769,
                 "level15": 4013
             },
             "statsEvo": {
@@ -6791,8 +6791,8 @@
                 "level15": 158
             },
             "hitpoints": {
-                "level11": 2921,
-                "level15": 4234
+                "level11": 2703,
+                "level15": 3918
             },
             "statsEvo": {
                 "cycles": null,
