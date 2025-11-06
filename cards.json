@@ -3221,7 +3221,7 @@
             ],
             "units": 4,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3246,14 +3246,14 @@
                 "level15": 1216
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 74,
+                    "level15": 108
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 837,
+                    "level15": 1216
                 }
             },
             "hitspeed": 1.2,
