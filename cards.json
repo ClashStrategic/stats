@@ -276,6 +276,7 @@
             "id": 26000005,
             "elixirCost": 3,
             "targets": [
+                "ground",
                 "air"
             ],
             "units": 3,
@@ -2913,8 +2914,8 @@
                 "level15": null
             },
             "damage": {
-                "level11": 205,
-                "level15": 298
+                "level11": 218,
+                "level15": 316
             },
             "hitpoints": {
                 "level11": 1940,
@@ -3184,8 +3185,8 @@
                 "level15": null
             },
             "damage": {
-                "level11": 392,
-                "level15": 569
+                "level11": 351,
+                "level15": 510
             },
             "hitpoints": {
                 "level11": 330,
@@ -3194,8 +3195,8 @@
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": 392,
-                    "level15": 569
+                    "level11": 351,
+                    "level15": 510
                 },
                 "hitpoints": {
                     "level11": 330,
@@ -3221,7 +3222,7 @@
             ],
             "units": 4,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3246,14 +3247,14 @@
                 "level15": 1216
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 2,
                 "damage": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 74,
+                    "level15": 108
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null
+                    "level11": 837,
+                    "level15": 1216
                 }
             },
             "hitspeed": 1.2,
