@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/ClashStrategic/stats/compare/v1.5.0...v1.6.0) (2025-11-07)
+
+
+### Bug Fixes
+
+* **cards:** update stats for multiple cards ([686d4fe](https://github.com/ClashStrategic/stats/commit/686d4feaa0b6fe40046dcd6a2cf59ae785bc59fb))
+* **cards:** update stats for multiple cards ([b07e409](https://github.com/ClashStrategic/stats/commit/b07e409e648085638a0a47269aafaee3a5f6fdc2))
+
+
+### Features
+
+* **evolution:** enable evolution for Royal Hogs ([bc57242](https://github.com/ClashStrategic/stats/commit/bc57242882ac30baedd5fcf33562193df85d729b))
+
 # [1.5.0](https://github.com/ClashStrategic/stats/compare/v1.4.1...v1.5.0) (2025-10-28)
 
 
