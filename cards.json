@@ -276,6 +276,7 @@
             "id": 26000005,
             "elixirCost": 3,
             "targets": [
+                "ground",
                 "air"
             ],
             "units": 3,
@@ -1533,7 +1534,7 @@
             "duration": null,
             "evolution": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
