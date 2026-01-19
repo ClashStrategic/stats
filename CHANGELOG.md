@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/ClashStrategic/stats/compare/v1.6.0...v1.7.0) (2026-01-19)
+
+
+### Bug Fixes
+
+* **cards:** update balance and damage statistics ([0bae1a9](https://github.com/ClashStrategic/stats/commit/0bae1a993e65e3c323c30ebf84371b9e9a1ccf0a))
+
+
+### Features
+
+* **level16:** add level 16 statistics ([f40265f](https://github.com/ClashStrategic/stats/commit/f40265f9493ba87380a6394b72e80548df3a5067))
+
 # [1.6.0](https://github.com/ClashStrategic/stats/compare/v1.5.0...v1.6.0) (2025-11-07)
 
 
