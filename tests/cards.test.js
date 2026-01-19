@@ -139,6 +139,7 @@ describe('Card Data Validation', () => {
       const checkLevelBasedStats = (statObject) => {
         if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
         if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
+        if (statObject.level16 !== null) expect(Number.isInteger(statObject.level16)).toBe(true);
       };
 
       checkLevelBasedStats(card.fatalDamage);
@@ -171,6 +172,7 @@ describe('Card Data Validation', () => {
       expect(card.hitspeed).not.toBeNull();
       expect(card.hitpoints.level11).not.toBeNull();
       expect(card.hitpoints.level15).not.toBeNull();
+      expect(card.hitpoints.level16).not.toBeNull();
     });
 
     /**
@@ -192,8 +194,10 @@ describe('Card Data Validation', () => {
     it.each(spellsWithUnits)('Spell card "$name" (with units) should have valid unit stats', (card) => {
       expect(card.damage.level11).not.toBeNull();
       expect(card.damage.level15).not.toBeNull();
+      expect(card.damage.level16).not.toBeNull();
       expect(card.hitpoints.level11).not.toBeNull();
       expect(card.hitpoints.level15).not.toBeNull();
+      expect(card.hitpoints.level16).not.toBeNull();
     });
 
     /**
@@ -203,11 +207,14 @@ describe('Card Data Validation', () => {
     it.each(spellsWithoutUnits)('Spell card "$name" (no units) should have null hitpoints', (card) => {
       expect(card.damage.level11).not.toBeNull();
       expect(card.damage.level15).not.toBeNull();
+      expect(card.damage.level16).not.toBeNull();
       expect(card.towerDamage.level11).not.toBeNull();
       expect(card.towerDamage.level15).not.toBeNull();
+      expect(card.towerDamage.level16).not.toBeNull();
       // Direct damage spells should not have their own hitpoints.
       expect(card.hitpoints.level11).toBeNull();
       expect(card.hitpoints.level15).toBeNull();
+      expect(card.hitpoints.level16).toBeNull();
       expect(card.chargeDamage.level11).toBeNull();
       expect(card.fatalDamage.level11).toBeNull();
     });
@@ -232,17 +239,20 @@ describe('Card Data Validation', () => {
       expect(statsEvo.damage).toBeDefined();
       expect(statsEvo.damage.level11).not.toBeNull();
       expect(statsEvo.damage.level15).not.toBeNull();
+      expect(statsEvo.damage.level16).not.toBeNull();
 
       // Spells without units (e.g., evolved Zap) should not have evolved hitpoints.
       if (type === 'spell' && units === 0) {
         expect(statsEvo.hitpoints).toBeDefined();
         expect(statsEvo.hitpoints.level11).toBeNull();
         expect(statsEvo.hitpoints.level15).toBeNull();
+        expect(statsEvo.hitpoints.level16).toBeNull();
       } else {
         // All other evolved cards (troops, buildings, unit-spawning spells) must have hitpoints.
         expect(statsEvo.hitpoints).toBeDefined();
         expect(statsEvo.hitpoints.level11).not.toBeNull();
         expect(statsEvo.hitpoints.level15).not.toBeNull();
+        expect(statsEvo.hitpoints.level16).not.toBeNull();
       }
     });
   });
