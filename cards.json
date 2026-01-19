@@ -15,33 +15,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 202,
-                "level15": 294
+                "level15": 294,
+                "level16": 323
             },
             "hitpoints": {
                 "level11": 1766,
-                "level15": 2567
+                "level15": 2567,
+                "level16": 2822
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 202,
-                    "level15": 294
+                    "level15": 294,
+                    "level16": 323
                 },
                 "hitpoints": {
                     "level11": 1766,
-                    "level15": 2567
+                    "level15": 2567,
+                    "level16": 2822
                 }
             },
             "hitspeed": 1.2,
@@ -70,33 +77,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 113,
-                "level15": 164
+                "level15": 164,
+                "level16": 180
             },
             "hitpoints": {
                 "level11": 305,
-                "level15": 443
+                "level15": 443,
+                "level16": 487
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 113,
-                    "level15": 164
+                    "level15": 164,
+                    "level16": 180
                 },
                 "hitpoints": {
                     "level11": 305,
-                    "level15": 443
+                    "level15": 443,
+                    "level16": 487
                 }
             },
             "hitspeed": 0.9,
@@ -124,33 +138,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 120,
-                "level15": 175
+                "level15": 175,
+                "level16": 192
             },
             "hitpoints": {
                 "level11": 202,
-                "level15": 294
+                "level15": 294,
+                "level16": 323
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -178,33 +199,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 253,
-                "level15": 368
+                "level15": 368,
+                "level16": 405
             },
             "hitpoints": {
                 "level11": 4091,
-                "level15": 5945
+                "level15": 5945,
+                "level16": 6536
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.5,
@@ -232,33 +260,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 817,
-                "level15": 1187
+                "level15": 1187,
+                "level16": 1305
             },
             "hitpoints": {
                 "level11": 3761,
-                "level15": 5465
+                "level15": 5465,
+                "level16": 6008
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 817,
-                    "level15": 1187
+                    "level15": 1187,
+                    "level16": 1305
                 },
                 "hitpoints": {
                     "level11": 3761,
-                    "level15": 5465
+                    "level15": 5465,
+                    "level16": 6008
                 }
             },
             "hitspeed": 1.8,
@@ -287,33 +322,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 108,
-                "level15": 156
+                "level15": 156,
+                "level16": 172
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 335
+                "level15": 335,
+                "level16": 368
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -341,33 +383,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 241,
-                "level15": 350
+                "level15": 350,
+                "level16": 384
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 640,
-                "level15": 930
+                "level15": 930,
+                "level16": 1023
             },
             "hitpoints": {
                 "level11": 1679,
-                "level15": 2440
+                "level15": 2440,
+                "level16": 2683
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.0,
@@ -396,33 +445,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 136,
-                "level15": 197
+                "level15": 197,
+                "level16": 217
             },
             "hitpoints": {
                 "level11": 840,
-                "level15": 1220
+                "level15": 1220,
+                "level16": 1342
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 136,
-                    "level15": 197
+                    "level15": 197,
+                    "level16": 217
                 },
                 "hitpoints": {
                     "level11": 840,
-                    "level15": 1220
+                    "level15": 1220,
+                    "level16": 1342
                 }
             },
             "hitspeed": 1.1,
@@ -450,33 +506,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 192,
-                "level15": 279
+                "level15": 279,
+                "level16": 307
             },
             "hitpoints": {
                 "level11": 671,
-                "level15": 975
+                "level15": 975,
+                "level16": 1072
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 192,
-                    "level15": 279
+                    "level15": 279,
+                    "level16": 307
                 },
                 "hitpoints": {
                     "level11": 737,
-                    "level15": 1071
+                    "level15": 1071,
+                    "level16": 1178
                 }
             },
             "hitspeed": 1.3,
@@ -504,33 +567,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 225,
-                "level15": 327
+                "level15": 327,
+                "level16": 360
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 312,
-                "level15": 454
+                "level15": 454,
+                "level16": 499
             },
             "hitpoints": {
                 "level11": 5120,
-                "level15": 7440
+                "level15": 7440,
+                "level16": 8180
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.5,
@@ -558,33 +628,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "hitpoints": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 82,
-                    "level15": 119
+                    "level15": 119,
+                    "level16": 131
                 },
                 "hitpoints": {
                     "level11": 82,
-                    "level15": 119
+                    "level15": 119,
+                    "level16": 131
                 }
             },
             "hitspeed": 1.1,
@@ -612,33 +689,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 266,
-                "level15": 387
+                "level15": 387,
+                "level16": 425
             },
             "hitpoints": {
                 "level11": 1907,
-                "level15": 2771
+                "level15": 2771,
+                "level16": 3047
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 266,
-                    "level15": 387
+                    "level15": 387,
+                    "level16": 425
                 },
                 "hitpoints": {
                     "level11": 1907,
-                    "level15": 2771
+                    "level15": 2771,
+                    "level16": 3047
                 }
             },
             "hitspeed": 1.5,
@@ -666,33 +750,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "hitpoints": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 82,
-                    "level15": 119
+                    "level15": 119,
+                    "level16": 131
                 },
                 "hitpoints": {
                     "level11": 82,
-                    "level15": 119
+                    "level15": 119,
+                    "level16": 131
                 }
             },
             "hitspeed": 1.1,
@@ -720,33 +811,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 225,
-                "level15": 327
+                "level15": 327,
+                "level16": 360
             },
             "hitpoints": {
                 "level11": 305,
-                "level15": 443
+                "level15": 443,
+                "level16": 487
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 225,
-                    "level15": 327
+                    "level15": 327,
+                    "level16": 360
                 },
                 "hitpoints": {
                     "level11": 305,
-                    "level15": 443
+                    "level15": 443,
+                    "level16": 487
                 }
             },
             "hitspeed": 1.8,
@@ -775,33 +873,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 218,
-                "level15": 316
+                "level15": 316,
+                "level16": 348
             },
             "hitpoints": {
                 "level11": 722,
-                "level15": 1049
+                "level15": 1049,
+                "level16": 1153
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 218,
-                    "level15": 316
+                    "level15": 316,
+                    "level16": 348
                 },
                 "hitpoints": {
                     "level11": 722,
-                    "level15": 1049
+                    "level15": 1049,
+                    "level16": 1153
                 }
             },
             "hitspeed": 1.0,
@@ -830,33 +935,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 161,
-                "level15": 234
+                "level15": 234,
+                "level16": 258
             },
             "hitpoints": {
                 "level11": 1152,
-                "level15": 1674
+                "level15": 1674,
+                "level16": 1841
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 161,
-                    "level15": 234
+                    "level15": 234,
+                    "level16": 258
                 },
                 "hitpoints": {
                     "level11": 1152,
-                    "level15": 1674
+                    "level15": 1674,
+                    "level16": 1841
                 }
             },
             "hitspeed": 1.5,
@@ -884,33 +996,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": 783,
-                "level15": 1138
+                "level15": 1138,
+                "level16": 1252
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 392,
-                "level15": 569
+                "level15": 569,
+                "level16": 626
             },
             "hitpoints": {
                 "level11": 1920,
-                "level15": 2790
+                "level15": 2790,
+                "level16": 3068
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.4,
@@ -939,33 +1058,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 282,
-                "level15": 409
+                "level15": 409,
+                "level16": 450
             },
             "hitpoints": {
                 "level11": 755,
-                "level15": 1097
+                "level15": 1097,
+                "level16": 1207
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 282,
-                    "level15": 409
+                    "level15": 409,
+                    "level16": 450
                 },
                 "hitpoints": {
                     "level11": 755,
-                    "level15": 1097
+                    "level15": 1097,
+                    "level16": 1207
                 }
             },
             "hitspeed": 1.4,
@@ -993,33 +1119,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 755,
-                "level15": 1097
+                "level15": 1097,
+                "level16": 1207
             },
             "hitpoints": {
                 "level11": 1434,
-                "level15": 2083
+                "level15": 2083,
+                "level16": 2290
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.6,
@@ -1048,33 +1181,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "hitpoints": {
                 "level11": 133,
-                "level15": 193
+                "level15": 193,
+                "level16": 213
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.7,
@@ -1102,33 +1242,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 535,
-                "level15": 777
+                "level15": 777,
+                "level16": 855
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 276,
-                "level15": 402
+                "level15": 402,
+                "level16": 442
             },
             "hitpoints": {
                 "level11": 3617,
-                "level15": 5256
+                "level15": 5256,
+                "level16": 5779
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.4,
@@ -1156,33 +1303,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 317,
-                "level15": 461
+                "level15": 461,
+                "level16": 507
             },
             "hitpoints": {
                 "level11": 1697,
-                "level15": 2466
+                "level15": 2466,
+                "level16": 2712
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.6,
@@ -1211,33 +1365,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 108,
-                "level15": 156
+                "level15": 156,
+                "level16": 172
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 335
+                "level15": 335,
+                "level16": 368
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -1266,33 +1427,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
-                "level11": 84,
-                "level15": 123
+                "level11": 90,
+                "level15": 130,
+                "level16": 143
             },
             "hitpoints": {
                 "level11": 689,
-                "level15": 1003
+                "level15": 1001,
+                "level16": 1100
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.7,
@@ -1320,33 +1488,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 307,
-                "level15": 446
+                "level15": 446,
+                "level16": 491
             },
             "hitpoints": {
                 "level11": 3164,
-                "level15": 4598
+                "level15": 4598,
+                "level16": 5055
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 307,
-                    "level15": 446
+                    "level15": 446,
+                    "level16": 491
                 },
                 "hitpoints": {
                     "level11": 3164,
-                    "level15": 4598
+                    "level15": 4598,
+                    "level16": 5055
                 }
             },
             "hitspeed": 1.7,
@@ -1374,33 +1549,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 118,
-                "level15": 171
+                "level15": 171,
+                "level16": 188
             },
             "hitpoints": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -1429,33 +1611,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 168,
-                "level15": 245
+                "level15": 245,
+                "level16": 268
             },
             "hitpoints": {
                 "level11": 261,
-                "level15": 379
+                "level15": 379,
+                "level16": 417
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 3.0,
@@ -1483,33 +1672,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": 532,
-                "level15": 774
+                "level15": 774,
+                "level16": 851
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 266,
-                "level15": 387
+                "level15": 387,
+                "level16": 425
             },
             "hitpoints": {
                 "level11": 1201,
-                "level15": 1745
+                "level15": 1745,
+                "level16": 1918
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -1538,33 +1734,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 218,
-                "level15": 316
+                "level15": 316,
+                "level16": 348
             },
             "hitpoints": {
                 "level11": 722,
-                "level15": 1049
+                "level15": 1049,
+                "level16": 1154
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -1592,33 +1795,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 54,
-                "level15": 78
+                "level15": 78,
+                "level16": 86
             },
             "hitpoints": {
                 "level11": 3581,
-                "level15": 5204
+                "level15": 5204,
+                "level16": 5722
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -1647,33 +1857,40 @@
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 110,
-                "level15": 160
+                "level15": 160,
+                "level16": 176
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 335
+                "level15": 335,
+                "level16": 368
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 110,
-                    "level15": 160
+                    "level15": 160,
+                    "level16": 176
                 },
                 "hitpoints": {
                     "level11": 230,
-                    "level15": 335
+                    "level15": 335,
+                    "level16": 368
                 }
             },
             "hitspeed": 0.3,
@@ -1702,33 +1919,40 @@
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 207,
-                "level15": 301
+                "level15": 301,
+                "level16": 331
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 335
+                "level15": 335,
+                "level16": 368
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.3,
@@ -1757,33 +1981,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 49,
-                "level15": 71
+                "level15": 71,
+                "level16": 78
             },
             "damage": {
                 "level11": 195,
-                "level15": 283
+                "level15": 283,
+                "level16": 311
             },
             "hitpoints": {
                 "level11": 1211,
-                "level15": 1760
+                "level15": 1760,
+                "level16": 1935
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -1811,33 +2042,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 1331,
-                "level15": 1934
+                "level15": 1934,
+                "level16": 2127
             },
             "hitpoints": {
                 "level11": 1452,
-                "level15": 2109
+                "level15": 2109,
+                "level16": 2319
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 4.0,
@@ -1865,33 +2103,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 289,
-                "level15": 420
+                "level15": 420,
+                "level16": 462
             },
             "hitpoints": {
                 "level11": 2081,
-                "level15": 3024
+                "level15": 3024,
+                "level16": 3325
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.5,
@@ -1919,33 +2164,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 256,
-                "level15": 372
+                "level15": 372,
+                "level16": 409
             },
             "hitpoints": {
                 "level11": 1283,
-                "level15": 1864
+                "level15": 1864,
+                "level16": 2049
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 256,
-                    "level15": 372
+                    "level15": 372,
+                    "level16": 409
                 },
                 "hitpoints": {
                     "level11": 1283,
-                    "level15": 1864
+                    "level15": 1864,
+                    "level16": 2049
                 }
             },
             "hitspeed": 0.8,
@@ -1973,33 +2225,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": 573,
-                "level15": 833
+                "level15": 833,
+                "level16": 916
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 287,
-                "level15": 417
+                "level15": 417,
+                "level16": 458
             },
             "hitpoints": {
                 "level11": 968,
-                "level15": 1406
+                "level15": 1406,
+                "level16": 1546
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 287,
-                    "level15": 417
+                    "level15": 417,
+                    "level16": 458
                 },
                 "hitpoints": {
                     "level11": 968,
-                    "level15": 1406
+                    "level15": 1406,
+                    "level16": 1546
                 }
             },
             "hitspeed": 0.4,
@@ -2028,33 +2287,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 36,
-                "level15": 52
+                "level15": 52,
+                "level16": 57
             },
             "hitpoints": {
                 "level11": 1295,
-                "level15": 1882
+                "level15": 1882,
+                "level16": 2070
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 36,
-                    "level15": 52
+                    "level15": 52,
+                    "level16": 57
                 },
                 "hitpoints": {
                     "level11": 1295,
-                    "level15": 1882
+                    "level15": 1882,
+                    "level16": 2070
                 }
             },
             "hitspeed": 0.4,
@@ -2082,33 +2348,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 84,
-                "level15": 123
+                "level15": 123,
+                "level16": 135
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 84,
-                "level15": 123
+                "level15": 123,
+                "level16": 135
             },
             "hitpoints": {
                 "level11": 1316,
-                "level15": 1912
+                "level15": 1912,
+                "level16": 2102
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.5,
@@ -2137,33 +2410,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 312,
-                "level15": 454
+                "level15": 454,
+                "level16": 499
             },
             "hitpoints": {
                 "level11": 837,
-                "level15": 1216
+                "level15": 1216,
+                "level16": 1337
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.5,
@@ -2192,33 +2472,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 156,
-                "level15": 227
+                "level15": 227,
+                "level16": 249
             },
             "hitpoints": {
                 "level11": 261,
-                "level15": 379
+                "level15": 379,
+                "level16": 417
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 156,
-                    "level15": 227
+                    "level15": 227,
+                    "level16": 249
                 },
                 "hitpoints": {
                     "level11": 261,
-                    "level15": 379
+                    "level15": 379,
+                    "level16": 417
                 }
             },
             "hitspeed": 0.8,
@@ -2247,33 +2534,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 120,
-                "level15": 175
+                "level15": 175,
+                "level16": 192
             },
             "hitpoints": {
                 "level11": 202,
-                "level15": 294
+                "level15": 294,
+                "level16": 323
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -2302,33 +2596,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
-                "level11": 192,
-                "level15": 279
+                "level11": 118,
+                "level15": 171,
+                "level16": 188
             },
             "hitpoints": {
-                "level11": 715,
-                "level15": 1040
+                "level11": 714,
+                "level15": 1038,
+                "level16": 1141
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.8,
@@ -2356,33 +2657,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": 572,
-                "level15": 834
+                "level15": 834,
+                "level16": 914
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 384,
-                "level15": 558
+                "level15": 558,
+                "level16": 614
             },
             "hitpoints": {
                 "level11": 1341,
-                "level15": 1949
+                "level15": 1949,
+                "level16": 2143
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.4,
@@ -2411,33 +2719,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 84,
-                "level15": 123
+                "level15": 123,
+                "level16": 135
             },
             "hitpoints": {
                 "level11": 886,
-                "level15": 1287
+                "level15": 1287,
+                "level16": 1415
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 84,
-                    "level15": 123
+                    "level15": 123,
+                    "level16": 135
                 },
                 "hitpoints": {
                     "level11": 886,
-                    "level15": 1287
+                    "level15": 1287,
+                    "level16": 1415
                 }
             },
             "hitspeed": 2.2,
@@ -2466,33 +2781,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 169,
-                "level15": 246
+                "level15": 246,
+                "level16": 270
             },
             "hitpoints": {
                 "level11": 1280,
-                "level15": 1860
+                "level15": 1860,
+                "level16": 2045
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 169,
-                    "level15": 246
+                    "level15": 246,
+                    "level16": 270
                 },
                 "hitpoints": {
                     "level11": 1280,
-                    "level15": 1860
+                    "level15": 1860,
+                    "level16": 2045
                 }
             },
             "hitspeed": 0.9,
@@ -2520,33 +2842,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 195,
-                "level15": 283
+                "level15": 283,
+                "level16": 311
             },
             "hitpoints": {
                 "level11": 906,
-                "level15": 1317
+                "level15": 1317,
+                "level16": 1448
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -2574,33 +2903,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 133,
-                "level15": 193
+                "level15": 193,
+                "level16": 213
             },
             "hitpoints": {
                 "level11": 548,
-                "level15": 796
+                "level15": 796,
+                "level16": 875
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 133,
-                    "level15": 193
+                    "level15": 193,
+                    "level16": 213
                 },
                 "hitpoints": {
                     "level11": 548,
-                    "level15": 796
+                    "level15": 796,
+                    "level16": 875
                 }
             },
             "hitspeed": 1.3,
@@ -2628,33 +2964,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 315,
-                "level15": 458
+                "level15": 458,
+                "level16": 503
             },
             "hitpoints": {
                 "level11": 906,
-                "level15": 1317
+                "level15": 1317,
+                "level16": 1448
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -2683,33 +3026,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "hitpoints": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 82,
-                    "level15": 119
+                    "level15": 119,
+                    "level16": 131
                 },
                 "hitpoints": {
                     "level11": 123,
-                    "level15": 179
+                    "level15": 179,
+                    "level16": 196
                 }
             },
             "hitspeed": 1.3,
@@ -2737,33 +3087,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 261,
-                "level15": 379
+                "level15": 379,
+                "level16": 417
             },
             "hitpoints": {
                 "level11": 1211,
-                "level15": 1760
+                "level15": 1760,
+                "level16": 1935
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 261,
-                    "level15": 379
+                    "level15": 379,
+                    "level16": 417
                 },
                 "hitpoints": {
                     "level11": 1211,
-                    "level15": 1760
+                    "level15": 1760,
+                    "level16": 1935
                 }
             },
             "hitspeed": 1.8,
@@ -2793,33 +3150,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": 502,
-                "level15": 729
+                "level15": 729,
+                "level16": 802
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 251,
-                "level15": 365
+                "level15": 365,
+                "level16": 401
             },
             "hitpoints": {
                 "level11": 1697,
-                "level15": 2466
+                "level15": 2466,
+                "level16": 2712
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.8,
@@ -2848,33 +3212,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 118,
-                "level15": 171
+                "level15": 171,
+                "level16": 188
             },
             "hitpoints": {
                 "level11": 530,
-                "level15": 770
+                "level15": 770,
+                "level16": 847
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.1,
@@ -2903,33 +3274,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 218,
-                "level15": 316
+                "level15": 316,
+                "level16": 348
             },
             "hitpoints": {
                 "level11": 1940,
-                "level15": 2820
+                "level15": 2820,
+                "level16": 3100
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.5,
@@ -2957,33 +3335,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 212,
-                "level15": 309
+                "level15": 309,
+                "level16": 339
             },
             "hitpoints": {
                 "level11": 1810,
-                "level15": 2630
+                "level15": 2630,
+                "level16": 2892
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.9,
@@ -3011,33 +3396,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 269,
-                "level15": 391
+                "level15": 391,
+                "level16": 429
             },
             "hitpoints": {
                 "level11": 3994,
-                "level15": 5803
+                "level15": 5803,
+                "level16": 6380
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 269,
-                    "level15": 391
+                    "level15": 391,
+                    "level16": 429
                 },
                 "hitpoints": {
                     "level11": 3994,
-                    "level15": 5803
+                    "level15": 5803,
+                    "level16": 6380
                 }
             },
             "hitspeed": 1.7,
@@ -3065,33 +3457,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 133,
-                "level15": 193
+                "level15": 193,
+                "level16": 212
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 81,
-                "level15": 119
+                "level15": 119,
+                "level16": 129
             },
             "hitpoints": {
                 "level11": 532,
-                "level15": 774
+                "level15": 774,
+                "level16": 851
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 81,
-                    "level15": 119
+                    "level15": 119,
+                    "level16": 129
                 },
                 "hitpoints": {
                     "level11": 532,
-                    "level15": 774
+                    "level15": 774,
+                    "level16": 851
                 }
             },
             "hitspeed": 0.3,
@@ -3120,33 +3519,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 172,
-                "level15": 249
+                "level15": 249,
+                "level16": 274
             },
             "hitpoints": {
                 "level11": 614,
-                "level15": 893
+                "level15": 893,
+                "level16": 982
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -3174,33 +3580,40 @@
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 351,
-                "level15": 510
+                "level15": 510,
+                "level16": 560
             },
             "hitpoints": {
                 "level11": 330,
-                "level15": 480
+                "level15": 480,
+                "level16": 528
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 351,
-                    "level15": 510
+                    "level15": 510,
+                    "level16": 560
                 },
                 "hitpoints": {
                     "level11": 330,
-                    "level15": 480
+                    "level15": 480,
+                    "level16": 528
                 }
             },
             "hitspeed": 1.2,
@@ -3228,33 +3641,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 74,
-                "level15": 108
+                "level15": 108,
+                "level16": 119
             },
             "hitpoints": {
                 "level11": 837,
-                "level15": 1216
+                "level15": 1216,
+                "level16": 1337
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 74,
-                    "level15": 108
+                    "level15": 108,
+                    "level16": 119
                 },
                 "hitpoints": {
                     "level11": 837,
-                    "level15": 1216
+                    "level15": 1216,
+                    "level16": 1337
                 }
             },
             "hitspeed": 1.2,
@@ -3282,33 +3702,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 177,
-                "level15": 257
+                "level15": 257,
+                "level16": 282
             },
             "hitpoints": {
                 "level11": 3021,
-                "level15": 4390
+                "level15": 4390,
+                "level16": 4826
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 177,
-                    "level15": 257
+                    "level15": 257,
+                    "level16": 282
                 },
                 "hitpoints": {
                     "level11": 3021,
-                    "level15": 4390
+                    "level15": 4390,
+                    "level16": 4826
                 }
             },
             "hitspeed": 1.5,
@@ -3336,33 +3763,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 195,
-                "level15": 283
+                "level15": 283,
+                "level16": 311
             },
             "hitpoints": {
                 "level11": 870,
-                "level15": 1265
+                "level15": 1265,
+                "level16": 1391
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -3391,33 +3825,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 133,
-                "level15": 193
+                "level15": 193,
+                "level16": 213
             },
             "hitpoints": {
                 "level11": 530,
-                "level15": 770
+                "level15": 770,
+                "level16": 847
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -3446,33 +3887,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 192,
-                "level15": 279
+                "level15": 279,
+                "level16": 307
             },
             "hitpoints": {
                 "level11": 950,
-                "level15": 1380
+                "level15": 1380,
+                "level16": 1517
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 192,
-                    "level15": 279
+                    "level15": 279,
+                    "level16": 307
                 },
                 "hitpoints": {
                     "level11": 950,
-                    "level15": 1380
+                    "level15": 1380,
+                    "level16": 1517
                 }
             },
             "hitspeed": 2.1,
@@ -3501,33 +3949,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
-                "level11": 320,
-                "level15": 465
+                "level11": 64,
+                "level15": 93,
+                "level16": 102
             },
             "hitpoints": {
                 "level11": 305,
-                "level15": 443
+                "level15": 443,
+                "level16": 487
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": 320,
-                    "level15": 465
+                    "level11": 64,
+                    "level15": 93,
+                    "level16": 102
                 },
                 "hitpoints": {
                     "level11": 305,
-                    "level15": 443
+                    "level15": 443,
+                    "level16": 487
                 }
             },
             "hitspeed": 3.0,
@@ -3555,33 +4010,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 41,
-                "level15": 60
+                "level15": 60,
+                "level16": 65
             },
             "hitpoints": {
                 "level11": 2250,
-                "level15": 3270
+                "level15": 3270,
+                "level16": 3595
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.4,
@@ -3609,33 +4071,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 253,
-                "level15": 368
+                "level15": 368,
+                "level16": 405
             },
             "hitpoints": {
                 "level11": 1569,
-                "level15": 2280
+                "level15": 2280,
+                "level16": 2507
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.1,
@@ -3663,33 +4132,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 148,
-                "level15": 216
+                "level15": 216,
+                "level16": 237
             },
             "hitpoints": {
                 "level11": 1718,
-                "level15": 2496
+                "level15": 2496,
+                "level16": 2744
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.5,
@@ -3717,33 +4193,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 205,
-                "level15": 298
+                "level15": 298,
+                "level16": 327
             },
             "hitpoints": {
                 "level11": 2299,
-                "level15": 3341
+                "level15": 3341,
+                "level16": 3673
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.6,
@@ -3772,33 +4255,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 225,
-                "level15": 327
+                "level15": 327,
+                "level16": 360
             },
             "hitpoints": {
                 "level11": 1001,
-                "level15": 1455
+                "level15": 1455,
+                "level16": 1599
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.2,
@@ -3826,33 +4316,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 161,
-                "level15": 234
+                "level15": 234,
+                "level16": 258
             },
             "hitpoints": {
                 "level11": 1800,
-                "level15": 2615
+                "level15": 2615,
+                "level16": 2875
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.9,
@@ -3880,33 +4377,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 141,
-                "level15": 205
+                "level15": 205,
+                "level16": 225
             },
             "hitpoints": {
                 "level11": 2214,
-                "level15": 3218
+                "level15": 3218,
+                "level16": 3538
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.8,
@@ -3935,33 +4439,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 161,
-                "level15": 234
+                "level15": 234,
+                "level16": 258
             },
             "hitpoints": {
                 "level11": 561,
-                "level15": 815
+                "level15": 815,
+                "level16": 896
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.9,
@@ -3990,33 +4501,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 133,
-                "level15": 193
+                "level15": 193,
+                "level16": 213
             },
             "hitpoints": {
                 "level11": 530,
-                "level15": 770
+                "level15": 770,
+                "level16": 847
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -4045,33 +4563,40 @@
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 100,
-                "level15": 145
+                "level15": 145,
+                "level16": 160
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 335
+                "level15": 335,
+                "level16": 368
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.3,
@@ -4099,33 +4624,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 164,
-                "level15": 238
+                "level15": 238,
+                "level16": 262
             },
             "hitpoints": {
                 "level11": 3855,
-                "level15": 5602
+                "level15": 5602,
+                "level16": 6160
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.1,
@@ -4154,33 +4686,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 218,
-                "level15": 316
+                "level15": 316,
+                "level16": 348
             },
             "hitpoints": {
                 "level11": 1052,
-                "level15": 1529
+                "level15": 1529,
+                "level16": 1681
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -4209,33 +4748,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 100,
-                "level15": 145
+                "level15": 145,
+                "level16": 160
             },
             "hitpoints": {
                 "level11": 699,
-                "level15": 1016
+                "level15": 1016,
+                "level16": 1117
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.2,
@@ -4263,33 +4809,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 465,
-                "level15": 677
+                "level15": 677,
+                "level16": 743
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 187,
-                "level15": 272
+                "level15": 272,
+                "level16": 299
             },
             "hitpoints": {
                 "level11": 1300,
-                "level15": 1890
+                "level15": 1890,
+                "level16": 2078
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.2,
@@ -4317,33 +4870,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 212,
-                "level15": 309
+                "level15": 309,
+                "level16": 339
             },
             "hitpoints": {
                 "level11": 2150,
-                "level15": 3125
+                "level15": 3125,
+                "level16": 3436
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.2,
@@ -4371,33 +4931,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 227,
-                "level15": 331
+                "level15": 331,
+                "level16": 363
             },
             "hitpoints": {
                 "level11": 82,
-                "level15": 119
+                "level15": 119,
+                "level16": 131
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.3,
@@ -4427,33 +4994,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 128,
-                "level15": 186
+                "level15": 186,
+                "level16": 205
             },
             "hitpoints": {
                 "level11": 2386,
-                "level15": 3467
+                "level15": 3467,
+                "level16": 3812
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.5,
@@ -4481,33 +5055,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 120,
-                "level15": 175
+                "level15": 175,
+                "level16": 192
             },
             "hitpoints": {
                 "level11": 2662,
-                "level15": 3869
+                "level15": 3869,
+                "level16": 4254
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.5,
@@ -4535,33 +5116,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 102,
-                "level15": 148
+                "level15": 148,
+                "level16": 163
             },
             "hitpoints": {
                 "level11": 896,
-                "level15": 1302
+                "level15": 1302,
+                "level16": 1432
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.6,
@@ -4589,33 +5177,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 269,
-                "level15": 391
+                "level15": 391,
+                "level16": 429
             },
             "hitpoints": {
                 "level11": 2624,
-                "level15": 3813
+                "level15": 3813,
+                "level16": 4192
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.2,
@@ -4643,33 +5238,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 212,
-                "level15": 309
+                "level15": 309,
+                "level16": 339
             },
             "hitpoints": {
                 "level11": 824,
-                "level15": 1198
+                "level15": 1198,
+                "level16": 1317
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 212,
-                    "level15": 309
+                    "level15": 309,
+                    "level16": 339
                 },
                 "hitpoints": {
                     "level11": 824,
-                    "level15": 1198
+                    "level15": 1198,
+                    "level16": 1317
                 }
             },
             "hitspeed": 1.0,
@@ -4698,33 +5300,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 67,
-                "level15": 98
+                "level15": 98,
+                "level16": 107
             },
             "hitpoints": {
                 "level11": 1180,
-                "level15": 1715
+                "level15": 1715,
+                "level16": 1885
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 10.0,
@@ -4753,33 +5362,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 266,
-                "level15": 387
+                "level15": 387,
+                "level16": 425
             },
             "hitpoints": {
                 "level11": 1370,
-                "level15": 1990
+                "level15": 1990,
+                "level16": 2188
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 266,
-                    "level15": 387
+                    "level15": 387,
+                    "level16": 425
                 },
                 "hitpoints": {
                     "level11": 1370,
-                    "level15": 1990
+                    "level15": 1990,
+                    "level16": 2188
                 }
             },
             "hitspeed": 5.0,
@@ -4808,33 +5424,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 44,
-                "level15": 63
+                "level15": 63,
+                "level16": 70
             },
             "hitpoints": {
                 "level11": 1748,
-                "level15": 2541
+                "level15": 2541,
+                "level16": 2793
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.4,
@@ -4862,33 +5485,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": 223,
-                "level15": 324
+                "level15": 324,
+                "level16": 356
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 223,
-                "level15": 324
+                "level15": 324,
+                "level16": 356
             },
             "hitpoints": {
                 "level11": 1357,
-                "level15": 1972
+                "level15": 1972,
+                "level16": 2168
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.8,
@@ -4916,33 +5546,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 159,
-                "level15": 231
+                "level15": 231,
+                "level16": 254
             },
             "hitpoints": {
                 "level11": 1165,
-                "level15": 1693
+                "level15": 1693,
+                "level16": 1861
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 10.0,
@@ -4971,33 +5608,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 220,
-                "level15": 320
+                "level15": 320,
+                "level16": 352
             },
             "hitpoints": {
                 "level11": 1152,
-                "level15": 1674
+                "level15": 1674,
+                "level16": 1841
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 220,
-                    "level15": 320
+                    "level15": 320,
+                    "level16": 352
                 },
                 "hitpoints": {
                     "level11": 1152,
-                    "level15": 1674
+                    "level15": 1674,
+                    "level16": 1841
                 }
             },
             "hitspeed": 1.1,
@@ -5023,33 +5667,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "hitpoints": {
                 "level11": 1070,
-                "level15": 1555
+                "level15": 1555,
+                "level16": 1710
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5078,33 +5729,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 44,
-                "level15": 63
+                "level15": 63,
+                "level16": 70
             },
             "hitpoints": {
                 "level11": 1600,
-                "level15": 2325
+                "level15": 2325,
+                "level16": 2556
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.3,
@@ -5132,33 +5790,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 81,
-                "level15": 119
+                "level15": 119,
+                "level16": 129
             },
             "hitpoints": {
                 "level11": 530,
-                "level15": 770
+                "level15": 770,
+                "level16": 847
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 10.0,
@@ -5187,33 +5852,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 179,
-                "level15": 260
+                "level15": 260,
+                "level16": 286
             },
             "hitpoints": {
                 "level11": 727,
-                "level15": 1056
+                "level15": 1056,
+                "level16": 1162
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 179,
-                    "level15": 260
+                    "level15": 260,
+                    "level16": 286
                 },
                 "hitpoints": {
                     "level11": 727,
-                    "level15": 1056
+                    "level15": 1056,
+                    "level16": 1162
                 }
             },
             "hitspeed": 1.8,
@@ -5241,33 +5913,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 306,
-                "level15": 491
+                "level15": 491,
+                "level16": 489
             },
             "hitpoints": {
                 "level11": 781,
-                "level15": 1135
+                "level15": 1135,
+                "level16": 1247
             },
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
                     "level11": 306,
-                    "level15": 491
+                    "level15": 491,
+                    "level16": 489
                 },
                 "hitpoints": {
                     "level11": 781,
-                    "level15": 1135
+                    "level15": 1135,
+                    "level16": 1247
                 }
             },
             "hitspeed": 10.0,
@@ -5296,33 +5975,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 84,
-                "level15": 122
+                "level15": 122,
+                "level16": 134
             },
             "hitpoints": {
                 "level11": 2560,
-                "level15": 3720
+                "level15": 3720,
+                "level16": 4090
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 227,
-                    "level15": 351
+                    "level15": 351,
+                    "level16": 363
                 },
                 "hitpoints": {
                     "level11": 2560,
-                    "level15": 3720
+                    "level15": 3720,
+                    "level16": 4090
                 }
             },
             "hitspeed": 1.2,
@@ -5351,33 +6037,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 207,
-                "level15": 300
+                "level15": 300,
+                "level16": 330
             },
             "damage": {
                 "level11": 689,
-                "level15": 1001
+                "level15": 1001,
+                "level16": 1100
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5406,33 +6099,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 31,
-                "level15": 45
+                "level15": 45,
+                "level16": 49
             },
             "damage": {
                 "level11": 123,
-                "level15": 179
+                "level15": 179,
+                "level16": 196
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5461,33 +6161,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 54,
-                "level15": 78
+                "level15": 78,
+                "level16": 86
             },
             "damage": {
                 "level11": 179,
-                "level15": 260
+                "level15": 260,
+                "level16": 286
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5516,33 +6223,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 371,
-                "level15": 539
+                "level15": 539,
+                "level16": 593
             },
             "damage": {
                 "level11": 1485,
-                "level15": 2158
+                "level15": 2158,
+                "level16": 2372
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5571,33 +6285,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 120,
-                "level15": 174
+                "level15": 175,
+                "level16": 192
             },
             "hitpoints": {
                 "level11": 202,
-                "level15": 293
+                "level15": 294,
+                "level16": 323
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 120,
-                    "level15": 174
+                    "level15": 175,
+                    "level16": 192
                 },
                 "hitpoints": {
                     "level11": 202,
-                    "level15": 293
+                    "level15": 294,
+                    "level16": 323
                 }
             },
             "hitspeed": 1.1,
@@ -5626,33 +6347,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 35,
-                "level15": 51
+                "level15": 50,
+                "level16": 55
             },
             "damage": {
                 "level11": 115,
-                "level15": 167
+                "level15": 167,
+                "level16": 184
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5678,33 +6406,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 0,
-                "level15": 0
+                "level15": 0,
+                "level16": 0
             },
             "damage": {
                 "level11": 0,
-                "level15": 0
+                "level15": 0,
+                "level16": 0
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5733,33 +6468,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
-                "level11": 286,
-                "level15": 415
+                "level11": 285,
+                "level15": 415,
+                "level16": 456
             },
             "damage": {
                 "level11": 1057,
-                "level15": 1536
+                "level15": 1536,
+                "level16": 1689
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5788,33 +6530,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 58,
-                "level15": 84
+                "level15": 84,
+                "level16": 92
             },
             "damage": {
                 "level11": 192,
-                "level15": 279
+                "level15": 279,
+                "level16": 307
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 192,
-                    "level15": 279
+                    "level15": 279,
+                    "level16": 307
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -5843,33 +6592,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 23,
-                "level15": 34
+                "level15": 33,
+                "level16": 37
             },
             "damage": {
                 "level11": 92,
-                "level15": 133
+                "level15": 134,
+                "level16": 147
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -5898,33 +6654,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
-                "level11": 81,
-                "level15": 119
+                "level11": 82,
+                "level15": 119,
+                "level16": 131
             },
             "hitpoints": {
-                "level11": 81,
-                "level15": 119
+                "level11": 82,
+                "level15": 119,
+                "level16": 131
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -5952,33 +6715,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
-                "level11": 41,
-                "level15": 59
+                "level11": 40,
+                "level15": 59,
+                "level16": 64
             },
             "damage": {
-                "level11": 268,
-                "level15": 390
+                "level11": 269,
+                "level15": 391,
+                "level16": 429
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6007,33 +6777,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
-                "level11": 27,
-                "level15": 38
+                "level11": 26,
+                "level15": 38,
+                "level16": 42
             },
             "damage": {
-                "level11": 84,
-                "level15": 122
+                "level11": 154,
+                "level15": 223,
+                "level16": 245
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6062,33 +6839,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 0,
-                "level15": 0
+                "level15": 0,
+                "level16": 0
             },
             "damage": {
                 "level11": 0,
-                "level15": 0
+                "level15": 0,
+                "level16": 0
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6116,33 +6900,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
-                "level11": 159,
-                "level15": 234
+                "level11": 53,
+                "level15": 77,
+                "level16": 85
             },
             "damage": {
-                "level11": 243,
-                "level15": 357
+                "level11": 82,
+                "level15": 119,
+                "level16": 131
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
@@ -6170,33 +6961,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
-                "level11": 240,
-                "level15": 349
+                "level11": 241,
+                "level15": 350,
+                "level16": 384
             },
             "hitpoints": {
                 "level11": 670,
-                "level15": 947
+                "level15": 947,
+                "level16": 1070
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -6225,33 +7023,40 @@
             "suicide": true,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 110,
-                "level15": 160
+                "level15": 160,
+                "level16": 176
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 335
+                "level15": 335,
+                "level16": 368
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.3,
@@ -6280,33 +7085,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 54,
-                "level15": 78
+                "level15": 78,
+                "level16": 86
             },
             "damage": {
                 "level11": 179,
-                "level15": 260
+                "level15": 260,
+                "level16": 286
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
                     "level11": 179,
-                    "level15": 260
+                    "level15": 260,
+                    "level16": 286
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6335,33 +7147,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
-                "level11": 437,
-                "level15": 636
+                "level11": 438,
+                "level15": 636,
+                "level16": 699
             },
             "hitpoints": {
                 "level11": 547,
-                "level15": 796
+                "level15": 796,
+                "level16": 874
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.3,
@@ -6390,33 +7209,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 144,
-                "level15": 210
+                "level15": 210,
+                "level16": 230
             },
             "damage": {
                 "level11": 256,
-                "level15": 372
+                "level15": 372,
+                "level16": 409
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6445,33 +7271,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 42,
-                "level15": 66
+                "level15": 66,
+                "level16": 67
             },
             "damage": {
                 "level11": 256,
-                "level15": 372
+                "level15": 372,
+                "level16": 409
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6500,33 +7333,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 307,
-                "level15": 446
+                "level15": 446,
+                "level16": 490
             },
             "hitpoints": {
                 "level11": 1255,
-                "level15": 1826
+                "level15": 1826,
+                "level16": 2005
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.4,
@@ -6555,33 +7395,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": 75,
-                "level15": 110
+                "level15": 110,
+                "level16": 120
             },
             "damage": {
                 "level11": 405,
-                "level15": 595
+                "level15": 595,
+                "level16": 647
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": null,
@@ -6612,33 +7459,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 109,
-                "level15": 158
+                "level15": 158,
+                "level16": 173
             },
             "hitpoints": {
                 "level11": 3052,
-                "level15": 4424
+                "level15": 4424,
+                "level16": 4844
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.8,
@@ -6667,33 +7521,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 273,
-                "level15": 395
+                "level15": 395,
+                "level16": 433
             },
             "hitpoints": {
                 "level11": 2616,
-                "level15": 3792
+                "level15": 3792,
+                "level16": 4152
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 2.2,
@@ -6722,33 +7583,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 92,
-                "level15": 133
+                "level15": 133,
+                "level16": 145
             },
             "hitpoints": {
                 "level11": 2769,
-                "level15": 4013
+                "level15": 4013,
+                "level16": 4394
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 0.5,
@@ -6777,33 +7645,40 @@
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "towerDamage": {
                 "level11": null,
-                "level15": null
+                "level15": null,
+                "level16": null
             },
             "damage": {
                 "level11": 109,
-                "level15": 158
+                "level15": 158,
+                "level16": 173
             },
             "hitpoints": {
                 "level11": 2703,
-                "level15": 3918
+                "level15": 3918,
+                "level16": 4290
             },
             "statsEvo": {
                 "cycles": null,
                 "damage": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null
+                    "level15": null,
+                    "level16": null
                 }
             },
             "hitspeed": 1.0,
