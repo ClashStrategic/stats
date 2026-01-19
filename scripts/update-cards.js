@@ -12,8 +12,8 @@ const API_URL = 'https://humbleapi.galacticapricot.workers.dev/gamedata-v4.json'
 const CARDS_FILE = path.join(__dirname, '..', 'cards.json');
 
 const MULTIPLIERS = {
-    standard: { level11: 2.56, level15: 3.72 },
-    tower: { level11: 2.18, level15: 3.16 }
+    standard: { level11: 2.56, level15: 3.72, level16: 4.09 },
+    tower: { level11: 2.18, level15: 3.16, level16: 3.46 }
 };
 
 const CARD_SKELETON = {
@@ -27,15 +27,15 @@ const CARD_SKELETON = {
     typeAttack: null,
     projectile: false,
     suicide: false,
-    fatalDamage: { level11: null, level15: null },
-    chargeDamage: { level11: null, level15: null },
-    towerDamage: { level11: null, level15: null },
-    damage: { level11: null, level15: null },
-    hitpoints: { level11: null, level15: null },
+    fatalDamage: { level11: null, level15: null, level16: null },
+    chargeDamage: { level11: null, level15: null, level16: null },
+    towerDamage: { level11: null, level15: null, level16: null },
+    damage: { level11: null, level15: null, level16: null },
+    hitpoints: { level11: null, level15: null, level16: null },
     statsEvo: {
         cycles: null,
-        damage: { level11: null, level15: null },
-        hitpoints: { level11: null, level15: null }
+        damage: { level11: null, level15: null, level16: null },
+        hitpoints: { level11: null, level15: null, level16: null }
     },
     hitspeed: null,
     radius: null,
@@ -71,10 +71,11 @@ function fetchData(url) {
  * Calculate stat for level 11 and 15
  */
 function calculateStats(base, multipliers) {
-    if (base === null || base === undefined || base === 0) return { level11: null, level15: null };
+    if (base === null || base === undefined || base === 0) return { level11: null, level15: null, level16: null };
     return {
         level11: Math.round(base * multipliers.level11),
-        level15: Math.round(base * multipliers.level15)
+        level15: Math.round(base * multipliers.level15),
+        level16: Math.round(base * multipliers.level16)
     };
 }
 
@@ -135,17 +136,27 @@ async function main() {
             card.rarity = (apiItem.rarity || card.rarity || '').toLowerCase();
 
             // Extract base stats
-            const charData = apiItem.summonCharacterData || apiItem.statCharacterData || {};
-            const projData = apiItem.projectileData || (charData.projectileData) || {};
+            let charData = apiItem.summonCharacterData || apiItem.statCharacterData || {};
+            
+            // Handle E-Wiz and similar cases where character data is inside area effect
+            if (Object.keys(charData).length === 0 && apiItem.areaEffectObjectData && apiItem.areaEffectObjectData.onStartingActionData && apiItem.areaEffectObjectData.onStartingActionData.spawnDataData) {
+                charData = apiItem.areaEffectObjectData.onStartingActionData.spawnDataData;
+            }
 
-            const baseHP = charData.hitpoints || null;
-            const baseDamage = charData.damage || projData.damage || null;
+            const projData = apiItem.projectileData || (charData.projectileData) || {};
+            const areaData = apiItem.areaEffectObjectData || {};
+            const buffData = areaData.buffData || {};
+            const spawnProjData = projData.spawnProjectileData || areaData.projectileData || {};
+            const spawnCharData = projData.spawnCharacterData || areaData.spawnCharacterData || {};
+
+            const baseHP = charData.hitpoints || spawnCharData.hitpoints || null;
+            const baseDamage = charData.damage || projData.damage || areaData.damage || buffData.damagePerSecond || spawnProjData.damage || spawnCharData.damage || null;
             const baseFatal = charData.deathDamage || (charData.deathSpawnCharacterData ? charData.deathSpawnCharacterData.deathDamage : null) || null;
             const baseCharge = charData.damageSpecial || null;
 
             // Tower damage calculation for spells/troops
             let baseTowerDamage = null;
-            const towerDamagePercent = apiItem.crownTowerDamagePercent ?? charData.crownTowerDamagePercent ?? projData.crownTowerDamagePercent;
+            const towerDamagePercent = apiItem.crownTowerDamagePercent ?? charData.crownTowerDamagePercent ?? projData.crownTowerDamagePercent ?? areaData.crownTowerDamagePercent ?? buffData.crownTowerDamagePercent ?? spawnProjData.crownTowerDamagePercent ?? spawnCharData.crownTowerDamagePercent;
             if (towerDamagePercent !== undefined && baseDamage) {
                 baseTowerDamage = baseDamage * (100 + towerDamagePercent) / 100;
             }
@@ -158,54 +169,95 @@ async function main() {
             const towerDmgStats = calculateStats(baseTowerDamage, multipliers);
 
             card.hitpoints = {
-                level11: hpStats.level11 ?? card.hitpoints.level11,
-                level15: hpStats.level15 ?? card.hitpoints.level15
+                level11: hpStats.level11 ?? card.hitpoints.level11 ?? null,
+                level15: hpStats.level15 ?? card.hitpoints.level15 ?? null,
+                level16: hpStats.level16 ?? card.hitpoints.level16 ?? null
             };
             card.damage = {
-                level11: dmgStats.level11 ?? card.damage.level11,
-                level15: dmgStats.level15 ?? card.damage.level15
+                level11: dmgStats.level11 ?? card.damage.level11 ?? null,
+                level15: dmgStats.level15 ?? card.damage.level15 ?? null,
+                level16: dmgStats.level16 ?? card.damage.level16 ?? null
             };
             card.fatalDamage = {
-                level11: fatalStats.level11 ?? card.fatalDamage.level11,
-                level15: fatalStats.level15 ?? card.fatalDamage.level15
+                level11: fatalStats.level11 ?? card.fatalDamage.level11 ?? null,
+                level15: fatalStats.level15 ?? card.fatalDamage.level15 ?? null,
+                level16: fatalStats.level16 ?? card.fatalDamage.level16 ?? null
             };
             card.chargeDamage = {
-                level11: chargeStats.level11 ?? card.chargeDamage.level11,
-                level15: chargeStats.level15 ?? card.chargeDamage.level15
+                level11: chargeStats.level11 ?? card.chargeDamage.level11 ?? null,
+                level15: chargeStats.level15 ?? card.chargeDamage.level15 ?? null,
+                level16: chargeStats.level16 ?? card.chargeDamage.level16 ?? null
             };
             card.towerDamage = {
-                level11: towerDmgStats.level11 ?? card.towerDamage.level11,
-                level15: towerDmgStats.level15 ?? card.towerDamage.level15
+                level11: towerDmgStats.level11 ?? card.towerDamage.level11 ?? null,
+                level15: towerDmgStats.level15 ?? card.towerDamage.level15 ?? null,
+                level16: towerDmgStats.level16 ?? card.towerDamage.level16 ?? null
             };
 
             // Evolution check
             if (apiItem.evolvedSpellsData) {
                 card.evolution = true;
                 const evoData = apiItem.evolvedSpellsData;
-                const evoCharData = evoData.summonCharacterData || {};
+                let evoCharData = evoData.summonCharacterData || {};
 
-                // Cycles (cycles info is often not in this API v4 format or hidden, keeping existing if present)
+                if (Object.keys(evoCharData).length === 0 && evoData.areaEffectObjectData && evoData.areaEffectObjectData.onStartingActionData && evoData.areaEffectObjectData.onStartingActionData.spawnDataData) {
+                    evoCharData = evoData.areaEffectObjectData.onStartingActionData.spawnDataData;
+                }
+                
+                const evoProjData = evoData.projectileData || (evoCharData.projectileData) || {};
+                const evoAreaData = evoData.areaEffectObjectData || {};
+                const evoBuffData = evoAreaData.buffData || {};
+                const evoSpawnProjData = evoProjData.spawnProjectileData || evoAreaData.projectileData || {};
+                const evoSpawnCharData = evoProjData.spawnCharacterData || evoAreaData.spawnCharacterData || {};
 
-                const baseEvoHP = evoCharData.hitpoints || baseHP;
-                const baseEvoDmg = evoCharData.damage || (evoCharData.projectileData ? evoCharData.projectileData.damage : null) || baseDamage;
+                const baseEvoHP = evoCharData.hitpoints || evoSpawnCharData.hitpoints || baseHP;
+                const baseEvoDmg = evoCharData.damage || evoProjData.damage || evoAreaData.damage || evoBuffData.damagePerSecond || evoSpawnProjData.damage || evoSpawnCharData.damage || baseDamage;
 
                 const evoHPStats = calculateStats(baseEvoHP, multipliers);
                 const evoDmgStats = calculateStats(baseEvoDmg, multipliers);
 
                 card.statsEvo.hitpoints = {
                     level11: evoHPStats.level11 ?? (card.statsEvo.hitpoints ? card.statsEvo.hitpoints.level11 : null),
-                    level15: evoHPStats.level15 ?? (card.statsEvo.hitpoints ? card.statsEvo.hitpoints.level15 : null)
+                    level15: evoHPStats.level15 ?? (card.statsEvo.hitpoints ? card.statsEvo.hitpoints.level15 : null),
+                    level16: evoHPStats.level16 ?? (card.statsEvo.hitpoints ? card.statsEvo.hitpoints.level16 : null)
                 };
                 card.statsEvo.damage = {
                     level11: evoDmgStats.level11 ?? (card.statsEvo.damage ? card.statsEvo.damage.level11 : null),
-                    level15: evoDmgStats.level15 ?? (card.statsEvo.damage ? card.statsEvo.damage.level15 : null)
+                    level15: evoDmgStats.level15 ?? (card.statsEvo.damage ? card.statsEvo.damage.level15 : null),
+                    level16: evoDmgStats.level16 ?? (card.statsEvo.damage ? card.statsEvo.damage.level16 : null)
                 };
             }
 
-            // Ensure all properties are present and null if not applicable
+            // Fallback: Extrapolate missing Level 16 from Level 11
+            const statFields = ['hitpoints', 'damage', 'fatalDamage', 'chargeDamage', 'towerDamage'];
+            statFields.forEach(field => {
+                if (card[field] && (card[field].level16 === null || card[field].level16 === undefined) && card[field].level11 !== null) {
+                    card[field].level16 = Math.round((card[field].level11 / multipliers.level11) * multipliers.level16);
+                }
+            });
+            if (card.statsEvo) {
+                ['hitpoints', 'damage'].forEach(field => {
+                    if (card.statsEvo[field] && (card.statsEvo[field].level16 === null || card.statsEvo[field].level16 === undefined) && card.statsEvo[field].level11 !== null) {
+                        card.statsEvo[field].level16 = Math.round((card.statsEvo[field].level11 / multipliers.level11) * multipliers.level16);
+                    }
+                });
+            }
+
+        });
+
+        // Final pass: Ensure all cards follow the skeleton (including level16 nested keys)
+        const allResultCards = [...cardsJson.cards, ...cardsJson.towerCards];
+        allResultCards.forEach(card => {
             Object.keys(CARD_SKELETON).forEach(key => {
                 if (!(key in card)) {
                     card[key] = JSON.parse(JSON.stringify(CARD_SKELETON[key]));
+                } else if (CARD_SKELETON[key] !== null && typeof CARD_SKELETON[key] === 'object' && !Array.isArray(CARD_SKELETON[key])) {
+                    // Deep check for nested keys (like level16)
+                    Object.keys(CARD_SKELETON[key]).forEach(nestedKey => {
+                        if (!(nestedKey in card[key])) {
+                            card[key][nestedKey] = CARD_SKELETON[key][nestedKey];
+                        }
+                    });
                 }
             });
         });
