@@ -3839,9 +3839,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 133,
-                "level15": 193,
-                "level16": 213
+                "level11": 143,
+                "level15": 208,
+                "level16": 229
             },
             "hitpoints": {
                 "level11": 530,
@@ -6356,14 +6356,14 @@
                 "level16": null
             },
             "towerDamage": {
-                "level11": 35,
-                "level15": 50,
-                "level16": 55
+                "level11": 45,
+                "level15": 65,
+                "level16": 71
             },
             "damage": {
-                "level11": 115,
-                "level15": 167,
-                "level16": 184
+                "level11": 148,
+                "level15": 216,
+                "level16": 237
             },
             "hitpoints": {
                 "level11": null,
@@ -6786,9 +6786,9 @@
                 "level16": null
             },
             "towerDamage": {
-                "level11": 26,
-                "level15": 38,
-                "level16": 42
+                "level11": 46,
+                "level15": 67,
+                "level16": 74
             },
             "damage": {
                 "level11": 154,
@@ -6975,9 +6975,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 241,
-                "level15": 350,
-                "level16": 384
+                "level11": 230,
+                "level15": 335,
+                "level16": 368
             },
             "hitpoints": {
                 "level11": 670,
