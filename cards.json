@@ -10,6 +10,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -51,6 +52,9 @@
                     "level16": 2822
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -72,6 +76,7 @@
             "units": 2,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -113,6 +118,9 @@
                     "level16": 487
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.9,
             "radius": null,
             "generationSpeed": null,
@@ -133,6 +141,7 @@
             "units": 4,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -174,6 +183,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -194,6 +206,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -235,6 +248,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -255,6 +271,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -296,6 +313,9 @@
                     "level16": 6008
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
@@ -317,6 +337,7 @@
             "units": 3,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -358,6 +379,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -378,6 +402,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -419,6 +444,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.0,
             "radius": null,
             "generationSpeed": null,
@@ -440,6 +468,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -481,6 +510,9 @@
                     "level16": 1342
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": 7.0,
@@ -501,6 +533,7 @@
             "units": 5,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -542,6 +575,9 @@
                     "level16": 1178
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -562,6 +598,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -603,6 +640,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.5,
             "radius": null,
             "generationSpeed": null,
@@ -623,6 +663,7 @@
             "units": 3,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -664,6 +705,9 @@
                     "level16": 131
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -684,6 +728,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -725,6 +770,9 @@
                     "level16": 3047
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -745,6 +793,7 @@
             "units": 15,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -786,6 +835,9 @@
                     "level16": 131
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -806,6 +858,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -847,6 +900,9 @@
                     "level16": 487
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
@@ -868,6 +924,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -909,6 +966,9 @@
                     "level16": 1153
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -930,6 +990,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -971,6 +1032,9 @@
                     "level16": 1841
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -991,6 +1055,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -1032,6 +1097,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
@@ -1053,6 +1121,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -1094,6 +1163,9 @@
                     "level16": 1207
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
@@ -1114,6 +1186,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -1155,6 +1228,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.6,
             "radius": null,
             "generationSpeed": null,
@@ -1176,6 +1252,7 @@
             "units": 3,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -1217,6 +1294,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.7,
             "radius": null,
             "generationSpeed": null,
@@ -1237,6 +1317,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -1278,6 +1359,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
@@ -1298,6 +1382,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -1339,6 +1424,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.6,
             "radius": null,
             "generationSpeed": null,
@@ -1360,6 +1448,7 @@
             "units": 6,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -1401,6 +1490,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -1422,6 +1514,7 @@
             "units": 1,
             "duration": 0.001,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -1463,6 +1556,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.7,
             "radius": 3.0,
             "generationSpeed": null,
@@ -1483,6 +1579,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -1524,6 +1621,9 @@
                     "level16": 5055
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.7,
             "radius": null,
             "generationSpeed": null,
@@ -1544,6 +1644,7 @@
             "units": 3,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -1585,6 +1686,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -1606,6 +1710,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -1647,6 +1752,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 3.0,
             "radius": null,
             "generationSpeed": null,
@@ -1667,6 +1775,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -1708,6 +1817,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -1729,6 +1841,7 @@
             "units": 3,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -1770,6 +1883,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -1790,6 +1906,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -1831,6 +1948,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -1852,6 +1972,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
@@ -1893,6 +2014,9 @@
                     "level16": 368
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -1914,6 +2038,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
@@ -1955,6 +2080,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -1976,6 +2104,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2017,6 +2146,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -2037,6 +2169,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -2078,6 +2211,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 4.0,
             "radius": null,
             "generationSpeed": null,
@@ -2098,6 +2234,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -2139,6 +2276,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.5,
             "radius": null,
             "generationSpeed": null,
@@ -2159,6 +2299,7 @@
             "units": 1,
             "duration": 0.05,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2200,6 +2341,9 @@
                     "level16": 2049
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.8,
             "radius": null,
             "generationSpeed": null,
@@ -2220,6 +2364,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2261,6 +2406,9 @@
                     "level16": 1546
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.4,
             "radius": null,
             "generationSpeed": null,
@@ -2282,6 +2430,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2323,6 +2472,9 @@
                     "level16": 2070
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.4,
             "radius": null,
             "generationSpeed": null,
@@ -2343,6 +2495,7 @@
             "units": 1,
             "duration": 1.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2384,6 +2537,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.5,
             "radius": null,
             "generationSpeed": null,
@@ -2405,6 +2561,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -2446,6 +2603,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -2467,6 +2627,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -2508,6 +2669,9 @@
                     "level16": 417
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.8,
             "radius": null,
             "generationSpeed": null,
@@ -2529,6 +2693,7 @@
             "units": 6,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2570,6 +2735,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -2591,6 +2759,7 @@
             "units": 1,
             "duration": 0.001,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2632,6 +2801,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": 3.0,
             "generationSpeed": null,
@@ -2652,6 +2824,7 @@
             "units": 2,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2693,6 +2866,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
@@ -2714,6 +2890,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -2755,6 +2932,9 @@
                     "level16": 1415
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.2,
             "radius": null,
             "generationSpeed": null,
@@ -2776,6 +2956,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -2817,6 +2998,9 @@
                     "level16": 2045
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.9,
             "radius": null,
             "generationSpeed": null,
@@ -2837,6 +3021,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2878,6 +3063,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -2898,6 +3086,7 @@
             "units": 6,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -2939,6 +3128,9 @@
                     "level16": 875
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -2959,6 +3151,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3000,6 +3193,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": 5.0,
@@ -3021,6 +3217,7 @@
             "units": 5,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3062,6 +3259,9 @@
                     "level16": 196
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -3082,6 +3282,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -3123,6 +3324,9 @@
                     "level16": 1935
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
@@ -3145,6 +3349,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3186,6 +3391,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
@@ -3207,6 +3415,7 @@
             "units": 3,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3248,6 +3457,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.1,
             "radius": null,
             "generationSpeed": null,
@@ -3269,6 +3481,7 @@
             "units": 3,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3310,6 +3523,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -3330,6 +3546,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -3371,6 +3588,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.9,
             "radius": null,
             "generationSpeed": null,
@@ -3391,6 +3611,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -3432,6 +3653,9 @@
                     "level16": 6380
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.7,
             "radius": null,
             "generationSpeed": null,
@@ -3452,6 +3676,7 @@
             "units": 7,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3493,6 +3718,9 @@
                     "level16": 851
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -3514,6 +3742,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -3555,6 +3784,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -3575,6 +3807,7 @@
             "units": 2,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
@@ -3616,6 +3849,9 @@
                     "level16": 528
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -3636,6 +3872,7 @@
             "units": 4,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3677,6 +3914,9 @@
                     "level16": 1337
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -3697,6 +3937,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3738,6 +3979,9 @@
                     "level16": 4826
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -3758,6 +4002,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -3799,6 +4044,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -3820,6 +4068,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -3861,6 +4110,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -3882,6 +4134,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -3923,6 +4176,9 @@
                     "level16": 1517
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.1,
             "radius": null,
             "generationSpeed": null,
@@ -3944,6 +4200,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -3985,6 +4242,9 @@
                     "level16": 487
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 3.0,
             "radius": null,
             "generationSpeed": null,
@@ -4005,6 +4265,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4046,6 +4307,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.4,
             "radius": null,
             "generationSpeed": null,
@@ -4066,6 +4330,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4107,6 +4372,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -4127,6 +4395,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4168,6 +4437,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": 2.5,
             "generationSpeed": null,
@@ -4188,6 +4460,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -4229,6 +4502,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.6,
             "radius": null,
             "generationSpeed": null,
@@ -4250,6 +4526,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -4291,6 +4568,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -4311,6 +4591,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4352,6 +4633,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.9,
             "radius": null,
             "generationSpeed": null,
@@ -4372,6 +4656,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4413,6 +4698,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.8,
             "radius": null,
             "generationSpeed": null,
@@ -4434,6 +4722,7 @@
             "units": 2,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -4475,6 +4764,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.9,
             "radius": null,
             "generationSpeed": null,
@@ -4496,6 +4788,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -4537,6 +4830,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -4558,6 +4854,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
@@ -4599,6 +4896,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -4619,6 +4919,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -4660,6 +4961,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.1,
             "radius": null,
             "generationSpeed": null,
@@ -4681,6 +4985,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4722,6 +5027,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -4743,6 +5051,7 @@
             "units": 2,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -4784,6 +5093,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -4804,6 +5116,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -4845,6 +5158,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -4865,6 +5181,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4906,6 +5223,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -4926,6 +5246,7 @@
             "units": 2,
             "duration": 1.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -4967,6 +5288,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -4989,6 +5313,7 @@
             "units": 2,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5030,6 +5355,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -5050,6 +5378,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5091,6 +5420,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
@@ -5111,6 +5443,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5152,6 +5485,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.6,
             "radius": null,
             "generationSpeed": null,
@@ -5172,6 +5508,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5213,6 +5550,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -5233,6 +5573,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -5274,6 +5615,9 @@
                     "level16": 1317
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": null,
             "generationSpeed": null,
@@ -5295,6 +5639,7 @@
             "units": 1,
             "duration": 29.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5336,6 +5681,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": 11.0,
@@ -5357,6 +5705,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -5398,6 +5747,9 @@
                     "level16": 2188
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 5.0,
             "radius": null,
             "generationSpeed": null,
@@ -5419,6 +5771,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5460,6 +5813,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.4,
             "radius": null,
             "generationSpeed": null,
@@ -5480,6 +5836,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -5521,6 +5878,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
@@ -5541,6 +5901,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5582,6 +5943,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": 15.0,
@@ -5603,6 +5967,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5644,6 +6009,9 @@
                     "level16": 1841
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
@@ -5662,6 +6030,7 @@
             "units": 1,
             "duration": 65.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": null,
             "projectile": false,
             "suicide": false,
@@ -5703,6 +6072,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": null,
             "generationSpeed": 12.0,
@@ -5724,6 +6096,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -5765,6 +6138,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -5785,6 +6161,7 @@
             "units": 1,
             "duration": 30.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5826,6 +6203,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": 4.0,
@@ -5847,6 +6227,7 @@
             "units": 1,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -5888,6 +6269,9 @@
                     "level16": 1162
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": 7.0,
@@ -5908,6 +6292,7 @@
             "units": 1,
             "duration": 20.0,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -5949,6 +6334,9 @@
                     "level16": 1247
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 10.0,
             "radius": null,
             "generationSpeed": null,
@@ -5970,6 +6358,7 @@
             "units": 1,
             "duration": 10.0,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -6011,6 +6400,9 @@
                     "level16": 4090
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
@@ -6032,6 +6424,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -6073,6 +6466,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
@@ -6094,6 +6490,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -6135,6 +6532,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 3.5,
             "generationSpeed": null,
@@ -6156,6 +6556,7 @@
             "units": 0,
             "duration": 4.5,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -6197,6 +6598,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
@@ -6218,6 +6622,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -6259,6 +6664,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 2.0,
             "generationSpeed": null,
@@ -6280,6 +6688,7 @@
             "units": 3,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -6321,6 +6730,9 @@
                     "level16": 323
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.1,
             "radius": 1.5,
             "generationSpeed": null,
@@ -6342,6 +6754,7 @@
             "units": 0,
             "duration": 4.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -6383,6 +6796,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
@@ -6401,6 +6817,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": null,
             "projectile": false,
             "suicide": false,
@@ -6442,6 +6859,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": null,
             "generationSpeed": null,
@@ -6463,6 +6883,7 @@
             "units": 0,
             "duration": 1.5,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -6504,6 +6925,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 3.5,
             "generationSpeed": null,
@@ -6525,6 +6949,7 @@
             "units": 0,
             "duration": 0.001,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -6566,6 +6991,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
@@ -6587,6 +7015,7 @@
             "units": 0,
             "duration": 8.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -6628,6 +7057,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": 3.5,
             "generationSpeed": null,
@@ -6649,6 +7081,7 @@
             "units": 19,
             "duration": 9.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -6690,6 +7123,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": 4.0,
             "generationSpeed": 0.5,
@@ -6710,6 +7146,7 @@
             "units": 0,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -6751,6 +7188,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": null,
             "generationSpeed": null,
@@ -6772,6 +7212,7 @@
             "units": 0,
             "duration": 1.05,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -6813,6 +7254,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 5.5,
             "generationSpeed": null,
@@ -6834,6 +7278,7 @@
             "units": 0,
             "duration": 1.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": null,
             "projectile": false,
             "suicide": false,
@@ -6875,6 +7320,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
@@ -6895,6 +7343,7 @@
             "units": 0,
             "duration": 3.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -6936,6 +7385,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.0,
             "radius": 3.5,
             "generationSpeed": null,
@@ -6956,6 +7408,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -6997,6 +7450,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
@@ -7018,6 +7474,7 @@
             "units": 1,
             "duration": 1.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
@@ -7059,6 +7516,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.3,
             "radius": null,
             "generationSpeed": null,
@@ -7080,6 +7540,7 @@
             "units": 0,
             "duration": null,
             "evolution": true,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -7121,6 +7582,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
@@ -7142,6 +7606,7 @@
             "units": 1,
             "duration": 2.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -7183,6 +7648,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.3,
             "radius": 3.0,
             "generationSpeed": null,
@@ -7204,6 +7672,7 @@
             "units": 0,
             "duration": 4.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -7245,6 +7714,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
@@ -7266,6 +7738,7 @@
             "units": 0,
             "duration": 6.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -7307,6 +7780,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
@@ -7328,6 +7804,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -7369,6 +7846,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
@@ -7390,6 +7870,7 @@
             "units": 0,
             "duration": 2.0,
             "evolution": false,
+            "hero": false,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -7431,6 +7912,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": null,
             "radius": 2.5,
             "generationSpeed": null,
@@ -7454,6 +7938,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -7495,6 +7980,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.8,
             "radius": null,
             "generationSpeed": null,
@@ -7516,6 +8004,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -7557,6 +8046,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 2.2,
             "radius": null,
             "generationSpeed": null,
@@ -7578,6 +8070,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -7619,6 +8112,9 @@
                     "level16": null
                 }
             },
+            "statsHero": {
+                "prestigeCost": null
+            },
             "hitspeed": 0.5,
             "radius": null,
             "generationSpeed": null,
@@ -7640,6 +8136,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
+            "hero": false,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -7680,6 +8177,9 @@
                     "level15": null,
                     "level16": null
                 }
+            },
+            "statsHero": {
+                "prestigeCost": null
             },
             "hitspeed": 1.0,
             "radius": null,
