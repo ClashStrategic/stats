@@ -1,3 +1,17 @@
+# [1.8.0](https://github.com/ClashStrategic/stats/compare/v1.7.0...v1.8.0) (2026-01-22)
+
+
+### Bug Fixes
+
+* **cards:** update damage and tower damage statistics ([ef59ad8](https://github.com/ClashStrategic/stats/commit/ef59ad8634ffea064bacc43fe11273bf9c66c3da))
+
+
+### Features
+
+* **hero-cards:** set hero status and prestige costs ([a77b745](https://github.com/ClashStrategic/stats/commit/a77b745227d271e89fca48b3b8718f79c3c78100))
+* **hero:** add hero and statsHero fields ([badc20f](https://github.com/ClashStrategic/stats/commit/badc20f82e5fd1372e1e09db9d88b8acd193a36b))
+* **hero:** update hero statuses and prestige costs ([d932c44](https://github.com/ClashStrategic/stats/commit/d932c44b11b8d2fd93f4565610b2f0ae54ad7b56))
+
 # [1.7.0](https://github.com/ClashStrategic/stats/compare/v1.6.0...v1.7.0) (2026-01-19)
 
 
