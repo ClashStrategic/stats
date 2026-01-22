@@ -71,6 +71,32 @@ const unevolvedStatsSchema = {
 };
 
 /**
+ * Schema for the `statsHero` object when a card is a hero (`hero: true`).
+ * @type {object}
+ */
+const heroStatsSchema = {
+    type: 'object',
+    properties: {
+        prestigeCost: { type: 'number', minimum: 1 },
+    },
+    required: ['prestigeCost'],
+    additionalProperties: false,
+};
+
+/**
+ * Schema for the `statsHero` object when a card is NOT a hero (`hero: false`).
+ * @type {object}
+ */
+const nonHeroStatsSchema = {
+    type: 'object',
+    properties: {
+        prestigeCost: { const: null },
+    },
+    required: ['prestigeCost'],
+    additionalProperties: false,
+};
+
+/**
  * Defines the schema for an individual card object within the `cards` and `towerCards` arrays.
  * It specifies the data type and constraints for each card property.
  * @type {object}
@@ -92,6 +118,7 @@ const cardObjectSchema = {
         units: { type: 'number' },
         duration: { type: ['number', 'null'] },
         evolution: { type: 'boolean' },
+        hero: { type: 'boolean' },
         typeAttack: { type: ['string', 'null'] },
         projectile: { type: 'boolean' },
         suicide: { type: 'boolean' },
@@ -101,6 +128,7 @@ const cardObjectSchema = {
         damage: { ...levelBasedStats },
         hitpoints: { ...levelBasedStats },
         statsEvo: { type: 'object' },
+        statsHero: { type: 'object' },
         hitspeed: { type: ['number', 'null'] },
         radius: { type: ['number', 'null'] },
         generationSpeed: { type: ['number', 'null'] },
@@ -135,11 +163,22 @@ const cardObjectSchema = {
                 properties: { statsEvo: unevolvedStatsSchema },
             },
         },
+        {
+            if: {
+                properties: { hero: { const: true } },
+            },
+            then: {
+                properties: { statsHero: heroStatsSchema },
+            },
+            else: {
+                properties: { statsHero: nonHeroStatsSchema },
+            },
+        },
     ],
     required: [
         'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
-        'evolution', 'typeAttack', 'projectile', 'suicide', 'fatalDamage',
-        'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'statsEvo',
+        'evolution', 'hero', 'typeAttack', 'projectile', 'suicide', 'fatalDamage',
+        'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'statsEvo', 'statsHero',
         'hitspeed', 'radius', 'generationSpeed', 'generationUnits', 'speed',
         'range', 'territory', 'rarity', 'type',
     ],

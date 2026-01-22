@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const API_URL = 'https://humbleapi.galacticapricot.workers.dev/gamedata-v4.json';
+const API_URL = 'https://humble.galacticapricot.dev/gamedata-v5.json';
 const CARDS_FILE = path.join(__dirname, '..', 'cards.json');
 
 const MULTIPLIERS = {
@@ -24,6 +24,7 @@ const CARD_SKELETON = {
     units: 1,
     duration: null,
     evolution: false,
+    hero: false,
     typeAttack: null,
     projectile: false,
     suicide: false,
@@ -36,6 +37,9 @@ const CARD_SKELETON = {
         cycles: null,
         damage: { level11: null, level15: null, level16: null },
         hitpoints: { level11: null, level15: null, level16: null }
+    },
+    statsHero: {
+        prestigeCost: null
     },
     hitspeed: null,
     radius: null,
@@ -137,7 +141,7 @@ async function main() {
 
             // Extract base stats
             let charData = apiItem.summonCharacterData || apiItem.statCharacterData || {};
-            
+
             // Handle E-Wiz and similar cases where character data is inside area effect
             if (Object.keys(charData).length === 0 && apiItem.areaEffectObjectData && apiItem.areaEffectObjectData.onStartingActionData && apiItem.areaEffectObjectData.onStartingActionData.spawnDataData) {
                 charData = apiItem.areaEffectObjectData.onStartingActionData.spawnDataData;
@@ -203,7 +207,7 @@ async function main() {
                 if (Object.keys(evoCharData).length === 0 && evoData.areaEffectObjectData && evoData.areaEffectObjectData.onStartingActionData && evoData.areaEffectObjectData.onStartingActionData.spawnDataData) {
                     evoCharData = evoData.areaEffectObjectData.onStartingActionData.spawnDataData;
                 }
-                
+
                 const evoProjData = evoData.projectileData || (evoCharData.projectileData) || {};
                 const evoAreaData = evoData.areaEffectObjectData || {};
                 const evoBuffData = evoAreaData.buffData || {};
@@ -226,6 +230,12 @@ async function main() {
                     level15: evoDmgStats.level15 ?? (card.statsEvo.damage ? card.statsEvo.damage.level15 : null),
                     level16: evoDmgStats.level16 ?? (card.statsEvo.damage ? card.statsEvo.damage.level16 : null)
                 };
+            }
+
+            // Hero check
+            if (apiItem.heroData) {
+                card.hero = true;
+                card.statsHero.prestigeCost = apiItem.heroData.prestigeCount ?? null;
             }
 
             // Fallback: Extrapolate missing Level 16 from Level 11
