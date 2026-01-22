@@ -131,6 +131,9 @@ describe('Card Data Validation', () => {
       if (card.statsEvo.cycles !== null) {
         expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
       }
+      if (card.statsHero.prestigeCost !== null) {
+        expect(Number.isInteger(card.statsHero.prestigeCost)).toBe(true);
+      }
 
       /**
        * Helper function to check if level-based stat values are integers (if not null).
@@ -254,6 +257,26 @@ describe('Card Data Validation', () => {
         expect(statsEvo.hitpoints.level15).not.toBeNull();
         expect(statsEvo.hitpoints.level16).not.toBeNull();
       }
+    });
+  });
+
+  /**
+   * @describe Tests for logic related to card heroes.
+   */
+  describe('Hero Logic', () => {
+    const heroCards = allCards.filter(c => c.hero);
+
+    /**
+     * @it Ensures that hero cards have valid hero stats (`statsHero`).
+     * @param {object} card - The hero card object to test.
+     */
+    it.each(heroCards)('Hero card "$name" should have valid hero stats', (card) => {
+      const { statsHero } = card;
+
+      expect(statsHero).toBeDefined();
+      expect(statsHero.prestigeCost).not.toBeNull();
+      expect(Number.isInteger(statsHero.prestigeCost)).toBe(true);
+      expect(statsHero.prestigeCost).toBeGreaterThanOrEqual(1);
     });
   });
 });
