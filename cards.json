@@ -3673,7 +3673,7 @@
             "targets": [
                 "buildings"
             ],
-            "units": 7,
+            "units": 1,
             "duration": null,
             "evolution": true,
             "hero": false,
@@ -5048,7 +5048,7 @@
                 "air",
                 "ground"
             ],
-            "units": 2,
+            "units": 1,
             "duration": null,
             "evolution": false,
             "hero": false,
@@ -5243,7 +5243,7 @@
             "targets": [
                 "buildings"
             ],
-            "units": 2,
+            "units": 1,
             "duration": 1.0,
             "evolution": false,
             "hero": false,
