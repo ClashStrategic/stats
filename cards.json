@@ -1516,7 +1516,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2695,7 +2695,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3483,7 +3483,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5315,7 +5315,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -6885,7 +6885,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7608,7 +7608,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
