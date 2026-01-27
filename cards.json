@@ -6505,14 +6505,14 @@
                 "level16": null
             },
             "towerDamage": {
-                "level11": 31,
-                "level15": 45,
-                "level16": 49
+                "level11": 93,
+                "level15": 135,
+                "level16": 147
             },
             "damage": {
-                "level11": 123,
-                "level15": 179,
-                "level16": 196
+                "level11": 366,
+                "level15": 534,
+                "level16": 588
             },
             "hitpoints": {
                 "level11": null,
@@ -7631,9 +7631,9 @@
                 "level16": 699
             },
             "hitpoints": {
-                "level11": 547,
+                "level11": 548,
                 "level15": 796,
-                "level16": 874
+                "level16": 875
             },
             "statsEvo": {
                 "cycles": null,
