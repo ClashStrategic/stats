@@ -514,7 +514,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.1,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": 7.0,
             "generationUnits": 4,
             "speed": "medium",
@@ -774,7 +774,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.5,
-            "radius": null,
+            "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -904,7 +904,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1036,7 +1036,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.5,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -1167,7 +1167,7 @@
                 "prestigeCost": 1
             },
             "hitspeed": 1.4,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1756,7 +1756,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 3.0,
-            "radius": null,
+            "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1821,7 +1821,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.3,
-            "radius": null,
+            "radius": 1.1,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -2018,7 +2018,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.3,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -2084,7 +2084,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.3,
-            "radius": null,
+            "radius": 2.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -2215,7 +2215,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 4.0,
-            "radius": null,
+            "radius": 1.8,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
@@ -2280,7 +2280,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 2.5,
-            "radius": null,
+            "radius": 1.8,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
@@ -2760,7 +2760,7 @@
             "duration": 0.001,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -2936,7 +2936,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 2.2,
-            "radius": null,
+            "radius": 0.07,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -3002,7 +3002,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.9,
-            "radius": null,
+            "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -3328,7 +3328,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -3657,7 +3657,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.7,
-            "radius": null,
+            "radius": 1.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -3853,7 +3853,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.2,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -4114,7 +4114,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.1,
-            "radius": null,
+            "radius": 0.25,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -4396,7 +4396,7 @@
             "duration": null,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -4506,7 +4506,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.6,
-            "radius": null,
+            "radius": 1.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -4768,7 +4768,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.9,
-            "radius": null,
+            "radius": 0.8,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -5161,8 +5161,8 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.2,
-            "radius": null,
+            "hitspeed": 1.1,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5751,7 +5751,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 5.0,
-            "radius": null,
+            "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -5882,7 +5882,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -6031,7 +6031,7 @@
             "duration": 65.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6689,7 +6689,7 @@
             "duration": null,
             "evolution": true,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -6818,7 +6818,7 @@
             "duration": null,
             "evolution": false,
             "hero": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6884,7 +6884,7 @@
             "duration": 1.5,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -7082,7 +7082,7 @@
             "duration": 9.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7192,7 +7192,7 @@
                 "prestigeCost": null
             },
             "hitspeed": null,
-            "radius": null,
+            "radius": 1.95,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -7279,7 +7279,7 @@
             "duration": 1.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": null,
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7454,7 +7454,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.3,
-            "radius": null,
+            "radius": 1.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -7520,7 +7520,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.3,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
