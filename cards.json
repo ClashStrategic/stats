@@ -331,8 +331,8 @@
             "id": 26000005,
             "elixirCost": 3,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 3,
             "duration": null,
@@ -514,7 +514,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.1,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": 7.0,
             "generationUnits": 4,
             "speed": "medium",
@@ -712,7 +712,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "fast",
             "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
@@ -774,7 +774,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.5,
-            "radius": null,
+            "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -842,7 +842,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "fast",
             "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
@@ -904,7 +904,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1036,7 +1036,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.5,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -1167,7 +1167,7 @@
                 "prestigeCost": 1
             },
             "hitspeed": 1.4,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1366,7 +1366,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "slow",
+            "speed": "medium",
             "range": 0.8,
             "territory": "restricted",
             "rarity": "epic",
@@ -1516,7 +1516,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -1756,7 +1756,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 3.0,
-            "radius": null,
+            "radius": 2.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1821,7 +1821,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.3,
-            "radius": null,
+            "radius": 1.1,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -1966,8 +1966,8 @@
             "id": 26000030,
             "elixirCost": 1,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2018,7 +2018,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.3,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -2032,8 +2032,8 @@
             "id": 26000031,
             "elixirCost": 1,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -2084,7 +2084,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.3,
-            "radius": null,
+            "radius": 2.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -2098,7 +2098,6 @@
             "id": 26000032,
             "elixirCost": 3,
             "targets": [
-                "buildings",
                 "ground"
             ],
             "units": 1,
@@ -2215,7 +2214,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 4.0,
-            "radius": null,
+            "radius": 1.8,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "slow",
@@ -2280,10 +2279,10 @@
                 "prestigeCost": null
             },
             "hitspeed": 2.5,
-            "radius": null,
+            "radius": 1.8,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
+            "speed": "slow",
             "range": 4.0,
             "territory": "restricted",
             "rarity": "epic",
@@ -2687,15 +2686,15 @@
             "id": 26000041,
             "elixirCost": 3,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 6,
             "duration": null,
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -2760,7 +2759,7 @@
             "duration": 0.001,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -2808,7 +2807,7 @@
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
+            "speed": "fast",
             "range": 5.0,
             "territory": "restricted",
             "rarity": "legendary",
@@ -2873,7 +2872,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "fast",
             "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
@@ -2936,10 +2935,10 @@
                 "prestigeCost": null
             },
             "hitspeed": 2.2,
-            "radius": null,
+            "radius": 0.07,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "slow",
+            "speed": "medium",
             "range": 4.0,
             "territory": "restricted",
             "rarity": "epic",
@@ -3002,7 +3001,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.9,
-            "radius": null,
+            "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -3070,7 +3069,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "fast",
             "range": 0.75,
             "territory": "restricted",
             "rarity": "legendary",
@@ -3146,7 +3145,8 @@
             "id": 26000048,
             "elixirCost": 4,
             "targets": [
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 1,
             "duration": null,
@@ -3200,7 +3200,7 @@
             "radius": null,
             "generationSpeed": 5.0,
             "generationUnits": 2,
-            "speed": "fast",
+            "speed": "medium",
             "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
@@ -3328,7 +3328,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -3343,8 +3343,8 @@
             "elixirCost": 5,
             "targets": [
                 "buildings",
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -3475,15 +3475,15 @@
             "id": 26000053,
             "elixirCost": 5,
             "targets": [
-                "air",
-                "ground"
+                "ground",
+                "air"
             ],
             "units": 3,
             "duration": null,
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -3657,7 +3657,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.7,
-            "radius": null,
+            "radius": 1.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -3673,7 +3673,7 @@
             "targets": [
                 "buildings"
             ],
-            "units": 7,
+            "units": 1,
             "duration": null,
             "evolution": true,
             "hero": false,
@@ -3725,7 +3725,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "fast",
             "range": null,
             "territory": "restricted",
             "rarity": "common",
@@ -3791,7 +3791,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
+            "speed": "fast",
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
@@ -3853,7 +3853,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.2,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -3921,7 +3921,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
+            "speed": "very-fast",
             "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
@@ -3932,7 +3932,9 @@
             "id": 26000060,
             "elixirCost": 6,
             "targets": [
-                "buildings"
+                "buildings",
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -3985,8 +3987,8 @@
             "hitspeed": 1.5,
             "radius": null,
             "generationSpeed": null,
-            "generationUnits": null,
-            "speed": "fast",
+            "generationUnits": 2,
+            "speed": "medium",
             "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
@@ -4114,7 +4116,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.1,
-            "radius": null,
+            "radius": 0.25,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -4249,7 +4251,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "medium",
+            "speed": "fast",
             "range": 6.0,
             "territory": "restricted",
             "rarity": "common",
@@ -4396,7 +4398,7 @@
             "duration": null,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -4506,7 +4508,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.6,
-            "radius": null,
+            "radius": 1.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -4575,7 +4577,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
+            "speed": "medium",
             "range": 5.0,
             "territory": "restricted",
             "rarity": "champion",
@@ -4768,7 +4770,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.9,
-            "radius": null,
+            "radius": 0.8,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -4848,8 +4850,8 @@
             "id": 26000084,
             "elixirCost": 1,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -5034,7 +5036,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "very-fast",
+            "speed": "medium",
             "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
@@ -5048,7 +5050,7 @@
                 "air",
                 "ground"
             ],
-            "units": 2,
+            "units": 1,
             "duration": null,
             "evolution": false,
             "hero": false,
@@ -5161,8 +5163,8 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.2,
-            "radius": null,
+            "hitspeed": 1.1,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -5243,7 +5245,7 @@
             "targets": [
                 "buildings"
             ],
-            "units": 2,
+            "units": 1,
             "duration": 1.0,
             "evolution": false,
             "hero": false,
@@ -5307,15 +5309,15 @@
             "elixirCost": 5,
             "targets": [
                 "buildings",
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 2,
             "duration": null,
             "evolution": false,
             "hero": false,
             "typeAttack": "unique",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -5699,8 +5701,7 @@
             "id": 27000002,
             "elixirCost": 4,
             "targets": [
-                "ground",
-                "buildings"
+                "ground"
             ],
             "units": 1,
             "duration": 30.0,
@@ -5751,7 +5752,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 5.0,
-            "radius": null,
+            "radius": 2.0,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -5765,8 +5766,8 @@
             "id": 27000003,
             "elixirCost": 5,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": 30.0,
@@ -5882,7 +5883,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.8,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -5948,7 +5949,7 @@
             },
             "hitspeed": 10.0,
             "radius": null,
-            "generationSpeed": 15.0,
+            "generationSpeed": 14.0,
             "generationUnits": 3,
             "speed": null,
             "range": null,
@@ -5961,8 +5962,8 @@
             "id": 27000006,
             "elixirCost": 4,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": 30.0,
@@ -6031,7 +6032,7 @@
             "duration": 65.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6090,8 +6091,7 @@
             "id": 27000008,
             "elixirCost": 6,
             "targets": [
-                "ground",
-                "buildings"
+                "ground"
             ],
             "units": 1,
             "duration": 30.0,
@@ -6208,7 +6208,7 @@
             },
             "hitspeed": 10.0,
             "radius": null,
-            "generationSpeed": 4.0,
+            "generationSpeed": 3.5,
             "generationUnits": 2,
             "speed": null,
             "range": 2.0,
@@ -6221,8 +6221,8 @@
             "id": 27000010,
             "elixirCost": 4,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -6276,7 +6276,7 @@
             "radius": null,
             "generationSpeed": 7.0,
             "generationUnits": 1,
-            "speed": "slow",
+            "speed": "medium",
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
@@ -6407,7 +6407,7 @@
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
-            "speed": "fast",
+            "speed": "medium",
             "range": null,
             "territory": "wide",
             "rarity": "epic",
@@ -6418,8 +6418,8 @@
             "id": 28000000,
             "elixirCost": 4,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 0,
             "duration": null,
@@ -6484,8 +6484,8 @@
             "id": 28000001,
             "elixirCost": 3,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 0,
             "duration": null,
@@ -6505,14 +6505,14 @@
                 "level16": null
             },
             "towerDamage": {
-                "level11": 31,
-                "level15": 45,
-                "level16": 49
+                "level11": 93,
+                "level15": 135,
+                "level16": 147
             },
             "damage": {
-                "level11": 123,
-                "level15": 179,
-                "level16": 196
+                "level11": 366,
+                "level15": 534,
+                "level16": 588
             },
             "hitpoints": {
                 "level11": null,
@@ -6616,8 +6616,8 @@
             "id": 28000003,
             "elixirCost": 6,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 0,
             "duration": null,
@@ -6689,7 +6689,7 @@
             "duration": null,
             "evolution": true,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -6818,7 +6818,7 @@
             "duration": null,
             "evolution": false,
             "hero": false,
-            "typeAttack": null,
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -6884,8 +6884,8 @@
             "duration": 1.5,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
-            "projectile": false,
+            "typeAttack": "splash",
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7082,7 +7082,7 @@
             "duration": 9.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "unique",
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7192,7 +7192,7 @@
                 "prestigeCost": null
             },
             "hitspeed": null,
-            "radius": null,
+            "radius": 1.95,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": null,
@@ -7279,7 +7279,7 @@
             "duration": 1.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": null,
+            "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7454,7 +7454,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 1.3,
-            "radius": null,
+            "radius": 1.3,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
@@ -7468,8 +7468,8 @@
             "id": 28000016,
             "elixirCost": 1,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": 1.0,
@@ -7520,7 +7520,7 @@
                 "prestigeCost": null
             },
             "hitspeed": 0.3,
-            "radius": null,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "very-fast",
@@ -7534,8 +7534,8 @@
             "id": 28000017,
             "elixirCost": 2,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 0,
             "duration": null,
@@ -7608,7 +7608,7 @@
             "evolution": false,
             "hero": false,
             "typeAttack": "splash",
-            "projectile": false,
+            "projectile": true,
             "suicide": false,
             "fatalDamage": {
                 "level11": null,
@@ -7631,9 +7631,9 @@
                 "level16": 699
             },
             "hitpoints": {
-                "level11": 547,
+                "level11": 548,
                 "level15": 796,
-                "level16": 874
+                "level16": 875
             },
             "statsEvo": {
                 "cycles": null,
@@ -7932,8 +7932,8 @@
             "id": 159000000,
             "elixirCost": 0,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -7998,8 +7998,8 @@
             "id": 159000001,
             "elixirCost": 0,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -8064,8 +8064,8 @@
             "id": 159000002,
             "elixirCost": 0,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
@@ -8130,8 +8130,8 @@
             "id": 159000004,
             "elixirCost": 0,
             "targets": [
-                "ground",
-                "air"
+                "air",
+                "ground"
             ],
             "units": 1,
             "duration": null,
