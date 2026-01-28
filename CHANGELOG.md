@@ -1,3 +1,16 @@
+## [1.8.1](https://github.com/ClashStrategic/stats/compare/v1.8.0...v1.8.1) (2026-01-28)
+
+
+### Bug Fixes
+
+* **data:** reduce unit counts for multiple card entries ([3014fa4](https://github.com/ClashStrategic/stats/commit/3014fa43d12b88e72beac33ddedd9f4d2e404c36))
+* **data:** update card damage and hitpoints values in cards.json ([8d46789](https://github.com/ClashStrategic/stats/commit/8d467898af65c701d3a0d4168b2dd205583b4554))
+* **data:** update card target definitions in cards.json ([15be03b](https://github.com/ClashStrategic/stats/commit/15be03bffe382c6655a66befbb8690ef43187519))
+* **data:** update movement speed values for multiple cards in cards.json ([3ebb058](https://github.com/ClashStrategic/stats/commit/3ebb058d45979a7e90f1c8029d44a9632588aea5))
+* **data:** update projectile property for multiple card entries ([d51f7db](https://github.com/ClashStrategic/stats/commit/d51f7db33c25a4d0ce2ada3c7e3d227f7c1577c7))
+* **data:** update radius values and attack type classification ([78f59ae](https://github.com/ClashStrategic/stats/commit/78f59aebe728944ff49772fc924e9f2f0dd6589d))
+* **data:** update unit generation stats in cards.json ([f4f7652](https://github.com/ClashStrategic/stats/commit/f4f7652dc1ceb4df6717d2b6dc2d26454ec2d389))
+
 # [1.8.0](https://github.com/ClashStrategic/stats/compare/v1.7.0...v1.8.0) (2026-01-22)
 
 
