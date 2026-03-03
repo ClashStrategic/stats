@@ -6689,7 +6689,7 @@
             "duration": null,
             "evolution": true,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -6884,7 +6884,7 @@
             "duration": 1.5,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -7082,7 +7082,7 @@
             "duration": 9.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7673,7 +7673,7 @@
             "duration": 4.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7871,7 +7871,7 @@
             "duration": 2.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
