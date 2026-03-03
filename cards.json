@@ -141,7 +141,7 @@
             "units": 4,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -184,7 +184,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 1
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -2560,7 +2560,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -2603,7 +2603,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 2
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -4070,7 +4070,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -4113,7 +4113,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 1
             },
             "hitspeed": 1.1,
             "radius": 0.25,
@@ -7408,7 +7408,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -7451,7 +7451,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 1
             },
             "hitspeed": 1.3,
             "radius": 1.3,
