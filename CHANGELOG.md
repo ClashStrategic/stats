@@ -1,3 +1,16 @@
+# [1.9.0](https://github.com/ClashStrategic/stats/compare/v1.8.1...v1.9.0) (2026-03-03)
+
+
+### Bug Fixes
+
+* **data:** update card attack types to unique ([4423dc6](https://github.com/ClashStrategic/stats/commit/4423dc66389e886c50b724a6244d737b75357879))
+* **data:** update card statistics and balance values ([d9064fc](https://github.com/ClashStrategic/stats/commit/d9064fcf0fa7dc565fad265dc13838e25242e498))
+
+
+### Features
+
+* **heroes:** enable hero traits and assign resource requirements ([6788526](https://github.com/ClashStrategic/stats/commit/67885261c251ff66eb1c101584312f1e53a32d0a))
+
 ## [1.8.1](https://github.com/ClashStrategic/stats/compare/v1.8.0...v1.8.1) (2026-01-28)
 
 
