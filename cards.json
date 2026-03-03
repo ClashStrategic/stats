@@ -141,7 +141,7 @@
             "units": 4,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -184,7 +184,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 1
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -231,9 +231,9 @@
                 "level16": 405
             },
             "hitpoints": {
-                "level11": 4091,
-                "level15": 5945,
-                "level16": 6536
+                "level11": 3968,
+                "level15": 5766,
+                "level16": 6340
             },
             "statsEvo": {
                 "cycles": null,
@@ -382,7 +382,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.1,
+            "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -427,9 +427,9 @@
                 "level16": 1023
             },
             "hitpoints": {
-                "level11": 1679,
-                "level15": 2440,
-                "level16": 2683
+                "level11": 1677,
+                "level15": 2437,
+                "level16": 2679
             },
             "statsEvo": {
                 "cycles": null,
@@ -1211,9 +1211,9 @@
                 "level16": 1207
             },
             "hitpoints": {
-                "level11": 1434,
-                "level15": 2083,
-                "level16": 2290
+                "level11": 1390,
+                "level15": 2020,
+                "level16": 2221
             },
             "statsEvo": {
                 "cycles": null,
@@ -1362,7 +1362,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.4,
+            "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -1493,7 +1493,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.1,
+            "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -2560,7 +2560,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
@@ -2603,7 +2603,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 2
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -2646,9 +2646,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 156,
-                "level15": 227,
-                "level16": 249
+                "level11": 151,
+                "level15": 219,
+                "level16": 241
             },
             "hitpoints": {
                 "level11": 261,
@@ -2658,9 +2658,9 @@
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": 156,
-                    "level15": 227,
-                    "level16": 249
+                    "level11": 151,
+                    "level15": 219,
+                    "level16": 241
                 },
                 "hitpoints": {
                     "level11": 261,
@@ -3394,7 +3394,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.8,
+            "hitspeed": 1.7,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4070,7 +4070,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -4113,7 +4113,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 1
             },
             "hitspeed": 1.1,
             "radius": 0.25,
@@ -5073,9 +5073,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 100,
-                "level15": 145,
-                "level16": 160
+                "level11": 105,
+                "level15": 153,
+                "level16": 168
             },
             "hitpoints": {
                 "level11": 699,
@@ -5530,9 +5530,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 269,
-                "level15": 391,
-                "level16": 429
+                "level11": 246,
+                "level15": 357,
+                "level16": 393
             },
             "hitpoints": {
                 "level11": 2624,
@@ -5555,7 +5555,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.2,
+            "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -6272,7 +6272,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.8,
+            "hitspeed": 1.7,
             "radius": null,
             "generationSpeed": 7.0,
             "generationUnits": 1,
@@ -6505,14 +6505,14 @@
                 "level16": null
             },
             "towerDamage": {
-                "level11": 93,
-                "level15": 135,
+                "level11": 92,
+                "level15": 134,
                 "level16": 147
             },
             "damage": {
-                "level11": 366,
-                "level15": 534,
-                "level16": 588
+                "level11": 369,
+                "level15": 536,
+                "level16": 589
             },
             "hitpoints": {
                 "level11": null,
@@ -6689,7 +6689,7 @@
             "duration": null,
             "evolution": true,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -6884,7 +6884,7 @@
             "duration": 1.5,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
             "fatalDamage": {
@@ -7082,7 +7082,7 @@
             "duration": 9.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7408,7 +7408,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -7428,9 +7428,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 230,
-                "level15": 335,
-                "level16": 368
+                "level11": 233,
+                "level15": 339,
+                "level16": 372
             },
             "hitpoints": {
                 "level11": 670,
@@ -7451,7 +7451,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 1
             },
             "hitspeed": 1.3,
             "radius": 1.3,
@@ -7673,7 +7673,7 @@
             "duration": 4.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
@@ -7871,7 +7871,7 @@
             "duration": 2.0,
             "evolution": false,
             "hero": false,
-            "typeAttack": "splash",
+            "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
             "fatalDamage": {

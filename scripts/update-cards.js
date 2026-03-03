@@ -27,7 +27,7 @@ const TARGETS_MAP = {
 };
 
 const CARD_SKELETON = {
-    name: null, id: null, elixirCost: null, targets: [], units: 1,
+    name: null, id: null, elixirCost: null, targets: [], units: 0,
     duration: null, evolution: false, hero: false, typeAttack: null,
     projectile: false, suicide: false,
     fatalDamage: { level11: null, level15: null, level16: null },
@@ -161,6 +161,8 @@ function processCard(card, apiItem, multipliers) {
         baseHP = charData.hitpoints || spawnCharData.hitpoints;
         baseDamage = charData.damage || projData.damage || areaData.damage || buffData.damagePerSecond || spawnProjData.damage || spawnCharData.damage;
     }
+
+    baseDamage = baseDamage * (apiItem.projectileWaves || 1);
 
     card.generationSpeed = charData.spawnPauseTime ? charData.spawnPauseTime / 1000 : card.generationSpeed;
     card.generationUnits = charData.spawnNumber > 1 ? charData.spawnNumber : card.generationUnits;

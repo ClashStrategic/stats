@@ -37,6 +37,6 @@
         "test": "jest tests/cards.test.js",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
-        "buid:update-cards": "node scripts/update-cards.js && node scripts/convert-to-floats.js"
+        "build:update-cards": "node scripts/update-cards.js && node scripts/convert-to-floats.js"
     }
 }
