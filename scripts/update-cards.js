@@ -6,7 +6,8 @@ const https = require('https');
 // CONSTANTS
 // ─────────────────────────────────────────────────────────────────────────────
 
-const API_URL = 'https://humble.galacticapricot.dev/gamedata-v5.json';
+//const API_URL = 'https://humble.galacticapricot.dev/gamedata-v5.json';
+const API_URL = 'https://cache.statsroyale.com/gamedata-v5.json';
 const CARDS_FILE = path.join(__dirname, '..', 'cards.json');
 
 const MULTIPLIERS = {
