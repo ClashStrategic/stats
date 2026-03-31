@@ -3000,7 +3000,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 0.9,
+            "hitspeed": 2.4,
             "radius": 1.0,
             "generationSpeed": null,
             "generationUnits": null,
