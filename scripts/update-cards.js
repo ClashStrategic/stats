@@ -149,14 +149,14 @@ function processCard(card, apiItem, multipliers) {
 
     if (characters.length > 0) {
         const { maxHP, primaryChar, totalDamage, hasProjectile } = aggregateCharacterStats(characters);
-        card.hitspeed = primaryChar.hitSpeed ? primaryChar.hitSpeed / 1000 : card.hitspeed;
+        card.hitspeed = primaryChar.hitSpeed ? (primaryChar.hitSpeed + (projData.pingpongVisualTime ?? 0)) / 1000 : card.hitspeed;
         card.range = primaryChar.range ? primaryChar.range / 1000 : card.range;
         card.speed = SPEED_MAP[primaryChar.tidSpeed] || card.speed;
         card.projectile = hasProjectile || card.projectile;
         baseHP = maxHP || charData.hitpoints || spawnCharData.hitpoints;
         baseDamage = totalDamage || charData.damage || projData.damage || areaData.damage || buffData.damagePerSecond || spawnProjData.damage || spawnCharData.damage;
     } else {
-        card.hitspeed = charData.hitSpeed ? charData.hitSpeed / 1000 : card.hitspeed;
+        card.hitspeed = charData.hitSpeed ? (charData.hitSpeed + (projData.pingpongVisualTime ?? 0)) / 1000 : card.hitspeed;
         card.range = charData.range ? charData.range / 1000 : card.range;
         card.speed = SPEED_MAP[charData.tidSpeed] || card.speed;
         baseHP = charData.hitpoints || spawnCharData.hitpoints;
