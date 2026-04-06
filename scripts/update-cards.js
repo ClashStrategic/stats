@@ -169,7 +169,7 @@ function processCard(card, apiItem, multipliers) {
     card.generationUnits = charData.spawnNumber > 1 ? charData.spawnNumber : card.generationUnits;
 
     const rawRadius = apiItem.radius ?? areaData.radius ?? charData.areaDamageRadius ?? projData.radius ?? projData.customFirstProjectileData?.radius;
-    if (rawRadius != null) {
+    if (rawRadius != null && card.units === 0 && !['Lightning', 'Void', 'Vines'].includes(card.name)) {
         card.radius = rawRadius / 1000;
         card.typeAttack = 'splash';
     } else {
