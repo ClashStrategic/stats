@@ -1447,7 +1447,7 @@
             ],
             "units": 6,
             "duration": null,
-            "evolution": false,
+            "evolution": true,
             "hero": false,
             "typeAttack": "unique",
             "projectile": true,
@@ -1478,16 +1478,16 @@
                 "level16": 368
             },
             "statsEvo": {
-                "cycles": null,
+                "cycles": 1,
                 "damage": {
-                    "level11": null,
-                    "level15": null,
-                    "level16": null
+                    "level11": 108,
+                    "level15": 156,
+                    "level16": 172
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level15": null,
-                    "level16": null
+                    "level11": 230,
+                    "level15": 335,
+                    "level16": 368
                 }
             },
             "statsHero": {
