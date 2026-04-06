@@ -402,7 +402,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
@@ -445,7 +445,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": 2
             },
             "hitspeed": 2.0,
             "radius": null,
