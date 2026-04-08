@@ -4113,7 +4113,7 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 1
+                "prestigeCost": 2
             },
             "hitspeed": 1.1,
             "radius": 0.25,
@@ -4769,8 +4769,8 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.9,
-            "radius": 0.8,
+            "hitspeed": 2.0,
+            "radius": 1.5,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "fast",
@@ -5595,9 +5595,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 212,
-                "level15": 309,
-                "level16": 339
+                "level11": 202,
+                "level15": 293,
+                "level16": 323
             },
             "hitpoints": {
                 "level11": 824,
@@ -5607,9 +5607,9 @@
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": 212,
-                    "level15": 309,
-                    "level16": 339
+                    "level11": 202,
+                    "level15": 293,
+                    "level16": 323
                 },
                 "hitpoints": {
                     "level11": 824,
