@@ -1,3 +1,17 @@
+# [1.10.0](https://github.com/ClashStrategic/stats/compare/v1.9.0...v1.10.0) (2026-04-08)
+
+
+### Bug Fixes
+
+* **data:** update hitspeed in cards configuration ([14a6c64](https://github.com/ClashStrategic/stats/commit/14a6c64acef702376c905300f05be8b6dcd608fc))
+* **data:** update prestige cost, hitspeed, and damage stats ([e31650c](https://github.com/ClashStrategic/stats/commit/e31650ce61b7d8fc8032c76608b0811f0d620337))
+
+
+### Features
+
+* **data:** enable evolution and define stats for Minion Horde ([506293a](https://github.com/ClashStrategic/stats/commit/506293ac22c70c80a5b2f0d12a6571b0dfd19b64))
+* **data:** update hero status and prestige cost for card Balloon ([d7a879e](https://github.com/ClashStrategic/stats/commit/d7a879efc91f19db1c7addc7e87d6a75818b2e52))
+
 # [1.9.0](https://github.com/ClashStrategic/stats/compare/v1.8.1...v1.9.0) (2026-03-03)
 
 
