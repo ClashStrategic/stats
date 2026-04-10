@@ -5268,9 +5268,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 227,
-                "level15": 331,
-                "level16": 363
+                "level11": 256,
+                "level15": 372,
+                "level16": 409
             },
             "hitpoints": {
                 "level11": 82,
@@ -5293,7 +5293,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 0.3,
+            "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
