@@ -7651,7 +7651,7 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 1.3,
+            "hitspeed": null,
             "radius": 3.0,
             "generationSpeed": null,
             "generationUnits": null,
