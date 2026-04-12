@@ -1,3 +1,15 @@
+## [1.10.1](https://github.com/ClashStrategic/stats/compare/v1.10.0...v1.10.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* **data:** adjust Battle Ram attributes for balance consistency ([31b2c96](https://github.com/ClashStrategic/stats/commit/31b2c969ab9941e56600939c1b7807e60210a475))
+* **data:** adjust card scaling values for level 11, 15, and 16 ([6e92a6a](https://github.com/ClashStrategic/stats/commit/6e92a6a9ec68ce013c7f2d8d24e65149980844fa))
+* **data:** correct Skeleton Barrel hitpoints and hitspeed values ([4b7f9e3](https://github.com/ClashStrategic/stats/commit/4b7f9e35fabbaf35008dd2708866bb4fca2e6442))
+* **data:** remove hitspeed stat for Royal Delivery ([03a9569](https://github.com/ClashStrategic/stats/commit/03a9569a2c9d373c1c1c1bc60985539830cefc08))
+* **data:** update damage and hitspeed stats for Suspicious Bush ([e6747f1](https://github.com/ClashStrategic/stats/commit/e6747f12f86f384de9d1f577d178948954f88aca))
+* **data:** update tower damage and hitpoints for Goblin Drill ([47453f8](https://github.com/ClashStrategic/stats/commit/47453f8b752de3d893f146f34f37dd3eae88ed74))
+
 # [1.10.0](https://github.com/ClashStrategic/stats/compare/v1.9.0...v1.10.0) (2026-04-08)
 
 
