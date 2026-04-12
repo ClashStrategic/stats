@@ -62,7 +62,7 @@ const fetchData = (url) => new Promise((resolve, reject) => {
 });
 
 const calcStats = (base, m) => base
-    ? { level11: Math.round(base * m.level11), level15: Math.round(base * m.level15), level16: Math.round(base * m.level16) }
+    ? { level11: Math.floor(base * m.level11), level15: Math.floor(base * m.level15), level16: Math.floor(base * m.level16) }
     : { level11: null, level15: null, level16: null };
 
 const mergeStats = (computed, existing) => ({
@@ -95,19 +95,20 @@ function collectCharacters(apiItem) {
 }
 
 function aggregateCharacterStats(characters) {
-    let maxHP = 0, primaryChar = {}, totalDamage = 0, hasProjectile = false;
+    let maxHP = 0, primaryChar = {}, totalDamage = 0, hasProjectile = false, hsOfDmg = 0;
 
     characters.forEach(({ data }) => {
         const hp = data.hitpoints || 0;
         const proj = data.projectileData || {};
         const dmg = data.damage || proj.damage || 0;
+        const hs = data.hitSpeed || 0;
 
         if (hp > maxHP) { maxHP = hp; primaryChar = data; }
-        if (dmg > totalDamage) totalDamage = dmg;
+        if (dmg > totalDamage) { totalDamage = dmg; hsOfDmg = hs; };
         if (Object.keys(proj).length > 0) hasProjectile = true;
     });
 
-    return { maxHP, primaryChar, totalDamage, hasProjectile };
+    return { maxHP, primaryChar, totalDamage, hasProjectile, hsOfDmg };
 }
 
 function extractAllTargets(apiItem, charData) {
@@ -135,6 +136,7 @@ function processCard(card, apiItem, multipliers) {
     const buffData = areaData.buffData || {};
     const spawnProjData = projData.spawnProjectileData || areaData.projectileData || {};
     const spawnCharData = projData.spawnCharacterData || areaData.spawnCharacterData || {};
+    const deathAreaEffect = charData.deathAreaEffectData || {};
 
     card.elixirCost = apiItem.manaCost ?? card.elixirCost;
     card.rarity = (apiItem.rarity || card.rarity || '').toLowerCase();
@@ -148,19 +150,18 @@ function processCard(card, apiItem, multipliers) {
     let baseHP, baseDamage;
 
     if (characters.length > 0) {
-        const { maxHP, primaryChar, totalDamage, hasProjectile } = aggregateCharacterStats(characters);
-        card.hitspeed = primaryChar.hitSpeed ? (primaryChar.hitSpeed + (projData.pingpongVisualTime ?? 0)) / 1000 : card.hitspeed;
+        let maxHP, primaryChar, totalDamage, hasProjectile, hsOfDmg;
+        if (charData.deathSpawnCharacterData && charData.kamikaze)
+            ({ maxHP, primaryChar, totalDamage, hasProjectile, hsOfDmg } = aggregateCharacterStats([{ data: charData.deathSpawnCharacterData, count: 1 }]));
+        else
+            ({ maxHP, primaryChar, totalDamage, hasProjectile, hsOfDmg } = aggregateCharacterStats(characters));
+
+        card.hitspeed = hsOfDmg ? (hsOfDmg + (projData.pingpongVisualTime ?? 0)) / 1000 : card.hitspeed;
         card.range = primaryChar.range ? primaryChar.range / 1000 : card.range;
         card.speed = SPEED_MAP[primaryChar.tidSpeed] || card.speed;
         card.projectile = hasProjectile || card.projectile;
-        baseHP = maxHP || charData.hitpoints || spawnCharData.hitpoints;
-        baseDamage = totalDamage || charData.damage || projData.damage || areaData.damage || buffData.damagePerSecond || spawnProjData.damage || spawnCharData.damage;
-    } else {
-        card.hitspeed = charData.hitSpeed ? (charData.hitSpeed + (projData.pingpongVisualTime ?? 0)) / 1000 : card.hitspeed;
-        card.range = charData.range ? charData.range / 1000 : card.range;
-        card.speed = SPEED_MAP[charData.tidSpeed] || card.speed;
-        baseHP = charData.hitpoints || spawnCharData.hitpoints;
-        baseDamage = charData.damage || projData.damage || areaData.damage || buffData.damagePerSecond || spawnProjData.damage || spawnCharData.damage;
+        baseHP = charData.spawnPathfindMorphData ? charData.spawnPathfindMorphData.hitpoints : maxHP || charData.hitpoints || spawnCharData.hitpoints;
+        baseDamage = totalDamage || charData.damage || projData.damage || areaData.damage || buffData.damagePerSecond || spawnProjData.damage || spawnCharData.damage || deathAreaEffect.damage;
     }
 
     baseDamage = baseDamage * (apiItem.projectileWaves || 1);
@@ -178,7 +179,7 @@ function processCard(card, apiItem, multipliers) {
 
     card.projectile = Object.keys(projData).length > 0 || card.projectile;
 
-    const rawDuration = apiItem.lifeTime ?? areaData.lifeDuration;
+    const rawDuration = apiItem.lifeTime ?? areaData.lifeDuration ?? charData.spawnPathfindMorphData?.lifeTime;
     if (rawDuration != null) card.duration = rawDuration / 1000;
 
     const baseFatal = charData.deathDamage || charData.deathSpawnCharacterData?.deathDamage;
