@@ -2383,21 +2383,21 @@
                 "level16": null
             },
             "damage": {
-                "level11": 287,
-                "level15": 417,
-                "level16": 458
+                "level11": 192,
+                "level15": 279,
+                "level16": 307
             },
             "hitpoints": {
-                "level11": 968,
-                "level15": 1406,
-                "level16": 1546
+                "level11": 671,
+                "level15": 975,
+                "level16": 1072
             },
             "statsEvo": {
                 "cycles": 2,
                 "damage": {
-                    "level11": 287,
-                    "level15": 417,
-                    "level16": 458
+                    "level11": 192,
+                    "level15": 279,
+                    "level16": 307
                 },
                 "hitpoints": {
                     "level11": 968,
@@ -2408,12 +2408,12 @@
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 0.4,
+            "hitspeed": 1.3,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
             "speed": "medium",
-            "range": 0.5,
+            "range": 0.7,
             "territory": "restricted",
             "rarity": "rare",
             "type": "troop"
