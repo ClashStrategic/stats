@@ -3701,9 +3701,9 @@
                 "level16": 129
             },
             "hitpoints": {
-                "level11": 532,
-                "level15": 774,
-                "level16": 851
+                "level11": 81,
+                "level15": 119,
+                "level16": 129
             },
             "statsEvo": {
                 "cycles": 2,
@@ -3713,15 +3713,15 @@
                     "level16": 129
                 },
                 "hitpoints": {
-                    "level11": 532,
-                    "level15": 774,
-                    "level16": 851
+                    "level11": 81,
+                    "level15": 119,
+                    "level16": 129
                 }
             },
             "statsHero": {
                 "prestigeCost": null
             },
-            "hitspeed": 0.3,
+            "hitspeed": 1.1,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
