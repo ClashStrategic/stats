@@ -50,10 +50,27 @@
                     "level11": 1766,
                     "level15": 2566,
                     "level16": 2822
+                },
+                "skills": {
+                    "shield": {
+                        "hitpoints": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        },
+                        "damageReductionPercent": 60
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": 2
+                "prestigeCost": 2,
+                "skills": {
+                    "ability": {
+                        "name": "Knight_hero",
+                        "elixirCost": 2,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -63,7 +80,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Archers",
@@ -116,10 +134,12 @@
                     "level11": 304,
                     "level15": 442,
                     "level16": 486
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.9,
             "radius": null,
@@ -129,7 +149,8 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Goblins",
@@ -181,10 +202,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 1
+                "prestigeCost": 1,
+                "skills": {
+                    "ability": {
+                        "name": "Goblins_hero",
+                        "elixirCost": 1,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -194,7 +223,8 @@
             "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Giant",
@@ -246,10 +276,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 2
+                "prestigeCost": 2,
+                "skills": {
+                    "ability": {
+                        "name": "Giant_hero",
+                        "elixirCost": 2,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -259,7 +297,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "P.E.K.K.A",
@@ -311,10 +350,12 @@
                     "level11": 3760,
                     "level15": 5464,
                     "level16": 6008
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.8,
             "radius": null,
@@ -324,7 +365,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Minions",
@@ -377,10 +419,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -390,7 +434,8 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Balloon",
@@ -442,10 +487,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 2
+                "prestigeCost": 2,
+                "skills": {
+                    "ability": {
+                        "name": "Balloon_hero",
+                        "elixirCost": 2,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 2.0,
             "radius": null,
@@ -455,7 +508,19 @@
             "range": 0.1,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "BalloonBomb",
+                    "damage": {
+                        "level11": 240,
+                        "level15": 349,
+                        "level16": 384
+                    },
+                    "radius": 0.45,
+                    "deployTime": 3
+                }
+            }
         },
         {
             "name": "Witch",
@@ -508,10 +573,18 @@
                     "level11": 839,
                     "level15": 1220,
                     "level16": 1341
+                },
+                "skills": {
+                    "periodic-spawn": {
+                        "pauseTime": 7,
+                        "character": "Skeleton",
+                        "units": 4
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": 1.5,
@@ -521,7 +594,14 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "periodic-spawn": {
+                    "pauseTime": 7,
+                    "character": "Skeleton",
+                    "units": 4
+                }
+            }
         },
         {
             "name": "Barbarians",
@@ -573,10 +653,19 @@
                     "level11": 737,
                     "level15": 1071,
                     "level16": 1177
+                },
+                "skills": {
+                    "boost": {
+                        "hitSpeedMultiplier": 130,
+                        "speedMultiplier": 130,
+                        "spawnSpeedMultiplier": null,
+                        "duration": null
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -586,7 +675,8 @@
             "range": 0.7,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Golem",
@@ -638,10 +728,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.5,
             "radius": null,
@@ -651,7 +743,19 @@
             "range": 0.75,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "Golemite",
+                    "damage": {
+                        "level11": 99,
+                        "level15": 145,
+                        "level16": 159
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Skeletons",
@@ -703,10 +807,18 @@
                     "level11": 81,
                     "level15": 119,
                     "level16": 130
+                },
+                "skills": {
+                    "multiply": {
+                        "units": 1,
+                        "interval": 0.05,
+                        "maxUnits": 8
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -716,7 +828,8 @@
             "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Valkyrie",
@@ -768,10 +881,12 @@
                     "level11": 1907,
                     "level15": 2771,
                     "level16": 3047
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": 2.0,
@@ -781,7 +896,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Skeleton Army",
@@ -833,10 +949,12 @@
                     "level11": 81,
                     "level15": 119,
                     "level16": 130
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -846,7 +964,8 @@
             "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Bomber",
@@ -898,10 +1017,12 @@
                     "level11": 304,
                     "level15": 442,
                     "level16": 486
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.8,
             "radius": 1.5,
@@ -911,7 +1032,8 @@
             "range": 4.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Musketeer",
@@ -964,10 +1086,18 @@
                     "level11": 721,
                     "level15": 1049,
                     "level16": 1153
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 3
+                "prestigeCost": 3,
+                "skills": {
+                    "ability": {
+                        "name": "Musketeer_hero",
+                        "elixirCost": 3,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -977,7 +1107,8 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Baby Dragon",
@@ -1030,10 +1161,12 @@
                     "level11": 1152,
                     "level15": 1674,
                     "level16": 1840
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": 1.5,
@@ -1043,7 +1176,8 @@
             "range": 3.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Prince",
@@ -1095,10 +1229,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.4,
             "radius": null,
@@ -1108,7 +1244,13 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "jump": {
+                    "height": 4,
+                    "speed": 0.16
+                }
+            }
         },
         {
             "name": "Wizard",
@@ -1161,10 +1303,27 @@
                     "level11": 755,
                     "level15": 1097,
                     "level16": 1206
+                },
+                "skills": {
+                    "shield": {
+                        "hitpoints": {
+                            "level11": 192,
+                            "level15": 279,
+                            "level16": 306
+                        },
+                        "damageReductionPercent": null
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": 1
+                "prestigeCost": 1,
+                "skills": {
+                    "ability": {
+                        "name": "Wizard_hero",
+                        "elixirCost": 1,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.4,
             "radius": 1.5,
@@ -1174,7 +1333,8 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Mini P.E.K.K.A",
@@ -1226,10 +1386,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 1
+                "prestigeCost": 1,
+                "skills": {
+                    "ability": {
+                        "name": "MiniPekka_hero",
+                        "elixirCost": 1,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.6,
             "radius": null,
@@ -1239,7 +1407,8 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Spear Goblins",
@@ -1292,10 +1461,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.7,
             "radius": null,
@@ -1305,7 +1476,8 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Giant Skeleton",
@@ -1357,10 +1529,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -1370,7 +1544,19 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "GiantSkeletonBomb",
+                    "damage": {
+                        "level11": 688,
+                        "level15": 1000,
+                        "level16": 1100
+                    },
+                    "radius": 0.45,
+                    "deployTime": 3
+                }
+            }
         },
         {
             "name": "Hog Rider",
@@ -1422,10 +1608,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.6,
             "radius": null,
@@ -1435,7 +1623,13 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "jump": {
+                    "height": 4,
+                    "speed": 0.16
+                }
+            }
         },
         {
             "name": "Minion Horde",
@@ -1488,10 +1682,12 @@
                     "level11": 230,
                     "level15": 335,
                     "level16": 368
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -1501,7 +1697,8 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Ice Wizard",
@@ -1554,10 +1751,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.7,
             "radius": 3.0,
@@ -1567,7 +1766,15 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "slow": {
+                    "hitSpeedMultiplier": -30,
+                    "speedMultiplier": -30,
+                    "spawnSpeedMultiplier": -30,
+                    "duration": 2.5
+                }
+            }
         },
         {
             "name": "Royal Giant",
@@ -1619,10 +1826,12 @@
                     "level11": 3164,
                     "level15": 4597,
                     "level16": 5055
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.7,
             "radius": null,
@@ -1632,7 +1841,8 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Guards",
@@ -1684,10 +1894,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -1697,7 +1909,17 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "shield": {
+                    "hitpoints": {
+                        "level11": 256,
+                        "level15": 372,
+                        "level16": 409
+                    },
+                    "damageReductionPercent": null
+                }
+            }
         },
         {
             "name": "Princess",
@@ -1750,10 +1972,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 3.0,
             "radius": 2.5,
@@ -1763,7 +1987,8 @@
             "range": 9.0,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Dark Prince",
@@ -1815,10 +2040,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": 1.1,
@@ -1828,7 +2055,21 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "shield": {
+                    "hitpoints": {
+                        "level11": 240,
+                        "level15": 349,
+                        "level16": 384
+                    },
+                    "damageReductionPercent": null
+                },
+                "jump": {
+                    "height": 4,
+                    "speed": 0.16
+                }
+            }
         },
         {
             "name": "Three Musketeers",
@@ -1881,10 +2122,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -1894,7 +2137,8 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Lava Hound",
@@ -1946,10 +2190,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -1959,7 +2205,19 @@
             "range": 3.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "LavaPups",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.45,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Ice Spirit",
@@ -2012,10 +2270,19 @@
                     "level11": 230,
                     "level15": 334,
                     "level16": 368
+                },
+                "skills": {
+                    "stun": {
+                        "hitSpeedMultiplier": -100,
+                        "speedMultiplier": -100,
+                        "spawnSpeedMultiplier": -100,
+                        "duration": 1.1
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.3,
             "radius": 1.5,
@@ -2025,7 +2292,15 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 1.1
+                }
+            }
         },
         {
             "name": "Fire Spirit",
@@ -2078,10 +2353,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.3,
             "radius": 2.3,
@@ -2091,7 +2368,8 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Miner",
@@ -2143,10 +2421,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -2156,7 +2436,12 @@
             "range": 1.2,
             "territory": "wide",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "burrow": {
+                    "duration": null
+                }
+            }
         },
         {
             "name": "Sparky",
@@ -2208,10 +2493,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 4.0,
             "radius": 1.8,
@@ -2221,7 +2508,8 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Bowler",
@@ -2273,10 +2561,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.5,
             "radius": 1.8,
@@ -2286,7 +2576,17 @@
             "range": 4.0,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pushback": {
+                    "distance": 1,
+                    "strength": null
+                },
+                "pierce": {
+                    "radius": 1.8,
+                    "range": 7.5
+                }
+            }
         },
         {
             "name": "Lumberjack",
@@ -2338,10 +2638,32 @@
                     "level11": 1282,
                     "level15": 1863,
                     "level16": 2049
+                },
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "RageBarbarianBottle",
+                        "damage": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        },
+                        "radius": null,
+                        "deployTime": 0.5
+                    },
+                    "area-damage-on-death": {
+                        "areaEffect": "BarbarianRage",
+                        "damage": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        },
+                        "radius": 3.0
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.8,
             "radius": null,
@@ -2351,7 +2673,34 @@
             "range": 0.7,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "RageBarbarianBottle",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": null,
+                    "deployTime": 0.5
+                },
+                "area-damage-on-death": {
+                    "areaEffect": "BarbarianRage",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 3.0
+                },
+                "boost": {
+                    "hitSpeedMultiplier": 130,
+                    "speedMultiplier": 130,
+                    "spawnSpeedMultiplier": 130,
+                    "duration": 5.5
+                }
+            }
         },
         {
             "name": "Battle Ram",
@@ -2403,10 +2752,17 @@
                     "level11": 967,
                     "level15": 1406,
                     "level16": 1546
+                },
+                "skills": {
+                    "pushback": {
+                        "distance": null,
+                        "strength": 2.5
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -2416,7 +2772,19 @@
             "range": 0.7,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "Barbarian",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Inferno Dragon",
@@ -2469,10 +2837,12 @@
                     "level11": 1295,
                     "level15": 1882,
                     "level16": 2069
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.4,
             "radius": null,
@@ -2482,7 +2852,8 @@
             "range": 3.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Ice Golem",
@@ -2534,10 +2905,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 2
+                "prestigeCost": 2,
+                "skills": {
+                    "ability": {
+                        "name": "IceGolemite_hero",
+                        "elixirCost": 2,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 2.5,
             "radius": null,
@@ -2547,7 +2926,24 @@
             "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "area-damage-on-death": {
+                    "areaEffect": "FreezeIceGolemite",
+                    "damage": {
+                        "level11": 84,
+                        "level15": 122,
+                        "level16": 134
+                    },
+                    "radius": 2.0
+                },
+                "slow": {
+                    "hitSpeedMultiplier": -30,
+                    "speedMultiplier": -30,
+                    "spawnSpeedMultiplier": -30,
+                    "duration": 2.0
+                }
+            }
         },
         {
             "name": "Mega Minion",
@@ -2600,10 +2996,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 2
+                "prestigeCost": 2,
+                "skills": {
+                    "ability": {
+                        "name": "MegaMinion_hero",
+                        "elixirCost": 2,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -2613,7 +3017,8 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Dart Goblin",
@@ -2666,10 +3071,12 @@
                     "level11": 261,
                     "level15": 379,
                     "level16": 417
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.8,
             "radius": null,
@@ -2679,7 +3086,8 @@
             "range": 6.5,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Goblin Gang",
@@ -2732,10 +3140,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -2745,7 +3155,8 @@
             "range": 0.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Electro Wizard",
@@ -2798,10 +3209,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.8,
             "radius": 3.0,
@@ -2811,7 +3224,15 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Elite Barbarians",
@@ -2863,10 +3284,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.4,
             "radius": null,
@@ -2876,7 +3299,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Hunter",
@@ -2929,10 +3353,12 @@
                     "level11": 885,
                     "level15": 1287,
                     "level16": 1415
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.2,
             "radius": 0.07,
@@ -2942,7 +3368,8 @@
             "range": 4.0,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Executioner",
@@ -2995,10 +3422,12 @@
                     "level11": 1280,
                     "level15": 1860,
                     "level16": 2045
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.4,
             "radius": 1.0,
@@ -3008,7 +3437,13 @@
             "range": 4.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pierce": {
+                    "radius": 1.0,
+                    "range": 7.5
+                }
+            }
         },
         {
             "name": "Bandit",
@@ -3060,10 +3495,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -3073,7 +3510,18 @@
             "range": 0.75,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "dash": {
+                    "damage": {
+                        "level11": 389,
+                        "level15": 565,
+                        "level16": 621
+                    },
+                    "minRange": 3.5,
+                    "maxRange": 6
+                }
+            }
         },
         {
             "name": "Royal Recruits",
@@ -3125,10 +3573,12 @@
                     "level11": 547,
                     "level15": 796,
                     "level16": 875
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -3138,7 +3588,17 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "shield": {
+                    "hitpoints": {
+                        "level11": 240,
+                        "level15": 349,
+                        "level16": 384
+                    },
+                    "damageReductionPercent": null
+                }
+            }
         },
         {
             "name": "Night Witch",
@@ -3191,10 +3651,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -3204,7 +3666,24 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "Bat",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                },
+                "periodic-spawn": {
+                    "pauseTime": 5,
+                    "character": "Bat",
+                    "units": 2
+                }
+            }
         },
         {
             "name": "Bats",
@@ -3257,10 +3736,31 @@
                     "level11": 122,
                     "level15": 178,
                     "level16": 196
+                },
+                "skills": {
+                    "heal": {
+                        "perAttack": {
+                            "level11": 76,
+                            "level15": 111,
+                            "level16": 122
+                        },
+                        "frequency": 0.5,
+                        "overHeal": {
+                            "level11": 245,
+                            "level15": 357,
+                            "level16": 392
+                        },
+                        "onSpawn": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        }
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -3270,7 +3770,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Royal Ghost",
@@ -3322,10 +3823,16 @@
                     "level11": 1210,
                     "level15": 1759,
                     "level16": 1934
+                },
+                "skills": {
+                    "invisibility": {
+                        "whenNotAttackingTime": 2.0
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.8,
             "radius": 1.0,
@@ -3335,7 +3842,12 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "invisibility": {
+                    "whenNotAttackingTime": 2.0
+                }
+            }
         },
         {
             "name": "Ram Rider",
@@ -3389,10 +3901,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.7,
             "radius": null,
@@ -3402,7 +3916,19 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "jump": {
+                    "height": 4,
+                    "speed": 0.16
+                },
+                "slow": {
+                    "hitSpeedMultiplier": null,
+                    "speedMultiplier": -70,
+                    "spawnSpeedMultiplier": null,
+                    "duration": 2.0
+                }
+            }
         },
         {
             "name": "Zappies",
@@ -3455,10 +3981,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.1,
             "radius": null,
@@ -3468,7 +3996,15 @@
             "range": 4.5,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Rascals",
@@ -3521,10 +4057,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -3534,7 +4072,8 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Cannon Cart",
@@ -3586,10 +4125,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.9,
             "radius": null,
@@ -3599,7 +4140,8 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Mega Knight",
@@ -3651,10 +4193,30 @@
                     "level11": 3993,
                     "level15": 5803,
                     "level16": 6380
+                },
+                "skills": {
+                    "dash": {
+                        "damage": {
+                            "level11": 537,
+                            "level15": 781,
+                            "level16": 858
+                        },
+                        "minRange": 3.5,
+                        "maxRange": 5
+                    },
+                    "jump": {
+                        "height": 3,
+                        "speed": 0.25
+                    },
+                    "pushback": {
+                        "distance": null,
+                        "strength": 4
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.7,
             "radius": 1.3,
@@ -3664,7 +4226,26 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pushback": {
+                    "distance": 1,
+                    "strength": null
+                },
+                "dash": {
+                    "damage": {
+                        "level11": 537,
+                        "level15": 781,
+                        "level16": 858
+                    },
+                    "minRange": 3.5,
+                    "maxRange": 5
+                },
+                "jump": {
+                    "height": 3,
+                    "speed": 0.25
+                }
+            }
         },
         {
             "name": "Skeleton Barrel",
@@ -3716,10 +4297,12 @@
                     "level11": 532,
                     "level15": 773,
                     "level16": 850
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -3729,7 +4312,8 @@
             "range": null,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Flying Machine",
@@ -3782,10 +4366,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -3795,7 +4381,8 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Wall Breakers",
@@ -3847,10 +4434,12 @@
                     "level11": 330,
                     "level15": 479,
                     "level16": 527
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": 1.5,
@@ -3860,7 +4449,8 @@
             "range": 0.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Royal Hogs",
@@ -3912,10 +4502,17 @@
                     "level11": 837,
                     "level15": 1216,
                     "level16": 1337
+                },
+                "skills": {
+                    "jump": {
+                        "height": 4,
+                        "speed": 0.16
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -3925,7 +4522,13 @@
             "range": 0.75,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "jump": {
+                    "height": 4,
+                    "speed": 0.16
+                }
+            }
         },
         {
             "name": "Goblin Giant",
@@ -3979,10 +4582,23 @@
                     "level11": 3020,
                     "level15": 4389,
                     "level16": 4826
+                },
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "SpearGoblin",
+                        "damage": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        },
+                        "radius": 0.5,
+                        "deployTime": 1
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -3992,7 +4608,19 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "SpearGoblin",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Fisherman",
@@ -4044,10 +4672,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.3,
             "radius": null,
@@ -4057,7 +4687,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Magic Archer",
@@ -4110,10 +4741,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 2
+                "prestigeCost": 2,
+                "skills": {
+                    "ability": {
+                        "name": "EliteArcher_hero",
+                        "elixirCost": 2,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.1,
             "radius": 0.25,
@@ -4123,7 +4762,13 @@
             "range": 7.0,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pierce": {
+                    "radius": 0.25,
+                    "range": 11.0
+                }
+            }
         },
         {
             "name": "Electro Dragon",
@@ -4176,10 +4821,19 @@
                     "level11": 949,
                     "level15": 1380,
                     "level16": 1517
+                },
+                "skills": {
+                    "stun": {
+                        "hitSpeedMultiplier": -100,
+                        "speedMultiplier": -100,
+                        "spawnSpeedMultiplier": -100,
+                        "duration": 0.5
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.1,
             "radius": null,
@@ -4189,7 +4843,15 @@
             "range": 3.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Firecracker",
@@ -4242,10 +4904,19 @@
                     "level11": 304,
                     "level15": 442,
                     "level16": 486
+                },
+                "skills": {
+                    "slow": {
+                        "hitSpeedMultiplier": null,
+                        "speedMultiplier": -15,
+                        "spawnSpeedMultiplier": null,
+                        "duration": 2.5
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 3.0,
             "radius": null,
@@ -4255,7 +4926,13 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pierce": {
+                    "radius": 0.4,
+                    "range": 5.0
+                }
+            }
         },
         {
             "name": "Mighty Miner",
@@ -4307,10 +4984,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.4,
             "radius": null,
@@ -4320,7 +4999,14 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "MightyMinerLaneSwitch",
+                    "elixirCost": 1,
+                    "cooldown": 13
+                }
+            }
         },
         {
             "name": "Elixir Golem",
@@ -4372,10 +5058,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -4385,7 +5073,19 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "ElixirGolem4",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.4,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Battle Healer",
@@ -4437,10 +5137,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": 2.5,
@@ -4450,7 +5152,27 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "heal": {
+                    "perAttack": {
+                        "level11": 102,
+                        "level15": 148,
+                        "level16": 163
+                    },
+                    "frequency": 0.25,
+                    "overHeal": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "onSpawn": {
+                        "level11": 202,
+                        "level15": 293,
+                        "level16": 323
+                    }
+                }
+            }
         },
         {
             "name": "Skeleton King",
@@ -4502,10 +5224,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.6,
             "radius": 1.3,
@@ -4515,7 +5239,14 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "SkeletonKing",
+                    "elixirCost": 2,
+                    "cooldown": 20
+                }
+            }
         },
         {
             "name": "Archer Queen",
@@ -4568,10 +5299,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -4581,7 +5314,20 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "ArcherQueenRapid",
+                    "elixirCost": 1,
+                    "cooldown": 17
+                },
+                "slow": {
+                    "hitSpeedMultiplier": null,
+                    "speedMultiplier": -25,
+                    "spawnSpeedMultiplier": null,
+                    "duration": 3.5
+                }
+            }
         },
         {
             "name": "Golden Knight",
@@ -4633,10 +5379,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.9,
             "radius": null,
@@ -4646,7 +5394,23 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "dash": {
+                    "damage": {
+                        "level11": 335,
+                        "level15": 487,
+                        "level16": 535
+                    },
+                    "minRange": null,
+                    "maxRange": null
+                },
+                "ability": {
+                    "name": "GoldenKnightChain",
+                    "elixirCost": 1,
+                    "cooldown": 12
+                }
+            }
         },
         {
             "name": "Monk",
@@ -4698,10 +5462,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.8,
             "radius": null,
@@ -4711,7 +5477,22 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "Deflect",
+                    "elixirCost": 1,
+                    "cooldown": 17
+                },
+                "shield": {
+                    "hitpoints": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "damageReductionPercent": 65
+                }
+            }
         },
         {
             "name": "Skeleton Dragons",
@@ -4764,10 +5545,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.0,
             "radius": 1.5,
@@ -4777,7 +5560,8 @@
             "range": 3.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Mother Witch",
@@ -4830,10 +5614,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -4843,7 +5629,13 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "jump": {
+                    "height": 4,
+                    "speed": 0.16
+                }
+            }
         },
         {
             "name": "Electro Spirit",
@@ -4896,10 +5688,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.3,
             "radius": null,
@@ -4909,7 +5703,15 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Electro Giant",
@@ -4961,10 +5763,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.1,
             "radius": null,
@@ -4974,7 +5778,15 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": null
+                }
+            }
         },
         {
             "name": "Phoenix",
@@ -5027,10 +5839,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -5040,7 +5854,18 @@
             "range": 1.6,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pushback": {
+                    "distance": 2,
+                    "strength": null
+                },
+                "periodic-spawn": {
+                    "pauseTime": 4.3,
+                    "character": "PhoenixNoRespawn",
+                    "units": 1
+                }
+            }
         },
         {
             "name": "Little Prince",
@@ -5093,10 +5918,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -5106,7 +5933,18 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "ChampGuardianAbility",
+                    "elixirCost": 3,
+                    "cooldown": 30
+                },
+                "pushback": {
+                    "distance": null,
+                    "strength": 2.5
+                }
+            }
         },
         {
             "name": "Goblin Demolisher",
@@ -5158,10 +5996,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": 1.5,
@@ -5171,7 +6011,13 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "pushback": {
+                    "distance": 2,
+                    "strength": null
+                }
+            }
         },
         {
             "name": "Goblin Machine",
@@ -5223,10 +6069,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -5236,7 +6084,8 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Suspicious Bush",
@@ -5288,10 +6137,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.4,
             "radius": null,
@@ -5301,7 +6152,21 @@
             "range": 0.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "invisibility": {
+                    "whenNotAttackingTime": null
+                },
+                "area-damage-on-death": {
+                    "areaEffect": "SuspiciousBush_DummyAEO",
+                    "damage": {
+                        "level11": 256,
+                        "level15": 372,
+                        "level16": 409
+                    },
+                    "radius": null
+                }
+            }
         },
         {
             "name": "Goblinstein",
@@ -5355,10 +6220,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -5368,7 +6235,20 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "Goblinstein_ability",
+                    "elixirCost": 2,
+                    "cooldown": 17
+                },
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Rune Giant",
@@ -5420,10 +6300,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.5,
             "radius": null,
@@ -5433,7 +6315,14 @@
             "range": 1.2,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "ability": {
+                    "name": "Giantbuffer_ability",
+                    "elixirCost": 0,
+                    "cooldown": null
+                }
+            }
         },
         {
             "name": "Berserker",
@@ -5485,10 +6374,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.6,
             "radius": null,
@@ -5498,7 +6389,8 @@
             "range": null,
             "territory": "restricted",
             "rarity": "common",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Boss Bandit",
@@ -5550,10 +6442,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -5563,7 +6457,23 @@
             "range": 0.8,
             "territory": "restricted",
             "rarity": "champion",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "dash": {
+                    "damage": {
+                        "level11": 491,
+                        "level15": 714,
+                        "level16": 785
+                    },
+                    "minRange": 3.5,
+                    "maxRange": 6
+                },
+                "ability": {
+                    "name": "BossBandit_ability",
+                    "elixirCost": 1,
+                    "cooldown": 3
+                }
+            }
         },
         {
             "name": "Cannon",
@@ -5615,10 +6525,12 @@
                     "level11": 824,
                     "level15": 1197,
                     "level16": 1316
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -5628,7 +6540,8 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "building"
+            "type": "building",
+            "skills": {}
         },
         {
             "name": "Goblin Hut",
@@ -5681,10 +6594,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 10.0,
             "radius": null,
@@ -5694,7 +6609,19 @@
             "range": null,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "SpearGoblin",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Mortar",
@@ -5746,10 +6673,12 @@
                     "level11": 1369,
                     "level15": 1990,
                     "level16": 2188
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 5.0,
             "radius": 2.0,
@@ -5759,7 +6688,8 @@
             "range": 11.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "building"
+            "type": "building",
+            "skills": {}
         },
         {
             "name": "Inferno Tower",
@@ -5812,10 +6742,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.4,
             "radius": null,
@@ -5825,7 +6757,8 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {}
         },
         {
             "name": "Bomb Tower",
@@ -5877,10 +6810,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.8,
             "radius": 1.5,
@@ -5890,7 +6825,19 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "BombTowerBomb",
+                    "damage": {
+                        "level11": 222,
+                        "level15": 323,
+                        "level16": 355
+                    },
+                    "radius": 0.45,
+                    "deployTime": 3
+                }
+            }
         },
         {
             "name": "Barbarian Hut",
@@ -5942,10 +6889,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 10.0,
             "radius": null,
@@ -5955,7 +6904,24 @@
             "range": null,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "Barbarian",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                },
+                "periodic-spawn": {
+                    "pauseTime": 14,
+                    "character": "Barbarian",
+                    "units": 3
+                }
+            }
         },
         {
             "name": "Tesla",
@@ -6008,10 +6974,19 @@
                     "level11": 1152,
                     "level15": 1674,
                     "level16": 1840
+                },
+                "skills": {
+                    "stun": {
+                        "hitSpeedMultiplier": -100,
+                        "speedMultiplier": -100,
+                        "spawnSpeedMultiplier": -100,
+                        "duration": 1.5
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": null,
@@ -6021,7 +6996,8 @@
             "range": 5.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "building"
+            "type": "building",
+            "skills": {}
         },
         {
             "name": "Elixir Collector",
@@ -6071,10 +7047,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": null,
@@ -6084,7 +7062,8 @@
             "range": null,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {}
         },
         {
             "name": "X-Bow",
@@ -6136,10 +7115,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.3,
             "radius": null,
@@ -6149,7 +7130,8 @@
             "range": 11.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "building"
+            "type": "building",
+            "skills": {}
         },
         {
             "name": "Tombstone",
@@ -6201,10 +7183,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 10.0,
             "radius": null,
@@ -6214,7 +7198,24 @@
             "range": 2.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "Skeleton",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                },
+                "periodic-spawn": {
+                    "pauseTime": 3.5,
+                    "character": "Skeleton",
+                    "units": 2
+                }
+            }
         },
         {
             "name": "Furnace",
@@ -6267,10 +7268,12 @@
                     "level11": 727,
                     "level15": 1056,
                     "level16": 1161
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.7,
             "radius": null,
@@ -6280,7 +7283,8 @@
             "range": 6.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Goblin Cage",
@@ -6332,10 +7336,23 @@
                     "level11": 780,
                     "level15": 1134,
                     "level16": 1247
+                },
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "GoblinBrawler",
+                        "damage": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        },
+                        "radius": 0.5,
+                        "deployTime": 1
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 10.0,
             "radius": null,
@@ -6345,7 +7362,19 @@
             "range": 5.0,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "building"
+            "type": "building",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "GoblinBrawler",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                }
+            }
         },
         {
             "name": "Goblin Drill",
@@ -6398,10 +7427,31 @@
                     "level11": 1313,
                     "level15": 1908,
                     "level16": 2098
+                },
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "Goblin",
+                        "damage": {
+                            "level11": null,
+                            "level15": null,
+                            "level16": null
+                        },
+                        "radius": 0.5,
+                        "deployTime": 1
+                    },
+                    "periodic-spawn": {
+                        "pauseTime": 3,
+                        "character": "Goblin",
+                        "units": 1
+                    },
+                    "burrow": {
+                        "duration": null
+                    }
                 }
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.2,
             "radius": null,
@@ -6411,7 +7461,27 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "building"
+            "type": "building",
+            "skills": {
+                "spawn-on-death": {
+                    "character": "Goblin",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 0.5,
+                    "deployTime": 1
+                },
+                "periodic-spawn": {
+                    "pauseTime": 3,
+                    "character": "Goblin",
+                    "units": 1
+                },
+                "burrow": {
+                    "duration": 10.0
+                }
+            }
         },
         {
             "name": "Fireball",
@@ -6464,10 +7534,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 2.5,
@@ -6477,7 +7549,13 @@
             "range": null,
             "territory": "wide",
             "rarity": "rare",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "pushback": {
+                    "distance": 1,
+                    "strength": null
+                }
+            }
         },
         {
             "name": "Arrows",
@@ -6530,10 +7608,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.5,
@@ -6543,7 +7623,8 @@
             "range": null,
             "territory": "wide",
             "rarity": "common",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "Rage",
@@ -6596,10 +7677,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.0,
@@ -6609,7 +7692,24 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "area-damage-on-death": {
+                    "areaEffect": "Rage",
+                    "damage": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "radius": 3.0
+                },
+                "boost": {
+                    "hitSpeedMultiplier": 130,
+                    "speedMultiplier": 130,
+                    "spawnSpeedMultiplier": 130,
+                    "duration": 4.5
+                }
+            }
         },
         {
             "name": "Rocket",
@@ -6662,10 +7762,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 2.0,
@@ -6675,7 +7777,13 @@
             "range": null,
             "territory": "wide",
             "rarity": "rare",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "pushback": {
+                    "distance": 1.8,
+                    "strength": null
+                }
+            }
         },
         {
             "name": "Goblin Barrel",
@@ -6728,10 +7836,12 @@
                     "level11": 202,
                     "level15": 294,
                     "level16": 323
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.1,
             "radius": 1.5,
@@ -6741,7 +7851,8 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "Freeze",
@@ -6794,10 +7905,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.0,
@@ -6807,7 +7920,15 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 4.0
+                }
+            }
         },
         {
             "name": "Mirror",
@@ -6857,10 +7978,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": null,
@@ -6870,7 +7993,8 @@
             "range": null,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "Lightning",
@@ -6923,10 +8047,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.5,
@@ -6936,7 +8062,15 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Zap",
@@ -6989,10 +8123,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 2.5,
@@ -7002,7 +8138,15 @@
             "range": 5.0,
             "territory": "wide",
             "rarity": "common",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "stun": {
+                    "hitSpeedMultiplier": -100,
+                    "speedMultiplier": -100,
+                    "spawnSpeedMultiplier": -100,
+                    "duration": 0.5
+                }
+            }
         },
         {
             "name": "Poison",
@@ -7055,10 +8199,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": 3.5,
@@ -7068,7 +8214,15 @@
             "range": 3.5,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "slow": {
+                    "hitSpeedMultiplier": null,
+                    "speedMultiplier": -15,
+                    "spawnSpeedMultiplier": null,
+                    "duration": 8.0
+                }
+            }
         },
         {
             "name": "Graveyard",
@@ -7121,10 +8275,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": 4.0,
@@ -7134,7 +8290,8 @@
             "range": null,
             "territory": "wide",
             "rarity": "legendary",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "The Log",
@@ -7186,10 +8343,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 1.95,
@@ -7199,7 +8358,17 @@
             "range": 10.1,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "pushback": {
+                    "distance": 0.7,
+                    "strength": null
+                },
+                "pierce": {
+                    "radius": null,
+                    "range": 10.1
+                }
+            }
         },
         {
             "name": "Tornado",
@@ -7252,10 +8421,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 5.5,
@@ -7265,7 +8436,8 @@
             "range": 5.5,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "Clone",
@@ -7318,10 +8490,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.0,
@@ -7331,7 +8505,14 @@
             "range": 3.0,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "multiply": {
+                    "units": 1,
+                    "interval": null,
+                    "maxUnits": null
+                }
+            }
         },
         {
             "name": "Earthquake",
@@ -7383,10 +8564,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": 3.5,
@@ -7396,7 +8579,15 @@
             "range": 3.5,
             "territory": "wide",
             "rarity": "rare",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "slow": {
+                    "hitSpeedMultiplier": null,
+                    "speedMultiplier": -50,
+                    "spawnSpeedMultiplier": null,
+                    "duration": 3.0
+                }
+            }
         },
         {
             "name": "Barbarian Barrel",
@@ -7448,10 +8639,18 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": 1
+                "prestigeCost": 1,
+                "skills": {
+                    "ability": {
+                        "name": "BarbLog_hero",
+                        "elixirCost": 1,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.3,
             "radius": 1.3,
@@ -7461,7 +8660,13 @@
             "range": 4.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "pierce": {
+                    "radius": null,
+                    "range": 4.5
+                }
+            }
         },
         {
             "name": "Heal Spirit",
@@ -7514,10 +8719,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.3,
             "radius": 1.5,
@@ -7527,7 +8734,27 @@
             "range": 2.5,
             "territory": "restricted",
             "rarity": "rare",
-            "type": "troop"
+            "type": "troop",
+            "skills": {
+                "heal": {
+                    "perAttack": {
+                        "level11": 401,
+                        "level15": 584,
+                        "level16": 642
+                    },
+                    "frequency": 0.25,
+                    "overHeal": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    },
+                    "onSpawn": {
+                        "level11": null,
+                        "level15": null,
+                        "level16": null
+                    }
+                }
+            }
         },
         {
             "name": "Giant Snowball",
@@ -7580,10 +8807,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 2.5,
@@ -7593,7 +8822,19 @@
             "range": 5.0,
             "territory": "wide",
             "rarity": "common",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "pushback": {
+                    "distance": 1.8,
+                    "strength": null
+                },
+                "slow": {
+                    "hitSpeedMultiplier": -30,
+                    "speedMultiplier": -30,
+                    "spawnSpeedMultiplier": -30,
+                    "duration": 3.0
+                }
+            }
         },
         {
             "name": "Royal Delivery",
@@ -7646,10 +8887,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.0,
@@ -7659,7 +8902,17 @@
             "range": null,
             "territory": "restricted",
             "rarity": "common",
-            "type": "spell"
+            "type": "spell",
+            "skills": {
+                "shield": {
+                    "hitpoints": {
+                        "level11": 240,
+                        "level15": 349,
+                        "level16": 384
+                    },
+                    "damageReductionPercent": null
+                }
+            }
         },
         {
             "name": "Void",
@@ -7712,10 +8965,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 2.5,
@@ -7725,7 +8980,8 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "Goblin Curse",
@@ -7778,10 +9034,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 3.0,
@@ -7791,7 +9049,8 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         },
         {
             "name": "Spirit Empress",
@@ -7844,10 +9103,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.4,
             "radius": null,
@@ -7857,7 +9118,8 @@
             "range": 4.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "troop"
+            "type": "troop",
+            "skills": {}
         },
         {
             "name": "Vines",
@@ -7910,10 +9172,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": null,
             "radius": 2.5,
@@ -7923,7 +9187,8 @@
             "range": null,
             "territory": "wide",
             "rarity": "epic",
-            "type": "spell"
+            "type": "spell",
+            "skills": {}
         }
     ],
     "towerCards": [
@@ -7978,10 +9243,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.8,
             "radius": null,
@@ -7991,7 +9258,8 @@
             "range": 7.5,
             "territory": "restricted",
             "rarity": "common",
-            "type": "tower"
+            "type": "tower",
+            "skills": {}
         },
         {
             "name": "Cannoneer",
@@ -8044,10 +9312,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 2.2,
             "radius": null,
@@ -8057,7 +9327,8 @@
             "range": 7.5,
             "territory": "restricted",
             "rarity": "epic",
-            "type": "tower"
+            "type": "tower",
+            "skills": {}
         },
         {
             "name": "Dagger Duchess",
@@ -8110,10 +9381,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 0.5,
             "radius": null,
@@ -8123,7 +9396,8 @@
             "range": 7.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "tower"
+            "type": "tower",
+            "skills": {}
         },
         {
             "name": "Royal Chef",
@@ -8176,10 +9450,12 @@
                     "level11": null,
                     "level15": null,
                     "level16": null
-                }
+                },
+                "skills": {}
             },
             "statsHero": {
-                "prestigeCost": null
+                "prestigeCost": null,
+                "skills": {}
             },
             "hitspeed": 1.0,
             "radius": null,
@@ -8189,7 +9465,8 @@
             "range": 7.5,
             "territory": "restricted",
             "rarity": "legendary",
-            "type": "tower"
+            "type": "tower",
+            "skills": {}
         }
     ]
 }
