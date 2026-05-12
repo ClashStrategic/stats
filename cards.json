@@ -638,9 +638,9 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 670,
-                "level15": 974,
-                "level16": 1071
+                "level11": 691,
+                "level15": 1004,
+                "level16": 1104
             },
             "statsEvo": {
                 "cycles": 1,
@@ -650,9 +650,9 @@
                     "level16": 306
                 },
                 "hitpoints": {
-                    "level11": 737,
-                    "level15": 1071,
-                    "level16": 1177
+                    "level11": 760,
+                    "level15": 1104,
+                    "level16": 1214
                 },
                 "skills": {
                     "boost": {
@@ -667,7 +667,7 @@
                 "prestigeCost": null,
                 "skills": {}
             },
-            "hitspeed": 1.3,
+            "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -1494,9 +1494,9 @@
             "projectile": false,
             "suicide": false,
             "fatalDamage": {
-                "level11": 535,
-                "level15": 777,
-                "level16": 854
+                "level11": 688,
+                "level15": 1000,
+                "level16": 1100
             },
             "chargeDamage": {
                 "level11": null,
@@ -1514,9 +1514,9 @@
                 "level16": 441
             },
             "hitpoints": {
-                "level11": 3617,
-                "level15": 5256,
-                "level16": 5779
+                "level11": 3361,
+                "level15": 4884,
+                "level16": 5370
             },
             "statsEvo": {
                 "cycles": null,
@@ -1674,13 +1674,13 @@
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
-                    "level11": 108,
+                    "level11": 107,
                     "level15": 156,
-                    "level16": 172
+                    "level16": 171
                 },
                 "hitpoints": {
                     "level11": 230,
-                    "level15": 335,
+                    "level15": 334,
                     "level16": 368
                 },
                 "skills": {}
@@ -1833,7 +1833,7 @@
                 "prestigeCost": null,
                 "skills": {}
             },
-            "hitspeed": 1.7,
+            "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -2047,7 +2047,7 @@
                 "prestigeCost": null,
                 "skills": {}
             },
-            "hitspeed": 1.3,
+            "hitspeed": 1.4,
             "radius": 1.1,
             "generationSpeed": null,
             "generationUnits": null,
@@ -2737,9 +2737,9 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 670,
-                "level15": 974,
-                "level16": 1071
+                "level11": 691,
+                "level15": 1004,
+                "level16": 1104
             },
             "statsEvo": {
                 "cycles": 2,
@@ -2764,7 +2764,7 @@
                 "prestigeCost": null,
                 "skills": {}
             },
-            "hitspeed": 1.3,
+            "hitspeed": 1.4,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -3402,9 +3402,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 168,
-                "level15": 245,
-                "level16": 269
+                "level11": 179,
+                "level15": 260,
+                "level16": 286
             },
             "hitpoints": {
                 "level11": 1280,
@@ -3414,9 +3414,9 @@
             "statsEvo": {
                 "cycles": 1,
                 "damage": {
-                    "level11": 168,
-                    "level15": 245,
-                    "level16": 269
+                    "level11": 179,
+                    "level15": 260,
+                    "level16": 286
                 },
                 "hitpoints": {
                     "level11": 1280,
@@ -3762,7 +3762,7 @@
                 "prestigeCost": null,
                 "skills": {}
             },
-            "hitspeed": 1.3,
+            "hitspeed": 1.2,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4806,9 +4806,9 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 949,
-                "level15": 1380,
-                "level16": 1517
+                "level11": 998,
+                "level15": 1450,
+                "level16": 1595
             },
             "statsEvo": {
                 "cycles": 1,
@@ -4818,9 +4818,9 @@
                     "level16": 306
                 },
                 "hitpoints": {
-                    "level11": 949,
-                    "level15": 1380,
-                    "level16": 1517
+                    "level11": 998,
+                    "level15": 1450,
+                    "level16": 1595
                 },
                 "skills": {
                     "stun": {
@@ -5525,9 +5525,9 @@
                 "level16": null
             },
             "damage": {
-                "level11": 161,
-                "level15": 234,
-                "level16": 257
+                "level11": 151,
+                "level15": 219,
+                "level16": 241
             },
             "hitpoints": {
                 "level11": 560,
@@ -5770,7 +5770,7 @@
                 "prestigeCost": null,
                 "skills": {}
             },
-            "hitspeed": 2.1,
+            "hitspeed": 1.8,
             "radius": null,
             "generationSpeed": null,
             "generationUnits": null,
