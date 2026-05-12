@@ -101,6 +101,7 @@ interface Card {
     targets: TargetValue[];
     units: number;
     duration: number | null;
+    deployTime: number | null;
     evolution: boolean;
     hero: boolean;
     typeAttack: string | null;
@@ -115,12 +116,17 @@ interface Card {
     statsEvo: CardStatsEvo;
     statsHero: CardStatsHero;
     hitspeed: number | null;
+    loadTime: number | null;
     radius: number | null;
+    collisionRadius: number | null;
     generationSpeed: number | null;
     generationUnits: number | null;
     speed: SpeedValue | null;
     range: number | null;
+    sightRange: number | null;
     territory: 'wide' | 'restricted' | null;
+    unlockArena: string | null;
+    tribe: string | null;
     rarity: Rarity | '' | null;
     type: CardType | null;
 }
@@ -146,6 +152,9 @@ interface CharacterData {
     kamikaze?: boolean;
     areaDamageRadius?: number;
     collisionRadius?: number;
+    sightRange?: number;
+    deployTime?: number;
+    loadTime?: number;
     abilityData?: unknown;
     projectileData?: ProjectileData;
     spawnCharacterData?: CharacterData;
@@ -195,6 +204,8 @@ interface Spell {
     source?: string;
     rarity?: string;
     manaCost?: number;
+    unlockArena?: string;
+    tribe?: string;
     tidTarget?: string;
     heroData?: unknown;
     radius?: number;
@@ -230,7 +241,7 @@ interface DataSources {
 
 const CARD_SKELETON: Card = {
     name: null, id: null, elixirCost: null, targets: [], units: 0,
-    duration: null, evolution: false, hero: false, typeAttack: null,
+    duration: null, deployTime: null, evolution: false, hero: false, typeAttack: null,
     projectile: false, suicide: false,
     skills: {},
     fatalDamage: { ...EMPTY_LEVELS }, chargeDamage: { ...EMPTY_LEVELS },
@@ -241,8 +252,8 @@ const CARD_SKELETON: Card = {
         damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS }
     },
     statsHero: { prestigeCost: null, skills: {} },
-    hitspeed: null, radius: null, generationSpeed: null, generationUnits: null,
-    speed: null, range: null, territory: null, rarity: null, type: null
+    hitspeed: null, loadTime: null, radius: null, collisionRadius: null, generationSpeed: null, generationUnits: null,
+    speed: null, range: null, sightRange: null, territory: null, unlockArena: null, tribe: null, rarity: null, type: null
 };
 
 const SKILL_TEMPLATES: SkillTemplates = {
@@ -555,6 +566,8 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     card.elixirCost = spell.manaCost ?? card.elixirCost;
     card.rarity = (spell.rarity || card.rarity || '').toLowerCase() as Card['rarity'];
     card.hero = card.rarity !== 'champion' && !!spell.heroData;
+    card.unlockArena = spell.unlockArena || card.unlockArena;
+    card.tribe = spell.tribe || card.tribe;
 
     const targets = collectAllTargets(spell, charData);
 
@@ -569,10 +582,14 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
         const { maxHP, strongest, highestDamage, hasProjectile, hitspeedOfStrongest } = pickStrongestCharacter(source);
 
         card.hitspeed = hitspeedOfStrongest ? (hitspeedOfStrongest + (proj.pingpongVisualTime ?? 0)) / 1000 : card.hitspeed;
+        card.loadTime = strongest.loadTime ? strongest.loadTime / 1000 : card.loadTime;
         card.range = strongest.range ? strongest.range / 1000 : card.range;
+        card.sightRange = strongest.sightRange ? strongest.sightRange / 1000 : card.sightRange;
         card.speed = (strongest.tidSpeed && strongest.tidSpeed in SPEED_MAP)
             ? SPEED_MAP[strongest.tidSpeed as SpeedTid] : card.speed;
         card.projectile = hasProjectile || card.projectile;
+        card.collisionRadius = strongest.collisionRadius ? strongest.collisionRadius / 1000 : card.collisionRadius;
+        card.deployTime = strongest.deployTime ? strongest.deployTime / 1000 : card.deployTime;
         baseHP = charData.spawnPathfindMorphData?.hitpoints || maxHP || charData.hitpoints || spawnChar.hitpoints;
         baseDamage = highestDamage || charData.damage || proj.damage || area.damage || buff.damagePerSecond || spawnProj.damage || spawnChar.damage || deathArea.damage;
     }
@@ -664,7 +681,7 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
     card.statsEvo.damage = mergeLevels(scaleLevels(evoDmg, mult), card.statsEvo.damage);
     card.statsEvo.cycles = evo.cycles ?? card.statsEvo.cycles;
     const evoSkills = extractSkills({ spell: evo, charData: evoChar, area, proj, buff, deathArea }, mult, evoHP ?? null);
-    
+
     // Filter redundant skills already present in base version
     const filteredSkills: SkillsMap = {};
     for (const [type, data] of Object.entries(evoSkills)) {
@@ -676,21 +693,33 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
 }
 
 function applyDefaults(card: Card): void {
-    const apply = (target: Record<string, any>, skeleton: Record<string, any>): void => {
-        for (const key in skeleton) {
-            const expected = skeleton[key];
-            if (!(key in target)) {
-                target[key] = cloneDeep(expected);
-            } else if (expected && typeof expected === 'object') {
-                if (Array.isArray(expected) !== Array.isArray(target[key])) {
-                    target[key] = cloneDeep(expected);
-                } else if (!Array.isArray(expected)) {
-                    apply(target[key], expected);
+    const skeleton = cloneDeep(CARD_SKELETON);
+    const source = cloneDeep(card);
+
+    const merge = (target: any, src: any) => {
+        for (const key in target) {
+            if (src && key in src) {
+                if (target[key] && typeof target[key] === 'object' && !Array.isArray(target[key]) && target[key] !== null &&
+                    src[key] && typeof src[key] === 'object' && !Array.isArray(src[key]) && src[key] !== null) {
+                    merge(target[key], src[key]);
+                } else if (src[key] !== undefined) {
+                    target[key] = src[key];
+                }
+            }
+        }
+        if (src) {
+            for (const key in src) {
+                if (!(key in target)) {
+                    target[key] = src[key];
                 }
             }
         }
     };
-    apply(card as unknown as Record<string, any>, CARD_SKELETON as unknown as Record<string, any>);
+
+    merge(skeleton, source);
+
+    for (const key in card) delete (card as any)[key];
+    Object.assign(card, skeleton);
 }
 
 async function updateCards(): Promise<void> {
