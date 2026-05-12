@@ -103,7 +103,7 @@ describe('Card Data Validation', () => {
     it('should use floats for fields that can have decimal values', () => {
       const jsonPath = path.join(__dirname, '..', 'cards.json');
       const rawJson = fs.readFileSync(jsonPath, 'utf-8');
-      const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+      const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius', 'deployTime', 'loadTime', 'sightRange', 'collisionRadius'];
       const allMismatches = [];
 
       fieldsToCheck.forEach((field) => {

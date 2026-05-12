@@ -296,6 +296,12 @@ const cardObjectSchema = {
             type: 'string',
             enum: ['troop', 'building', 'spell', 'tower'],
         },
+        unlockArena: { type: ['string', 'null'] },
+        tribe: { type: ['string', 'null'] },
+        deployTime: { type: ['number', 'null'] },
+        sightRange: { type: ['number', 'null'] },
+        collisionRadius: { type: ['number', 'null'] },
+        loadTime: { type: ['number', 'null'] },
     },
     allOf: [
         {
@@ -326,7 +332,8 @@ const cardObjectSchema = {
         'evolution', 'hero', 'typeAttack', 'projectile', 'suicide', 'skills', 'fatalDamage',
         'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'statsEvo', 'statsHero',
         'hitspeed', 'radius', 'generationSpeed', 'generationUnits', 'speed',
-        'range', 'territory', 'rarity', 'type',
+        'range', 'territory', 'rarity', 'type', 'unlockArena', 'tribe',
+        'deployTime', 'sightRange', 'collisionRadius', 'loadTime',
     ],
 };
 
