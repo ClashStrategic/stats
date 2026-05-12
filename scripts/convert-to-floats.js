@@ -14,7 +14,7 @@ const path = require('path');
 // Function to convert integers to floats in the specified properties
 function convertIntegersToFloats(obj) {
     // Properties that should be converted from integer to float
-    const targetProperties = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+    const targetProperties = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius', 'whenNotAttackingTime'];
 
     if (typeof obj === 'object' && obj !== null) {
         if (Array.isArray(obj)) {
@@ -66,7 +66,7 @@ function main() {
         let modifiedContent = JSON.stringify(convertedData, null, 4);
 
         // Replace integers with floats in the specific properties
-        const targetProperties = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
+        const targetProperties = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius', 'whenNotAttackingTime'];
         targetProperties.forEach(prop => {
             // Search for patterns like "hitspeed": 1, and replace them with "hitspeed": 1.0,
             const regex = new RegExp(`"${prop}":\\s*(\\d+)([,\\n])`, 'g');
