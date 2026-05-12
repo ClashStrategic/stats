@@ -175,6 +175,35 @@ const skillsSchema = {
             required: ['radius', 'range'],
             additionalProperties: false,
         },
+        boost: {
+            type: 'object',
+            properties: {
+                hitSpeedMultiplier: { type: ['number', 'null'] },
+                speedMultiplier: { type: ['number', 'null'] },
+                spawnSpeedMultiplier: { type: ['number', 'null'] },
+                duration: { type: ['number', 'null'] },
+            },
+            required: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+            additionalProperties: false,
+        },
+        burrow: {
+            type: 'object',
+            properties: {
+                duration: { type: ['number', 'null'] },
+            },
+            required: ['duration'],
+            additionalProperties: false,
+        },
+        multiply: {
+            type: 'object',
+            properties: {
+                units: { type: ['number', 'null'] },
+                interval: { type: ['number', 'null'] },
+                maxUnits: { type: ['number', 'null'] },
+            },
+            required: ['units', 'interval', 'maxUnits'],
+            additionalProperties: false,
+        },
     },
 };
 

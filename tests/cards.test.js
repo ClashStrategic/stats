@@ -297,6 +297,9 @@ describe('Card Data Validation', () => {
       'area-damage-on-death': ['areaEffect', 'damage', 'radius'],
       ability: ['name', 'elixirCost', 'cooldown'],
       pierce: ['radius', 'range'],
+      boost: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+      burrow: ['duration'],
+      multiply: ['units', 'interval', 'maxUnits'],
     };
 
     it.each(allCards)('Card "$name" should have consistent skill structures', (card) => {
