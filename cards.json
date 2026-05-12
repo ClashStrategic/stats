@@ -2221,11 +2221,11 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
+                "prestigeCost": 3,
                 "skills": {
                     "ability": {
                         "name": "DarkPrince_hero",
-                        "elixirCost": null,
+                        "elixirCost": 3,
                         "cooldown": null
                     }
                 }
@@ -2786,11 +2786,11 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
+                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "Bowler_hero",
-                        "elixirCost": null,
+                        "elixirCost": 2,
                         "cooldown": null
                     }
                 }
