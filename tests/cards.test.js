@@ -19,6 +19,16 @@ describe('Card Data Validation', () => {
   const allCards = [...cardsData.cards, ...cardsData.towerCards];
 
   /**
+   * Helper function to check if level-based stat values are integers (if not null).
+   * @param {object} statObject - The stat object (e.g., card.damage).
+   */
+  const checkLevelBasedStats = (statObject) => {
+    if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
+    if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
+    if (statObject.level16 !== null) expect(Number.isInteger(statObject.level16)).toBe(true);
+  };
+
+  /**
    * @describe Tests related to the structure and schema of cards.json.
    */
   describe('Schema and Structural Validation', () => {
@@ -71,8 +81,8 @@ describe('Card Data Validation', () => {
      * This prevents data conflicts and ensures each card is uniquely identifiable.
      */
     it('should have unique IDs and names for all cards', () => {
-      const ids = allCards.map(card => card.id);
-      const names = allCards.map(card => card.name);
+      const ids = allCards.map((card) => card.id);
+      const names = allCards.map((card) => card.name);
 
       const uniqueIds = new Set(ids);
       const uniqueNames = new Set(names);
@@ -96,7 +106,7 @@ describe('Card Data Validation', () => {
       const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius'];
       const allMismatches = [];
 
-      fieldsToCheck.forEach(field => {
+      fieldsToCheck.forEach((field) => {
         // Regex to find fields with integer values (e.g., "hitspeed": 1) instead of float (e.g., "hitspeed": 1.0)
         const integerRegex = new RegExp(`"${field}":\\s*\\d+\\s*[,}]`, 'g');
         const matches = rawJson.match(integerRegex);
@@ -106,10 +116,7 @@ describe('Card Data Validation', () => {
       });
 
       if (allMismatches.length > 0) {
-        console.error(
-          'Inconsistent Numeric Format: Use floats (e.g., 1.0) for these fields:',
-          allMismatches
-        );
+        console.error('Inconsistent Numeric Format: Use floats (e.g., 1.0) for these fields:', allMismatches);
       }
 
       expect(allMismatches).toHaveLength(0);
@@ -121,29 +128,21 @@ describe('Card Data Validation', () => {
      */
     it.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
       const integerFields = ['id', 'elixirCost', 'units'];
-      integerFields.forEach(field => {
+      integerFields.forEach((field) => {
         expect(Number.isInteger(card[field])).toBe(true);
       });
 
       if (card.generationUnits !== null) {
         expect(Number.isInteger(card.generationUnits)).toBe(true);
       }
+
       if (card.statsEvo.cycles !== null) {
         expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
       }
+
       if (card.statsHero.prestigeCost !== null) {
         expect(Number.isInteger(card.statsHero.prestigeCost)).toBe(true);
       }
-
-      /**
-       * Helper function to check if level-based stat values are integers (if not null).
-       * @param {object} statObject - The stat object (e.g., card.damage).
-       */
-      const checkLevelBasedStats = (statObject) => {
-        if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
-        if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
-        if (statObject.level16 !== null) expect(Number.isInteger(statObject.level16)).toBe(true);
-      };
 
       checkLevelBasedStats(card.fatalDamage);
       checkLevelBasedStats(card.chargeDamage);
@@ -159,10 +158,10 @@ describe('Card Data Validation', () => {
    * @describe Tests for logical rules specific to each card type (Troop, Building, Spell).
    */
   describe('Type-Specific Logic', () => {
-    const troops = allCards.filter(c => c.type === 'troop');
-    const buildings = allCards.filter(c => c.type === 'building');
-    const spellsWithUnits = allCards.filter(c => c.type === 'spell' && c.units > 0);
-    const spellsWithoutUnits = allCards.filter(c => c.type === 'spell' && c.units === 0);
+    const troops = allCards.filter((c) => c.type === 'troop');
+    const buildings = allCards.filter((c) => c.type === 'building');
+    const spellsWithUnits = allCards.filter((c) => c.type === 'spell' && c.units > 0);
+    const spellsWithoutUnits = allCards.filter((c) => c.type === 'spell' && c.units === 0);
 
     /**
      * @it Validates rules specific to troop cards.
@@ -227,7 +226,7 @@ describe('Card Data Validation', () => {
    * @describe Tests for logic related to card evolutions.
    */
   describe('Evolution Logic', () => {
-    const evolvedCards = allCards.filter(c => c.evolution);
+    const evolvedCards = allCards.filter((c) => c.evolution);
 
     /**
      * @it Ensures that evolved cards have valid and logical evolution stats (`statsEvo`).
@@ -264,7 +263,7 @@ describe('Card Data Validation', () => {
    * @describe Tests for logic related to card heroes.
    */
   describe('Hero Logic', () => {
-    const heroCards = allCards.filter(c => c.hero);
+    const heroCards = allCards.filter((c) => c.hero);
 
     /**
      * @it Ensures that hero cards have valid hero stats (`statsHero`).
@@ -277,6 +276,56 @@ describe('Card Data Validation', () => {
       expect(statsHero.prestigeCost).not.toBeNull();
       expect(Number.isInteger(statsHero.prestigeCost)).toBe(true);
       expect(statsHero.prestigeCost).toBeGreaterThanOrEqual(1);
+    });
+  });
+
+  /**
+   * @describe Validates that skills follow the keyed object structure and are consistent.
+   */
+  describe('Skill Validation', () => {
+    const SKILL_KEYS = {
+      heal: ['perAttack', 'frequency', 'overHeal', 'onSpawn'],
+      stun: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+      slow: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+      pushback: ['distance', 'strength'],
+      shield: ['hitpoints', 'damageReductionPercent'],
+      dash: ['damage', 'minRange', 'maxRange'],
+      jump: ['height', 'speed'],
+      invisibility: ['whenNotAttackingTime'],
+      'spawn-on-death': ['character', 'damage', 'radius', 'deployTime'],
+      'periodic-spawn': ['pauseTime', 'character', 'units'],
+      'area-damage-on-death': ['areaEffect', 'damage', 'radius'],
+      ability: ['name', 'elixirCost', 'cooldown'],
+      pierce: ['radius', 'range'],
+    };
+
+    it.each(allCards)('Card "$name" should have consistent skill structures', (card) => {
+      const skillsToValidate = [card.skills, card.statsEvo.skills, card.statsHero.skills];
+
+      skillsToValidate.forEach((skillsObj) => {
+        Object.entries(skillsObj).forEach(([skillType, skillData]) => {
+          const expectedKeys = SKILL_KEYS[skillType];
+          expect(expectedKeys).toBeDefined();
+
+          const actualKeys = Object.keys(skillData).sort();
+          expect(actualKeys).toEqual([...expectedKeys].sort());
+
+          expectedKeys.forEach((key) => {
+            expect(skillData).toHaveProperty(key);
+
+            const isLevelBasedSkill =
+              (skillType === 'heal' && ['perAttack', 'overHeal', 'onSpawn'].includes(key)) ||
+              (skillType === 'shield' && key === 'hitpoints') ||
+              (skillType === 'dash' && key === 'damage') ||
+              (skillType === 'spawn-on-death' && key === 'damage') ||
+              (skillType === 'area-damage-on-death' && key === 'damage');
+
+            if (isLevelBasedSkill) {
+              checkLevelBasedStats(skillData[key]);
+            }
+          });
+        });
+      });
     });
   });
 });

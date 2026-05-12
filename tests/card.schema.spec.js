@@ -39,6 +39,146 @@ const levelBasedNullStats = {
 };
 
 /**
+ * Reusable schema definition for the skills object.
+ * Each key is a skill type and its value is an object with specific fields.
+ * @type {object}
+ */
+const skillsSchema = {
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+        heal: {
+            type: 'object',
+            properties: {
+                perAttack: { ...levelBasedStats },
+                frequency: { type: ['number', 'null'] },
+                overHeal: { ...levelBasedStats },
+                onSpawn: { ...levelBasedStats },
+            },
+            required: ['perAttack', 'frequency', 'overHeal', 'onSpawn'],
+            additionalProperties: false,
+        },
+        stun: {
+            type: 'object',
+            properties: {
+                hitSpeedMultiplier: { type: ['number', 'null'] },
+                speedMultiplier: { type: ['number', 'null'] },
+                spawnSpeedMultiplier: { type: ['number', 'null'] },
+                duration: { type: ['number', 'null'] },
+            },
+            required: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+            additionalProperties: false,
+        },
+        slow: {
+            type: 'object',
+            properties: {
+                hitSpeedMultiplier: { type: ['number', 'null'] },
+                speedMultiplier: { type: ['number', 'null'] },
+                spawnSpeedMultiplier: { type: ['number', 'null'] },
+                duration: { type: ['number', 'null'] },
+            },
+            required: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+            additionalProperties: false,
+        },
+        pushback: {
+            type: 'object',
+            properties: {
+                distance: { type: ['number', 'null'] },
+                strength: { type: ['number', 'null'] },
+            },
+            required: ['distance', 'strength'],
+            additionalProperties: false,
+        },
+        shield: {
+            type: 'object',
+            properties: {
+                hitpoints: { ...levelBasedStats },
+                damageReductionPercent: { type: ['number', 'null'] },
+            },
+            required: ['hitpoints', 'damageReductionPercent'],
+            additionalProperties: false,
+        },
+        dash: {
+            type: 'object',
+            properties: {
+                damage: { ...levelBasedStats },
+                minRange: { type: ['number', 'null'] },
+                maxRange: { type: ['number', 'null'] },
+            },
+            required: ['damage', 'minRange', 'maxRange'],
+            additionalProperties: false,
+        },
+        jump: {
+            type: 'object',
+            properties: {
+                height: { type: ['number', 'null'] },
+                speed: { type: ['number', 'null'] },
+            },
+            required: ['height', 'speed'],
+            additionalProperties: false,
+        },
+        invisibility: {
+            type: 'object',
+            properties: {
+                whenNotAttackingTime: { type: ['number', 'null'] },
+            },
+            required: ['whenNotAttackingTime'],
+            additionalProperties: false,
+        },
+        'spawn-on-death': {
+            type: 'object',
+            properties: {
+                character: { type: ['string', 'boolean', 'null'] },
+                damage: { ...levelBasedStats },
+                radius: { type: ['number', 'null'] },
+                deployTime: { type: ['number', 'null'] },
+            },
+            required: ['character', 'damage', 'radius', 'deployTime'],
+            additionalProperties: false,
+        },
+        'periodic-spawn': {
+            type: 'object',
+            properties: {
+                pauseTime: { type: ['number', 'null'] },
+                character: { type: ['string', 'null'] },
+                units: { type: ['number', 'null'] },
+            },
+            required: ['pauseTime', 'character', 'units'],
+            additionalProperties: false,
+        },
+        'area-damage-on-death': {
+            type: 'object',
+            properties: {
+                areaEffect: { type: ['string', 'boolean', 'null'] },
+                damage: { ...levelBasedStats },
+                radius: { type: ['number', 'null'] },
+            },
+            required: ['areaEffect', 'damage', 'radius'],
+            additionalProperties: false,
+        },
+        ability: {
+            type: 'object',
+            properties: {
+                name: { type: ['string', 'null'] },
+                elixirCost: { type: ['number', 'null'] },
+                cooldown: { type: ['number', 'null'] },
+            },
+            required: ['name', 'elixirCost', 'cooldown'],
+            additionalProperties: false,
+        },
+        pierce: {
+            type: 'object',
+            properties: {
+                radius: { type: ['number', 'null'] },
+                range: { type: ['number', 'null'] },
+            },
+            required: ['radius', 'range'],
+            additionalProperties: false,
+        },
+    },
+};
+
+/**
  * Schema for the `statsEvo` object when a card has an evolution (`evolution: true`).
  * It requires `cycles` to be a number, and `damage` and `hitpoints` to follow the level-based structure.
  * @type {object}
@@ -47,10 +187,11 @@ const evolvedStatsSchema = {
     type: 'object',
     properties: {
         cycles: { type: 'number', minimum: 1 },
+        skills: { ...skillsSchema },
         damage: { ...levelBasedStats },
         hitpoints: { ...levelBasedStats },
     },
-    required: ['cycles', 'damage', 'hitpoints'],
+    required: ['cycles', 'skills', 'damage', 'hitpoints'],
     additionalProperties: false,
 };
 
@@ -63,10 +204,11 @@ const unevolvedStatsSchema = {
     type: 'object',
     properties: {
         cycles: { const: null },
+        skills: { type: 'object', maxProperties: 0 },
         damage: { ...levelBasedNullStats },
         hitpoints: { ...levelBasedNullStats },
     },
-    required: ['cycles', 'damage', 'hitpoints'],
+    required: ['cycles', 'skills', 'damage', 'hitpoints'],
     additionalProperties: false,
 };
 
@@ -78,8 +220,9 @@ const heroStatsSchema = {
     type: 'object',
     properties: {
         prestigeCost: { type: 'number', minimum: 1 },
+        skills: { ...skillsSchema },
     },
-    required: ['prestigeCost'],
+    required: ['prestigeCost', 'skills'],
     additionalProperties: false,
 };
 
@@ -91,10 +234,12 @@ const nonHeroStatsSchema = {
     type: 'object',
     properties: {
         prestigeCost: { const: null },
+        skills: { type: 'object', maxProperties: 0 },
     },
-    required: ['prestigeCost'],
+    required: ['prestigeCost', 'skills'],
     additionalProperties: false,
 };
+
 
 /**
  * Defines the schema for an individual card object within the `cards` and `towerCards` arrays.
@@ -122,6 +267,7 @@ const cardObjectSchema = {
         typeAttack: { type: ['string', 'null'] },
         projectile: { type: 'boolean' },
         suicide: { type: 'boolean' },
+        skills: { ...skillsSchema },
         fatalDamage: { ...levelBasedStats },
         chargeDamage: { ...levelBasedStats },
         towerDamage: { ...levelBasedStats },
@@ -177,7 +323,7 @@ const cardObjectSchema = {
     ],
     required: [
         'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
-        'evolution', 'hero', 'typeAttack', 'projectile', 'suicide', 'fatalDamage',
+        'evolution', 'hero', 'typeAttack', 'projectile', 'suicide', 'skills', 'fatalDamage',
         'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'statsEvo', 'statsHero',
         'hitspeed', 'radius', 'generationSpeed', 'generationUnits', 'speed',
         'range', 'territory', 'rarity', 'type',
