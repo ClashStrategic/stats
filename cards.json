@@ -2000,7 +2000,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
@@ -2045,7 +2045,13 @@
             },
             "statsHero": {
                 "prestigeCost": null,
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "DarkPrince_hero",
+                        "elixirCost": null,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 1.4,
             "radius": 1.1,
@@ -2521,7 +2527,7 @@
             "units": 1,
             "duration": null,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
@@ -2566,7 +2572,13 @@
             },
             "statsHero": {
                 "prestigeCost": null,
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Bowler_hero",
+                        "elixirCost": null,
+                        "cooldown": null
+                    }
+                }
             },
             "hitspeed": 2.5,
             "radius": 1.8,
