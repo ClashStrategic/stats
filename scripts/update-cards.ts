@@ -54,7 +54,7 @@ const CARD_SKELETON: Card = {
         cycles: null, skills: {},
         damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS }
     },
-    statsHero: { prestigeCost: null, skills: {} },
+    statsHero: { skills: {} },
     hitspeed: null, loadTime: null, radius: null, collisionRadius: null, generationSpeed: null, generationUnits: null,
     speed: null, range: null, sightRange: null, territory: null, unlockArena: null, tribe: null, rarity: null, type: null
 };
@@ -434,10 +434,6 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     populateEvolution(card, spell, mult, baseHP, baseDamage);
 }
 
-function resolveManualPrestigeCost(card: Card): number | null {
-    return typeof card.statsHero.prestigeCost === 'number' ? card.statsHero.prestigeCost : null;
-}
-
 function populateHeroStats(card: Card, spell: Spell, mult: LevelMultiplier, baseHP: number | null): void {
     let ability = findAbilityData(spell);
     if (!ability && spell.heroData && typeof spell.heroData === 'object') {
@@ -445,7 +441,6 @@ function populateHeroStats(card: Card, spell: Spell, mult: LevelMultiplier, base
     }
     const abilityRecord: Record<string, unknown> | null = (ability && typeof ability === 'object')
         ? ability as Record<string, unknown> : null;
-    const manualPrestigeCost = resolveManualPrestigeCost(card);
 
     if (card.hero) {
         const heroAbility = (spell.heroData && typeof spell.heroData === 'object') ? spell.heroData as Record<string, any> : null;
@@ -454,18 +449,16 @@ function populateHeroStats(card: Card, spell: Spell, mult: LevelMultiplier, base
             card.statsHero.skills = {
                 ability: {
                     name: heroAbility.name || null,
-                    elixirCost: manualPrestigeCost,
+                    elixirCost: heroAbility.manaCost ?? null,
                     cooldown: (heroAbility.cooldown && heroAbility.cooldown > 0) ? heroAbility.cooldown / 1000 : null
                 }
             };
         } else {
             card.statsHero.skills = card.statsHero.skills || {};
         }
-        card.statsHero.prestigeCost = manualPrestigeCost;
         return;
     }
 
-    card.statsHero.prestigeCost = null;
     card.statsHero.skills = {};
 }
 
