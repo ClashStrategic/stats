@@ -1276,7 +1276,7 @@
             "suicide": false,
             "skills": {
                 "jump": {
-                    "height": 4,
+                    "height": 4.0,
                     "speed": 0.16
                 }
             },
@@ -1680,7 +1680,7 @@
             "suicide": false,
             "skills": {
                 "jump": {
-                    "height": 4,
+                    "height": 4.0,
                     "speed": 0.16
                 }
             },
@@ -2150,7 +2150,7 @@
                     "damageReductionPercent": null
                 },
                 "jump": {
-                    "height": 4,
+                    "height": 4.0,
                     "speed": 0.16
                 }
             },
@@ -2704,7 +2704,7 @@
             "suicide": false,
             "skills": {
                 "pushback": {
-                    "distance": 1,
+                    "distance": 1.0,
                     "strength": null
                 },
                 "pierce": {
@@ -3595,7 +3595,7 @@
             },
             "hitspeed": 2.2,
             "loadTime": 1.5,
-            "radius": 0.07,
+            "radius": 0.1,
             "collisionRadius": 0.6,
             "generationSpeed": null,
             "generationUnits": null,
@@ -4135,7 +4135,7 @@
             "suicide": false,
             "skills": {
                 "jump": {
-                    "height": 4,
+                    "height": 4.0,
                     "speed": 0.16
                 },
                 "slow": {
@@ -4447,7 +4447,7 @@
             "suicide": false,
             "skills": {
                 "pushback": {
-                    "distance": 1,
+                    "distance": 1.0,
                     "strength": null
                 },
                 "dash": {
@@ -4460,7 +4460,7 @@
                     "maxRange": 5
                 },
                 "jump": {
-                    "height": 3,
+                    "height": 3.0,
                     "speed": 0.25
                 }
             },
@@ -4502,12 +4502,12 @@
                         "maxRange": 5
                     },
                     "jump": {
-                        "height": 3,
+                        "height": 3.0,
                         "speed": 0.25
                     },
                     "pushback": {
                         "distance": null,
-                        "strength": 4
+                        "strength": 4.0
                     }
                 },
                 "damage": {
@@ -4776,7 +4776,7 @@
             "suicide": false,
             "skills": {
                 "jump": {
-                    "height": 4,
+                    "height": 4.0,
                     "speed": 0.16
                 }
             },
@@ -4809,7 +4809,7 @@
                 "cycles": 2,
                 "skills": {
                     "jump": {
-                        "height": 4,
+                        "height": 4.0,
                         "speed": 0.16
                     }
                 },
@@ -5084,7 +5084,7 @@
             },
             "hitspeed": 1.1,
             "loadTime": 0.4,
-            "radius": 0.25,
+            "radius": 0.3,
             "collisionRadius": 0.6,
             "generationSpeed": null,
             "generationUnits": null,
@@ -5958,7 +5958,7 @@
             "suicide": false,
             "skills": {
                 "jump": {
-                    "height": 4,
+                    "height": 4.0,
                     "speed": 0.16
                 }
             },
@@ -6198,7 +6198,7 @@
             "suicide": false,
             "skills": {
                 "pushback": {
-                    "distance": 2,
+                    "distance": 2.0,
                     "strength": null
                 },
                 "periodic-spawn": {
@@ -6365,7 +6365,7 @@
             "suicide": false,
             "skills": {
                 "pushback": {
-                    "distance": 2,
+                    "distance": 2.0,
                     "strength": null
                 }
             },
@@ -8003,7 +8003,7 @@
             "suicide": false,
             "skills": {
                 "pushback": {
-                    "distance": 1,
+                    "distance": 1.0,
                     "strength": null
                 }
             },
