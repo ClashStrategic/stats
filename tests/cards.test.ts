@@ -1,89 +1,61 @@
-/**
- * @fileoverview Test suite for validating the cards.json file.
- * This file contains tests for schema validation, data integrity,
- * and logical consistency of the card data.
- */
-
 import { describe, it, expect, beforeAll } from 'vitest';
 import Ajv from 'ajv';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
-import cardsData from '../cards.json' with { type: 'json' };
-import { cardSchema } from './card.schema.spec.js';
+import cardsDataJson from '../data/cards.json' with { type: 'json' };
+import { cardSchema } from '../src/schema.js';
+import { CardsJson, Card, Levels } from '../src/types.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-/**
- * @describe Main test suite for all card-related validations.
- */
-describe('Card Data Validation', () => {
-  const allCards = [...cardsData.cards, ...cardsData.towerCards];
+const cardsData = cardsDataJson as unknown as CardsJson;
 
-  /**
-   * Helper function to check if level-based stat values are integers (if not null).
-   * @param {object} statObject - The stat object (e.g., card.damage).
-   */
-  const checkLevelBasedStats = (statObject) => {
+describe('Card Data Validation', () => {
+  const allCards: Card[] = [...cardsData.cards, ...cardsData.towerCards];
+
+  const checkLevelBasedStats = (statObject: Levels) => {
     if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
     if (statObject.level15 !== null) expect(Number.isInteger(statObject.level15)).toBe(true);
     if (statObject.level16 !== null) expect(Number.isInteger(statObject.level16)).toBe(true);
   };
 
-  /**
-   * @describe Tests related to the structure and schema of cards.json.
-   */
   describe('Schema and Structural Validation', () => {
-    let ajv;
+    let ajv: Ajv;
 
     beforeAll(() => {
-      ajv = new Ajv({ allErrors: true });
+      ajv = new Ajv({ 
+        allErrors: true,
+        strict: false
+      });
     });
 
-    /**
-     * @it Validates the entire cards.json object against the defined schema.
-     * This is the primary check to ensure the overall structure is correct.
-     */
     it('should validate the entire cards.json structure against the schema', () => {
       const validate = ajv.compile(cardSchema);
       const valid = validate(cardsData);
 
       if (!valid) {
-        // Log detailed errors to the console for easier debugging.
         console.error('AJV Validation Errors:', JSON.stringify(validate.errors, null, 2));
       }
 
       expect(validate.errors).toBeNull();
     });
 
-    /**
-     * @it Ensures that the 'cards' array exists and is not empty.
-     */
     it('should have a non-empty "cards" array', () => {
       expect(cardsData.cards).toBeDefined();
       expect(Array.isArray(cardsData.cards)).toBe(true);
       expect(cardsData.cards.length).toBeGreaterThan(0);
     });
 
-    /**
-     * @it Ensures that the 'towerCards' array exists. It can be empty.
-     */
     it('should have a "towerCards" array', () => {
       expect(cardsData.towerCards).toBeDefined();
       expect(Array.isArray(cardsData.towerCards)).toBe(true);
     });
   });
 
-  /**
-   * @describe Tests for data uniqueness and integrity across all cards.
-   */
   describe('Data Uniqueness and Integrity', () => {
-    /**
-     * @it Checks that all card IDs and names are unique across both 'cards' and 'towerCards'.
-     * This prevents data conflicts and ensures each card is uniquely identifiable.
-     */
     it('should have unique IDs and names for all cards', () => {
       const ids = allCards.map((card) => card.id);
       const names = allCards.map((card) => card.name);
@@ -96,22 +68,14 @@ describe('Card Data Validation', () => {
     });
   });
 
-  /**
-   * @describe Contains tests for validating the correct data types (integer/float) for numeric fields.
-   */
   describe('Data Formatting Rules', () => {
-    /**
-     * @it Verifies that fields intended to be floats are not represented as integers in the raw JSON file.
-     * This enforces a consistent data format (e.g., `1.0` instead of `1`).
-     */
     it('should use floats for fields that can have decimal values', () => {
-      const jsonPath = path.join(__dirname, '..', 'cards.json');
+      const jsonPath = path.join(__dirname, '..', 'data', 'cards.json');
       const rawJson = fs.readFileSync(jsonPath, 'utf-8');
       const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius', 'deployTime', 'loadTime', 'sightRange', 'collisionRadius'];
-      const allMismatches = [];
+      const allMismatches: string[] = [];
 
       fieldsToCheck.forEach((field) => {
-        // Regex to find fields with integer values (e.g., "hitspeed": 1) instead of float (e.g., "hitspeed": 1.0)
         const integerRegex = new RegExp(`"${field}":\\s*\\d+\\s*[,}]`, 'g');
         const matches = rawJson.match(integerRegex);
         if (matches) {
@@ -126,12 +90,8 @@ describe('Card Data Validation', () => {
       expect(allMismatches).toHaveLength(0);
     });
 
-    /**
-     * @it Validates that numeric fields expected to be integers are, in fact, integers.
-     * @param {object} card - The card object to test, provided by `test.each`.
-     */
     it.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
-      const integerFields = ['id', 'elixirCost', 'units'];
+      const integerFields: (keyof Card)[] = ['id', 'elixirCost', 'units'];
       integerFields.forEach((field) => {
         expect(Number.isInteger(card[field])).toBe(true);
       });
@@ -158,19 +118,12 @@ describe('Card Data Validation', () => {
     });
   });
 
-  /**
-   * @describe Tests for logical rules specific to each card type (Troop, Building, Spell).
-   */
   describe('Type-Specific Logic', () => {
     const troops = allCards.filter((c) => c.type === 'troop');
     const buildings = allCards.filter((c) => c.type === 'building');
     const spellsWithUnits = allCards.filter((c) => c.type === 'spell' && c.units > 0);
     const spellsWithoutUnits = allCards.filter((c) => c.type === 'spell' && c.units === 0);
 
-    /**
-     * @it Validates rules specific to troop cards.
-     * @param {object} card - The card object to test.
-     */
     it.each(troops)('Troop card "$name" should follow troop-specific rules', (card) => {
       expect(card.units).not.toBeNull();
       expect(card.units).toBeGreaterThanOrEqual(1);
@@ -181,22 +134,13 @@ describe('Card Data Validation', () => {
       expect(card.hitpoints.level16).not.toBeNull();
     });
 
-    /**
-     * @it Validates rules specific to building cards.
-     * @param {object} card - The card object to test.
-     */
     it.each(buildings)('Building card "$name" should follow building-specific rules', (card) => {
-      // Buildings that are not spawners might have null duration (e.g., Elixir Collector)
       if (card.generationSpeed === null) {
         expect(typeof card.duration).toBe('number');
         expect(card.duration).not.toBeNull();
       }
     });
 
-    /**
-     * @it Validates rules for spells that spawn units (e.g., Graveyard).
-     * @param {object} card - The card object to test.
-     */
     it.each(spellsWithUnits)('Spell card "$name" (with units) should have valid unit stats', (card) => {
       expect(card.damage.level11).not.toBeNull();
       expect(card.damage.level15).not.toBeNull();
@@ -206,10 +150,6 @@ describe('Card Data Validation', () => {
       expect(card.hitpoints.level16).not.toBeNull();
     });
 
-    /**
-     * @it Validates rules for spells that do not spawn units (e.g., Fireball).
-     * @param {object} card - The card object to test.
-     */
     it.each(spellsWithoutUnits)('Spell card "$name" (no units) should have null hitpoints', (card) => {
       expect(card.damage.level11).not.toBeNull();
       expect(card.damage.level15).not.toBeNull();
@@ -217,7 +157,6 @@ describe('Card Data Validation', () => {
       expect(card.towerDamage.level11).not.toBeNull();
       expect(card.towerDamage.level15).not.toBeNull();
       expect(card.towerDamage.level16).not.toBeNull();
-      // Direct damage spells should not have their own hitpoints.
       expect(card.hitpoints.level11).toBeNull();
       expect(card.hitpoints.level15).toBeNull();
       expect(card.hitpoints.level16).toBeNull();
@@ -226,16 +165,9 @@ describe('Card Data Validation', () => {
     });
   });
 
-  /**
-   * @describe Tests for logic related to card evolutions.
-   */
   describe('Evolution Logic', () => {
     const evolvedCards = allCards.filter((c) => c.evolution);
 
-    /**
-     * @it Ensures that evolved cards have valid and logical evolution stats (`statsEvo`).
-     * @param {object} card - The evolved card object to test.
-     */
     it.each(evolvedCards)('Evolved card "$name" should have valid evolution stats', (card) => {
       const { statsEvo, type, units } = card;
 
@@ -247,14 +179,12 @@ describe('Card Data Validation', () => {
       expect(statsEvo.damage.level15).not.toBeNull();
       expect(statsEvo.damage.level16).not.toBeNull();
 
-      // Spells without units (e.g., evolved Zap) should not have evolved hitpoints.
       if (type === 'spell' && units === 0) {
         expect(statsEvo.hitpoints).toBeDefined();
         expect(statsEvo.hitpoints.level11).toBeNull();
         expect(statsEvo.hitpoints.level15).toBeNull();
         expect(statsEvo.hitpoints.level16).toBeNull();
       } else {
-        // All other evolved cards (troops, buildings, unit-spawning spells) must have hitpoints.
         expect(statsEvo.hitpoints).toBeDefined();
         expect(statsEvo.hitpoints.level11).not.toBeNull();
         expect(statsEvo.hitpoints.level15).not.toBeNull();
@@ -263,16 +193,9 @@ describe('Card Data Validation', () => {
     });
   });
 
-  /**
-   * @describe Tests for logic related to card heroes.
-   */
   describe('Hero Logic', () => {
     const heroCards = allCards.filter((c) => c.hero);
 
-    /**
-     * @it Ensures that hero cards have valid hero stats (`statsHero`).
-     * @param {object} card - The hero card object to test.
-     */
     it.each(heroCards)('Hero card "$name" should have valid hero stats', (card) => {
       const { statsHero } = card;
 
@@ -283,11 +206,8 @@ describe('Card Data Validation', () => {
     });
   });
 
-  /**
-   * @describe Validates that skills follow the keyed object structure and are consistent.
-   */
   describe('Skill Validation', () => {
-    const SKILL_KEYS = {
+    const SKILL_KEYS: Record<string, string[]> = {
       heal: ['perAttack', 'frequency', 'overHeal', 'onSpawn'],
       stun: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
       slow: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
@@ -314,7 +234,7 @@ describe('Card Data Validation', () => {
           const expectedKeys = SKILL_KEYS[skillType];
           expect(expectedKeys).toBeDefined();
 
-          const actualKeys = Object.keys(skillData).sort();
+          const actualKeys = Object.keys(skillData as object).sort();
           expect(actualKeys).toEqual([...expectedKeys].sort());
 
           expectedKeys.forEach((key) => {
@@ -328,7 +248,7 @@ describe('Card Data Validation', () => {
               (skillType === 'area-damage-on-death' && key === 'damage');
 
             if (isLevelBasedSkill) {
-              checkLevelBasedStats(skillData[key]);
+              checkLevelBasedStats((skillData as any)[key]);
             }
           });
         });

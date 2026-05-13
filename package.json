@@ -38,10 +38,10 @@
         "vitest": "^4.1.6"
     },
     "scripts": {
-        "test": "vitest run tests/cards.test.js",
+        "test": "vitest run tests/cards.test.ts",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "typecheck": "tsc --noEmit",
-        "build:update-cards": "tsx scripts/update-cards.ts && node scripts/convert-to-floats.js"
+        "build:update-cards": "tsx scripts/update-cards.ts && tsx scripts/convert-to-floats.ts"
     }
 }
