@@ -3,6 +3,6 @@
  * It exports the card data.
  */
 
-const cards = require('./cards.json');
+import cards from './cards.json' with { type: 'json' };
 
-module.exports = { cards };
+export { cards };
