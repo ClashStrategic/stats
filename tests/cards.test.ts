@@ -100,8 +100,8 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card.generationUnits)).toBe(true);
       }
 
-      if (card.statsEvo.cycles !== null) {
-        expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
+      if (card.evoStats.cycles !== null) {
+        expect(Number.isInteger(card.evoStats.cycles)).toBe(true);
       }
 
       checkLevelBasedStats(card.fatalDamage);
@@ -109,8 +109,8 @@ describe('Card Data Validation', () => {
       checkLevelBasedStats(card.towerDamage);
       checkLevelBasedStats(card.damage);
       checkLevelBasedStats(card.hitpoints);
-      checkLevelBasedStats(card.statsEvo.damage);
-      checkLevelBasedStats(card.statsEvo.hitpoints);
+      checkLevelBasedStats(card.evoStats.damage);
+      checkLevelBasedStats(card.evoStats.hitpoints);
     });
   });
 
@@ -165,26 +165,26 @@ describe('Card Data Validation', () => {
     const evolvedCards = allCards.filter((c) => c.evolution);
 
     it.each(evolvedCards)('Evolved card "$name" should have valid evolution stats', (card) => {
-      const { statsEvo, type, units } = card;
+      const { evoStats, type, units } = card;
 
-      expect(statsEvo).toBeDefined();
-      expect(statsEvo.cycles).not.toBeNull();
-      expect(Number.isInteger(statsEvo.cycles)).toBe(true);
-      expect(statsEvo.damage).toBeDefined();
-      expect(statsEvo.damage.level11).not.toBeNull();
-      expect(statsEvo.damage.level15).not.toBeNull();
-      expect(statsEvo.damage.level16).not.toBeNull();
+      expect(evoStats).toBeDefined();
+      expect(evoStats.cycles).not.toBeNull();
+      expect(Number.isInteger(evoStats.cycles)).toBe(true);
+      expect(evoStats.damage).toBeDefined();
+      expect(evoStats.damage.level11).not.toBeNull();
+      expect(evoStats.damage.level15).not.toBeNull();
+      expect(evoStats.damage.level16).not.toBeNull();
 
       if (type === 'spell' && units === 0) {
-        expect(statsEvo.hitpoints).toBeDefined();
-        expect(statsEvo.hitpoints.level11).toBeNull();
-        expect(statsEvo.hitpoints.level15).toBeNull();
-        expect(statsEvo.hitpoints.level16).toBeNull();
+        expect(evoStats.hitpoints).toBeDefined();
+        expect(evoStats.hitpoints.level11).toBeNull();
+        expect(evoStats.hitpoints.level15).toBeNull();
+        expect(evoStats.hitpoints.level16).toBeNull();
       } else {
-        expect(statsEvo.hitpoints).toBeDefined();
-        expect(statsEvo.hitpoints.level11).not.toBeNull();
-        expect(statsEvo.hitpoints.level15).not.toBeNull();
-        expect(statsEvo.hitpoints.level16).not.toBeNull();
+        expect(evoStats.hitpoints).toBeDefined();
+        expect(evoStats.hitpoints.level11).not.toBeNull();
+        expect(evoStats.hitpoints.level15).not.toBeNull();
+        expect(evoStats.hitpoints.level16).not.toBeNull();
       }
     });
   });
@@ -193,9 +193,9 @@ describe('Card Data Validation', () => {
     const heroCards = allCards.filter((c) => c.hero);
 
     it.each(heroCards)('Hero card "$name" should have valid hero stats', (card) => {
-      const { statsHero } = card;
+      const { heroStats } = card;
 
-      expect(statsHero).toBeDefined();
+      expect(heroStats).toBeDefined();
     });
   });
 
@@ -220,7 +220,7 @@ describe('Card Data Validation', () => {
     };
 
     it.each(allCards)('Card "$name" should have consistent skill structures', (card) => {
-      const skillsToValidate = [card.skills, card.statsEvo.skills, card.statsHero.skills];
+      const skillsToValidate = [card.skills, card.evoStats.skills, card.heroStats.skills];
 
       skillsToValidate.forEach((skillsObj) => {
         Object.entries(skillsObj).forEach(([skillType, skillData]) => {
