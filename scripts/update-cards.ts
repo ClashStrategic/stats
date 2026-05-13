@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 import { 
     TargetValue, SpeedValue, Rarity, CardType,
     Levels, EMPTY_LEVELS, SkillsMap, SkillTemplates,
-    SkillType, CardStatsEvo, CardStatsHero, Card, CardsJson,
+    SkillType, EvoStats, HeroStats, Card, CardsJson,
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
@@ -50,11 +50,11 @@ const CARD_SKELETON: Card = {
     fatalDamage: { ...EMPTY_LEVELS }, chargeDamage: { ...EMPTY_LEVELS },
     towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
     hitpoints: { ...EMPTY_LEVELS },
-    statsEvo: {
+    evoStats: {
         cycles: null, skills: {},
         damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS }
     },
-    statsHero: { skills: {} },
+    heroStats: { skills: {} },
     hitspeed: null, loadTime: null, radius: null, collisionRadius: null, generationSpeed: null, generationUnits: null,
     speed: null, range: null, sightRange: null, territory: null, unlockArena: null, tribe: null, rarity: null, type: null
 };
@@ -446,7 +446,7 @@ function populateHeroStats(card: Card, spell: Spell, mult: LevelMultiplier, base
         const heroAbility = (spell.heroData && typeof spell.heroData === 'object') ? spell.heroData as Record<string, any> : null;
 
         if (heroAbility) {
-            card.statsHero.skills = {
+            card.heroStats.skills = {
                 ability: {
                     name: heroAbility.name || null,
                     elixirCost: heroAbility.manaCost ?? null,
@@ -454,12 +454,12 @@ function populateHeroStats(card: Card, spell: Spell, mult: LevelMultiplier, base
                 }
             };
         } else {
-            card.statsHero.skills = card.statsHero.skills || {};
+            card.heroStats.skills = card.heroStats.skills || {};
         }
         return;
     }
 
-    card.statsHero.skills = {};
+    card.heroStats.skills = {};
 }
 
 function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, baseHP: number | undefined, baseDamage: number | undefined): void {
@@ -473,9 +473,9 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
     const evoHP = evoChar.hitpoints || spawnChar.hitpoints || baseHP;
     const evoDmg = evoChar.damage || proj.damage || area.damage || buff.damagePerSecond || spawnProj.damage || spawnChar.damage || baseDamage;
 
-    card.statsEvo.hitpoints = mergeLevels(scaleLevels(evoHP, mult), card.statsEvo.hitpoints);
-    card.statsEvo.damage = mergeLevels(scaleLevels(evoDmg, mult), card.statsEvo.damage);
-    card.statsEvo.cycles = evo.cycles ?? card.statsEvo.cycles;
+    card.evoStats.hitpoints = mergeLevels(scaleLevels(evoHP, mult), card.evoStats.hitpoints);
+    card.evoStats.damage = mergeLevels(scaleLevels(evoDmg, mult), card.evoStats.damage);
+    card.evoStats.cycles = evo.cycles ?? card.evoStats.cycles;
     const evoSkills = extractSkills({ spell: evo, charData: evoChar, area, proj, buff, deathArea }, mult, evoHP ?? null);
 
     // Filter redundant skills already present in base version
@@ -485,7 +485,7 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
             filteredSkills[type as SkillType] = data as any;
         }
     }
-    card.statsEvo.skills = { ...card.statsEvo.skills, ...filteredSkills };
+    card.evoStats.skills = { ...card.evoStats.skills, ...filteredSkills };
 }
 
 function applyDefaults(card: Card): void {
