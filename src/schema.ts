@@ -214,7 +214,7 @@ const cardObjectSchema = {
         towerDamage: levelBasedStats,
         damage: levelBasedStats,
         hitpoints: levelBasedStats,
-        statsEvo: {
+        evoStats: {
             type: 'object',
             properties: {
                 cycles: { type: 'number', nullable: true },
@@ -225,7 +225,7 @@ const cardObjectSchema = {
             required: ['cycles', 'skills', 'damage', 'hitpoints'],
             additionalProperties: false,
         },
-        statsHero: {
+        heroStats: {
             type: 'object',
             properties: {
                 skills: skillsSchema,
@@ -268,7 +268,7 @@ const cardObjectSchema = {
     required: [
         'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
         'evolution', 'hero', 'typeAttack', 'projectile', 'suicide', 'skills', 'fatalDamage',
-        'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'statsEvo', 'statsHero',
+        'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'evoStats', 'heroStats',
         'hitspeed', 'loadTime', 'radius', 'collisionRadius', 'generationSpeed', 'generationUnits', 'speed',
         'range', 'sightRange', 'territory', 'rarity', 'type', 'unlockArena', 'tribe', 'deployTime'
     ],

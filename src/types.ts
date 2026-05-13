@@ -50,14 +50,14 @@ export interface SkillTemplates {
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;
 
-export interface CardStatsEvo {
+export interface EvoStats {
     cycles: number | null;
     skills: SkillsMap;
     damage: Levels;
     hitpoints: Levels;
 }
 
-export interface CardStatsHero {
+export interface HeroStats {
     skills: SkillsMap;
 }
 
@@ -80,8 +80,8 @@ export interface Card {
     towerDamage: Levels;
     damage: Levels;
     hitpoints: Levels;
-    statsEvo: CardStatsEvo;
-    statsHero: CardStatsHero;
+    evoStats: EvoStats;
+    heroStats: HeroStats;
     hitspeed: number | null;
     loadTime: number | null;
     radius: number | null;

@@ -1,5 +1,5 @@
 export { 
-    Card, CardsJson, Levels, CardStatsEvo, CardStatsHero, SkillType,
+    Card, CardsJson, Levels, EvoStats, HeroStats, SkillType,
     TargetValue, SpeedValue, Rarity, CardType,
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,

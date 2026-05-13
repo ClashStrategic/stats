@@ -41,7 +41,7 @@
                 "level15": 2566,
                 "level16": 2822
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "shield": {
@@ -64,7 +64,7 @@
                     "level16": 2822
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Knight_hero",
@@ -130,7 +130,7 @@
                 "level15": 442,
                 "level16": 486
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -144,7 +144,7 @@
                     "level16": 486
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.9,
@@ -203,7 +203,7 @@
                 "level15": 293,
                 "level16": 323
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -217,7 +217,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Goblins_hero",
@@ -282,7 +282,7 @@
                 "level15": 5766,
                 "level16": 6339
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -296,7 +296,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Giant_hero",
@@ -361,7 +361,7 @@
                 "level15": 5464,
                 "level16": 6008
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -375,7 +375,7 @@
                     "level16": 6008
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -435,7 +435,7 @@
                 "level15": 334,
                 "level16": 368
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -449,7 +449,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -519,7 +519,7 @@
                 "level15": 2436,
                 "level16": 2678
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -533,7 +533,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Balloon_hero",
@@ -605,7 +605,7 @@
                 "level15": 1220,
                 "level16": 1341
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "periodic-spawn": {
@@ -625,7 +625,7 @@
                     "level16": 1341
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -684,7 +684,7 @@
                 "level15": 1004,
                 "level16": 1104
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "boost": {
@@ -705,7 +705,7 @@
                     "level16": 1214
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -775,7 +775,7 @@
                 "level15": 7440,
                 "level16": 8180
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -789,7 +789,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.5,
@@ -848,7 +848,7 @@
                 "level15": 119,
                 "level16": 130
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "multiply": {
@@ -868,7 +868,7 @@
                     "level16": 130
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -927,7 +927,7 @@
                 "level15": 2771,
                 "level16": 3047
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -941,7 +941,7 @@
                     "level16": 3047
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -1000,7 +1000,7 @@
                 "level15": 119,
                 "level16": 130
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -1014,7 +1014,7 @@
                     "level16": 130
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -1073,7 +1073,7 @@
                 "level15": 442,
                 "level16": 486
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -1087,7 +1087,7 @@
                     "level16": 486
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -1147,7 +1147,7 @@
                 "level15": 1049,
                 "level16": 1153
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -1161,7 +1161,7 @@
                     "level16": 1153
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Musketeer_hero",
@@ -1227,7 +1227,7 @@
                 "level15": 1674,
                 "level16": 1840
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -1241,7 +1241,7 @@
                     "level16": 1840
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -1305,7 +1305,7 @@
                 "level15": 2790,
                 "level16": 3067
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -1319,7 +1319,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -1379,7 +1379,7 @@
                 "level15": 1097,
                 "level16": 1206
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "shield": {
@@ -1402,7 +1402,7 @@
                     "level16": 1206
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Wizard_hero",
@@ -1467,7 +1467,7 @@
                 "level15": 2019,
                 "level16": 2220
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -1481,7 +1481,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "MiniPekka_hero",
@@ -1547,7 +1547,7 @@
                 "level15": 193,
                 "level16": 212
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -1561,7 +1561,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -1631,7 +1631,7 @@
                 "level15": 4884,
                 "level16": 5370
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -1645,7 +1645,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -1709,7 +1709,7 @@
                 "level15": 2466,
                 "level16": 2711
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -1723,7 +1723,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.6,
@@ -1783,7 +1783,7 @@
                 "level15": 334,
                 "level16": 368
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -1797,7 +1797,7 @@
                     "level16": 368
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -1864,7 +1864,7 @@
                 "level15": 1001,
                 "level16": 1100
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -1878,7 +1878,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -1937,7 +1937,7 @@
                 "level15": 4597,
                 "level16": 5055
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -1951,7 +1951,7 @@
                     "level16": 5055
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -2019,7 +2019,7 @@
                 "level15": 119,
                 "level16": 130
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2033,7 +2033,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -2093,7 +2093,7 @@
                 "level15": 379,
                 "level16": 417
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2107,7 +2107,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 3.0,
@@ -2179,7 +2179,7 @@
                 "level15": 1744,
                 "level16": 1918
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2193,7 +2193,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "DarkPrince_hero",
@@ -2259,7 +2259,7 @@
                 "level15": 1049,
                 "level16": 1154
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2273,7 +2273,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -2343,7 +2343,7 @@
                 "level15": 5204,
                 "level16": 5721
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2357,7 +2357,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -2424,7 +2424,7 @@
                 "level15": 334,
                 "level16": 368
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "stun": {
@@ -2445,7 +2445,7 @@
                     "level16": 368
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -2505,7 +2505,7 @@
                 "level15": 334,
                 "level16": 368
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2519,7 +2519,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -2582,7 +2582,7 @@
                 "level15": 1759,
                 "level16": 1934
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2596,7 +2596,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -2655,7 +2655,7 @@
                 "level15": 2109,
                 "level16": 2319
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2669,7 +2669,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 4.0,
@@ -2737,7 +2737,7 @@
                 "level15": 3024,
                 "level16": 3325
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -2751,7 +2751,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "Bowler_hero",
@@ -2842,7 +2842,7 @@
                 "level15": 1863,
                 "level16": 2049
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "spawn-on-death": {
@@ -2876,7 +2876,7 @@
                     "level16": 2049
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -2946,7 +2946,7 @@
                 "level15": 1004,
                 "level16": 1104
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "pushback": {
@@ -2965,7 +2965,7 @@
                     "level16": 1546
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -3025,7 +3025,7 @@
                 "level15": 1882,
                 "level16": 2069
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -3039,7 +3039,7 @@
                     "level16": 2069
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.4,
@@ -3114,7 +3114,7 @@
                 "level15": 1912,
                 "level16": 2102
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3128,7 +3128,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "IceGolemite_hero",
@@ -3194,7 +3194,7 @@
                 "level15": 1216,
                 "level16": 1337
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3208,7 +3208,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "MegaMinion_hero",
@@ -3274,7 +3274,7 @@
                 "level15": 379,
                 "level16": 417
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -3288,7 +3288,7 @@
                     "level16": 417
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -3348,7 +3348,7 @@
                 "level15": 293,
                 "level16": 323
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3362,7 +3362,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -3429,7 +3429,7 @@
                 "level15": 1038,
                 "level16": 1141
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3443,7 +3443,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -3502,7 +3502,7 @@
                 "level15": 1949,
                 "level16": 2143
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3516,7 +3516,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -3576,7 +3576,7 @@
                 "level15": 1287,
                 "level16": 1415
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -3590,7 +3590,7 @@
                     "level16": 1415
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.2,
@@ -3655,7 +3655,7 @@
                 "level15": 1860,
                 "level16": 2045
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -3669,7 +3669,7 @@
                     "level16": 2045
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.4,
@@ -3738,7 +3738,7 @@
                 "level15": 1316,
                 "level16": 1447
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3752,7 +3752,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -3820,7 +3820,7 @@
                 "level15": 796,
                 "level16": 875
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {},
                 "damage": {
@@ -3834,7 +3834,7 @@
                     "level16": 875
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -3910,7 +3910,7 @@
                 "level15": 1316,
                 "level16": 1447
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -3924,7 +3924,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -3984,7 +3984,7 @@
                 "level15": 119,
                 "level16": 130
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "heal": {
@@ -4017,7 +4017,7 @@
                     "level16": 196
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -4080,7 +4080,7 @@
                 "level15": 1759,
                 "level16": 1934
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "invisibility": {
@@ -4098,7 +4098,7 @@
                     "level16": 1934
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -4170,7 +4170,7 @@
                 "level15": 2466,
                 "level16": 2711
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -4184,7 +4184,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -4251,7 +4251,7 @@
                 "level15": 770,
                 "level16": 846
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -4265,7 +4265,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.1,
@@ -4325,7 +4325,7 @@
                 "level15": 2819,
                 "level16": 3100
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -4339,7 +4339,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -4398,7 +4398,7 @@
                 "level15": 2630,
                 "level16": 2891
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -4412,7 +4412,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.9,
@@ -4489,7 +4489,7 @@
                 "level15": 5803,
                 "level16": 6380
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "dash": {
@@ -4521,7 +4521,7 @@
                     "level16": 6380
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -4580,7 +4580,7 @@
                 "level15": 773,
                 "level16": 850
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -4594,7 +4594,7 @@
                     "level16": 850
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -4654,7 +4654,7 @@
                 "level15": 892,
                 "level16": 981
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -4668,7 +4668,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -4727,7 +4727,7 @@
                 "level15": 479,
                 "level16": 527
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -4741,7 +4741,7 @@
                     "level16": 527
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -4805,7 +4805,7 @@
                 "level15": 1216,
                 "level16": 1337
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "jump": {
@@ -4824,7 +4824,7 @@
                     "level16": 1337
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -4896,7 +4896,7 @@
                 "level15": 4389,
                 "level16": 4826
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "spawn-on-death": {
@@ -4921,7 +4921,7 @@
                     "level16": 4826
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -4980,7 +4980,7 @@
                 "level15": 1264,
                 "level16": 1390
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -4994,7 +4994,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -5059,7 +5059,7 @@
                 "level15": 770,
                 "level16": 846
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5073,7 +5073,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "EliteArcher_hero",
@@ -5146,7 +5146,7 @@
                 "level15": 1450,
                 "level16": 1595
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "stun": {
@@ -5167,7 +5167,7 @@
                     "level16": 1595
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.1,
@@ -5232,7 +5232,7 @@
                 "level15": 442,
                 "level16": 486
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "slow": {
@@ -5253,7 +5253,7 @@
                     "level16": 486
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 3.0,
@@ -5318,7 +5318,7 @@
                 "level15": 3269,
                 "level16": 3595
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5332,7 +5332,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.4,
@@ -5402,7 +5402,7 @@
                 "level15": 2280,
                 "level16": 2507
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5416,7 +5416,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -5494,7 +5494,7 @@
                 "level15": 2496,
                 "level16": 2744
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5508,7 +5508,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -5573,7 +5573,7 @@
                 "level15": 3340,
                 "level16": 3672
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5587,7 +5587,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.6,
@@ -5659,7 +5659,7 @@
                 "level15": 1454,
                 "level16": 1599
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5673,7 +5673,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -5747,7 +5747,7 @@
                 "level15": 2615,
                 "level16": 2875
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5761,7 +5761,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.9,
@@ -5834,7 +5834,7 @@
                 "level15": 3217,
                 "level16": 3537
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5848,7 +5848,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -5908,7 +5908,7 @@
                 "level15": 814,
                 "level16": 895
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -5922,7 +5922,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.0,
@@ -5987,7 +5987,7 @@
                 "level15": 770,
                 "level16": 846
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6001,7 +6001,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -6068,7 +6068,7 @@
                 "level15": 334,
                 "level16": 368
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6082,7 +6082,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -6148,7 +6148,7 @@
                 "level15": 5602,
                 "level16": 6159
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6162,7 +6162,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -6232,7 +6232,7 @@
                 "level15": 1528,
                 "level16": 1680
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6246,7 +6246,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -6316,7 +6316,7 @@
                 "level15": 1015,
                 "level16": 1116
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6330,7 +6330,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -6394,7 +6394,7 @@
                 "level15": 1889,
                 "level16": 2077
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6408,7 +6408,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -6467,7 +6467,7 @@
                 "level15": 3124,
                 "level16": 3435
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6481,7 +6481,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -6553,7 +6553,7 @@
                 "level15": 119,
                 "level16": 130
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6567,7 +6567,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -6640,7 +6640,7 @@
                 "level15": 3467,
                 "level16": 3811
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6654,7 +6654,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -6719,7 +6719,7 @@
                 "level15": 3868,
                 "level16": 4253
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6733,7 +6733,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -6792,7 +6792,7 @@
                 "level15": 1302,
                 "level16": 1431
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6806,7 +6806,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.6,
@@ -6880,7 +6880,7 @@
                 "level15": 3813,
                 "level16": 4192
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -6894,7 +6894,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -6953,7 +6953,7 @@
                 "level15": 1197,
                 "level16": 1316
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -6967,7 +6967,7 @@
                     "level16": 1316
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -7038,7 +7038,7 @@
                 "level15": 1714,
                 "level16": 1885
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7052,7 +7052,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7111,7 +7111,7 @@
                 "level15": 1990,
                 "level16": 2188
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -7125,7 +7125,7 @@
                     "level16": 2188
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 5.0,
@@ -7185,7 +7185,7 @@
                 "level15": 2540,
                 "level16": 2793
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7199,7 +7199,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.4,
@@ -7269,7 +7269,7 @@
                 "level15": 1971,
                 "level16": 2167
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7283,7 +7283,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -7358,7 +7358,7 @@
                 "level15": 1692,
                 "level16": 1860
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7372,7 +7372,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7432,7 +7432,7 @@
                 "level15": 1674,
                 "level16": 1840
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "stun": {
@@ -7453,7 +7453,7 @@
                     "level16": 1840
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -7510,7 +7510,7 @@
                 "level15": 1554,
                 "level16": 1709
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7524,7 +7524,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -7583,7 +7583,7 @@
                 "level15": 2325,
                 "level16": 2556
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7597,7 +7597,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -7672,7 +7672,7 @@
                 "level15": 770,
                 "level16": 846
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -7686,7 +7686,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7746,7 +7746,7 @@
                 "level15": 1056,
                 "level16": 1161
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -7760,7 +7760,7 @@
                     "level16": 1161
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -7830,7 +7830,7 @@
                 "level15": 1134,
                 "level16": 1247
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 1,
                 "skills": {
                     "spawn-on-death": {
@@ -7855,7 +7855,7 @@
                     "level16": 1247
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7934,7 +7934,7 @@
                 "level15": 1908,
                 "level16": 2098
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {
                     "spawn-on-death": {
@@ -7967,7 +7967,7 @@
                     "level16": 2098
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -8032,7 +8032,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8046,7 +8046,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8106,7 +8106,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8120,7 +8120,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8196,7 +8196,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8210,7 +8210,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8275,7 +8275,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8289,7 +8289,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8349,7 +8349,7 @@
                 "level15": 294,
                 "level16": 323
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -8363,7 +8363,7 @@
                     "level16": 323
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -8430,7 +8430,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8444,7 +8444,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8501,7 +8501,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8515,7 +8515,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8582,7 +8582,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8596,7 +8596,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8663,7 +8663,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -8677,7 +8677,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8744,7 +8744,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8758,7 +8758,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -8818,7 +8818,7 @@
                 "level15": 119,
                 "level16": 131
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8832,7 +8832,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -8900,7 +8900,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8914,7 +8914,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -8974,7 +8974,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -8988,7 +8988,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9054,7 +9054,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9068,7 +9068,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9134,7 +9134,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9148,7 +9148,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -9212,7 +9212,7 @@
                 "level15": 947,
                 "level16": 1070
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9226,7 +9226,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {
                     "ability": {
                         "name": "BarbLog_hero",
@@ -9311,7 +9311,7 @@
                 "level15": 334,
                 "level16": 368
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9325,7 +9325,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -9396,7 +9396,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": 2,
                 "skills": {},
                 "damage": {
@@ -9410,7 +9410,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9479,7 +9479,7 @@
                 "level15": 796,
                 "level16": 875
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9493,7 +9493,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9553,7 +9553,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9567,7 +9567,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9627,7 +9627,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9641,7 +9641,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9701,7 +9701,7 @@
                 "level15": 1826,
                 "level16": 2005
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9715,7 +9715,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -9775,7 +9775,7 @@
                 "level15": null,
                 "level16": null
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9789,7 +9789,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": null,
@@ -9851,7 +9851,7 @@
                 "level15": 4424,
                 "level16": 4844
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9865,7 +9865,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -9925,7 +9925,7 @@
                 "level15": 3792,
                 "level16": 4152
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -9939,7 +9939,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 2.2,
@@ -9999,7 +9999,7 @@
                 "level15": 4013,
                 "level16": 4394
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -10013,7 +10013,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 0.5,
@@ -10073,7 +10073,7 @@
                 "level15": 3918,
                 "level16": 4290
             },
-            "statsEvo": {
+            "evoStats": {
                 "cycles": null,
                 "skills": {},
                 "damage": {
@@ -10087,7 +10087,7 @@
                     "level16": null
                 }
             },
-            "statsHero": {
+            "heroStats": {
                 "skills": {}
             },
             "hitspeed": 1.0,
