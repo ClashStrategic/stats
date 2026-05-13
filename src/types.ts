@@ -1,0 +1,105 @@
+export type TargetValue = 'ground' | 'air' | 'buildings';
+export type SpeedValue = 'slow' | 'medium' | 'fast' | 'very-fast';
+export type Rarity = 'common' | 'rare' | 'epic' | 'legendary' | 'champion';
+export type CardType = 'troop' | 'building' | 'spell' | 'tower';
+
+export interface Levels {
+    level11: number | null;
+    level15: number | null;
+    level16: number | null;
+}
+
+export const EMPTY_LEVELS: Levels = { level11: null, level15: null, level16: null };
+
+export interface HealSkill { perAttack: Levels; frequency: number | null; overHeal: Levels; onSpawn: Levels; }
+export interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
+export interface SlowSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
+export interface PushbackSkill { distance: number | null; strength: number | null; }
+export interface ShieldSkill { hitpoints: Levels | null; damageReductionPercent: number | null; }
+export interface DashSkill { damage: Levels; minRange: number | null; maxRange: number | null; }
+export interface JumpSkill { height: number | null; speed: number | null; }
+export interface InvisibilitySkill { whenNotAttackingTime: number | null; }
+export interface SpawnOnDeathSkill { character: string | boolean | null; damage: Levels | null; radius: number | null; deployTime: number | null; }
+export interface PeriodicSpawnSkill { pauseTime: number | null; character: string | null; units: number | null; }
+export interface AreaDamageOnDeathSkill { areaEffect: string | boolean | null; damage: Levels | null; radius: number | null; }
+export interface AbilitySkill { name: string | null; elixirCost: number | null; cooldown: number | null; }
+export interface PierceSkill { radius: number | null; range: number | null; }
+export interface BoostSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
+export interface BurrowSkill { duration: number | null; }
+export interface MultiplySkill { units: number | null; interval: number | null; maxUnits: number | null; }
+
+export interface SkillTemplates {
+    heal: HealSkill;
+    stun: StunSkill;
+    slow: SlowSkill;
+    pushback: PushbackSkill;
+    shield: ShieldSkill;
+    dash: DashSkill;
+    jump: JumpSkill;
+    invisibility: InvisibilitySkill;
+    'spawn-on-death': SpawnOnDeathSkill;
+    'periodic-spawn': PeriodicSpawnSkill;
+    'area-damage-on-death': AreaDamageOnDeathSkill;
+    ability: AbilitySkill;
+    pierce: PierceSkill;
+    boost: BoostSkill;
+    burrow: BurrowSkill;
+    multiply: MultiplySkill;
+}
+
+export type SkillType = keyof SkillTemplates;
+export type SkillsMap = Partial<SkillTemplates>;
+
+export interface CardStatsEvo {
+    cycles: number | null;
+    skills: SkillsMap;
+    damage: Levels;
+    hitpoints: Levels;
+}
+
+export interface CardStatsHero {
+    prestigeCost: number | null;
+    skills: SkillsMap;
+}
+
+export interface Card {
+    name: string | null;
+    id: number | null;
+    elixirCost: number | null;
+    targets: TargetValue[];
+    units: number;
+    duration: number | null;
+    deployTime: number | null;
+    evolution: boolean;
+    hero: boolean;
+    typeAttack: string | null;
+    projectile: boolean;
+    suicide: boolean;
+    skills: SkillsMap;
+    fatalDamage: Levels;
+    chargeDamage: Levels;
+    towerDamage: Levels;
+    damage: Levels;
+    hitpoints: Levels;
+    statsEvo: CardStatsEvo;
+    statsHero: CardStatsHero;
+    hitspeed: number | null;
+    loadTime: number | null;
+    radius: number | null;
+    collisionRadius: number | null;
+    generationSpeed: number | null;
+    generationUnits: number | null;
+    speed: SpeedValue | null;
+    range: number | null;
+    sightRange: number | null;
+    territory: 'wide' | 'restricted' | null;
+    unlockArena: string | null;
+    tribe: string | null;
+    rarity: Rarity | '' | null;
+    type: CardType | null;
+}
+
+export interface CardsJson {
+    cards: Card[];
+    towerCards: Card[];
+}

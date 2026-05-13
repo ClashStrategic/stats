@@ -17,12 +17,12 @@
     },
     "homepage": "https://github.com/ClashStrategic/stats#readme",
     "files": [
-        "index.js",
-        "cards.json"
+        "src/",
+        "data/"
     ],
     "exports": {
-        ".": "./index.js",
-        "./cards.json": "./cards.json"
+        ".": "./src/index.ts",
+        "./cards.json": "./data/cards.json"
     },
     "devDependencies": {
         "@eslint/js": "^9.39.2",
