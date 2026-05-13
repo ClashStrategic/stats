@@ -228,10 +228,9 @@ const cardObjectSchema = {
         statsHero: {
             type: 'object',
             properties: {
-                prestigeCost: { type: 'number', nullable: true },
                 skills: skillsSchema,
             },
-            required: ['prestigeCost', 'skills'],
+            required: ['skills'],
             additionalProperties: false,
         },
         hitspeed: { type: 'number', nullable: true },

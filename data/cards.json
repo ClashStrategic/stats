@@ -65,7 +65,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "Knight_hero",
@@ -146,7 +145,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.9,
@@ -220,7 +218,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 1,
                 "skills": {
                     "ability": {
                         "name": "Goblins_hero",
@@ -300,7 +297,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "Giant_hero",
@@ -380,7 +376,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -455,7 +450,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -540,7 +534,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "Balloon_hero",
@@ -633,7 +626,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -714,7 +706,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -799,7 +790,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.5,
@@ -879,7 +869,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -953,7 +942,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -1027,7 +1015,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -1101,7 +1088,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -1176,7 +1162,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 3,
                 "skills": {
                     "ability": {
                         "name": "Musketeer_hero",
@@ -1257,7 +1242,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -1336,7 +1320,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -1420,7 +1403,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 1,
                 "skills": {
                     "ability": {
                         "name": "Wizard_hero",
@@ -1500,7 +1482,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 1,
                 "skills": {
                     "ability": {
                         "name": "MiniPekka_hero",
@@ -1581,7 +1562,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -1666,7 +1646,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -1745,7 +1724,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.6,
@@ -1820,7 +1798,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -1902,7 +1879,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -1976,7 +1952,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -2059,7 +2034,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -2134,7 +2108,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 3.0,
@@ -2221,7 +2194,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 3,
                 "skills": {
                     "ability": {
                         "name": "DarkPrince_hero",
@@ -2302,7 +2274,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -2387,7 +2358,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -2476,7 +2446,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -2551,7 +2520,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -2629,7 +2597,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -2703,7 +2670,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 4.0,
@@ -2786,7 +2752,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "Bowler_hero",
@@ -2912,7 +2877,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -3002,7 +2966,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -3077,7 +3040,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.4,
@@ -3167,7 +3129,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "IceGolemite_hero",
@@ -3248,7 +3209,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "MegaMinion_hero",
@@ -3329,7 +3289,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -3404,7 +3363,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -3486,7 +3444,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -3560,7 +3517,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -3635,7 +3591,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.2,
@@ -3715,7 +3670,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.4,
@@ -3799,7 +3753,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -3882,7 +3835,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -3973,7 +3925,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -4067,7 +4018,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -4149,7 +4099,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -4236,7 +4185,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -4318,7 +4266,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.1,
@@ -4393,7 +4340,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -4467,7 +4413,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.9,
@@ -4577,7 +4522,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -4651,7 +4595,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -4726,7 +4669,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -4800,7 +4742,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -4884,7 +4825,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -4982,7 +4922,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -5056,7 +4995,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.3,
@@ -5136,7 +5074,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 2,
                 "skills": {
                     "ability": {
                         "name": "EliteArcher_hero",
@@ -5231,7 +5168,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.1,
@@ -5318,7 +5254,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 3.0,
@@ -5398,7 +5333,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.4,
@@ -5483,7 +5417,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -5576,7 +5509,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -5656,7 +5588,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.6,
@@ -5743,7 +5674,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -5832,7 +5762,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.9,
@@ -5920,7 +5849,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -5995,7 +5923,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.0,
@@ -6075,7 +6002,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -6157,7 +6083,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -6238,7 +6163,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -6323,7 +6247,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -6408,7 +6331,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -6487,7 +6409,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -6561,7 +6482,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -6648,7 +6568,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -6736,7 +6655,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -6816,7 +6734,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.5,
@@ -6890,7 +6807,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.6,
@@ -6979,7 +6895,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -7053,7 +6968,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -7139,7 +7053,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7213,7 +7126,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 5.0,
@@ -7288,7 +7200,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.4,
@@ -7373,7 +7284,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.8,
@@ -7463,7 +7373,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7545,7 +7454,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -7617,7 +7525,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -7691,7 +7598,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -7781,7 +7687,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -7856,7 +7761,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.7,
@@ -7952,7 +7856,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 10.0,
@@ -8065,7 +7968,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.2,
@@ -8145,7 +8047,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8220,7 +8121,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8311,7 +8211,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8391,7 +8290,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8466,7 +8364,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.1,
@@ -8548,7 +8445,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8620,7 +8516,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8702,7 +8597,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8784,7 +8678,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -8866,7 +8759,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -8941,7 +8833,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -9024,7 +8915,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9099,7 +8989,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9180,7 +9069,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9261,7 +9149,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,
@@ -9340,7 +9227,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": 1,
                 "skills": {
                     "ability": {
                         "name": "BarbLog_hero",
@@ -9440,7 +9326,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.3,
@@ -9526,7 +9411,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9610,7 +9494,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9685,7 +9568,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9760,7 +9642,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9835,7 +9716,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.4,
@@ -9910,7 +9790,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": null,
@@ -9987,7 +9866,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.8,
@@ -10062,7 +9940,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 2.2,
@@ -10137,7 +10014,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 0.5,
@@ -10212,7 +10088,6 @@
                 }
             },
             "statsHero": {
-                "prestigeCost": null,
                 "skills": {}
             },
             "hitspeed": 1.0,

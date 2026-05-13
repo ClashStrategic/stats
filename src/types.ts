@@ -58,7 +58,6 @@ export interface CardStatsEvo {
 }
 
 export interface CardStatsHero {
-    prestigeCost: number | null;
     skills: SkillsMap;
 }
 
