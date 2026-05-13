@@ -7,29 +7,23 @@ import { dirname } from 'node:path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+import { 
+    TargetValue, SpeedValue, Rarity, CardType,
+    Levels, EMPTY_LEVELS, SkillsMap, SkillTemplates,
+    SkillType, CardStatsEvo, CardStatsHero, Card, CardsJson,
+    HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
+    DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
+    PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
+    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill
+} from '../src/types.js';
+import { 
+    SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData, 
+    BuffData, AreaEffectData, Spell, ApiData, DataSources 
+} from './types.js';
+import { cardSchema } from '../src/schema.js';
+
 const API_URL = 'https://cache.statsroyale.com/gamedata-v5.json';
-const CARDS_FILE = path.join(__dirname, '..', 'cards.json');
-
-type TargetValue = 'ground' | 'air' | 'buildings';
-type SpeedValue = 'slow' | 'medium' | 'fast' | 'very-fast';
-type Rarity = 'common' | 'rare' | 'epic' | 'legendary' | 'champion';
-type CardType = 'troop' | 'building' | 'spell' | 'tower';
-type SpeedTid = 'TID_SPEED_0' | 'TID_SPEED_1' | 'TID_SPEED_2' | 'TID_SPEED_3' | 'TID_SPEED_4' | 'TID_SPEED_5';
-type TargetTid = 'TID_TARGETS_GROUND' | 'TID_TARGETS_AIR_AND_GROUND' | 'TID_TARGETS_BUILDINGS' | 'TID_TARGETS_NONE';
-
-interface Levels {
-    level11: number | null;
-    level15: number | null;
-    level16: number | null;
-}
-
-interface LevelMultiplier {
-    level11: number;
-    level15: number;
-    level16: number;
-}
-
-const EMPTY_LEVELS: Levels = { level11: null, level15: null, level16: null };
+const CARDS_FILE = path.join(__dirname, '..', 'data', 'cards.json');
 
 const LEVEL_MULTIPLIERS: Record<'standard' | 'tower', LevelMultiplier> = {
     standard: { level11: 2.56, level15: 3.72, level16: 4.09 },
@@ -47,202 +41,6 @@ const TARGETS_MAP: Record<TargetTid, TargetValue[]> = {
     'TID_TARGETS_BUILDINGS': ['buildings'],
     'TID_TARGETS_NONE': []
 };
-
-interface HealSkill { perAttack: Levels; frequency: number | null; overHeal: Levels; onSpawn: Levels; }
-interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
-interface SlowSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
-interface PushbackSkill { distance: number | null; strength: number | null; }
-interface ShieldSkill { hitpoints: Levels | null; damageReductionPercent: number | null; }
-interface DashSkill { damage: Levels; minRange: number | null; maxRange: number | null; }
-interface JumpSkill { height: number | null; }
-interface InvisibilitySkill { whenNotAttackingTime: number | null; }
-interface SpawnOnDeathSkill { character: string | boolean | null; damage: Levels | null; radius: number | null; deployTime: number | null; }
-interface PeriodicSpawnSkill { pauseTime: number | null; character: string | null; units: number | null; }
-interface AreaDamageOnDeathSkill { areaEffect: string | boolean | null; damage: Levels | null; radius: number | null; }
-interface AbilitySkill { name: string | null; elixirCost: number | null; cooldown: number | null; }
-interface PierceSkill { radius: number | null; range: number | null; }
-interface BoostSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
-interface BurrowSkill { duration: number | null; }
-interface MultiplySkill { units: number | null; interval: number | null; maxUnits: number | null; }
-
-interface SkillTemplates {
-    heal: HealSkill;
-    stun: StunSkill;
-    slow: SlowSkill;
-    pushback: PushbackSkill;
-    shield: ShieldSkill;
-    dash: DashSkill;
-    jump: JumpSkill;
-    invisibility: InvisibilitySkill;
-    'spawn-on-death': SpawnOnDeathSkill;
-    'periodic-spawn': PeriodicSpawnSkill;
-    'area-damage-on-death': AreaDamageOnDeathSkill;
-    ability: AbilitySkill;
-    pierce: PierceSkill;
-    boost: BoostSkill;
-    burrow: BurrowSkill;
-    multiply: MultiplySkill;
-}
-
-type SkillType = keyof SkillTemplates;
-type SkillsMap = Partial<SkillTemplates>;
-
-interface CardStatsEvo {
-    cycles: number | null;
-    skills: SkillsMap;
-    damage: Levels;
-    hitpoints: Levels;
-}
-
-interface CardStatsHero {
-    prestigeCost: number | null;
-    skills: SkillsMap;
-}
-
-interface Card {
-    name: string | null;
-    id: number | null;
-    elixirCost: number | null;
-    targets: TargetValue[];
-    units: number;
-    duration: number | null;
-    deployTime: number | null;
-    evolution: boolean;
-    hero: boolean;
-    typeAttack: string | null;
-    projectile: boolean;
-    suicide: boolean;
-    skills: SkillsMap;
-    fatalDamage: Levels;
-    chargeDamage: Levels;
-    towerDamage: Levels;
-    damage: Levels;
-    hitpoints: Levels;
-    statsEvo: CardStatsEvo;
-    statsHero: CardStatsHero;
-    hitspeed: number | null;
-    loadTime: number | null;
-    radius: number | null;
-    collisionRadius: number | null;
-    generationSpeed: number | null;
-    generationUnits: number | null;
-    speed: SpeedValue | null;
-    range: number | null;
-    sightRange: number | null;
-    territory: 'wide' | 'restricted' | null;
-    unlockArena: string | null;
-    tribe: string | null;
-    rarity: Rarity | '' | null;
-    type: CardType | null;
-}
-
-interface CardsJson {
-    cards: Card[];
-    towerCards: Card[];
-}
-
-interface CharacterData {
-    name?: string;
-    hitpoints?: number;
-    damage?: number;
-    range?: number;
-    hitSpeed?: number;
-    tidSpeed?: string;
-    tidTarget?: string;
-    deathDamage?: number;
-    damageSpecial?: number;
-    crownTowerDamagePercent?: number;
-    spawnPauseTime?: number;
-    spawnNumber?: number;
-    kamikaze?: boolean;
-    areaDamageRadius?: number;
-    collisionRadius?: number;
-    sightRange?: number;
-    deployTime?: number;
-    loadTime?: number;
-    abilityData?: unknown;
-    projectileData?: ProjectileData;
-    spawnCharacterData?: CharacterData;
-    deathSpawnCharacterData?: CharacterData;
-    deathAreaEffectData?: AreaEffectData;
-    spawnPathfindMorphData?: { hitpoints?: number; lifeTime?: number; };
-    [key: string]: unknown;
-}
-
-interface ProjectileData {
-    damage?: number;
-    radius?: number;
-    crownTowerDamagePercent?: number;
-    pingpongVisualTime?: number;
-    tidTarget?: string;
-    spawnProjectileData?: ProjectileData;
-    spawnCharacterData?: CharacterData;
-    customFirstProjectileData?: { radius?: number; };
-    [key: string]: unknown;
-}
-
-interface BuffData {
-    damagePerSecond?: number;
-    crownTowerDamagePercent?: number;
-    [key: string]: unknown;
-}
-
-interface AreaEffectData {
-    name?: string;
-    damage?: number;
-    radius?: number;
-    lifeDuration?: number;
-    crownTowerDamagePercent?: number;
-    buffData?: BuffData;
-    projectileData?: ProjectileData;
-    spawnCharacterData?: CharacterData;
-    onStartingActionData?: { spawnDataData?: CharacterData; };
-    [key: string]: unknown;
-}
-
-interface Spell {
-    id: number;
-    name: string;
-    englishName?: string;
-    notVisible?: boolean;
-    tidType?: string;
-    source?: string;
-    rarity?: string;
-    manaCost?: number;
-    unlockArena?: string;
-    tribe?: string;
-    tidTarget?: string;
-    heroData?: unknown;
-    radius?: number;
-    lifeTime?: number;
-    crownTowerDamagePercent?: number;
-    projectileWaves?: number;
-    cycles?: number;
-    summonNumber?: number;
-    summonCharacterSecondCount?: number;
-    summonCharacterThirdCount?: number;
-    summonCharacterData?: CharacterData;
-    summonCharacterSecondData?: CharacterData;
-    summonCharacterThirdData?: CharacterData;
-    statCharacterData?: CharacterData;
-    projectileData?: ProjectileData;
-    areaEffectObjectData?: AreaEffectData;
-    evolvedSpellsData?: Spell;
-    [key: string]: unknown;
-}
-
-interface ApiData {
-    items?: { spells?: Spell[]; };
-}
-
-interface DataSources {
-    area: AreaEffectData;
-    proj: ProjectileData;
-    buff: BuffData;
-    spawnProj: ProjectileData;
-    spawnChar: CharacterData;
-    deathArea: AreaEffectData;
-}
 
 const CARD_SKELETON: Card = {
     name: null, id: null, elixirCost: null, targets: [], units: 0,
@@ -268,7 +66,7 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'pushback': { distance: null, strength: null },
     'shield': { hitpoints: { ...EMPTY_LEVELS }, damageReductionPercent: null },
     'dash': { damage: { ...EMPTY_LEVELS }, minRange: null, maxRange: null },
-    'jump': { height: null },
+    'jump': { height: null, speed: null },
     'invisibility': { whenNotAttackingTime: null },
     'spawn-on-death': { character: null, damage: { ...EMPTY_LEVELS }, radius: null, deployTime: null },
     'periodic-spawn': { pauseTime: null, character: null, units: null },
