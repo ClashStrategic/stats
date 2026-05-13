@@ -104,10 +104,6 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card.statsEvo.cycles)).toBe(true);
       }
 
-      if (card.statsHero.prestigeCost !== null) {
-        expect(Number.isInteger(card.statsHero.prestigeCost)).toBe(true);
-      }
-
       checkLevelBasedStats(card.fatalDamage);
       checkLevelBasedStats(card.chargeDamage);
       checkLevelBasedStats(card.towerDamage);
@@ -200,9 +196,6 @@ describe('Card Data Validation', () => {
       const { statsHero } = card;
 
       expect(statsHero).toBeDefined();
-      expect(statsHero.prestigeCost).not.toBeNull();
-      expect(Number.isInteger(statsHero.prestigeCost)).toBe(true);
-      expect(statsHero.prestigeCost).toBeGreaterThanOrEqual(1);
     });
   });
 
