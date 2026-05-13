@@ -8,8 +8,13 @@
  * node scripts/convert-to-floats.js
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Function to convert integers to floats in the specified properties
 function convertIntegersToFloats(obj) {
@@ -85,8 +90,9 @@ function main() {
 }
 
 // Execute the script
-if (require.main === module) {
+import url from 'node:url';
+if (import.meta.url === url.pathToFileURL(process.argv[1]).href) {
     main();
 }
 
-module.exports = { convertIntegersToFloats };
+export { convertIntegersToFloats };

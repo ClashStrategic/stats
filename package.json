@@ -20,22 +20,25 @@
         "index.js",
         "cards.json"
     ],
+    "exports": {
+        ".": "./index.js",
+        "./cards.json": "./cards.json"
+    },
     "devDependencies": {
         "@eslint/js": "^9.39.2",
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "@semantic-release/github": "^11.0.2",
         "@types/ajv": "^0.0.5",
-        "@types/jest": "^30.0.0",
         "ajv": "^8.17.1",
         "eslint": "^9.39.2",
         "globals": "^17.1.0",
-        "jest": "^30.0.4",
-        "jest-environment-jsdom": "^30.0.4",
-        "semantic-release": "^24.2.4"
+        "semantic-release": "^24.2.4",
+        "tsx": "^4.21.0",
+        "vitest": "^4.1.6"
     },
     "scripts": {
-        "test": "jest tests/cards.test.js",
+        "test": "vitest run tests/cards.test.js",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",
         "typecheck": "tsc --noEmit",

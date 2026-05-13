@@ -380,7 +380,7 @@ const cardArraySchema = {
  * It requires `cards` and `towerCards` properties, both of which must be arrays of cards.
  * @type {object}
  */
-const cardSchema = {
+export const cardSchema = {
     type: 'object',
     properties: {
         cards: cardArraySchema,
@@ -388,5 +388,3 @@ const cardSchema = {
     },
     required: ['cards', 'towerCards'],
 };
-
-module.exports = { cardSchema };

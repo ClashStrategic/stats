@@ -1,6 +1,11 @@
-import * as fs from 'fs';
-import * as path from 'path';
-import * as https from 'https';
+import fs from 'node:fs';
+import path from 'node:path';
+import https from 'node:https';
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const API_URL = 'https://cache.statsroyale.com/gamedata-v5.json';
 const CARDS_FILE = path.join(__dirname, '..', 'cards.json');

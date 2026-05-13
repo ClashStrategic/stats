@@ -4,13 +4,17 @@
  * and logical consistency of the card data.
  */
 
-'use strict';
+import { describe, it, expect, beforeAll } from 'vitest';
+import Ajv from 'ajv';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { dirname } from 'node:path';
+import cardsData from '../cards.json' with { type: 'json' };
+import { cardSchema } from './card.schema.spec.js';
 
-const Ajv = require('ajv');
-const fs = require('fs');
-const path = require('path');
-const cardsData = require('../cards.json');
-const { cardSchema } = require('./card.schema.spec.js');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 /**
  * @describe Main test suite for all card-related validations.
