@@ -104,7 +104,6 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card.evoStats.cycles)).toBe(true);
       }
 
-      checkLevelBasedStats(card.chargeDamage);
       checkLevelBasedStats(card.towerDamage);
       checkLevelBasedStats(card.damage);
       checkLevelBasedStats(card.hitpoints);
@@ -155,7 +154,6 @@ describe('Card Data Validation', () => {
       expect(card.hitpoints.level11).toBeNull();
       expect(card.hitpoints.level15).toBeNull();
       expect(card.hitpoints.level16).toBeNull();
-      expect(card.chargeDamage.level11).toBeNull();
     });
   });
 
@@ -205,6 +203,7 @@ describe('Card Data Validation', () => {
       pushback: ['distance', 'strength'],
       shield: ['hitpoints', 'damageReductionPercent'],
       dash: ['damage', 'minRange', 'maxRange'],
+      charge: ['damage', 'range', 'speedMultiplier'],
       jump: ['height', 'speed'],
       invisibility: ['whenNotAttackingTime'],
       'spawn-on-death': ['character', 'damage', 'radius', 'deployTime'],
@@ -235,6 +234,7 @@ describe('Card Data Validation', () => {
               (skillType === 'heal' && ['perAttack', 'overHeal', 'onSpawn'].includes(key)) ||
               (skillType === 'shield' && key === 'hitpoints') ||
               (skillType === 'dash' && key === 'damage') ||
+              (skillType === 'charge' && key === 'damage') ||
               (skillType === 'spawn-on-death' && key === 'damage') ||
               (skillType === 'area-damage-on-death' && key === 'damage');
 
