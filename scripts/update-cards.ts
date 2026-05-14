@@ -45,7 +45,7 @@ const TARGETS_MAP: Record<TargetTid, TargetValue[]> = {
 const CARD_SKELETON: Card = {
     name: null, id: null, elixirCost: null, targets: [], units: 0,
     duration: null, deployTime: null, evolution: false, hero: false, typeAttack: null,
-    projectile: false, suicide: false, flying: false,
+    projectile: false, kamikaze: false, flying: false,
     skills: {},
     towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
     hitpoints: { ...EMPTY_LEVELS },
@@ -376,6 +376,7 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     card.elixirCost = spell.manaCost ?? card.elixirCost;
     card.rarity = (spell.rarity || card.rarity || '').toLowerCase() as Card['rarity'];
     card.hero = card.rarity !== 'champion' && !!spell.heroData;
+    card.kamikaze = charData.kamikaze ?? card.kamikaze;
     card.unlockArena = spell.unlockArena || card.unlockArena;
     card.tribe = spell.tribe || card.tribe;
 
