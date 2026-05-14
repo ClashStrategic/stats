@@ -215,7 +215,7 @@ const cardObjectSchema = {
         duration: { type: 'number', nullable: true },
         evolution: { type: 'boolean' },
         hero: { type: 'boolean' },
-        typeAttack: { type: 'string', nullable: true },
+        hitType: { type: 'string', nullable: true },
         projectile: { type: 'boolean' },
         kamikaze: { type: 'boolean' },
         flying: { type: 'boolean' },
@@ -274,7 +274,7 @@ const cardObjectSchema = {
     },
     required: [
         'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
-        'evolution', 'hero', 'typeAttack', 'projectile', 'kamikaze', 'flying', 'skills',
+        'evolution', 'hero', 'hitType', 'projectile', 'kamikaze', 'flying', 'skills',
         'towerDamage', 'damage', 'hitpoints', 'evoStats', 'heroStats',
         'hitspeed', 'loadTime', 'radius', 'collisionRadius', 'speed',
         'range', 'sightRange', 'territory', 'rarity', 'type', 'unlockArena', 'tribe', 'deployTime'

@@ -73,7 +73,7 @@ export interface Card {
     deployTime: number | null;
     evolution: boolean;
     hero: boolean;
-    typeAttack: string | null;
+    hitType: string | null;
     projectile: boolean;
     kamikaze: boolean;
     flying: boolean;
