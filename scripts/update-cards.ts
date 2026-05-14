@@ -47,8 +47,7 @@ const CARD_SKELETON: Card = {
     duration: null, deployTime: null, evolution: false, hero: false, typeAttack: null,
     projectile: false, suicide: false, flying: false,
     skills: {},
-    fatalDamage: { ...EMPTY_LEVELS }, chargeDamage: { ...EMPTY_LEVELS },
-    towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
+    chargeDamage: { ...EMPTY_LEVELS }, towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
     hitpoints: { ...EMPTY_LEVELS },
     evoStats: {
         cycles: null, skills: {},
@@ -421,7 +420,6 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
 
     card.hitpoints = mergeLevels(scaleLevels(baseHP, mult), card.hitpoints);
     card.damage = mergeLevels(scaleLevels(baseDamage, mult), card.damage);
-    card.fatalDamage = mergeLevels(scaleLevels(charData.deathDamage || charData.deathSpawnCharacterData?.deathDamage, mult), card.fatalDamage);
     card.chargeDamage = mergeLevels(scaleLevels(charData.damageSpecial, mult), card.chargeDamage);
     card.towerDamage = mergeLevels(scaleLevels(baseTowerDmg, mult), card.towerDamage);
 
