@@ -72,7 +72,7 @@ describe('Card Data Validation', () => {
     it('should use floats for fields that can have decimal values', () => {
       const jsonPath = path.join(__dirname, '..', 'data', 'cards.json');
       const rawJson = fs.readFileSync(jsonPath, 'utf-8');
-      const fieldsToCheck = ['duration', 'generationSpeed', 'hitspeed', 'range', 'radius', 'deployTime', 'loadTime', 'sightRange', 'collisionRadius'];
+      const fieldsToCheck = ['duration', 'hitspeed', 'range', 'radius', 'deployTime', 'loadTime', 'sightRange', 'collisionRadius'];
       const allMismatches: string[] = [];
 
       fieldsToCheck.forEach((field) => {
@@ -96,9 +96,7 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card[field])).toBe(true);
       });
 
-      if (card.generationUnits !== null) {
-        expect(Number.isInteger(card.generationUnits)).toBe(true);
-      }
+
 
       if (card.evoStats.cycles !== null) {
         expect(Number.isInteger(card.evoStats.cycles)).toBe(true);
@@ -129,7 +127,7 @@ describe('Card Data Validation', () => {
     });
 
     it.each(buildings)('Building card "$name" should follow building-specific rules', (card) => {
-      if (card.generationSpeed === null) {
+      if (!card.skills['periodic-spawn']) {
         expect(typeof card.duration).toBe('number');
         expect(card.duration).not.toBeNull();
       }
