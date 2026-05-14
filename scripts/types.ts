@@ -18,6 +18,8 @@ export interface CharacterData {
     tidTarget?: string;
     deathDamage?: number;
     damageSpecial?: number;
+    chargeRange?: number;
+    chargeSpeedMultiplier?: number;
     crownTowerDamagePercent?: number;
     spawnPauseTime?: number;
     spawnNumber?: number;

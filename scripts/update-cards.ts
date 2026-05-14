@@ -47,7 +47,7 @@ const CARD_SKELETON: Card = {
     duration: null, deployTime: null, evolution: false, hero: false, typeAttack: null,
     projectile: false, suicide: false, flying: false,
     skills: {},
-    chargeDamage: { ...EMPTY_LEVELS }, towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
+    towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
     hitpoints: { ...EMPTY_LEVELS },
     evoStats: {
         cycles: null, skills: {},
@@ -65,6 +65,7 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'pushback': { distance: null, strength: null },
     'shield': { hitpoints: { ...EMPTY_LEVELS }, damageReductionPercent: null },
     'dash': { damage: { ...EMPTY_LEVELS }, minRange: null, maxRange: null },
+    'charge': { damage: { ...EMPTY_LEVELS }, range: null, speedMultiplier: null },
     'jump': { height: null, speed: null },
     'invisibility': { whenNotAttackingTime: null },
     'spawn-on-death': { character: null, damage: { ...EMPTY_LEVELS }, radius: null, deployTime: null },
@@ -266,6 +267,13 @@ function extractSkills(
                 speed: toSec(obj.jumpSpeed)
             });
 
+        if (obj.damageSpecial > 0)
+            setSkill('charge', {
+                damage: mult ? scaleLevels(obj.damageSpecial, mult) : { ...EMPTY_LEVELS },
+                range: obj.chargeRange ? obj.chargeRange / 1000 : null,
+                speedMultiplier: obj.chargeSpeedMultiplier ? obj.chargeSpeedMultiplier : null
+            });
+
         if (obj.invisible || obj.stealth || obj.buffWhenNotAttackingData?.name.includes('Invisibility'))
             setSkill('invisibility', {
                 whenNotAttackingTime: obj.buffWhenNotAttackingTime ? toSec(obj.buffWhenNotAttackingTime) : null
@@ -420,7 +428,6 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
 
     card.hitpoints = mergeLevels(scaleLevels(baseHP, mult), card.hitpoints);
     card.damage = mergeLevels(scaleLevels(baseDamage, mult), card.damage);
-    card.chargeDamage = mergeLevels(scaleLevels(charData.damageSpecial, mult), card.chargeDamage);
     card.towerDamage = mergeLevels(scaleLevels(baseTowerDmg, mult), card.towerDamage);
 
     const baseSpell: Record<string, unknown> = { ...spell };
