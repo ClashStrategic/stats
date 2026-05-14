@@ -13,7 +13,7 @@ console.log('Reading cards.json...');
 const data: CardsJson = JSON.parse(fs.readFileSync(CARDS_FILE, 'utf8'));
 
 const propertiesToConvert = [
-    'duration', 'generationSpeed', 'hitspeed', 'range', 'radius',
+    'duration', 'hitspeed', 'range', 'radius',
     'deployTime', 'sightRange', 'collisionRadius', 'loadTime',
     'interval', 'speed', 'height', 'distance', 'strength', 'whenNotAttackingTime'
 ];

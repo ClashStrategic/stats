@@ -54,7 +54,7 @@ const CARD_SKELETON: Card = {
         damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS }
     },
     heroStats: { skills: {} },
-    hitspeed: null, loadTime: null, radius: null, collisionRadius: null, generationSpeed: null, generationUnits: null,
+    hitspeed: null, loadTime: null, radius: null, collisionRadius: null,
     speed: null, range: null, sightRange: null, territory: null, unlockArena: null, tribe: null, rarity: null, type: null
 };
 
@@ -407,8 +407,7 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
 
     if (baseDamage !== undefined) baseDamage = baseDamage * (spell.projectileWaves || 1);
 
-    card.generationSpeed = charData.spawnPauseTime ? charData.spawnPauseTime / 1000 : card.generationSpeed;
-    card.generationUnits = (charData.spawnNumber !== undefined && charData.spawnNumber > 1) ? charData.spawnNumber : card.generationUnits;
+
 
     const rawRadius = spell.radius ?? area.radius ?? charData.areaDamageRadius ?? proj.radius ?? proj.customFirstProjectileData?.radius;
     if (rawRadius != null && card.units === 0 && !['Lightning', 'Void', 'Vines'].includes(card.name ?? '')) {
