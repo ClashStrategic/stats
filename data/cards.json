@@ -18,9 +18,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 202,
+                "level15": 293,
+                "level16": 323
             },
             "damage": {
                 "level11": 202,
@@ -98,9 +98,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 112,
+                "level15": 163,
+                "level16": 179
             },
             "damage": {
                 "level11": 112,
@@ -162,9 +162,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 120,
+                "level15": 174,
+                "level16": 192
             },
             "damage": {
                 "level11": 120,
@@ -232,9 +232,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 253,
+                "level15": 368,
+                "level16": 404
             },
             "damage": {
                 "level11": 253,
@@ -302,9 +302,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 816,
+                "level15": 1186,
+                "level16": 1304
             },
             "damage": {
                 "level11": 816,
@@ -367,9 +367,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 107,
+                "level15": 156,
+                "level16": 171
             },
             "damage": {
                 "level11": 107,
@@ -442,9 +442,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 640,
+                "level15": 930,
+                "level16": 1022
             },
             "damage": {
                 "level11": 640,
@@ -519,9 +519,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 135,
+                "level15": 197,
+                "level16": 216
             },
             "damage": {
                 "level11": 135,
@@ -589,9 +589,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 192,
+                "level15": 279,
+                "level16": 306
             },
             "damage": {
                 "level11": 192,
@@ -671,9 +671,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 312,
+                "level15": 453,
+                "level16": 498
             },
             "damage": {
                 "level11": 312,
@@ -735,9 +735,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 81,
+                "level15": 119,
+                "level16": 130
             },
             "damage": {
                 "level11": 81,
@@ -805,9 +805,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 266,
+                "level15": 386,
+                "level16": 425
             },
             "damage": {
                 "level11": 266,
@@ -869,9 +869,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 81,
+                "level15": 119,
+                "level16": 130
             },
             "damage": {
                 "level11": 81,
@@ -933,9 +933,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 225,
+                "level15": 327,
+                "level16": 359
             },
             "damage": {
                 "level11": 225,
@@ -998,9 +998,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 217,
+                "level15": 316,
+                "level16": 347
             },
             "damage": {
                 "level11": 217,
@@ -1069,9 +1069,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 161,
+                "level15": 234,
+                "level16": 257
             },
             "damage": {
                 "level11": 161,
@@ -1147,9 +1147,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 391,
+                "level15": 569,
+                "level16": 625
             },
             "damage": {
                 "level11": 391,
@@ -1212,9 +1212,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 281,
+                "level15": 409,
+                "level16": 449
             },
             "damage": {
                 "level11": 281,
@@ -1291,9 +1291,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 755,
+                "level15": 1097,
+                "level16": 1206
             },
             "damage": {
                 "level11": 755,
@@ -1362,9 +1362,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 81,
+                "level15": 119,
+                "level16": 130
             },
             "damage": {
                 "level11": 81,
@@ -1437,9 +1437,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 276,
+                "level15": 401,
+                "level16": 441
             },
             "damage": {
                 "level11": 276,
@@ -1506,9 +1506,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 317,
+                "level15": 461,
+                "level16": 507
             },
             "damage": {
                 "level11": 317,
@@ -1571,9 +1571,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 107,
+                "level15": 156,
+                "level16": 171
             },
             "damage": {
                 "level11": 107,
@@ -1643,9 +1643,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 90,
+                "level15": 130,
+                "level16": 143
             },
             "damage": {
                 "level11": 90,
@@ -1707,9 +1707,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 307,
+                "level15": 446,
+                "level16": 490
             },
             "damage": {
                 "level11": 307,
@@ -1780,9 +1780,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 117,
+                "level15": 171,
+                "level16": 188
             },
             "damage": {
                 "level11": 117,
@@ -1845,9 +1845,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 168,
+                "level15": 245,
+                "level16": 268
             },
             "damage": {
                 "level11": 168,
@@ -1931,9 +1931,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 266,
+                "level15": 386,
+                "level16": 425
             },
             "damage": {
                 "level11": 266,
@@ -2002,9 +2002,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 218,
+                "level15": 316,
+                "level16": 348
             },
             "damage": {
                 "level11": 218,
@@ -2077,9 +2077,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 53,
+                "level15": 78,
+                "level16": 85
             },
             "damage": {
                 "level11": 53,
@@ -2149,9 +2149,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 110,
+                "level15": 159,
+                "level16": 175
             },
             "damage": {
                 "level11": 110,
@@ -2221,9 +2221,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 207,
+                "level15": 301,
+                "level16": 331
             },
             "damage": {
                 "level11": 207,
@@ -2353,9 +2353,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 1331,
+                "level15": 1934,
+                "level16": 2126
             },
             "damage": {
                 "level11": 1331,
@@ -2426,9 +2426,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 289,
+                "level15": 420,
+                "level16": 462
             },
             "damage": {
                 "level11": 289,
@@ -2522,9 +2522,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 256,
+                "level15": 372,
+                "level16": 409
             },
             "damage": {
                 "level11": 256,
@@ -2626,9 +2626,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 192,
+                "level15": 279,
+                "level16": 306
             },
             "damage": {
                 "level11": 192,
@@ -2696,9 +2696,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 35,
+                "level15": 52,
+                "level16": 57
             },
             "damage": {
                 "level11": 35,
@@ -2776,9 +2776,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 84,
+                "level15": 122,
+                "level16": 134
             },
             "damage": {
                 "level11": 84,
@@ -2847,9 +2847,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 312,
+                "level15": 453,
+                "level16": 498
             },
             "damage": {
                 "level11": 312,
@@ -2918,9 +2918,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 151,
+                "level15": 219,
+                "level16": 241
             },
             "damage": {
                 "level11": 151,
@@ -2983,9 +2983,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 120,
+                "level15": 174,
+                "level16": 192
             },
             "damage": {
                 "level11": 120,
@@ -3055,9 +3055,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 118,
+                "level15": 171,
+                "level16": 188
             },
             "damage": {
                 "level11": 118,
@@ -3129,9 +3129,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 384,
+                "level15": 558,
+                "level16": 613
             },
             "damage": {
                 "level11": 384,
@@ -3194,9 +3194,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 84,
+                "level15": 122,
+                "level16": 134
             },
             "damage": {
                 "level11": 84,
@@ -3264,9 +3264,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 179,
+                "level15": 260,
+                "level16": 286
             },
             "damage": {
                 "level11": 179,
@@ -3338,9 +3338,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 194,
+                "level15": 282,
+                "level16": 310
             },
             "damage": {
                 "level11": 194,
@@ -3411,9 +3411,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 133,
+                "level15": 193,
+                "level16": 212
             },
             "damage": {
                 "level11": 133,
@@ -3502,9 +3502,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 314,
+                "level15": 457,
+                "level16": 503
             },
             "damage": {
                 "level11": 314,
@@ -3567,9 +3567,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 81,
+                "level15": 119,
+                "level16": 130
             },
             "damage": {
                 "level11": 81,
@@ -3654,9 +3654,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 261,
+                "level15": 379,
+                "level16": 417
             },
             "damage": {
                 "level11": 261,
@@ -3744,9 +3744,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 250,
+                "level15": 364,
+                "level16": 400
             },
             "damage": {
                 "level11": 250,
@@ -3816,9 +3816,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 117,
+                "level15": 171,
+                "level16": 188
             },
             "damage": {
                 "level11": 117,
@@ -3881,9 +3881,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 217,
+                "level15": 316,
+                "level16": 347
             },
             "damage": {
                 "level11": 217,
@@ -3945,9 +3945,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 212,
+                "level15": 308,
+                "level16": 339
             },
             "damage": {
                 "level11": 212,
@@ -4027,9 +4027,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 268,
+                "level15": 390,
+                "level16": 429
             },
             "damage": {
                 "level11": 268,
@@ -4109,9 +4109,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 81,
+                "level15": 119,
+                "level16": 129
             },
             "damage": {
                 "level11": 81,
@@ -4174,9 +4174,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 171,
+                "level15": 249,
+                "level16": 274
             },
             "damage": {
                 "level11": 171,
@@ -4238,9 +4238,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 350,
+                "level15": 509,
+                "level16": 560
             },
             "damage": {
                 "level11": 350,
@@ -4307,9 +4307,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 74,
+                "level15": 107,
+                "level16": 118
             },
             "damage": {
                 "level11": 74,
@@ -4389,9 +4389,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 176,
+                "level15": 256,
+                "level16": 282
             },
             "damage": {
                 "level11": 176,
@@ -4464,9 +4464,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 194,
+                "level15": 282,
+                "level16": 310
             },
             "damage": {
                 "level11": 194,
@@ -4534,9 +4534,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 143,
+                "level15": 208,
+                "level16": 229
             },
             "damage": {
                 "level11": 143,
@@ -4612,9 +4612,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 192,
+                "level15": 279,
+                "level16": 306
             },
             "damage": {
                 "level11": 192,
@@ -4689,9 +4689,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 64,
+                "level15": 93,
+                "level16": 102
             },
             "damage": {
                 "level11": 64,
@@ -4766,9 +4766,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 40,
+                "level15": 59,
+                "level16": 65
             },
             "damage": {
                 "level11": 40,
@@ -4841,9 +4841,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 253,
+                "level15": 368,
+                "level16": 404
             },
             "damage": {
                 "level11": 253,
@@ -4924,9 +4924,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 148,
+                "level15": 215,
+                "level16": 237
             },
             "damage": {
                 "level11": 148,
@@ -4994,9 +4994,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 204,
+                "level15": 297,
+                "level16": 327
             },
             "damage": {
                 "level11": 204,
@@ -5071,9 +5071,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 225,
+                "level15": 327,
+                "level16": 359
             },
             "damage": {
                 "level11": 225,
@@ -5150,9 +5150,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 161,
+                "level15": 234,
+                "level16": 257
             },
             "damage": {
                 "level11": 161,
@@ -5228,9 +5228,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 140,
+                "level15": 204,
+                "level16": 224
             },
             "damage": {
                 "level11": 140,
@@ -5293,9 +5293,9 @@
             "flying": true,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 151,
+                "level15": 219,
+                "level16": 241
             },
             "damage": {
                 "level11": 151,
@@ -5363,9 +5363,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 133,
+                "level15": 193,
+                "level16": 212
             },
             "damage": {
                 "level11": 133,
@@ -5435,9 +5435,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 99,
+                "level15": 145,
+                "level16": 159
             },
             "damage": {
                 "level11": 99,
@@ -5506,9 +5506,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 163,
+                "level15": 238,
+                "level16": 261
             },
             "damage": {
                 "level11": 163,
@@ -5581,9 +5581,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 217,
+                "level15": 316,
+                "level16": 347
             },
             "damage": {
                 "level11": 217,
@@ -5656,9 +5656,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 104,
+                "level15": 152,
+                "level16": 167
             },
             "damage": {
                 "level11": 104,
@@ -5725,9 +5725,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 186,
+                "level15": 271,
+                "level16": 298
             },
             "damage": {
                 "level11": 186,
@@ -5789,9 +5789,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 212,
+                "level15": 308,
+                "level16": 339
             },
             "damage": {
                 "level11": 212,
@@ -5866,9 +5866,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 256,
+                "level15": 372,
+                "level16": 409
             },
             "damage": {
                 "level11": 256,
@@ -5944,9 +5944,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 128,
+                "level15": 186,
+                "level16": 204
             },
             "damage": {
                 "level11": 128,
@@ -6014,9 +6014,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 120,
+                "level15": 174,
+                "level16": 192
             },
             "damage": {
                 "level11": 120,
@@ -6078,9 +6078,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 102,
+                "level15": 148,
+                "level16": 163
             },
             "damage": {
                 "level11": 102,
@@ -6157,9 +6157,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 245,
+                "level15": 357,
+                "level16": 392
             },
             "damage": {
                 "level11": 245,
@@ -6221,9 +6221,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 202,
+                "level15": 293,
+                "level16": 323
             },
             "damage": {
                 "level11": 202,
@@ -6297,9 +6297,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 67,
+                "level15": 98,
+                "level16": 107
             },
             "damage": {
                 "level11": 67,
@@ -6361,9 +6361,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 266,
+                "level15": 386,
+                "level16": 425
             },
             "damage": {
                 "level11": 266,
@@ -6426,9 +6426,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 43,
+                "level15": 63,
+                "level16": 69
             },
             "damage": {
                 "level11": 43,
@@ -6501,9 +6501,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 222,
+                "level15": 323,
+                "level16": 355
             },
             "damage": {
                 "level11": 222,
@@ -6581,9 +6581,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 159,
+                "level15": 231,
+                "level16": 254
             },
             "damage": {
                 "level11": 159,
@@ -6646,9 +6646,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 220,
+                "level15": 319,
+                "level16": 351
             },
             "damage": {
                 "level11": 220,
@@ -6779,9 +6779,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 43,
+                "level15": 63,
+                "level16": 69
             },
             "damage": {
                 "level11": 43,
@@ -6859,9 +6859,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 81,
+                "level15": 119,
+                "level16": 129
             },
             "damage": {
                 "level11": 81,
@@ -6924,9 +6924,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 179,
+                "level15": 260,
+                "level16": 286
             },
             "damage": {
                 "level11": 179,
@@ -6999,9 +6999,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 306,
+                "level15": 491,
+                "level16": 489
             },
             "damage": {
                 "level11": 306,
@@ -7464,9 +7464,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 120,
+                "level15": 175,
+                "level16": 192
             },
             "damage": {
                 "level11": 120,
@@ -7879,9 +7879,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 82,
+                "level15": 119,
+                "level16": 131
             },
             "damage": {
                 "level11": 82,
@@ -8228,9 +8228,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 233,
+                "level15": 339,
+                "level16": 372
             },
             "damage": {
                 "level11": 233,
@@ -8318,9 +8318,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 110,
+                "level15": 159,
+                "level16": 175
             },
             "damage": {
                 "level11": 110,
@@ -8468,9 +8468,9 @@
                 }
             },
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 438,
+                "level15": 636,
+                "level16": 699
             },
             "damage": {
                 "level11": 438,
@@ -8663,9 +8663,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 307,
+                "level15": 446,
+                "level16": 490
             },
             "damage": {
                 "level11": 307,
@@ -8795,9 +8795,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 109,
+                "level15": 158,
+                "level16": 173
             },
             "damage": {
                 "level11": 109,
@@ -8860,9 +8860,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 273,
+                "level15": 395,
+                "level16": 433
             },
             "damage": {
                 "level11": 273,
@@ -8925,9 +8925,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 92,
+                "level15": 133,
+                "level16": 145
             },
             "damage": {
                 "level11": 92,
@@ -8990,9 +8990,9 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
+                "level11": 109,
+                "level15": 158,
+                "level16": 173
             },
             "damage": {
                 "level11": 109,
