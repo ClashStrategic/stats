@@ -45,7 +45,7 @@ const TARGETS_MAP: Record<TargetTid, TargetValue[]> = {
 const CARD_SKELETON: Card = {
     name: null, id: null, elixirCost: null, targets: [], units: 0,
     duration: null, deployTime: null, evolution: false, hero: false, typeAttack: null,
-    projectile: false, suicide: false,
+    projectile: false, suicide: false, flying: false,
     skills: {},
     fatalDamage: { ...EMPTY_LEVELS }, chargeDamage: { ...EMPTY_LEVELS },
     towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
