@@ -1142,7 +1142,7 @@
                         "level15": 1138,
                         "level16": 1251
                     },
-                    "range": 0.25,
+                    "range": 2.5,
                     "speedMultiplier": null
                 }
             },
@@ -1926,7 +1926,7 @@
                         "level15": 773,
                         "level16": 850
                     },
-                    "range": 0.3,
+                    "range": 3.0,
                     "speedMultiplier": null
                 }
             },
@@ -2621,7 +2621,7 @@
                         "level15": 833,
                         "level16": 916
                     },
-                    "range": 0.3,
+                    "range": 3.0,
                     "speedMultiplier": null
                 }
             },
@@ -3739,7 +3739,7 @@
                         "level15": 729,
                         "level16": 801
                     },
-                    "range": 0.25,
+                    "range": 2.5,
                     "speedMultiplier": null
                 }
             },
