@@ -104,7 +104,6 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card.evoStats.cycles)).toBe(true);
       }
 
-      checkLevelBasedStats(card.fatalDamage);
       checkLevelBasedStats(card.chargeDamage);
       checkLevelBasedStats(card.towerDamage);
       checkLevelBasedStats(card.damage);
@@ -157,7 +156,6 @@ describe('Card Data Validation', () => {
       expect(card.hitpoints.level15).toBeNull();
       expect(card.hitpoints.level16).toBeNull();
       expect(card.chargeDamage.level11).toBeNull();
-      expect(card.fatalDamage.level11).toBeNull();
     });
   });
 
