@@ -246,8 +246,6 @@ const cardObjectSchema = {
         loadTime: { type: 'number', nullable: true },
         radius: { type: 'number', nullable: true },
         collisionRadius: { type: 'number', nullable: true },
-        generationSpeed: { type: 'number', nullable: true },
-        generationUnits: { type: 'number', nullable: true },
         speed: {
             type: 'string',
             nullable: true,
@@ -278,7 +276,7 @@ const cardObjectSchema = {
         'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
         'evolution', 'hero', 'typeAttack', 'projectile', 'kamikaze', 'flying', 'skills',
         'towerDamage', 'damage', 'hitpoints', 'evoStats', 'heroStats',
-        'hitspeed', 'loadTime', 'radius', 'collisionRadius', 'generationSpeed', 'generationUnits', 'speed',
+        'hitspeed', 'loadTime', 'radius', 'collisionRadius', 'speed',
         'range', 'sightRange', 'territory', 'rarity', 'type', 'unlockArena', 'tribe', 'deployTime'
     ],
 } as const;

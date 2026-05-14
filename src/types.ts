@@ -87,8 +87,6 @@ export interface Card {
     loadTime: number | null;
     radius: number | null;
     collisionRadius: number | null;
-    generationSpeed: number | null;
-    generationUnits: number | null;
     speed: SpeedValue | null;
     range: number | null;
     sightRange: number | null;
