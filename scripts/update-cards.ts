@@ -429,7 +429,11 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
 
     card.hitpoints = mergeLevels(scaleLevels(baseHP, mult), card.hitpoints);
     card.damage = mergeLevels(scaleLevels(baseDamage, mult), card.damage);
-    card.towerDamage = mergeLevels(scaleLevels(baseTowerDmg, mult), card.towerDamage);
+    const computedTowerDmg = baseTowerDmg !== null ? scaleLevels(baseTowerDmg, mult) : { ...EMPTY_LEVELS };
+    card.towerDamage = mergeLevels(computedTowerDmg, card.towerDamage);
+    if (baseTowerDmg === null && (card.towerDamage.level11 == null && card.towerDamage.level15 == null && card.towerDamage.level16 == null)) {
+        card.towerDamage = { ...card.damage };
+    }
 
     const baseSpell: Record<string, unknown> = { ...spell };
     delete baseSpell.evolvedSpellsData;
