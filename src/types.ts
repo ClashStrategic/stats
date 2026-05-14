@@ -76,7 +76,6 @@ export interface Card {
     suicide: boolean;
     flying: boolean;
     skills: SkillsMap;
-    fatalDamage: Levels;
     chargeDamage: Levels;
     towerDamage: Levels;
     damage: Levels;

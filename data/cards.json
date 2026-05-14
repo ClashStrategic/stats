@@ -17,11 +17,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -107,11 +102,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -181,11 +171,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -261,11 +246,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -341,11 +321,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -416,11 +391,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -500,11 +470,6 @@
                     "radius": 0.45,
                     "deployTime": 3.0
                 }
-            },
-            "fatalDamage": {
-                "level11": 240,
-                "level15": 349,
-                "level16": 384
             },
             "chargeDamage": {
                 "level11": null,
@@ -588,11 +553,6 @@
                     "units": 4
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -668,11 +628,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -760,11 +715,6 @@
                     "deployTime": 1.0
                 }
             },
-            "fatalDamage": {
-                "level11": 225,
-                "level15": 327,
-                "level16": 359
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -834,11 +784,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -914,11 +859,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -988,11 +928,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1062,11 +997,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1137,11 +1067,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1218,11 +1143,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1297,11 +1217,6 @@
                     "speed": 0.16
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": 783,
                 "level15": 1138,
@@ -1372,11 +1287,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1461,11 +1371,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1542,11 +1447,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1627,11 +1527,6 @@
                     "deployTime": 3.0
                 }
             },
-            "fatalDamage": {
-                "level11": 688,
-                "level15": 1000,
-                "level16": 1100
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1706,11 +1601,6 @@
                     "speed": 0.16
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1781,11 +1671,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1863,11 +1748,6 @@
                     "duration": 2.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -1937,11 +1817,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2020,11 +1895,6 @@
                     "damageReductionPercent": null
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2095,11 +1965,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2182,11 +2047,6 @@
                     "speed": 0.16
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": 532,
                 "level15": 773,
@@ -2263,11 +2123,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2348,11 +2203,6 @@
                     "deployTime": 1.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2429,11 +2279,6 @@
                     "spawnSpeedMultiplier": -100,
                     "duration": 1.1
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -2512,11 +2357,6 @@
             "suicide": true,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2590,11 +2430,6 @@
                     "duration": null
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2664,11 +2499,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2746,11 +2576,6 @@
                     "radius": 1.8,
                     "range": 7.5
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -2853,11 +2678,6 @@
                     "duration": 5.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -2958,11 +2778,6 @@
                     "deployTime": 1.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": 573,
                 "level15": 833,
@@ -3038,11 +2853,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3128,11 +2938,6 @@
                     "duration": 2.0
                 }
             },
-            "fatalDamage": {
-                "level11": 84,
-                "level15": 122,
-                "level16": 134
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3209,11 +3014,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3290,11 +3090,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3365,11 +3160,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3447,11 +3237,6 @@
                     "duration": 0.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3521,11 +3306,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": 572,
                 "level15": 834,
@@ -3596,11 +3376,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3675,11 +3450,6 @@
                     "radius": 1.0,
                     "range": 7.5
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -3760,11 +3530,6 @@
                     "maxRange": 6
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -3842,11 +3607,6 @@
                     },
                     "damageReductionPercent": null
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -3934,11 +3694,6 @@
                     "units": 2
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4009,11 +3764,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4106,11 +3856,6 @@
                     "whenNotAttackingTime": 2.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4197,11 +3942,6 @@
                     "duration": 2.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": 501,
                 "level15": 729,
@@ -4279,11 +4019,6 @@
                     "duration": 0.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4354,11 +4089,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4428,11 +4158,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4519,11 +4244,6 @@
                     "height": 3.0,
                     "speed": 0.25
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -4612,11 +4332,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": 133,
-                "level15": 193,
-                "level16": 212
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4687,11 +4402,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4761,11 +4471,6 @@
             "suicide": true,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -4839,11 +4544,6 @@
                     "height": 4.0,
                     "speed": 0.16
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -4932,11 +4632,6 @@
                     "deployTime": 1.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5017,11 +4712,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5096,11 +4786,6 @@
                     "radius": 0.25,
                     "range": 11.0
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -5185,11 +4870,6 @@
                     "duration": 0.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5271,11 +4951,6 @@
                     "radius": 0.4,
                     "range": 5.0
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -5359,11 +5034,6 @@
                     "cooldown": 13
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5443,11 +5113,6 @@
                     "radius": 0.4,
                     "deployTime": 1.0
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -5537,11 +5202,6 @@
                     }
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5616,11 +5276,6 @@
                     "elixirCost": 2,
                     "cooldown": 20
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -5703,11 +5358,6 @@
                     "spawnSpeedMultiplier": null,
                     "duration": 3.5
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -5793,11 +5443,6 @@
                     "cooldown": 12
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5881,11 +5526,6 @@
                     "damageReductionPercent": 65
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -5956,11 +5596,6 @@
             "suicide": false,
             "flying": true,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6035,11 +5670,6 @@
                     "height": 4.0,
                     "speed": 0.16
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -6118,11 +5748,6 @@
                     "duration": 0.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6198,11 +5823,6 @@
                     "spawnSpeedMultiplier": -100,
                     "duration": null
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -6284,11 +5904,6 @@
                     "units": 1
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6369,11 +5984,6 @@
                     "strength": 2.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6448,11 +6058,6 @@
                     "strength": null
                 }
             },
-            "fatalDamage": {
-                "level11": 465,
-                "level15": 677,
-                "level16": 743
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6522,11 +6127,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6608,11 +6208,6 @@
                     },
                     "radius": null
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -6697,11 +6292,6 @@
                     "duration": 0.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6777,11 +6367,6 @@
                     "cooldown": null
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6851,11 +6436,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -6940,11 +6520,6 @@
                     "cooldown": 3
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7014,11 +6589,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7100,11 +6670,6 @@
                     "deployTime": 1.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7174,11 +6739,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7249,11 +6809,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7333,11 +6888,6 @@
                     "radius": 0.45,
                     "deployTime": 3.0
                 }
-            },
-            "fatalDamage": {
-                "level11": 222,
-                "level15": 323,
-                "level16": 355
             },
             "chargeDamage": {
                 "level11": null,
@@ -7424,11 +6974,6 @@
                     "units": 3
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7499,11 +7044,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7578,11 +7118,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7652,11 +7187,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7742,11 +7272,6 @@
                     "units": 2
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7817,11 +7342,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -7901,11 +7421,6 @@
                     "radius": 0.5,
                     "deployTime": 1.0
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -8007,11 +7522,6 @@
                     "duration": 10.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8106,11 +7616,6 @@
                     "strength": null
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8181,11 +7686,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8272,11 +7772,6 @@
                     "duration": 4.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8352,11 +7847,6 @@
                     "strength": null
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8427,11 +7917,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8509,11 +7994,6 @@
                     "duration": 4.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8581,11 +8061,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8662,11 +8137,6 @@
                     "spawnSpeedMultiplier": -100,
                     "duration": 0.5
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -8745,11 +8215,6 @@
                     "duration": 0.5
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8827,11 +8292,6 @@
                     "duration": 8.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8902,11 +8362,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -8985,11 +8440,6 @@
                     "range": 10.1
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9060,11 +8510,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9140,11 +8585,6 @@
                     "interval": null,
                     "maxUnits": null
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -9222,11 +8662,6 @@
                     "duration": 3.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9300,11 +8735,6 @@
                     "radius": null,
                     "range": 4.5
                 }
-            },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
             },
             "chargeDamage": {
                 "level11": null,
@@ -9401,11 +8831,6 @@
                     }
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9487,11 +8912,6 @@
                     "duration": 3.0
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9571,11 +8991,6 @@
                     "damageReductionPercent": null
                 }
             },
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9646,11 +9061,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9721,11 +9131,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9796,11 +9201,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9871,11 +9271,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -9948,11 +9343,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -10023,11 +9413,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -10098,11 +9483,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
@@ -10173,11 +9553,6 @@
             "suicide": false,
             "flying": false,
             "skills": {},
-            "fatalDamage": {
-                "level11": null,
-                "level15": null,
-                "level16": null
-            },
             "chargeDamage": {
                 "level11": null,
                 "level15": null,
