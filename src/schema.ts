@@ -88,6 +88,16 @@ const skillsSchema = {
             required: ['damage', 'minRange', 'maxRange'],
             additionalProperties: false,
         },
+        charge: {
+            type: 'object',
+            properties: {
+                damage: levelBasedStats,
+                range: { type: 'number', nullable: true },
+                speedMultiplier: { type: 'number', nullable: true },
+            },
+            required: ['damage', 'range', 'speedMultiplier'],
+            additionalProperties: false,
+        },
         jump: {
             type: 'object',
             properties: {
@@ -210,7 +220,6 @@ const cardObjectSchema = {
         suicide: { type: 'boolean' },
         flying: { type: 'boolean' },
         skills: skillsSchema,
-        chargeDamage: levelBasedStats,
         towerDamage: levelBasedStats,
         damage: levelBasedStats,
         hitpoints: levelBasedStats,
@@ -268,7 +277,7 @@ const cardObjectSchema = {
     required: [
         'name', 'id', 'elixirCost', 'targets', 'units', 'duration',
         'evolution', 'hero', 'typeAttack', 'projectile', 'suicide', 'flying', 'skills',
-        'chargeDamage', 'towerDamage', 'damage', 'hitpoints', 'evoStats', 'heroStats',
+        'towerDamage', 'damage', 'hitpoints', 'evoStats', 'heroStats',
         'hitspeed', 'loadTime', 'radius', 'collisionRadius', 'generationSpeed', 'generationUnits', 'speed',
         'range', 'sightRange', 'territory', 'rarity', 'type', 'unlockArena', 'tribe', 'deployTime'
     ],

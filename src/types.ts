@@ -17,6 +17,7 @@ export interface SlowSkill { hitSpeedMultiplier: number | null; speedMultiplier:
 export interface PushbackSkill { distance: number | null; strength: number | null; }
 export interface ShieldSkill { hitpoints: Levels | null; damageReductionPercent: number | null; }
 export interface DashSkill { damage: Levels; minRange: number | null; maxRange: number | null; }
+export interface ChargeSkill { damage: Levels; range: number | null; speedMultiplier: number | null; }
 export interface JumpSkill { height: number | null; speed: number | null; }
 export interface InvisibilitySkill { whenNotAttackingTime: number | null; }
 export interface SpawnOnDeathSkill { character: string | boolean | null; damage: Levels | null; radius: number | null; deployTime: number | null; }
@@ -35,6 +36,7 @@ export interface SkillTemplates {
     pushback: PushbackSkill;
     shield: ShieldSkill;
     dash: DashSkill;
+    charge: ChargeSkill;
     jump: JumpSkill;
     invisibility: InvisibilitySkill;
     'spawn-on-death': SpawnOnDeathSkill;
@@ -76,7 +78,6 @@ export interface Card {
     suicide: boolean;
     flying: boolean;
     skills: SkillsMap;
-    chargeDamage: Levels;
     towerDamage: Levels;
     damage: Levels;
     hitpoints: Levels;
