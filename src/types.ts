@@ -74,6 +74,7 @@ export interface Card {
     typeAttack: string | null;
     projectile: boolean;
     suicide: boolean;
+    flying: boolean;
     skills: SkillsMap;
     fatalDamage: Levels;
     chargeDamage: Levels;

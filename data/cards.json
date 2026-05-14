@@ -15,6 +15,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -104,6 +105,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -177,6 +179,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -256,6 +259,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -335,6 +339,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -409,6 +414,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -482,6 +488,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": true,
             "skills": {
                 "spawn-on-death": {
                     "character": "BalloonBomb",
@@ -573,6 +580,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "periodic-spawn": {
                     "pauseTime": 7,
@@ -658,6 +666,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -738,6 +747,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "Golemite",
@@ -822,6 +832,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -901,6 +912,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -974,6 +986,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1047,6 +1060,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1121,6 +1135,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1201,6 +1216,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1274,6 +1290,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "jump": {
                     "height": 4.0,
@@ -1353,6 +1370,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1441,6 +1459,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1521,6 +1540,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1594,6 +1614,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "GiantSkeletonBomb",
@@ -1678,6 +1699,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "jump": {
                     "height": 4.0,
@@ -1757,6 +1779,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1831,6 +1854,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "slow": {
                     "hitSpeedMultiplier": -30,
@@ -1911,6 +1935,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -1984,6 +2009,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "shield": {
                     "hitpoints": {
@@ -2067,6 +2093,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -2140,6 +2167,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "shield": {
                     "hitpoints": {
@@ -2233,6 +2261,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -2306,6 +2335,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {
                 "spawn-on-death": {
                     "character": "LavaPups",
@@ -2391,6 +2421,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -2479,6 +2510,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -2552,6 +2584,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "burrow": {
                     "duration": null
@@ -2629,6 +2662,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -2702,6 +2736,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 1.0,
@@ -2790,6 +2825,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "RageBarbarianBottle",
@@ -2909,6 +2945,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "Barbarian",
@@ -2999,6 +3036,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -3072,6 +3110,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "area-damage-on-death": {
                     "areaEffect": "FreezeIceGolemite",
@@ -3168,6 +3207,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -3248,6 +3288,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -3322,6 +3363,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -3396,6 +3438,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -3476,6 +3519,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -3550,6 +3594,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -3624,6 +3669,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pierce": {
                     "radius": 1.0,
@@ -3702,6 +3748,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "dash": {
                     "damage": {
@@ -3785,6 +3832,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "shield": {
                     "hitpoints": {
@@ -3868,6 +3916,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "Bat",
@@ -3958,6 +4007,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -4050,6 +4100,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "invisibility": {
                     "whenNotAttackingTime": 2.0
@@ -4133,6 +4184,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "jump": {
                     "height": 4.0,
@@ -4218,6 +4270,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -4299,6 +4352,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -4372,6 +4426,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -4445,6 +4500,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 1.0,
@@ -4554,6 +4610,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": 133,
@@ -4628,6 +4685,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -4701,6 +4759,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -4774,6 +4833,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "jump": {
                     "height": 4.0,
@@ -4859,6 +4919,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "SpearGoblin",
@@ -4954,6 +5015,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -5028,6 +5090,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pierce": {
                     "radius": 0.25,
@@ -5113,6 +5176,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -5201,6 +5265,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pierce": {
                     "radius": 0.4,
@@ -5286,6 +5351,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "MightyMinerLaneSwitch",
@@ -5365,6 +5431,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "ElixirGolem4",
@@ -5449,6 +5516,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "heal": {
                     "perAttack": {
@@ -5541,6 +5609,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "SkeletonKing",
@@ -5621,6 +5690,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "ArcherQueenRapid",
@@ -5706,6 +5776,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "dash": {
                     "damage": {
@@ -5794,6 +5865,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "Deflect",
@@ -5882,6 +5954,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": true,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -5956,6 +6029,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "jump": {
                     "height": 4.0,
@@ -6035,6 +6109,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -6115,6 +6190,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -6196,6 +6272,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": true,
             "skills": {
                 "pushback": {
                     "distance": 2.0,
@@ -6280,6 +6357,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "ChampGuardianAbility",
@@ -6363,6 +6441,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 2.0,
@@ -6441,6 +6520,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -6514,6 +6594,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "invisibility": {
                     "whenNotAttackingTime": null
@@ -6602,6 +6683,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "Goblinstein_ability",
@@ -6687,6 +6769,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "ability": {
                     "name": "Giantbuffer_ability",
@@ -6766,6 +6849,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -6839,6 +6923,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "dash": {
                     "damage": {
@@ -6927,6 +7012,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7001,6 +7087,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "SpearGoblin",
@@ -7085,6 +7172,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7159,6 +7247,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7232,6 +7321,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "BombTowerBomb",
@@ -7316,6 +7406,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "Barbarian",
@@ -7406,6 +7497,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7484,6 +7576,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7557,6 +7650,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7630,6 +7724,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "Skeleton",
@@ -7720,6 +7815,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -7793,6 +7889,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "GoblinBrawler",
@@ -7889,6 +7986,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "spawn-on-death": {
                     "character": "Goblin",
@@ -8001,6 +8099,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 1.0,
@@ -8080,6 +8179,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -8154,6 +8254,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "area-damage-on-death": {
                     "areaEffect": "Rage",
@@ -8244,6 +8345,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 1.8,
@@ -8323,6 +8425,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -8397,6 +8500,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -8475,6 +8579,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -8549,6 +8654,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -8630,6 +8736,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -8711,6 +8818,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "slow": {
                     "hitSpeedMultiplier": null,
@@ -8792,6 +8900,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -8865,6 +8974,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 0.7,
@@ -8948,6 +9058,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9022,6 +9133,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "multiply": {
                     "units": 1,
@@ -9101,6 +9213,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "slow": {
                     "hitSpeedMultiplier": null,
@@ -9181,6 +9294,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pierce": {
                     "radius": null,
@@ -9266,6 +9380,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": true,
+            "flying": false,
             "skills": {
                 "heal": {
                     "perAttack": {
@@ -9359,6 +9474,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "pushback": {
                     "distance": 1.8,
@@ -9444,6 +9560,7 @@
             "typeAttack": "splash",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {
                 "shield": {
                     "hitpoints": {
@@ -9527,6 +9644,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9601,6 +9719,7 @@
             "typeAttack": "splash",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9675,6 +9794,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9749,6 +9869,7 @@
             "typeAttack": "unique",
             "projectile": false,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9825,6 +9946,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9899,6 +10021,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -9973,6 +10096,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
@@ -10047,6 +10171,7 @@
             "typeAttack": "unique",
             "projectile": true,
             "suicide": false,
+            "flying": false,
             "skills": {},
             "fatalDamage": {
                 "level11": null,
