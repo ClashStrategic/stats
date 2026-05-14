@@ -7,7 +7,7 @@ import { dirname } from 'node:path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-import { 
+import {
     TargetValue, SpeedValue, Rarity, CardType,
     Levels, EMPTY_LEVELS, SkillsMap, SkillTemplates,
     SkillType, EvoStats, HeroStats, Card, CardsJson,
@@ -16,9 +16,9 @@ import {
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
     PierceSkill, BoostSkill, BurrowSkill, MultiplySkill
 } from '../src/types.js';
-import { 
-    SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData, 
-    BuffData, AreaEffectData, Spell, ApiData, DataSources 
+import {
+    SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData,
+    BuffData, AreaEffectData, Spell, ApiData, DataSources
 } from './types.js';
 import { cardSchema } from '../src/schema.js';
 
@@ -44,7 +44,7 @@ const TARGETS_MAP: Record<TargetTid, TargetValue[]> = {
 
 const CARD_SKELETON: Card = {
     name: null, id: null, elixirCost: null, targets: [], units: 0,
-    duration: null, deployTime: null, evolution: false, hero: false, typeAttack: null,
+    duration: null, deployTime: null, evolution: false, hero: false, hitType: null,
     projectile: false, kamikaze: false, flying: false,
     skills: {},
     towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
@@ -412,9 +412,9 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     const rawRadius = spell.radius ?? area.radius ?? charData.areaDamageRadius ?? proj.radius ?? proj.customFirstProjectileData?.radius;
     if (rawRadius != null && card.units === 0 && !['Lightning', 'Void', 'Vines'].includes(card.name ?? '')) {
         card.radius = rawRadius / 1000;
-        card.typeAttack = 'splash';
+        card.hitType = 'splash';
     } else {
-        card.typeAttack = card.typeAttack || 'unique';
+        card.hitType = card.hitType || 'unique';
     }
 
     card.projectile = Object.keys(proj).length > 0 || card.projectile;
