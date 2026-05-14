@@ -270,7 +270,7 @@ function extractSkills(
         if (obj.damageSpecial > 0)
             setSkill('charge', {
                 damage: mult ? scaleLevels(obj.damageSpecial, mult) : { ...EMPTY_LEVELS },
-                range: obj.chargeRange ? obj.chargeRange / 1000 : null,
+                range: obj.chargeRange ? obj.chargeRange / 100 : null,
                 speedMultiplier: obj.chargeSpeedMultiplier ? obj.chargeSpeedMultiplier : null
             });
 
