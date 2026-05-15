@@ -55,7 +55,7 @@ const CARD_SKELETON: Card = {
     },
     heroStats: { skills: {} },
     hitspeed: null, loadTime: null, radius: null, collisionRadius: null,
-    speed: null, range: null, sightRange: null, territory: null, unlockArena: null, tribe: null, rarity: null, type: null
+    speed: null, range: null, sightRange: null, placement: null, unlockArena: null, tribe: null, rarity: null, type: null
 };
 
 const SKILL_TEMPLATES: SkillTemplates = {
