@@ -19,17 +19,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 202,
-                "level15": 293,
                 "level16": 323
             },
             "damage": {
                 "level11": 202,
-                "level15": 293,
                 "level16": 323
             },
             "hitpoints": {
                 "level11": 1766,
-                "level15": 2566,
                 "level16": 2822
             },
             "evoStats": {
@@ -38,7 +35,6 @@
                     "shield": {
                         "hitpoints": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         },
                         "damageReductionPercent": 60
@@ -46,12 +42,10 @@
                 },
                 "damage": {
                     "level11": 202,
-                    "level15": 293,
                     "level16": 323
                 },
                 "hitpoints": {
                     "level11": 1766,
-                    "level15": 2566,
                     "level16": 2822
                 }
             },
@@ -97,17 +91,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 112,
-                "level15": 163,
                 "level16": 179
             },
             "damage": {
                 "level11": 112,
-                "level15": 163,
                 "level16": 179
             },
             "hitpoints": {
                 "level11": 304,
-                "level15": 442,
                 "level16": 486
             },
             "evoStats": {
@@ -115,12 +106,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 112,
-                    "level15": 163,
                     "level16": 179
                 },
                 "hitpoints": {
                     "level11": 304,
-                    "level15": 442,
                     "level16": 486
                 }
             },
@@ -159,17 +148,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 120,
-                "level15": 174,
                 "level16": 192
             },
             "damage": {
                 "level11": 120,
-                "level15": 174,
                 "level16": 192
             },
             "hitpoints": {
                 "level11": 202,
-                "level15": 293,
                 "level16": 323
             },
             "evoStats": {
@@ -177,12 +163,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -227,17 +211,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 253,
-                "level15": 368,
                 "level16": 404
             },
             "damage": {
                 "level11": 253,
-                "level15": 368,
                 "level16": 404
             },
             "hitpoints": {
                 "level11": 3968,
-                "level15": 5766,
                 "level16": 6339
             },
             "evoStats": {
@@ -245,12 +226,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -295,17 +274,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 816,
-                "level15": 1186,
                 "level16": 1304
             },
             "damage": {
                 "level11": 816,
-                "level15": 1186,
                 "level16": 1304
             },
             "hitpoints": {
                 "level11": 3760,
-                "level15": 5464,
                 "level16": 6008
             },
             "evoStats": {
@@ -313,12 +289,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 816,
-                    "level15": 1186,
                     "level16": 1304
                 },
                 "hitpoints": {
                     "level11": 3760,
-                    "level15": 5464,
                     "level16": 6008
                 }
             },
@@ -358,17 +332,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 107,
-                "level15": 156,
                 "level16": 171
             },
             "damage": {
                 "level11": 107,
-                "level15": 156,
                 "level16": 171
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 334,
                 "level16": 368
             },
             "evoStats": {
@@ -376,12 +347,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -422,7 +391,6 @@
                     "character": "BalloonBomb",
                     "damage": {
                         "level11": 240,
-                        "level15": 349,
                         "level16": 384
                     },
                     "radius": 0.45,
@@ -431,17 +399,14 @@
             },
             "towerDamage": {
                 "level11": 640,
-                "level15": 930,
                 "level16": 1022
             },
             "damage": {
                 "level11": 640,
-                "level15": 930,
                 "level16": 1022
             },
             "hitpoints": {
                 "level11": 1676,
-                "level15": 2436,
                 "level16": 2678
             },
             "evoStats": {
@@ -449,12 +414,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -506,17 +469,14 @@
             },
             "towerDamage": {
                 "level11": 135,
-                "level15": 197,
                 "level16": 216
             },
             "damage": {
                 "level11": 135,
-                "level15": 197,
                 "level16": 216
             },
             "hitpoints": {
                 "level11": 839,
-                "level15": 1220,
                 "level16": 1341
             },
             "evoStats": {
@@ -530,12 +490,10 @@
                 },
                 "damage": {
                     "level11": 135,
-                    "level15": 197,
                     "level16": 216
                 },
                 "hitpoints": {
                     "level11": 839,
-                    "level15": 1220,
                     "level16": 1341
                 }
             },
@@ -574,17 +532,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 306
             },
             "damage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 306
             },
             "hitpoints": {
                 "level11": 691,
-                "level15": 1004,
                 "level16": 1104
             },
             "evoStats": {
@@ -599,12 +554,10 @@
                 },
                 "damage": {
                     "level11": 192,
-                    "level15": 279,
                     "level16": 306
                 },
                 "hitpoints": {
                     "level11": 760,
-                    "level15": 1104,
                     "level16": 1214
                 }
             },
@@ -645,7 +598,6 @@
                     "character": "Golemite",
                     "damage": {
                         "level11": 99,
-                        "level15": 145,
                         "level16": 159
                     },
                     "radius": 0.5,
@@ -654,17 +606,14 @@
             },
             "towerDamage": {
                 "level11": 312,
-                "level15": 453,
                 "level16": 498
             },
             "damage": {
                 "level11": 312,
-                "level15": 453,
                 "level16": 498
             },
             "hitpoints": {
                 "level11": 5120,
-                "level15": 7440,
                 "level16": 8180
             },
             "evoStats": {
@@ -672,12 +621,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -716,17 +663,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "damage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "hitpoints": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "evoStats": {
@@ -740,12 +684,10 @@
                 },
                 "damage": {
                     "level11": 81,
-                    "level15": 119,
                     "level16": 130
                 },
                 "hitpoints": {
                     "level11": 81,
-                    "level15": 119,
                     "level16": 130
                 }
             },
@@ -784,17 +726,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 266,
-                "level15": 386,
                 "level16": 425
             },
             "damage": {
                 "level11": 266,
-                "level15": 386,
                 "level16": 425
             },
             "hitpoints": {
                 "level11": 1907,
-                "level15": 2771,
                 "level16": 3047
             },
             "evoStats": {
@@ -802,12 +741,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 266,
-                    "level15": 386,
                     "level16": 425
                 },
                 "hitpoints": {
                     "level11": 1907,
-                    "level15": 2771,
                     "level16": 3047
                 }
             },
@@ -846,17 +783,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "damage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "hitpoints": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "evoStats": {
@@ -864,12 +798,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 81,
-                    "level15": 119,
                     "level16": 130
                 },
                 "hitpoints": {
                     "level11": 81,
-                    "level15": 119,
                     "level16": 130
                 }
             },
@@ -908,17 +840,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 225,
-                "level15": 327,
                 "level16": 359
             },
             "damage": {
                 "level11": 225,
-                "level15": 327,
                 "level16": 359
             },
             "hitpoints": {
                 "level11": 304,
-                "level15": 442,
                 "level16": 486
             },
             "evoStats": {
@@ -926,12 +855,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 225,
-                    "level15": 327,
                     "level16": 359
                 },
                 "hitpoints": {
                     "level11": 304,
-                    "level15": 442,
                     "level16": 486
                 }
             },
@@ -971,17 +898,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 217,
-                "level15": 316,
                 "level16": 347
             },
             "damage": {
                 "level11": 217,
-                "level15": 316,
                 "level16": 347
             },
             "hitpoints": {
                 "level11": 721,
-                "level15": 1049,
                 "level16": 1153
             },
             "evoStats": {
@@ -989,12 +913,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 217,
-                    "level15": 316,
                     "level16": 347
                 },
                 "hitpoints": {
                     "level11": 721,
-                    "level15": 1049,
                     "level16": 1153
                 }
             },
@@ -1040,17 +962,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 161,
-                "level15": 234,
                 "level16": 257
             },
             "damage": {
                 "level11": 161,
-                "level15": 234,
                 "level16": 257
             },
             "hitpoints": {
                 "level11": 1152,
-                "level15": 1674,
                 "level16": 1840
             },
             "evoStats": {
@@ -1058,12 +977,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 161,
-                    "level15": 234,
                     "level16": 257
                 },
                 "hitpoints": {
                     "level11": 1152,
-                    "level15": 1674,
                     "level16": 1840
                 }
             },
@@ -1107,7 +1024,6 @@
                 "charge": {
                     "damage": {
                         "level11": 783,
-                        "level15": 1138,
                         "level16": 1251
                     },
                     "range": 2.5,
@@ -1116,17 +1032,14 @@
             },
             "towerDamage": {
                 "level11": 391,
-                "level15": 569,
                 "level16": 625
             },
             "damage": {
                 "level11": 391,
-                "level15": 569,
                 "level16": 625
             },
             "hitpoints": {
                 "level11": 1920,
-                "level15": 2790,
                 "level16": 3067
             },
             "evoStats": {
@@ -1134,12 +1047,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1179,17 +1090,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 281,
-                "level15": 409,
                 "level16": 449
             },
             "damage": {
                 "level11": 281,
-                "level15": 409,
                 "level16": 449
             },
             "hitpoints": {
                 "level11": 755,
-                "level15": 1097,
                 "level16": 1206
             },
             "evoStats": {
@@ -1198,7 +1106,6 @@
                     "shield": {
                         "hitpoints": {
                             "level11": 192,
-                            "level15": 279,
                             "level16": 306
                         },
                         "damageReductionPercent": null
@@ -1206,12 +1113,10 @@
                 },
                 "damage": {
                     "level11": 281,
-                    "level15": 409,
                     "level16": 449
                 },
                 "hitpoints": {
                     "level11": 755,
-                    "level15": 1097,
                     "level16": 1206
                 }
             },
@@ -1256,17 +1161,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 755,
-                "level15": 1097,
                 "level16": 1206
             },
             "damage": {
                 "level11": 755,
-                "level15": 1097,
                 "level16": 1206
             },
             "hitpoints": {
                 "level11": 1390,
-                "level15": 2019,
                 "level16": 2220
             },
             "evoStats": {
@@ -1274,12 +1176,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1325,17 +1225,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "damage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "hitpoints": {
                 "level11": 133,
-                "level15": 193,
                 "level16": 212
             },
             "evoStats": {
@@ -1343,12 +1240,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1389,7 +1284,6 @@
                     "character": "GiantSkeletonBomb",
                     "damage": {
                         "level11": 688,
-                        "level15": 1000,
                         "level16": 1100
                     },
                     "radius": 0.45,
@@ -1398,17 +1292,14 @@
             },
             "towerDamage": {
                 "level11": 276,
-                "level15": 401,
                 "level16": 441
             },
             "damage": {
                 "level11": 276,
-                "level15": 401,
                 "level16": 441
             },
             "hitpoints": {
                 "level11": 3361,
-                "level15": 4884,
                 "level16": 5370
             },
             "evoStats": {
@@ -1416,12 +1307,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1465,17 +1354,14 @@
             },
             "towerDamage": {
                 "level11": 317,
-                "level15": 461,
                 "level16": 507
             },
             "damage": {
                 "level11": 317,
-                "level15": 461,
                 "level16": 507
             },
             "hitpoints": {
                 "level11": 1697,
-                "level15": 2466,
                 "level16": 2711
             },
             "evoStats": {
@@ -1483,12 +1369,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1528,17 +1412,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 107,
-                "level15": 156,
                 "level16": 171
             },
             "damage": {
                 "level11": 107,
-                "level15": 156,
                 "level16": 171
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 334,
                 "level16": 368
             },
             "evoStats": {
@@ -1546,12 +1427,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 107,
-                    "level15": 156,
                     "level16": 171
                 },
                 "hitpoints": {
                     "level11": 230,
-                    "level15": 334,
                     "level16": 368
                 }
             },
@@ -1598,17 +1477,14 @@
             },
             "towerDamage": {
                 "level11": 90,
-                "level15": 130,
                 "level16": 143
             },
             "damage": {
                 "level11": 90,
-                "level15": 130,
                 "level16": 143
             },
             "hitpoints": {
                 "level11": 689,
-                "level15": 1001,
                 "level16": 1100
             },
             "evoStats": {
@@ -1616,12 +1492,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1660,17 +1534,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 307,
-                "level15": 446,
                 "level16": 490
             },
             "damage": {
                 "level11": 307,
-                "level15": 446,
                 "level16": 490
             },
             "hitpoints": {
                 "level11": 3164,
-                "level15": 4597,
                 "level16": 5055
             },
             "evoStats": {
@@ -1678,12 +1549,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 307,
-                    "level15": 446,
                     "level16": 490
                 },
                 "hitpoints": {
                     "level11": 3164,
-                    "level15": 4597,
                     "level16": 5055
                 }
             },
@@ -1723,7 +1592,6 @@
                 "shield": {
                     "hitpoints": {
                         "level11": 256,
-                        "level15": 372,
                         "level16": 409
                     },
                     "damageReductionPercent": null
@@ -1731,17 +1599,14 @@
             },
             "towerDamage": {
                 "level11": 117,
-                "level15": 171,
                 "level16": 188
             },
             "damage": {
                 "level11": 117,
-                "level15": 171,
                 "level16": 188
             },
             "hitpoints": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "evoStats": {
@@ -1749,12 +1614,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1794,17 +1657,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 168,
-                "level15": 245,
                 "level16": 268
             },
             "damage": {
                 "level11": 168,
-                "level15": 245,
                 "level16": 268
             },
             "hitpoints": {
                 "level11": 261,
-                "level15": 379,
                 "level16": 417
             },
             "evoStats": {
@@ -1812,12 +1672,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1857,7 +1715,6 @@
                 "shield": {
                     "hitpoints": {
                         "level11": 240,
-                        "level15": 349,
                         "level16": 384
                     },
                     "damageReductionPercent": null
@@ -1869,7 +1726,6 @@
                 "charge": {
                     "damage": {
                         "level11": 532,
-                        "level15": 773,
                         "level16": 850
                     },
                     "range": 3.0,
@@ -1878,17 +1734,14 @@
             },
             "towerDamage": {
                 "level11": 266,
-                "level15": 386,
                 "level16": 425
             },
             "damage": {
                 "level11": 266,
-                "level15": 386,
                 "level16": 425
             },
             "hitpoints": {
                 "level11": 1200,
-                "level15": 1744,
                 "level16": 1918
             },
             "evoStats": {
@@ -1896,12 +1749,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -1947,17 +1798,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 218,
-                "level15": 316,
                 "level16": 348
             },
             "damage": {
                 "level11": 218,
-                "level15": 316,
                 "level16": 348
             },
             "hitpoints": {
                 "level11": 722,
-                "level15": 1049,
                 "level16": 1154
             },
             "evoStats": {
@@ -1965,12 +1813,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2011,7 +1857,6 @@
                     "character": "LavaPups",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.45,
@@ -2020,17 +1865,14 @@
             },
             "towerDamage": {
                 "level11": 53,
-                "level15": 78,
                 "level16": 85
             },
             "damage": {
                 "level11": 53,
-                "level15": 78,
                 "level16": 85
             },
             "hitpoints": {
                 "level11": 3581,
-                "level15": 5204,
                 "level16": 5721
             },
             "evoStats": {
@@ -2038,12 +1880,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2090,17 +1930,14 @@
             },
             "towerDamage": {
                 "level11": 110,
-                "level15": 159,
                 "level16": 175
             },
             "damage": {
                 "level11": 110,
-                "level15": 159,
                 "level16": 175
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 334,
                 "level16": 368
             },
             "evoStats": {
@@ -2115,12 +1952,10 @@
                 },
                 "damage": {
                     "level11": 110,
-                    "level15": 159,
                     "level16": 175
                 },
                 "hitpoints": {
                     "level11": 230,
-                    "level15": 334,
                     "level16": 368
                 }
             },
@@ -2160,17 +1995,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 207,
-                "level15": 301,
                 "level16": 331
             },
             "damage": {
                 "level11": 207,
-                "level15": 301,
                 "level16": 331
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 334,
                 "level16": 368
             },
             "evoStats": {
@@ -2178,12 +2010,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2226,17 +2056,14 @@
             },
             "towerDamage": {
                 "level11": 48,
-                "level15": 70,
                 "level16": 77
             },
             "damage": {
                 "level11": 194,
-                "level15": 282,
                 "level16": 310
             },
             "hitpoints": {
                 "level11": 1210,
-                "level15": 1759,
                 "level16": 1934
             },
             "evoStats": {
@@ -2244,12 +2071,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2288,17 +2113,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 1331,
-                "level15": 1934,
                 "level16": 2126
             },
             "damage": {
                 "level11": 1331,
-                "level15": 1934,
                 "level16": 2126
             },
             "hitpoints": {
                 "level11": 1451,
-                "level15": 2109,
                 "level16": 2319
             },
             "evoStats": {
@@ -2306,12 +2128,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2359,17 +2179,14 @@
             },
             "towerDamage": {
                 "level11": 289,
-                "level15": 420,
                 "level16": 462
             },
             "damage": {
                 "level11": 289,
-                "level15": 420,
                 "level16": 462
             },
             "hitpoints": {
                 "level11": 2081,
-                "level15": 3024,
                 "level16": 3325
             },
             "evoStats": {
@@ -2377,12 +2194,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2429,7 +2244,6 @@
                     "character": "RageBarbarianBottle",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": null,
@@ -2439,7 +2253,6 @@
                     "areaEffect": "BarbarianRage",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 3.0
@@ -2453,17 +2266,14 @@
             },
             "towerDamage": {
                 "level11": 256,
-                "level15": 372,
                 "level16": 409
             },
             "damage": {
                 "level11": 256,
-                "level15": 372,
                 "level16": 409
             },
             "hitpoints": {
                 "level11": 1282,
-                "level15": 1863,
                 "level16": 2049
             },
             "evoStats": {
@@ -2473,7 +2283,6 @@
                         "character": "RageBarbarianBottle",
                         "damage": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         },
                         "radius": null,
@@ -2483,7 +2292,6 @@
                         "areaEffect": "BarbarianRage",
                         "damage": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         },
                         "radius": 3.0
@@ -2491,12 +2299,10 @@
                 },
                 "damage": {
                     "level11": 256,
-                    "level15": 372,
                     "level16": 409
                 },
                 "hitpoints": {
                     "level11": 1282,
-                    "level15": 1863,
                     "level16": 2049
                 }
             },
@@ -2537,7 +2343,6 @@
                     "character": "Barbarian",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -2546,7 +2351,6 @@
                 "charge": {
                     "damage": {
                         "level11": 573,
-                        "level15": 833,
                         "level16": 916
                     },
                     "range": 3.0,
@@ -2555,17 +2359,14 @@
             },
             "towerDamage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 306
             },
             "damage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 306
             },
             "hitpoints": {
                 "level11": 691,
-                "level15": 1004,
                 "level16": 1104
             },
             "evoStats": {
@@ -2578,12 +2379,10 @@
                 },
                 "damage": {
                     "level11": 192,
-                    "level15": 279,
                     "level16": 306
                 },
                 "hitpoints": {
                     "level11": 967,
-                    "level15": 1406,
                     "level16": 1546
                 }
             },
@@ -2623,17 +2422,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 35,
-                "level15": 52,
                 "level16": 57
             },
             "damage": {
                 "level11": 35,
-                "level15": 52,
                 "level16": 57
             },
             "hitpoints": {
                 "level11": 1295,
-                "level15": 1882,
                 "level16": 2069
             },
             "evoStats": {
@@ -2641,12 +2437,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 35,
-                    "level15": 52,
                     "level16": 57
                 },
                 "hitpoints": {
                     "level11": 1295,
-                    "level15": 1882,
                     "level16": 2069
                 }
             },
@@ -2687,7 +2481,6 @@
                     "areaEffect": "FreezeIceGolemite",
                     "damage": {
                         "level11": 84,
-                        "level15": 122,
                         "level16": 134
                     },
                     "radius": 2.0
@@ -2701,17 +2494,14 @@
             },
             "towerDamage": {
                 "level11": 84,
-                "level15": 122,
                 "level16": 134
             },
             "damage": {
                 "level11": 84,
-                "level15": 122,
                 "level16": 134
             },
             "hitpoints": {
                 "level11": 1315,
-                "level15": 1912,
                 "level16": 2102
             },
             "evoStats": {
@@ -2719,12 +2509,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2770,17 +2558,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 312,
-                "level15": 453,
                 "level16": 498
             },
             "damage": {
                 "level11": 312,
-                "level15": 453,
                 "level16": 498
             },
             "hitpoints": {
                 "level11": 837,
-                "level15": 1216,
                 "level16": 1337
             },
             "evoStats": {
@@ -2788,12 +2573,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2839,17 +2622,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 151,
-                "level15": 219,
                 "level16": 241
             },
             "damage": {
                 "level11": 151,
-                "level15": 219,
                 "level16": 241
             },
             "hitpoints": {
                 "level11": 261,
-                "level15": 379,
                 "level16": 417
             },
             "evoStats": {
@@ -2857,12 +2637,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 151,
-                    "level15": 219,
                     "level16": 241
                 },
                 "hitpoints": {
                     "level11": 261,
-                    "level15": 379,
                     "level16": 417
                 }
             },
@@ -2902,17 +2680,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 120,
-                "level15": 174,
                 "level16": 192
             },
             "damage": {
                 "level11": 120,
-                "level15": 174,
                 "level16": 192
             },
             "hitpoints": {
                 "level11": 202,
-                "level15": 293,
                 "level16": 323
             },
             "evoStats": {
@@ -2920,12 +2695,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -2972,17 +2745,14 @@
             },
             "towerDamage": {
                 "level11": 118,
-                "level15": 171,
                 "level16": 188
             },
             "damage": {
                 "level11": 118,
-                "level15": 171,
                 "level16": 188
             },
             "hitpoints": {
                 "level11": 714,
-                "level15": 1038,
                 "level16": 1141
             },
             "evoStats": {
@@ -2990,12 +2760,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3035,7 +2803,6 @@
                 "charge": {
                     "damage": {
                         "level11": 572,
-                        "level15": 834,
                         "level16": 914
                     },
                     "range": null,
@@ -3044,17 +2811,14 @@
             },
             "towerDamage": {
                 "level11": 384,
-                "level15": 558,
                 "level16": 613
             },
             "damage": {
                 "level11": 384,
-                "level15": 558,
                 "level16": 613
             },
             "hitpoints": {
                 "level11": 1341,
-                "level15": 1949,
                 "level16": 2143
             },
             "evoStats": {
@@ -3062,12 +2826,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3107,17 +2869,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 84,
-                "level15": 122,
                 "level16": 134
             },
             "damage": {
                 "level11": 84,
-                "level15": 122,
                 "level16": 134
             },
             "hitpoints": {
                 "level11": 885,
-                "level15": 1287,
                 "level16": 1415
             },
             "evoStats": {
@@ -3125,12 +2884,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 84,
-                    "level15": 122,
                     "level16": 134
                 },
                 "hitpoints": {
                     "level11": 885,
-                    "level15": 1287,
                     "level16": 1415
                 }
             },
@@ -3175,17 +2932,14 @@
             },
             "towerDamage": {
                 "level11": 179,
-                "level15": 260,
                 "level16": 286
             },
             "damage": {
                 "level11": 179,
-                "level15": 260,
                 "level16": 286
             },
             "hitpoints": {
                 "level11": 1280,
-                "level15": 1860,
                 "level16": 2045
             },
             "evoStats": {
@@ -3193,12 +2947,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 179,
-                    "level15": 260,
                     "level16": 286
                 },
                 "hitpoints": {
                     "level11": 1280,
-                    "level15": 1860,
                     "level16": 2045
                 }
             },
@@ -3238,7 +2990,6 @@
                 "dash": {
                     "damage": {
                         "level11": 389,
-                        "level15": 565,
                         "level16": 621
                     },
                     "minRange": 3.5,
@@ -3247,17 +2998,14 @@
             },
             "towerDamage": {
                 "level11": 194,
-                "level15": 282,
                 "level16": 310
             },
             "damage": {
                 "level11": 194,
-                "level15": 282,
                 "level16": 310
             },
             "hitpoints": {
                 "level11": 906,
-                "level15": 1316,
                 "level16": 1447
             },
             "evoStats": {
@@ -3265,12 +3013,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3310,7 +3056,6 @@
                 "shield": {
                     "hitpoints": {
                         "level11": 240,
-                        "level15": 349,
                         "level16": 384
                     },
                     "damageReductionPercent": null
@@ -3318,17 +3063,14 @@
             },
             "towerDamage": {
                 "level11": 133,
-                "level15": 193,
                 "level16": 212
             },
             "damage": {
                 "level11": 133,
-                "level15": 193,
                 "level16": 212
             },
             "hitpoints": {
                 "level11": 547,
-                "level15": 796,
                 "level16": 875
             },
             "evoStats": {
@@ -3337,7 +3079,6 @@
                     "charge": {
                         "damage": {
                             "level11": 266,
-                            "level15": 386,
                             "level16": 425
                         },
                         "range": null,
@@ -3346,12 +3087,10 @@
                 },
                 "damage": {
                     "level11": 133,
-                    "level15": 193,
                     "level16": 212
                 },
                 "hitpoints": {
                     "level11": 547,
-                    "level15": 796,
                     "level16": 875
                 }
             },
@@ -3393,7 +3132,6 @@
                     "character": "Bat",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -3407,17 +3145,14 @@
             },
             "towerDamage": {
                 "level11": 314,
-                "level15": 457,
                 "level16": 503
             },
             "damage": {
                 "level11": 314,
-                "level15": 457,
                 "level16": 503
             },
             "hitpoints": {
                 "level11": 906,
-                "level15": 1316,
                 "level16": 1447
             },
             "evoStats": {
@@ -3425,12 +3160,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3470,17 +3203,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "damage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "hitpoints": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "evoStats": {
@@ -3489,30 +3219,25 @@
                     "heal": {
                         "perAttack": {
                             "level11": 76,
-                            "level15": 111,
                             "level16": 122
                         },
                         "frequency": 0.5,
                         "overHeal": {
                             "level11": 245,
-                            "level15": 357,
                             "level16": 392
                         },
                         "onSpawn": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         }
                     }
                 },
                 "damage": {
                     "level11": 81,
-                    "level15": 119,
                     "level16": 130
                 },
                 "hitpoints": {
                     "level11": 122,
-                    "level15": 178,
                     "level16": 196
                 }
             },
@@ -3555,17 +3280,14 @@
             },
             "towerDamage": {
                 "level11": 261,
-                "level15": 379,
                 "level16": 417
             },
             "damage": {
                 "level11": 261,
-                "level15": 379,
                 "level16": 417
             },
             "hitpoints": {
                 "level11": 1210,
-                "level15": 1759,
                 "level16": 1934
             },
             "evoStats": {
@@ -3577,12 +3299,10 @@
                 },
                 "damage": {
                     "level11": 261,
-                    "level15": 379,
                     "level16": 417
                 },
                 "hitpoints": {
                     "level11": 1210,
-                    "level15": 1759,
                     "level16": 1934
                 }
             },
@@ -3634,7 +3354,6 @@
                 "charge": {
                     "damage": {
                         "level11": 501,
-                        "level15": 729,
                         "level16": 801
                     },
                     "range": 2.5,
@@ -3643,17 +3362,14 @@
             },
             "towerDamage": {
                 "level11": 250,
-                "level15": 364,
                 "level16": 400
             },
             "damage": {
                 "level11": 250,
-                "level15": 364,
                 "level16": 400
             },
             "hitpoints": {
                 "level11": 1697,
-                "level15": 2466,
                 "level16": 2711
             },
             "evoStats": {
@@ -3661,12 +3377,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3713,17 +3427,14 @@
             },
             "towerDamage": {
                 "level11": 117,
-                "level15": 171,
                 "level16": 188
             },
             "damage": {
                 "level11": 117,
-                "level15": 171,
                 "level16": 188
             },
             "hitpoints": {
                 "level11": 529,
-                "level15": 770,
                 "level16": 846
             },
             "evoStats": {
@@ -3731,12 +3442,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3776,17 +3485,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 217,
-                "level15": 316,
                 "level16": 347
             },
             "damage": {
                 "level11": 217,
-                "level15": 316,
                 "level16": 347
             },
             "hitpoints": {
                 "level11": 1940,
-                "level15": 2819,
                 "level16": 3100
             },
             "evoStats": {
@@ -3794,12 +3500,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3838,17 +3542,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 212,
-                "level15": 308,
                 "level16": 339
             },
             "damage": {
                 "level11": 212,
-                "level15": 308,
                 "level16": 339
             },
             "hitpoints": {
                 "level11": 1809,
-                "level15": 2630,
                 "level16": 2891
             },
             "evoStats": {
@@ -3856,12 +3557,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -3905,7 +3604,6 @@
                 "dash": {
                     "damage": {
                         "level11": 537,
-                        "level15": 781,
                         "level16": 858
                     },
                     "minRange": 3.5,
@@ -3918,17 +3616,14 @@
             },
             "towerDamage": {
                 "level11": 268,
-                "level15": 390,
                 "level16": 429
             },
             "damage": {
                 "level11": 268,
-                "level15": 390,
                 "level16": 429
             },
             "hitpoints": {
                 "level11": 3993,
-                "level15": 5803,
                 "level16": 6380
             },
             "evoStats": {
@@ -3937,7 +3632,6 @@
                     "dash": {
                         "damage": {
                             "level11": 537,
-                            "level15": 781,
                             "level16": 858
                         },
                         "minRange": 3.5,
@@ -3954,12 +3648,10 @@
                 },
                 "damage": {
                     "level11": 268,
-                    "level15": 390,
                     "level16": 429
                 },
                 "hitpoints": {
                     "level11": 3993,
-                    "level15": 5803,
                     "level16": 6380
                 }
             },
@@ -3998,17 +3690,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 129
             },
             "damage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 129
             },
             "hitpoints": {
                 "level11": 532,
-                "level15": 773,
                 "level16": 850
             },
             "evoStats": {
@@ -4016,12 +3705,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 81,
-                    "level15": 119,
                     "level16": 129
                 },
                 "hitpoints": {
                     "level11": 532,
-                    "level15": 773,
                     "level16": 850
                 }
             },
@@ -4061,17 +3748,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 171,
-                "level15": 249,
                 "level16": 274
             },
             "damage": {
                 "level11": 171,
-                "level15": 249,
                 "level16": 274
             },
             "hitpoints": {
                 "level11": 614,
-                "level15": 892,
                 "level16": 981
             },
             "evoStats": {
@@ -4079,12 +3763,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4123,17 +3805,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 350,
-                "level15": 509,
                 "level16": 560
             },
             "damage": {
                 "level11": 350,
-                "level15": 509,
                 "level16": 560
             },
             "hitpoints": {
                 "level11": 330,
-                "level15": 479,
                 "level16": 527
             },
             "evoStats": {
@@ -4141,12 +3820,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 350,
-                    "level15": 509,
                     "level16": 560
                 },
                 "hitpoints": {
                     "level11": 330,
-                    "level15": 479,
                     "level16": 527
                 }
             },
@@ -4190,17 +3867,14 @@
             },
             "towerDamage": {
                 "level11": 74,
-                "level15": 107,
                 "level16": 118
             },
             "damage": {
                 "level11": 74,
-                "level15": 107,
                 "level16": 118
             },
             "hitpoints": {
                 "level11": 837,
-                "level15": 1216,
                 "level16": 1337
             },
             "evoStats": {
@@ -4213,12 +3887,10 @@
                 },
                 "damage": {
                     "level11": 74,
-                    "level15": 107,
                     "level16": 118
                 },
                 "hitpoints": {
                     "level11": 837,
-                    "level15": 1216,
                     "level16": 1337
                 }
             },
@@ -4261,7 +3933,6 @@
                     "character": "SpearGoblin",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -4270,17 +3941,14 @@
             },
             "towerDamage": {
                 "level11": 176,
-                "level15": 256,
                 "level16": 282
             },
             "damage": {
                 "level11": 176,
-                "level15": 256,
                 "level16": 282
             },
             "hitpoints": {
                 "level11": 3020,
-                "level15": 4389,
                 "level16": 4826
             },
             "evoStats": {
@@ -4290,7 +3958,6 @@
                         "character": "SpearGoblin",
                         "damage": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         },
                         "radius": 0.5,
@@ -4299,12 +3966,10 @@
                 },
                 "damage": {
                     "level11": 176,
-                    "level15": 256,
                     "level16": 282
                 },
                 "hitpoints": {
                     "level11": 3020,
-                    "level15": 4389,
                     "level16": 4826
                 }
             },
@@ -4343,17 +4008,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 194,
-                "level15": 282,
                 "level16": 310
             },
             "damage": {
                 "level11": 194,
-                "level15": 282,
                 "level16": 310
             },
             "hitpoints": {
                 "level11": 870,
-                "level15": 1264,
                 "level16": 1390
             },
             "evoStats": {
@@ -4361,12 +4023,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4411,17 +4071,14 @@
             },
             "towerDamage": {
                 "level11": 143,
-                "level15": 208,
                 "level16": 229
             },
             "damage": {
                 "level11": 143,
-                "level15": 208,
                 "level16": 229
             },
             "hitpoints": {
                 "level11": 529,
-                "level15": 770,
                 "level16": 846
             },
             "evoStats": {
@@ -4429,12 +4086,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4487,17 +4142,14 @@
             },
             "towerDamage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 306
             },
             "damage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 306
             },
             "hitpoints": {
                 "level11": 998,
-                "level15": 1450,
                 "level16": 1595
             },
             "evoStats": {
@@ -4512,12 +4164,10 @@
                 },
                 "damage": {
                     "level11": 192,
-                    "level15": 279,
                     "level16": 306
                 },
                 "hitpoints": {
                     "level11": 998,
-                    "level15": 1450,
                     "level16": 1595
                 }
             },
@@ -4562,17 +4212,14 @@
             },
             "towerDamage": {
                 "level11": 64,
-                "level15": 93,
                 "level16": 102
             },
             "damage": {
                 "level11": 64,
-                "level15": 93,
                 "level16": 102
             },
             "hitpoints": {
                 "level11": 304,
-                "level15": 442,
                 "level16": 486
             },
             "evoStats": {
@@ -4587,12 +4234,10 @@
                 },
                 "damage": {
                     "level11": 64,
-                    "level15": 93,
                     "level16": 102
                 },
                 "hitpoints": {
                     "level11": 304,
-                    "level15": 442,
                     "level16": 486
                 }
             },
@@ -4637,17 +4282,14 @@
             },
             "towerDamage": {
                 "level11": 40,
-                "level15": 59,
                 "level16": 65
             },
             "damage": {
                 "level11": 40,
-                "level15": 59,
                 "level16": 65
             },
             "hitpoints": {
                 "level11": 2250,
-                "level15": 3269,
                 "level16": 3595
             },
             "evoStats": {
@@ -4655,12 +4297,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4701,7 +4341,6 @@
                     "character": "ElixirGolem4",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.4,
@@ -4710,17 +4349,14 @@
             },
             "towerDamage": {
                 "level11": 253,
-                "level15": 368,
                 "level16": 404
             },
             "damage": {
                 "level11": 253,
-                "level15": 368,
                 "level16": 404
             },
             "hitpoints": {
                 "level11": 1569,
-                "level15": 2280,
                 "level16": 2507
             },
             "evoStats": {
@@ -4728,12 +4364,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4773,35 +4407,29 @@
                 "heal": {
                     "perAttack": {
                         "level11": 102,
-                        "level15": 148,
                         "level16": 163
                     },
                     "frequency": 0.25,
                     "overHeal": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "onSpawn": {
                         "level11": 202,
-                        "level15": 293,
                         "level16": 323
                     }
                 }
             },
             "towerDamage": {
                 "level11": 148,
-                "level15": 215,
                 "level16": 237
             },
             "damage": {
                 "level11": 148,
-                "level15": 215,
                 "level16": 237
             },
             "hitpoints": {
                 "level11": 1717,
-                "level15": 2496,
                 "level16": 2744
             },
             "evoStats": {
@@ -4809,12 +4437,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4859,17 +4485,14 @@
             },
             "towerDamage": {
                 "level11": 204,
-                "level15": 297,
                 "level16": 327
             },
             "damage": {
                 "level11": 204,
-                "level15": 297,
                 "level16": 327
             },
             "hitpoints": {
                 "level11": 2298,
-                "level15": 3340,
                 "level16": 3672
             },
             "evoStats": {
@@ -4877,12 +4500,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4934,17 +4555,14 @@
             },
             "towerDamage": {
                 "level11": 225,
-                "level15": 327,
                 "level16": 359
             },
             "damage": {
                 "level11": 225,
-                "level15": 327,
                 "level16": 359
             },
             "hitpoints": {
                 "level11": 1000,
-                "level15": 1454,
                 "level16": 1599
             },
             "evoStats": {
@@ -4952,12 +4570,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -4997,7 +4613,6 @@
                 "dash": {
                     "damage": {
                         "level11": 335,
-                        "level15": 487,
                         "level16": 535
                     },
                     "minRange": null,
@@ -5011,17 +4626,14 @@
             },
             "towerDamage": {
                 "level11": 161,
-                "level15": 234,
                 "level16": 257
             },
             "damage": {
                 "level11": 161,
-                "level15": 234,
                 "level16": 257
             },
             "hitpoints": {
                 "level11": 1799,
-                "level15": 2615,
                 "level16": 2875
             },
             "evoStats": {
@@ -5029,12 +4641,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5079,7 +4689,6 @@
                 "shield": {
                     "hitpoints": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "damageReductionPercent": 65
@@ -5087,17 +4696,14 @@
             },
             "towerDamage": {
                 "level11": 140,
-                "level15": 204,
                 "level16": 224
             },
             "damage": {
                 "level11": 140,
-                "level15": 204,
                 "level16": 224
             },
             "hitpoints": {
                 "level11": 2214,
-                "level15": 3217,
                 "level16": 3537
             },
             "evoStats": {
@@ -5105,12 +4711,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5150,17 +4754,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 151,
-                "level15": 219,
                 "level16": 241
             },
             "damage": {
                 "level11": 151,
-                "level15": 219,
                 "level16": 241
             },
             "hitpoints": {
                 "level11": 560,
-                "level15": 814,
                 "level16": 895
             },
             "evoStats": {
@@ -5168,12 +4769,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5218,17 +4817,14 @@
             },
             "towerDamage": {
                 "level11": 133,
-                "level15": 193,
                 "level16": 212
             },
             "damage": {
                 "level11": 133,
-                "level15": 193,
                 "level16": 212
             },
             "hitpoints": {
                 "level11": 529,
-                "level15": 770,
                 "level16": 846
             },
             "evoStats": {
@@ -5236,12 +4832,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5288,17 +4882,14 @@
             },
             "towerDamage": {
                 "level11": 99,
-                "level15": 145,
                 "level16": 159
             },
             "damage": {
                 "level11": 99,
-                "level15": 145,
                 "level16": 159
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 334,
                 "level16": 368
             },
             "evoStats": {
@@ -5306,12 +4897,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5357,17 +4946,14 @@
             },
             "towerDamage": {
                 "level11": 163,
-                "level15": 238,
                 "level16": 261
             },
             "damage": {
                 "level11": 163,
-                "level15": 238,
                 "level16": 261
             },
             "hitpoints": {
                 "level11": 3855,
-                "level15": 5602,
                 "level16": 6159
             },
             "evoStats": {
@@ -5375,12 +4961,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5430,17 +5014,14 @@
             },
             "towerDamage": {
                 "level11": 217,
-                "level15": 316,
                 "level16": 347
             },
             "damage": {
                 "level11": 217,
-                "level15": 316,
                 "level16": 347
             },
             "hitpoints": {
                 "level11": 1052,
-                "level15": 1528,
                 "level16": 1680
             },
             "evoStats": {
@@ -5448,12 +5029,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5503,17 +5082,14 @@
             },
             "towerDamage": {
                 "level11": 104,
-                "level15": 152,
                 "level16": 167
             },
             "damage": {
                 "level11": 104,
-                "level15": 152,
                 "level16": 167
             },
             "hitpoints": {
                 "level11": 698,
-                "level15": 1015,
                 "level16": 1116
             },
             "evoStats": {
@@ -5521,12 +5097,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5570,17 +5144,14 @@
             },
             "towerDamage": {
                 "level11": 186,
-                "level15": 271,
                 "level16": 298
             },
             "damage": {
                 "level11": 186,
-                "level15": 271,
                 "level16": 298
             },
             "hitpoints": {
                 "level11": 1300,
-                "level15": 1889,
                 "level16": 2077
             },
             "evoStats": {
@@ -5588,12 +5159,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5632,17 +5201,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 212,
-                "level15": 308,
                 "level16": 339
             },
             "damage": {
                 "level11": 212,
-                "level15": 308,
                 "level16": 339
             },
             "hitpoints": {
                 "level11": 2150,
-                "level15": 3124,
                 "level16": 3435
             },
             "evoStats": {
@@ -5650,12 +5216,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5699,7 +5263,6 @@
                     "areaEffect": "SuspiciousBush_DummyAEO",
                     "damage": {
                         "level11": 256,
-                        "level15": 372,
                         "level16": 409
                     },
                     "radius": null
@@ -5707,17 +5270,14 @@
             },
             "towerDamage": {
                 "level11": 256,
-                "level15": 372,
                 "level16": 409
             },
             "damage": {
                 "level11": 256,
-                "level15": 372,
                 "level16": 409
             },
             "hitpoints": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 130
             },
             "evoStats": {
@@ -5725,12 +5285,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5783,17 +5341,14 @@
             },
             "towerDamage": {
                 "level11": 128,
-                "level15": 186,
                 "level16": 204
             },
             "damage": {
                 "level11": 128,
-                "level15": 186,
                 "level16": 204
             },
             "hitpoints": {
                 "level11": 2385,
-                "level15": 3467,
                 "level16": 3811
             },
             "evoStats": {
@@ -5801,12 +5356,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5851,17 +5404,14 @@
             },
             "towerDamage": {
                 "level11": 120,
-                "level15": 174,
                 "level16": 192
             },
             "damage": {
                 "level11": 120,
-                "level15": 174,
                 "level16": 192
             },
             "hitpoints": {
                 "level11": 2662,
-                "level15": 3868,
                 "level16": 4253
             },
             "evoStats": {
@@ -5869,12 +5419,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5913,17 +5461,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 102,
-                "level15": 148,
                 "level16": 163
             },
             "damage": {
                 "level11": 102,
-                "level15": 148,
                 "level16": 163
             },
             "hitpoints": {
                 "level11": 896,
-                "level15": 1302,
                 "level16": 1431
             },
             "evoStats": {
@@ -5931,12 +5476,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -5976,7 +5519,6 @@
                 "dash": {
                     "damage": {
                         "level11": 491,
-                        "level15": 714,
                         "level16": 785
                     },
                     "minRange": 3.5,
@@ -5990,17 +5532,14 @@
             },
             "towerDamage": {
                 "level11": 245,
-                "level15": 357,
                 "level16": 392
             },
             "damage": {
                 "level11": 245,
-                "level15": 357,
                 "level16": 392
             },
             "hitpoints": {
                 "level11": 2624,
-                "level15": 3813,
                 "level16": 4192
             },
             "evoStats": {
@@ -6008,12 +5547,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6052,17 +5589,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 202,
-                "level15": 293,
                 "level16": 323
             },
             "damage": {
                 "level11": 202,
-                "level15": 293,
                 "level16": 323
             },
             "hitpoints": {
                 "level11": 824,
-                "level15": 1197,
                 "level16": 1316
             },
             "evoStats": {
@@ -6070,12 +5604,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 202,
-                    "level15": 293,
                     "level16": 323
                 },
                 "hitpoints": {
                     "level11": 824,
-                    "level15": 1197,
                     "level16": 1316
                 }
             },
@@ -6117,7 +5649,6 @@
                     "character": "SpearGoblin",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -6126,17 +5657,14 @@
             },
             "towerDamage": {
                 "level11": 67,
-                "level15": 98,
                 "level16": 107
             },
             "damage": {
                 "level11": 67,
-                "level15": 98,
                 "level16": 107
             },
             "hitpoints": {
                 "level11": 1180,
-                "level15": 1714,
                 "level16": 1885
             },
             "evoStats": {
@@ -6144,12 +5672,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6188,17 +5714,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 266,
-                "level15": 386,
                 "level16": 425
             },
             "damage": {
                 "level11": 266,
-                "level15": 386,
                 "level16": 425
             },
             "hitpoints": {
                 "level11": 1369,
-                "level15": 1990,
                 "level16": 2188
             },
             "evoStats": {
@@ -6206,12 +5729,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 266,
-                    "level15": 386,
                     "level16": 425
                 },
                 "hitpoints": {
                     "level11": 1369,
-                    "level15": 1990,
                     "level16": 2188
                 }
             },
@@ -6251,17 +5772,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 43,
-                "level15": 63,
                 "level16": 69
             },
             "damage": {
                 "level11": 43,
-                "level15": 63,
                 "level16": 69
             },
             "hitpoints": {
                 "level11": 1748,
-                "level15": 2540,
                 "level16": 2793
             },
             "evoStats": {
@@ -6269,12 +5787,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6315,7 +5831,6 @@
                     "character": "BombTowerBomb",
                     "damage": {
                         "level11": 222,
-                        "level15": 323,
                         "level16": 355
                     },
                     "radius": 0.45,
@@ -6324,17 +5839,14 @@
             },
             "towerDamage": {
                 "level11": 222,
-                "level15": 323,
                 "level16": 355
             },
             "damage": {
                 "level11": 222,
-                "level15": 323,
                 "level16": 355
             },
             "hitpoints": {
                 "level11": 1356,
-                "level15": 1971,
                 "level16": 2167
             },
             "evoStats": {
@@ -6342,12 +5854,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6388,7 +5898,6 @@
                     "character": "Barbarian",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -6402,17 +5911,14 @@
             },
             "towerDamage": {
                 "level11": 159,
-                "level15": 231,
                 "level16": 254
             },
             "damage": {
                 "level11": 159,
-                "level15": 231,
                 "level16": 254
             },
             "hitpoints": {
                 "level11": 1164,
-                "level15": 1692,
                 "level16": 1860
             },
             "evoStats": {
@@ -6420,12 +5926,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6465,17 +5969,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 220,
-                "level15": 319,
                 "level16": 351
             },
             "damage": {
                 "level11": 220,
-                "level15": 319,
                 "level16": 351
             },
             "hitpoints": {
                 "level11": 1152,
-                "level15": 1674,
                 "level16": 1840
             },
             "evoStats": {
@@ -6490,12 +5991,10 @@
                 },
                 "damage": {
                     "level11": 220,
-                    "level15": 319,
                     "level16": 351
                 },
                 "hitpoints": {
                     "level11": 1152,
-                    "level15": 1674,
                     "level16": 1840
                 }
             },
@@ -6532,17 +6031,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "damage": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "hitpoints": {
                 "level11": 1070,
-                "level15": 1554,
                 "level16": 1709
             },
             "evoStats": {
@@ -6550,12 +6046,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6594,17 +6088,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 43,
-                "level15": 63,
                 "level16": 69
             },
             "damage": {
                 "level11": 43,
-                "level15": 63,
                 "level16": 69
             },
             "hitpoints": {
                 "level11": 1600,
-                "level15": 2325,
                 "level16": 2556
             },
             "evoStats": {
@@ -6612,12 +6103,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6658,7 +6147,6 @@
                     "character": "Skeleton",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -6672,17 +6160,14 @@
             },
             "towerDamage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 129
             },
             "damage": {
                 "level11": 81,
-                "level15": 119,
                 "level16": 129
             },
             "hitpoints": {
                 "level11": 529,
-                "level15": 770,
                 "level16": 846
             },
             "evoStats": {
@@ -6690,12 +6175,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -6735,17 +6218,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 179,
-                "level15": 260,
                 "level16": 286
             },
             "damage": {
                 "level11": 179,
-                "level15": 260,
                 "level16": 286
             },
             "hitpoints": {
                 "level11": 727,
-                "level15": 1056,
                 "level16": 1161
             },
             "evoStats": {
@@ -6753,12 +6233,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 179,
-                    "level15": 260,
                     "level16": 286
                 },
                 "hitpoints": {
                     "level11": 727,
-                    "level15": 1056,
                     "level16": 1161
                 }
             },
@@ -6799,7 +6277,6 @@
                     "character": "GoblinBrawler",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -6808,17 +6285,14 @@
             },
             "towerDamage": {
                 "level11": 306,
-                "level15": 491,
                 "level16": 489
             },
             "damage": {
                 "level11": 306,
-                "level15": 491,
                 "level16": 489
             },
             "hitpoints": {
                 "level11": 780,
-                "level15": 1134,
                 "level16": 1247
             },
             "evoStats": {
@@ -6828,7 +6302,6 @@
                         "character": "GoblinBrawler",
                         "damage": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         },
                         "radius": 0.5,
@@ -6837,12 +6310,10 @@
                 },
                 "damage": {
                     "level11": 306,
-                    "level15": 491,
                     "level16": 489
                 },
                 "hitpoints": {
                     "level11": 780,
-                    "level15": 1134,
                     "level16": 1247
                 }
             },
@@ -6884,7 +6355,6 @@
                     "character": "Goblin",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 0.5,
@@ -6901,17 +6371,14 @@
             },
             "towerDamage": {
                 "level11": 26,
-                "level15": 37,
                 "level16": 41
             },
             "damage": {
                 "level11": 84,
-                "level15": 122,
                 "level16": 134
             },
             "hitpoints": {
                 "level11": 1313,
-                "level15": 1908,
                 "level16": 2098
             },
             "evoStats": {
@@ -6921,7 +6388,6 @@
                         "character": "Goblin",
                         "damage": {
                             "level11": null,
-                            "level15": null,
                             "level16": null
                         },
                         "radius": 0.5,
@@ -6938,12 +6404,10 @@
                 },
                 "damage": {
                     "level11": 227,
-                    "level15": 351,
                     "level16": 363
                 },
                 "hitpoints": {
                     "level11": 1313,
-                    "level15": 1908,
                     "level16": 2098
                 }
             },
@@ -6988,17 +6452,14 @@
             },
             "towerDamage": {
                 "level11": 207,
-                "level15": 300,
                 "level16": 330
             },
             "damage": {
                 "level11": 689,
-                "level15": 1001,
                 "level16": 1100
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7006,12 +6467,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7051,17 +6510,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 92,
-                "level15": 134,
                 "level16": 147
             },
             "damage": {
                 "level11": 369,
-                "level15": 536,
                 "level16": 589
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7069,12 +6525,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7116,7 +6570,6 @@
                     "areaEffect": "Rage",
                     "damage": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "radius": 3.0
@@ -7130,17 +6583,14 @@
             },
             "towerDamage": {
                 "level11": 54,
-                "level15": 78,
                 "level16": 86
             },
             "damage": {
                 "level11": 179,
-                "level15": 260,
                 "level16": 286
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7148,12 +6598,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7198,17 +6646,14 @@
             },
             "towerDamage": {
                 "level11": 371,
-                "level15": 539,
                 "level16": 593
             },
             "damage": {
                 "level11": 1485,
-                "level15": 2158,
                 "level16": 2372
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7216,12 +6661,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7261,17 +6704,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 120,
-                "level15": 175,
                 "level16": 192
             },
             "damage": {
                 "level11": 120,
-                "level15": 175,
                 "level16": 192
             },
             "hitpoints": {
                 "level11": 202,
-                "level15": 294,
                 "level16": 323
             },
             "evoStats": {
@@ -7279,12 +6719,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 120,
-                    "level15": 175,
                     "level16": 192
                 },
                 "hitpoints": {
                     "level11": 202,
-                    "level15": 294,
                     "level16": 323
                 }
             },
@@ -7331,17 +6769,14 @@
             },
             "towerDamage": {
                 "level11": 45,
-                "level15": 65,
                 "level16": 71
             },
             "damage": {
                 "level11": 148,
-                "level15": 216,
                 "level16": 237
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7349,12 +6784,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7391,17 +6824,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 0,
-                "level15": 0,
                 "level16": 0
             },
             "damage": {
                 "level11": 0,
-                "level15": 0,
                 "level16": 0
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7409,12 +6839,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7461,17 +6889,14 @@
             },
             "towerDamage": {
                 "level11": 285,
-                "level15": 415,
                 "level16": 456
             },
             "damage": {
                 "level11": 1057,
-                "level15": 1536,
                 "level16": 1689
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7479,12 +6904,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7531,17 +6954,14 @@
             },
             "towerDamage": {
                 "level11": 58,
-                "level15": 84,
                 "level16": 92
             },
             "damage": {
                 "level11": 192,
-                "level15": 279,
                 "level16": 307
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7549,12 +6969,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 192,
-                    "level15": 279,
                     "level16": 307
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7601,17 +7019,14 @@
             },
             "towerDamage": {
                 "level11": 23,
-                "level15": 33,
                 "level16": 37
             },
             "damage": {
                 "level11": 92,
-                "level15": 134,
                 "level16": 147
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7619,12 +7034,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7664,17 +7077,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 82,
-                "level15": 119,
                 "level16": 131
             },
             "damage": {
                 "level11": 82,
-                "level15": 119,
                 "level16": 131
             },
             "hitpoints": {
                 "level11": 82,
-                "level15": 119,
                 "level16": 131
             },
             "evoStats": {
@@ -7682,12 +7092,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7735,17 +7143,14 @@
             },
             "towerDamage": {
                 "level11": 40,
-                "level15": 59,
                 "level16": 64
             },
             "damage": {
                 "level11": 269,
-                "level15": 391,
                 "level16": 429
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7753,12 +7158,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7798,17 +7201,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 46,
-                "level15": 67,
                 "level16": 74
             },
             "damage": {
                 "level11": 154,
-                "level15": 223,
                 "level16": 245
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7816,12 +7216,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7867,17 +7265,14 @@
             },
             "towerDamage": {
                 "level11": 0,
-                "level15": 0,
                 "level16": 0
             },
             "damage": {
                 "level11": 0,
-                "level15": 0,
                 "level16": 0
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7885,12 +7280,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -7936,17 +7329,14 @@
             },
             "towerDamage": {
                 "level11": 53,
-                "level15": 77,
                 "level16": 85
             },
             "damage": {
                 "level11": 82,
-                "level15": 119,
                 "level16": 131
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -7954,12 +7344,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8003,17 +7391,14 @@
             },
             "towerDamage": {
                 "level11": 233,
-                "level15": 339,
                 "level16": 372
             },
             "damage": {
                 "level11": 233,
-                "level15": 339,
                 "level16": 372
             },
             "hitpoints": {
                 "level11": 670,
-                "level15": 947,
                 "level16": 1070
             },
             "evoStats": {
@@ -8021,12 +7406,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8073,35 +7456,29 @@
                 "heal": {
                     "perAttack": {
                         "level11": 401,
-                        "level15": 584,
                         "level16": 642
                     },
                     "frequency": 0.25,
                     "overHeal": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     },
                     "onSpawn": {
                         "level11": null,
-                        "level15": null,
                         "level16": null
                     }
                 }
             },
             "towerDamage": {
                 "level11": 110,
-                "level15": 159,
                 "level16": 175
             },
             "damage": {
                 "level11": 110,
-                "level15": 159,
                 "level16": 175
             },
             "hitpoints": {
                 "level11": 230,
-                "level15": 334,
                 "level16": 368
             },
             "evoStats": {
@@ -8109,12 +7486,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8165,17 +7540,14 @@
             },
             "towerDamage": {
                 "level11": 54,
-                "level15": 78,
                 "level16": 86
             },
             "damage": {
                 "level11": 179,
-                "level15": 260,
                 "level16": 286
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -8183,12 +7555,10 @@
                 "skills": {},
                 "damage": {
                     "level11": 179,
-                    "level15": 260,
                     "level16": 286
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8229,7 +7599,6 @@
                 "shield": {
                     "hitpoints": {
                         "level11": 240,
-                        "level15": 349,
                         "level16": 384
                     },
                     "damageReductionPercent": null
@@ -8237,17 +7606,14 @@
             },
             "towerDamage": {
                 "level11": 438,
-                "level15": 636,
                 "level16": 699
             },
             "damage": {
                 "level11": 438,
-                "level15": 636,
                 "level16": 699
             },
             "hitpoints": {
                 "level11": 548,
-                "level15": 796,
                 "level16": 875
             },
             "evoStats": {
@@ -8255,12 +7621,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8300,17 +7664,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 144,
-                "level15": 210,
                 "level16": 230
             },
             "damage": {
                 "level11": 256,
-                "level15": 372,
                 "level16": 409
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -8318,12 +7679,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8363,17 +7722,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 42,
-                "level15": 66,
                 "level16": 67
             },
             "damage": {
                 "level11": 256,
-                "level15": 372,
                 "level16": 409
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -8381,12 +7737,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8426,17 +7780,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 307,
-                "level15": 446,
                 "level16": 490
             },
             "damage": {
                 "level11": 307,
-                "level15": 446,
                 "level16": 490
             },
             "hitpoints": {
                 "level11": 1255,
-                "level15": 1826,
                 "level16": 2005
             },
             "evoStats": {
@@ -8444,12 +7795,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8489,17 +7838,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 75,
-                "level15": 110,
                 "level16": 120
             },
             "damage": {
                 "level11": 405,
-                "level15": 595,
                 "level16": 647
             },
             "hitpoints": {
                 "level11": null,
-                "level15": null,
                 "level16": null
             },
             "evoStats": {
@@ -8507,12 +7853,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8554,17 +7898,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 109,
-                "level15": 158,
                 "level16": 173
             },
             "damage": {
                 "level11": 109,
-                "level15": 158,
                 "level16": 173
             },
             "hitpoints": {
                 "level11": 3052,
-                "level15": 4424,
                 "level16": 4844
             },
             "evoStats": {
@@ -8572,12 +7913,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8617,17 +7956,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 273,
-                "level15": 395,
                 "level16": 433
             },
             "damage": {
                 "level11": 273,
-                "level15": 395,
                 "level16": 433
             },
             "hitpoints": {
                 "level11": 2616,
-                "level15": 3792,
                 "level16": 4152
             },
             "evoStats": {
@@ -8635,12 +7971,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8680,17 +8014,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 92,
-                "level15": 133,
                 "level16": 145
             },
             "damage": {
                 "level11": 92,
-                "level15": 133,
                 "level16": 145
             },
             "hitpoints": {
                 "level11": 2769,
-                "level15": 4013,
                 "level16": 4394
             },
             "evoStats": {
@@ -8698,12 +8029,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },
@@ -8743,17 +8072,14 @@
             "skills": {},
             "towerDamage": {
                 "level11": 109,
-                "level15": 158,
                 "level16": 173
             },
             "damage": {
                 "level11": 109,
-                "level15": 158,
                 "level16": 173
             },
             "hitpoints": {
                 "level11": 2703,
-                "level15": 3918,
                 "level16": 4290
             },
             "evoStats": {
@@ -8761,12 +8087,10 @@
                 "skills": {},
                 "damage": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 },
                 "hitpoints": {
                     "level11": null,
-                    "level15": null,
                     "level16": null
                 }
             },

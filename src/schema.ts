@@ -5,10 +5,9 @@ const levelBasedStats = {
     type: 'object',
     properties: {
         level11: { type: 'number', nullable: true },
-        level15: { type: 'number', nullable: true },
         level16: { type: 'number', nullable: true },
     },
-    required: ['level11', 'level15', 'level16'],
+    required: ['level11', 'level16'],
     additionalProperties: false,
 } as const;
 
@@ -16,10 +15,9 @@ const levelBasedNullStats = {
     type: 'object',
     properties: {
         level11: { type: 'null' },
-        level15: { type: 'null' },
         level16: { type: 'null' },
     },
-    required: ['level11', 'level15', 'level16'],
+    required: ['level11', 'level16'],
     additionalProperties: false,
 } as const;
 

@@ -5,11 +5,10 @@ export type CardType = 'troop' | 'building' | 'spell' | 'tower';
 
 export interface Levels {
     level11: number | null;
-    level15: number | null;
     level16: number | null;
 }
 
-export const EMPTY_LEVELS: Levels = { level11: null, level15: null, level16: null };
+export const EMPTY_LEVELS: Levels = { level11: null, level16: null };
 
 export interface HealSkill { perAttack: Levels; frequency: number | null; overHeal: Levels; onSpawn: Levels; }
 export interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
