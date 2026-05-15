@@ -90,7 +90,7 @@ export interface Card {
     speed: SpeedValue | null;
     range: number | null;
     sightRange: number | null;
-    territory: 'wide' | 'restricted' | null;
+    placement: 'anywhere' | 'own-side' | null;
     unlockArena: string | null;
     tribe: string | null;
     rarity: Rarity | '' | null;

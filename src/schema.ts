@@ -253,10 +253,10 @@ const cardObjectSchema = {
         },
         range: { type: 'number', nullable: true },
         sightRange: { type: 'number', nullable: true },
-        territory: {
+        placement: {
             type: 'string',
             nullable: true,
-            enum: ['wide', 'restricted', null],
+            enum: ['anywhere', 'own-side', null],
         },
         rarity: {
             type: 'string',
@@ -277,7 +277,7 @@ const cardObjectSchema = {
         'evolution', 'hero', 'hitType', 'projectile', 'kamikaze', 'flying', 'skills',
         'towerDamage', 'damage', 'hitpoints', 'evoStats', 'heroStats',
         'hitspeed', 'loadTime', 'radius', 'collisionRadius', 'speed',
-        'range', 'sightRange', 'territory', 'rarity', 'type', 'unlockArena', 'tribe', 'deployTime'
+        'range', 'sightRange', 'placement', 'rarity', 'type', 'unlockArena', 'tribe', 'deployTime'
     ],
 } as const;
 
