@@ -3,7 +3,6 @@ export type TargetTid = 'TID_TARGETS_GROUND' | 'TID_TARGETS_AIR_AND_GROUND' | 'T
 
 export interface LevelMultiplier {
     level11: number;
-    level15: number;
     level16: number;
 }
 

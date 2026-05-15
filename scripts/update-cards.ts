@@ -26,8 +26,8 @@ const API_URL = 'https://cache.statsroyale.com/gamedata-v5.json';
 const CARDS_FILE = path.join(__dirname, '..', 'data', 'cards.json');
 
 const LEVEL_MULTIPLIERS: Record<'standard' | 'tower', LevelMultiplier> = {
-    standard: { level11: 2.56, level15: 3.72, level16: 4.09 },
-    tower: { level11: 2.18, level15: 3.16, level16: 3.46 }
+    standard: { level11: 2.56, level16: 4.09 },
+    tower: { level11: 2.18, level16: 3.46 }
 };
 
 const SPEED_MAP: Record<SpeedTid, SpeedValue> = {
@@ -109,12 +109,11 @@ function fetchJSON<T>(url: string): Promise<T> {
 
 const scaleLevels = (base: number | null | undefined, mult: LevelMultiplier): Levels =>
     base
-        ? { level11: Math.floor(base * mult.level11), level15: Math.floor(base * mult.level15), level16: Math.floor(base * mult.level16) }
+        ? { level11: Math.floor(base * mult.level11), level16: Math.floor(base * mult.level16) }
         : { ...EMPTY_LEVELS };
 
 const mergeLevels = (computed: Levels, existing: Levels | null | undefined): Levels => ({
     level11: computed.level11 ?? existing?.level11 ?? null,
-    level15: computed.level15 ?? existing?.level15 ?? null,
     level16: computed.level16 ?? existing?.level16 ?? null
 });
 
@@ -430,7 +429,7 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     card.damage = mergeLevels(scaleLevels(baseDamage, mult), card.damage);
     const computedTowerDmg = baseTowerDmg !== null ? scaleLevels(baseTowerDmg, mult) : { ...EMPTY_LEVELS };
     card.towerDamage = mergeLevels(computedTowerDmg, card.towerDamage);
-    if (baseTowerDmg === null && (card.towerDamage.level11 == null && card.towerDamage.level15 == null && card.towerDamage.level16 == null)) {
+    if (baseTowerDmg === null && (card.towerDamage.level11 == null && card.towerDamage.level16 == null)) {
         card.towerDamage = { ...card.damage };
     }
 
