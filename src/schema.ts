@@ -11,16 +11,6 @@ const levelBasedStats = {
     additionalProperties: false,
 } as const;
 
-const levelBasedNullStats = {
-    type: 'object',
-    properties: {
-        level11: { type: 'null' },
-        level16: { type: 'null' },
-    },
-    required: ['level11', 'level16'],
-    additionalProperties: false,
-} as const;
-
 const skillsSchema = {
     type: 'object',
     additionalProperties: false,
@@ -279,6 +269,54 @@ const cardObjectSchema = {
     ],
 } as const;
 
+const towerCardObjectSchema = {
+    type: 'object',
+    additionalProperties: false,
+    properties: {
+        name: { type: 'string', nullable: true },
+        id: { type: 'number', nullable: true },
+        targets: {
+            type: 'array',
+            items: {
+                type: 'string',
+                enum: ['ground', 'air', 'buildings'],
+            },
+        },
+        units: { type: 'number' },
+        hitType: { type: 'string', nullable: true },
+        projectile: { type: 'boolean' },
+        skills: skillsSchema,
+        damage: levelBasedStats,
+        hitpoints: levelBasedStats,
+        hitspeed: { type: 'number', nullable: true },
+        collisionRadius: { type: 'number', nullable: true },
+        speed: {
+            type: 'string',
+            nullable: true,
+            enum: ['slow', 'medium', 'fast', 'very-fast', null],
+        },
+        range: { type: 'number', nullable: true },
+        sightRange: { type: 'number', nullable: true },
+        rarity: {
+            type: 'string',
+            nullable: true,
+            enum: ['common', 'rare', 'epic', 'legendary', 'champion', '', null],
+        },
+        type: {
+            type: 'string',
+            nullable: true,
+            enum: ['troop', 'building', 'spell', 'tower', null],
+        },
+        unlockArena: { type: 'string', nullable: true },
+        tribe: { type: 'string', nullable: true },
+    },
+    required: [
+        'name', 'id', 'targets', 'units', 'hitType', 'projectile', 'skills',
+        'damage', 'hitpoints', 'hitspeed', 'collisionRadius', 'speed',
+        'range', 'sightRange', 'rarity', 'type', 'unlockArena', 'tribe'
+    ],
+} as const;
+
 export const cardSchema: JSONSchemaType<CardsJson> = {
     type: 'object',
     properties: {
@@ -288,7 +326,7 @@ export const cardSchema: JSONSchemaType<CardsJson> = {
         },
         towerCards: {
             type: 'array',
-            items: cardObjectSchema as any,
+            items: towerCardObjectSchema as any,
         },
     },
     required: ['cards', 'towerCards'],

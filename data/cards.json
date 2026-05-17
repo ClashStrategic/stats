@@ -7881,25 +7881,14 @@
         {
             "name": "Tower Princess",
             "id": 159000000,
-            "elixirCost": 0,
             "targets": [
                 "air",
                 "ground"
             ],
             "units": 1,
-            "duration": null,
-            "deployTime": null,
-            "evolution": false,
-            "hero": false,
             "hitType": "unique",
             "projectile": true,
-            "kamikaze": false,
-            "flying": false,
             "skills": {},
-            "towerDamage": {
-                "level11": 109,
-                "level16": 173
-            },
             "damage": {
                 "level11": 109,
                 "level16": 173
@@ -7908,29 +7897,11 @@
                 "level11": 3052,
                 "level16": 4844
             },
-            "evoStats": {
-                "cycles": null,
-                "skills": {},
-                "damage": {
-                    "level11": null,
-                    "level16": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level16": null
-                }
-            },
-            "heroStats": {
-                "skills": {}
-            },
             "hitspeed": 0.8,
-            "loadTime": null,
-            "radius": null,
             "collisionRadius": null,
             "speed": "medium",
             "range": 7.5,
             "sightRange": null,
-            "placement": "own-side",
             "unlockArena": "TrainingCamp",
             "tribe": null,
             "rarity": "common",
@@ -7939,25 +7910,14 @@
         {
             "name": "Cannoneer",
             "id": 159000001,
-            "elixirCost": 0,
             "targets": [
                 "air",
                 "ground"
             ],
             "units": 1,
-            "duration": null,
-            "deployTime": null,
-            "evolution": false,
-            "hero": false,
             "hitType": "unique",
             "projectile": true,
-            "kamikaze": false,
-            "flying": false,
             "skills": {},
-            "towerDamage": {
-                "level11": 273,
-                "level16": 433
-            },
             "damage": {
                 "level11": 273,
                 "level16": 433
@@ -7966,29 +7926,11 @@
                 "level11": 2616,
                 "level16": 4152
             },
-            "evoStats": {
-                "cycles": null,
-                "skills": {},
-                "damage": {
-                    "level11": null,
-                    "level16": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level16": null
-                }
-            },
-            "heroStats": {
-                "skills": {}
-            },
             "hitspeed": 2.2,
-            "loadTime": null,
-            "radius": null,
             "collisionRadius": null,
             "speed": "medium",
             "range": 7.5,
             "sightRange": null,
-            "placement": "own-side",
             "unlockArena": "Arena8",
             "tribe": null,
             "rarity": "epic",
@@ -7997,25 +7939,14 @@
         {
             "name": "Dagger Duchess",
             "id": 159000002,
-            "elixirCost": 0,
             "targets": [
                 "air",
                 "ground"
             ],
             "units": 1,
-            "duration": null,
-            "deployTime": null,
-            "evolution": false,
-            "hero": false,
             "hitType": "unique",
             "projectile": true,
-            "kamikaze": false,
-            "flying": false,
             "skills": {},
-            "towerDamage": {
-                "level11": 92,
-                "level16": 145
-            },
             "damage": {
                 "level11": 92,
                 "level16": 145
@@ -8024,29 +7955,11 @@
                 "level11": 2769,
                 "level16": 4394
             },
-            "evoStats": {
-                "cycles": null,
-                "skills": {},
-                "damage": {
-                    "level11": null,
-                    "level16": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level16": null
-                }
-            },
-            "heroStats": {
-                "skills": {}
-            },
             "hitspeed": 0.5,
-            "loadTime": null,
-            "radius": null,
             "collisionRadius": null,
             "speed": "medium",
             "range": 7.5,
             "sightRange": null,
-            "placement": "own-side",
             "unlockArena": "Arena_Electric",
             "tribe": null,
             "rarity": "legendary",
@@ -8055,25 +7968,14 @@
         {
             "name": "Royal Chef",
             "id": 159000004,
-            "elixirCost": 0,
             "targets": [
                 "air",
                 "ground"
             ],
             "units": 1,
-            "duration": null,
-            "deployTime": null,
-            "evolution": false,
-            "hero": false,
             "hitType": "unique",
             "projectile": true,
-            "kamikaze": false,
-            "flying": false,
             "skills": {},
-            "towerDamage": {
-                "level11": 109,
-                "level16": 173
-            },
             "damage": {
                 "level11": 109,
                 "level16": 173
@@ -8082,29 +7984,11 @@
                 "level11": 2703,
                 "level16": 4290
             },
-            "evoStats": {
-                "cycles": null,
-                "skills": {},
-                "damage": {
-                    "level11": null,
-                    "level16": null
-                },
-                "hitpoints": {
-                    "level11": null,
-                    "level16": null
-                }
-            },
-            "heroStats": {
-                "skills": {}
-            },
             "hitspeed": 1.0,
-            "loadTime": null,
-            "radius": null,
             "collisionRadius": null,
             "speed": "medium",
             "range": 7.5,
             "sightRange": null,
-            "placement": "own-side",
             "unlockArena": "Arena13",
             "tribe": null,
             "rarity": "legendary",

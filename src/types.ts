@@ -96,7 +96,12 @@ export interface Card {
     type: CardType | null;
 }
 
+export type TowerCard = Omit<Card,
+    'elixirCost' | 'deployTime' | 'duration' | 'kamikaze' | 'evolution' | 'hero' |
+    'flying' | 'towerDamage' | 'evoStats' | 'heroStats' | 'loadTime' | 'radius' | 'placement'
+>;
+
 export interface CardsJson {
     cards: Card[];
-    towerCards: Card[];
+    towerCards: TowerCard[];
 }
