@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 import {
     TargetValue, SpeedValue, Rarity, CardType,
     Levels, EMPTY_LEVELS, SkillsMap, SkillTemplates,
-    SkillType, EvoStats, HeroStats, Card, CardsJson,
+    SkillType, EvoStats, HeroStats, Card, TowerCard, CardsJson,
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
@@ -56,6 +56,14 @@ const CARD_SKELETON: Card = {
     heroStats: { skills: {} },
     hitspeed: null, loadTime: null, radius: null, collisionRadius: null,
     speed: null, range: null, sightRange: null, placement: null, unlockArena: null, tribe: null, rarity: null, type: null
+};
+
+const TOWER_CARD_SKELETON: TowerCard = {
+    name: null, id: null, targets: [], units: 0, hitType: null,
+    projectile: false, skills: {},
+    damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS },
+    hitspeed: null, collisionRadius: null,
+    speed: null, range: null, sightRange: null, unlockArena: null, tribe: null, rarity: null, type: null
 };
 
 const SKILL_TEMPLATES: SkillTemplates = {
@@ -496,8 +504,15 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
     card.evoStats.skills = { ...card.evoStats.skills, ...filteredSkills };
 }
 
-function applyDefaults(card: Card): void {
-    const skeleton = cloneDeep(CARD_SKELETON);
+function applyDefaults(card: any, isTower: boolean = false): void {
+    if (isTower) {
+        const keysToRemove = [
+            'elixirCost', 'deployTime', 'duration', 'kamikaze', 'evolution', 'hero',
+            'flying', 'towerDamage', 'evoStats', 'heroStats', 'loadTime', 'radius', 'placement'
+        ];
+        keysToRemove.forEach(key => delete card[key]);
+    }
+    const skeleton = cloneDeep(isTower ? TOWER_CARD_SKELETON : CARD_SKELETON);
     const source = cloneDeep(card);
 
     const merge = (target: any, src: any) => {
@@ -532,7 +547,7 @@ async function updateCards(): Promise<void> {
     if (!spells) throw new Error('Invalid API data structure');
 
     const cardsJson: CardsJson = JSON.parse(fs.readFileSync(CARDS_FILE, 'utf8'));
-    const cardsById = new Map<number, Card>();
+    const cardsById = new Map<number, any>();
     cardsJson.cards.forEach(c => { if (c.id != null) cardsById.set(c.id, c); });
     cardsJson.towerCards.forEach(c => { if (c.id != null) cardsById.set(c.id, c); });
 
@@ -546,7 +561,7 @@ async function updateCards(): Promise<void> {
 
         let card = cardsById.get(spell.id);
         if (!card) {
-            card = cloneDeep(CARD_SKELETON);
+            card = isTower ? (cloneDeep(TOWER_CARD_SKELETON) as any) : cloneDeep(CARD_SKELETON);
             card.id = spell.id;
             card.name = spell.englishName || spell.name;
             card.type = isTower ? 'tower' : 'troop';
@@ -559,7 +574,8 @@ async function updateCards(): Promise<void> {
         populateCard(card, spell, mult);
     }
 
-    [...cardsJson.cards, ...cardsJson.towerCards].forEach(applyDefaults);
+    cardsJson.cards.forEach(c => applyDefaults(c, false));
+    cardsJson.towerCards.forEach(c => applyDefaults(c, true));
 
     fs.writeFileSync(CARDS_FILE, JSON.stringify(cardsJson, null, 4), 'utf8');
     console.log(`Done: ${updated} updated, ${added} added`);
