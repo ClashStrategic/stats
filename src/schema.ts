@@ -140,8 +140,9 @@ const skillsSchema = {
                 name: { type: 'string', nullable: true },
                 elixirCost: { type: 'number', nullable: true },
                 cooldown: { type: 'number', nullable: true },
+                skills: { $ref: '#/$defs/skills' },
             },
-            required: ['name', 'elixirCost', 'cooldown'],
+            required: ['name', 'elixirCost', 'cooldown', 'skills'],
             additionalProperties: false,
         },
         pierce: {
@@ -207,7 +208,7 @@ const cardObjectSchema = {
         projectile: { type: 'boolean' },
         kamikaze: { type: 'boolean' },
         flying: { type: 'boolean' },
-        skills: skillsSchema,
+        skills: { $ref: '#/$defs/skills' },
         towerDamage: levelBasedStats,
         damage: levelBasedStats,
         hitpoints: levelBasedStats,
@@ -215,7 +216,7 @@ const cardObjectSchema = {
             type: 'object',
             properties: {
                 cycles: { type: 'number', nullable: true },
-                skills: skillsSchema,
+                skills: { $ref: '#/$defs/skills' },
                 damage: levelBasedStats,
                 hitpoints: levelBasedStats,
             },
@@ -225,7 +226,7 @@ const cardObjectSchema = {
         heroStats: {
             type: 'object',
             properties: {
-                skills: skillsSchema,
+                skills: { $ref: '#/$defs/skills' },
             },
             required: ['skills'],
             additionalProperties: false,
@@ -285,7 +286,7 @@ const towerCardObjectSchema = {
         units: { type: 'number' },
         hitType: { type: 'string', nullable: true },
         projectile: { type: 'boolean' },
-        skills: skillsSchema,
+        skills: { $ref: '#/$defs/skills' },
         damage: levelBasedStats,
         hitpoints: levelBasedStats,
         hitspeed: { type: 'number', nullable: true },
@@ -319,6 +320,9 @@ const towerCardObjectSchema = {
 
 export const cardSchema: JSONSchemaType<CardsJson> = {
     type: 'object',
+    $defs: {
+        skills: skillsSchema as any,
+    },
     properties: {
         cards: {
             type: 'array',

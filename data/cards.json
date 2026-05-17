@@ -54,7 +54,8 @@
                     "ability": {
                         "name": "Knight_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -175,7 +176,8 @@
                     "ability": {
                         "name": "Goblins_hero",
                         "elixirCost": 1,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -238,7 +240,8 @@
                     "ability": {
                         "name": "Giant_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -426,7 +429,8 @@
                     "ability": {
                         "name": "Balloon_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -925,7 +929,8 @@
                     "ability": {
                         "name": "Musketeer_hero",
                         "elixirCost": 3,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -1125,7 +1130,8 @@
                     "ability": {
                         "name": "Wizard_hero",
                         "elixirCost": 1,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -1188,7 +1194,8 @@
                     "ability": {
                         "name": "MiniPekka_hero",
                         "elixirCost": 1,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -1761,7 +1768,8 @@
                     "ability": {
                         "name": "DarkPrince_hero",
                         "elixirCost": 3,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -2206,7 +2214,8 @@
                     "ability": {
                         "name": "Bowler_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -2521,7 +2530,8 @@
                     "ability": {
                         "name": "IceGolemite_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -2585,7 +2595,8 @@
                     "ability": {
                         "name": "MegaMinion_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -4098,7 +4109,8 @@
                     "ability": {
                         "name": "EliteArcher_hero",
                         "elixirCost": 2,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
@@ -4277,7 +4289,8 @@
                 "ability": {
                     "name": "MightyMinerLaneSwitch",
                     "elixirCost": 1,
-                    "cooldown": 13
+                    "cooldown": 13,
+                    "skills": {}
                 }
             },
             "towerDamage": {
@@ -4480,7 +4493,8 @@
                 "ability": {
                     "name": "SkeletonKing",
                     "elixirCost": 2,
-                    "cooldown": 20
+                    "cooldown": 20,
+                    "skills": {}
                 }
             },
             "towerDamage": {
@@ -4544,7 +4558,8 @@
                 "ability": {
                     "name": "ArcherQueenRapid",
                     "elixirCost": 1,
-                    "cooldown": 17
+                    "cooldown": 17,
+                    "skills": {}
                 },
                 "slow": {
                     "hitSpeedMultiplier": null,
@@ -4621,7 +4636,8 @@
                 "ability": {
                     "name": "GoldenKnightChain",
                     "elixirCost": 1,
-                    "cooldown": 12
+                    "cooldown": 12,
+                    "skills": {}
                 }
             },
             "towerDamage": {
@@ -4684,7 +4700,8 @@
                 "ability": {
                     "name": "Deflect",
                     "elixirCost": 1,
-                    "cooldown": 17
+                    "cooldown": 17,
+                    "skills": {}
                 },
                 "shield": {
                     "hitpoints": {
@@ -5073,7 +5090,8 @@
                 "ability": {
                     "name": "ChampGuardianAbility",
                     "elixirCost": 3,
-                    "cooldown": 30
+                    "cooldown": 30,
+                    "skills": {}
                 },
                 "pushback": {
                     "distance": null,
@@ -5330,7 +5348,8 @@
                 "ability": {
                     "name": "Goblinstein_ability",
                     "elixirCost": 2,
-                    "cooldown": 17
+                    "cooldown": 17,
+                    "skills": {}
                 },
                 "stun": {
                     "hitSpeedMultiplier": -100,
@@ -5399,7 +5418,8 @@
                 "ability": {
                     "name": "Giantbuffer_ability",
                     "elixirCost": 0,
-                    "cooldown": null
+                    "cooldown": null,
+                    "skills": {}
                 }
             },
             "towerDamage": {
@@ -5527,7 +5547,8 @@
                 "ability": {
                     "name": "BossBandit_ability",
                     "elixirCost": 1,
-                    "cooldown": 3
+                    "cooldown": 3,
+                    "skills": {}
                 }
             },
             "towerDamage": {
@@ -7418,7 +7439,8 @@
                     "ability": {
                         "name": "BarbLog_hero",
                         "elixirCost": 1,
-                        "cooldown": null
+                        "cooldown": null,
+                        "skills": {}
                     }
                 }
             },
