@@ -2,3 +2,6 @@
 .vscode/
 .clinerules/
 node_modules/
+
+# typescript cache
+*.tsbuildinfo

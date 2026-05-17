@@ -2,7 +2,6 @@
     "name": "@clash-strategic/stats",
     "version": "1.10.1",
     "type": "module",
-    "main": "src/index.js",
     "description": "Statistics and data for Clash Royale cards.",
     "author": "Clash Strategic",
     "license": "Apache-2.0",
@@ -12,18 +11,32 @@
         "cards",
         "data"
     ],
+    "sideEffects": false,
     "bugs": {
         "url": "https://github.com/ClashStrategic/stats/issues"
     },
     "homepage": "https://github.com/ClashStrategic/stats#readme",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./lib/index.js",
+            "types": "./lib/index.d.ts"
+        },
+        "./cards.json": "./data/cards.json"
+    },
     "files": [
-        "src/",
+        "lib/",
         "data/"
     ],
-    "types": "src/types.ts",
-    "exports": {
-        ".": "./src/index.ts",
-        "./cards.json": "./data/cards.json"
+    "scripts": {
+        "build": "npm run clean && tsc",
+        "clean": "node -e \"require('fs').rmSync('lib', { recursive: true, force: true })\"",
+        "test": "vitest run tests/cards.test.ts",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "typecheck": "tsc --noEmit",
+        "build:update-cards": "tsx scripts/update-cards.ts && tsx scripts/convert-to-floats.ts"
     },
     "devDependencies": {
         "@eslint/js": "^9.39.2",
@@ -34,15 +47,9 @@
         "ajv": "^8.17.1",
         "eslint": "^9.39.2",
         "globals": "^17.1.0",
+        "typescript": "^5.8.3",
         "semantic-release": "^24.2.4",
         "tsx": "^4.21.0",
         "vitest": "^4.1.6"
-    },
-    "scripts": {
-        "test": "vitest run tests/cards.test.ts",
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "typecheck": "tsc --noEmit",
-        "build:update-cards": "tsx scripts/update-cards.ts && tsx scripts/convert-to-floats.ts"
     }
 }
