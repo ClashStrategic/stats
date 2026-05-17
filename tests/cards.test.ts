@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 import cardsDataJson from '../data/cards.json' with { type: 'json' };
 import { cardSchema } from '../src/schema.js';
-import { CardsJson, Card, Levels } from '../src/types.js';
+import { CardsJson, Card, TowerCard, Levels } from '../src/types.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -14,7 +14,7 @@ const __dirname = dirname(__filename);
 const cardsData = cardsDataJson as unknown as CardsJson;
 
 describe('Card Data Validation', () => {
-  const allCards: Card[] = [...cardsData.cards, ...cardsData.towerCards];
+  const allCards: (Card | TowerCard)[] = [...cardsData.cards, ...cardsData.towerCards];
 
   const checkLevelBasedStats = (statObject: Levels) => {
     if (statObject.level11 !== null) expect(Number.isInteger(statObject.level11)).toBe(true);
@@ -89,7 +89,7 @@ describe('Card Data Validation', () => {
       expect(allMismatches).toHaveLength(0);
     });
 
-    it.each(allCards)('Card "$name" should use integers for integer-only fields', (card) => {
+    it.each(cardsData.cards)('Card "$name" should use integers for integer-only fields', (card) => {
       const integerFields: (keyof Card)[] = ['id', 'elixirCost', 'units'];
       integerFields.forEach((field) => {
         expect(Number.isInteger(card[field])).toBe(true);
@@ -107,13 +107,23 @@ describe('Card Data Validation', () => {
       checkLevelBasedStats(card.evoStats.damage);
       checkLevelBasedStats(card.evoStats.hitpoints);
     });
+
+    it.each(cardsData.towerCards)('Tower card "$name" should use integers for integer-only fields', (card) => {
+      const integerFields: (keyof TowerCard)[] = ['id', 'units'];
+      integerFields.forEach((field) => {
+        expect(Number.isInteger(card[field])).toBe(true);
+      });
+
+      checkLevelBasedStats(card.damage);
+      checkLevelBasedStats(card.hitpoints);
+    });
   });
 
   describe('Type-Specific Logic', () => {
-    const troops = allCards.filter((c) => c.type === 'troop');
-    const buildings = allCards.filter((c) => c.type === 'building');
-    const spellsWithUnits = allCards.filter((c) => c.type === 'spell' && c.units > 0);
-    const spellsWithoutUnits = allCards.filter((c) => c.type === 'spell' && c.units === 0);
+    const troops = cardsData.cards.filter((c) => c.type === 'troop');
+    const buildings = cardsData.cards.filter((c) => c.type === 'building');
+    const spellsWithUnits = cardsData.cards.filter((c) => c.type === 'spell' && c.units > 0);
+    const spellsWithoutUnits = cardsData.cards.filter((c) => c.type === 'spell' && c.units === 0);
 
     it.each(troops)('Troop card "$name" should follow troop-specific rules', (card) => {
       expect(card.units).not.toBeNull();
@@ -149,7 +159,7 @@ describe('Card Data Validation', () => {
   });
 
   describe('Evolution Logic', () => {
-    const evolvedCards = allCards.filter((c) => c.evolution);
+    const evolvedCards = cardsData.cards.filter((c) => c.evolution);
 
     it.each(evolvedCards)('Evolved card "$name" should have valid evolution stats', (card) => {
       const { evoStats, type, units } = card;
@@ -174,7 +184,7 @@ describe('Card Data Validation', () => {
   });
 
   describe('Hero Logic', () => {
-    const heroCards = allCards.filter((c) => c.hero);
+    const heroCards = cardsData.cards.filter((c) => c.hero);
 
     it.each(heroCards)('Hero card "$name" should have valid hero stats', (card) => {
       const { heroStats } = card;
@@ -204,8 +214,38 @@ describe('Card Data Validation', () => {
       multiply: ['units', 'interval', 'maxUnits'],
     };
 
-    it.each(allCards)('Card "$name" should have consistent skill structures', (card) => {
+    it.each(cardsData.cards)('Card "$name" should have consistent skill structures', (card) => {
       const skillsToValidate = [card.skills, card.evoStats.skills, card.heroStats.skills];
+
+      skillsToValidate.forEach((skillsObj) => {
+        Object.entries(skillsObj).forEach(([skillType, skillData]) => {
+          const expectedKeys = SKILL_KEYS[skillType];
+          expect(expectedKeys).toBeDefined();
+
+          const actualKeys = Object.keys(skillData as object).sort();
+          expect(actualKeys).toEqual([...expectedKeys].sort());
+
+          expectedKeys.forEach((key) => {
+            expect(skillData).toHaveProperty(key);
+
+            const isLevelBasedSkill =
+              (skillType === 'heal' && ['perAttack', 'overHeal', 'onSpawn'].includes(key)) ||
+              (skillType === 'shield' && key === 'hitpoints') ||
+              (skillType === 'dash' && key === 'damage') ||
+              (skillType === 'charge' && key === 'damage') ||
+              (skillType === 'spawn-on-death' && key === 'damage') ||
+              (skillType === 'area-damage-on-death' && key === 'damage');
+
+            if (isLevelBasedSkill) {
+              checkLevelBasedStats((skillData as any)[key]);
+            }
+          });
+        });
+      });
+    });
+
+    it.each(cardsData.towerCards)('Tower card "$name" should have consistent skill structures', (card) => {
+      const skillsToValidate = [card.skills];
 
       skillsToValidate.forEach((skillsObj) => {
         Object.entries(skillsObj).forEach(([skillType, skillData]) => {
