@@ -52,6 +52,42 @@ describe('Card Data Validation', () => {
       expect(cardsData.towerCards).toBeDefined();
       expect(Array.isArray(cardsData.towerCards)).toBe(true);
     });
+
+    it('should reject ability nested within ability.skills (avoid circular reference loop)', () => {
+      const validate = ajv.compile(cardSchema);
+      const invalidData = JSON.parse(JSON.stringify(cardsData));
+      
+      const invalidCard = JSON.parse(JSON.stringify(cardsData.cards[0]));
+      invalidCard.id = 999999;
+      invalidCard.name = 'Circular Ability Test Card';
+      invalidCard.skills = {
+        ability: {
+          name: 'Outer Ability',
+          elixirCost: 1.0,
+          cooldown: 5.0,
+          skills: {
+            ability: {
+              name: 'Inner Ability (Circular)',
+              elixirCost: 1.0,
+              cooldown: 5.0,
+              skills: {}
+            }
+          } as any
+        }
+      };
+
+      invalidData.cards.push(invalidCard);
+      
+      const valid = validate(invalidData);
+      expect(valid).toBe(false);
+      
+      const hasAdditionalPropertyError = validate.errors?.some(err => 
+        err.keyword === 'additionalProperties' && 
+        err.params.additionalProperty === 'ability'
+      );
+      
+      expect(hasAdditionalPropertyError).toBe(true);
+    });
   });
 
   describe('Data Uniqueness and Integrity', () => {
