@@ -79,7 +79,7 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'spawn-on-death': { character: null, damage: { ...EMPTY_LEVELS }, radius: null, deployTime: null },
     'periodic-spawn': { pauseTime: null, character: null, units: null },
     'area-damage-on-death': { areaEffect: null, damage: { ...EMPTY_LEVELS }, radius: null },
-    'ability': { name: null, elixirCost: null, cooldown: null },
+    'ability': { name: null, elixirCost: null, cooldown: null, skills: {} },
     'pierce': { radius: null, range: null },
     'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
     'burrow': { duration: null },
@@ -158,8 +158,7 @@ type ExtractSources = Record<string, unknown> | unknown[];
 function extractSkills(
     sources: ExtractSources,
     mult: LevelMultiplier | null = null,
-    baseHP: number | null = null,
-    isHeroAbility: boolean = false
+    baseHP: number | null = null
 ): SkillsMap {
     const skills: SkillsMap = {};
     const visited = new Set<object>();
@@ -169,16 +168,6 @@ function extractSkills(
         if (!map[type]) map[type] = cloneDeep(SKILL_TEMPLATES[type]) as unknown as Record<string, unknown>;
         Object.entries(data).forEach(([k, v]) => { if (v != null) map[type][k] = v; });
     };
-
-    if (isHeroAbility && (Array.isArray(sources) ? sources[0] : sources)) {
-        const s = (Array.isArray(sources) ? sources[0] : sources) as any;
-        if (s && typeof s === 'object' && (s.name || s.manaCost)) {
-            setSkill('ability', {
-                name: s.name || null,
-                elixirCost: s.manaCost ?? null
-            });
-        }
-    }
 
     const scan = (raw: unknown, isSpawn: boolean = false, parentDuration: number | null = null, currentGroupMaxSize: number | null = null): void => {
         if (!raw || typeof raw !== 'object' || visited.has(raw as object)) return;
@@ -220,7 +209,7 @@ function extractSkills(
             });
         }
 
-        if (isSlow(obj.hitSpeedMultiplier) || isSlow(obj.speedMultiplier)) {
+        if ((isSlow(obj.hitSpeedMultiplier) || isSlow(obj.speedMultiplier) && obj.name != 'ArcherQueenRapid')) {
             setSkill('slow', {
                 hitSpeedMultiplier: isSlow(obj.hitSpeedMultiplier) ? obj.hitSpeedMultiplier : null,
                 speedMultiplier: isSlow(obj.speedMultiplier) ? obj.speedMultiplier : null,
@@ -376,6 +365,61 @@ function collectAllTargets(spell: Spell, charData: CharacterData): TargetValue[]
     return [...new Set(tids.flatMap(resolveTargets))];
 }
 
+function mergeSkills(existing: SkillsMap, incoming: SkillsMap): SkillsMap {
+    const merged = { ...existing };
+    for (const [type, data] of Object.entries(incoming)) {
+        const skillType = type as SkillType;
+        if (skillType === 'ability') {
+            const incomingAbility = data as any;
+            merged.ability = {
+                ...incomingAbility,
+                skills: {
+                    ...(existing.ability?.skills || {}),
+                    ...(incomingAbility.skills || {})
+                }
+            };
+        } else {
+            merged[skillType] = data as any;
+        }
+    }
+    return merged;
+}
+
+function createAbilitySkill(existing: any, abilityData: any, mult: LevelMultiplier | null, baseHP: number | null): any {
+    const parsedSkills = extractSkills(abilityData, mult, baseHP);
+    delete parsedSkills.ability;
+
+    if (abilityData.name === 'ChampGuardianAbility') {
+        parsedSkills.pushback = {
+            distance: null,
+            strength: 2.5
+        };
+    }
+    if (abilityData.name === 'ArcherQueenRapid') {
+        parsedSkills.boost = {
+            hitSpeedMultiplier: 280,
+            speedMultiplier: null,
+            spawnSpeedMultiplier: null,
+            duration: 3.5
+        };
+    }
+    if (abilityData.name === 'MightyMinerLaneSwitch') {
+        parsedSkills.burrow = {
+            duration: null
+        };
+    }
+
+    return {
+        name: abilityData.name || existing?.name || null,
+        elixirCost: existing?.elixirCost ?? abilityData.manaCost ?? null,
+        cooldown: (abilityData.cooldown && abilityData.cooldown > 0) ? abilityData.cooldown / 1000 : existing?.cooldown ?? null,
+        skills: {
+            ...(existing?.skills || {}),
+            ...parsedSkills
+        }
+    };
+}
+
 function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     const charData = resolveMainCharacter(spell);
     const { area, proj, buff, spawnProj, spawnChar, deathArea } = resolveDataSources(spell, charData);
@@ -441,41 +485,42 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
         card.towerDamage = { ...card.damage };
     }
 
-    const baseSpell: Record<string, unknown> = { ...spell };
+    const baseSpell = { ...spell };
     delete baseSpell.evolvedSpellsData;
     delete baseSpell.heroData;
     const newSkills = extractSkills({ spell: baseSpell, charData, area, proj, buff, deathArea }, mult, baseHP ?? null);
-    card.skills = { ...card.skills, ...newSkills };
+    card.skills = mergeSkills(card.skills, newSkills);
+
+    const abilityData = spell.abilityData || (spell as any).summonCharacterData?.abilityData;
+    if (abilityData) {
+        card.skills.ability = createAbilitySkill(card.skills.ability, abilityData, mult, baseHP ?? null);
+    }
+
+    if (spell.heroData) {
+        card.heroStats = card.heroStats || { skills: {} };
+        card.heroStats.skills.ability = createAbilitySkill(card.heroStats.skills.ability, spell.heroData, mult, baseHP ?? null);
+    } else if (card.hero) {
+        card.heroStats = card.heroStats || { skills: {} };
+        card.heroStats.skills = card.heroStats.skills || {};
+    } else {
+        delete (card as any).heroStats;
+    }
+
+    // Move all non-ability skills into ability.skills for champions
+    if (card.rarity === 'champion') {
+        const ability = card.skills.ability;
+        if (ability) {
+            ability.skills = ability.skills || {};
+            for (const [key, value] of Object.entries(card.skills)) {
+                if (key !== 'ability') {
+                    ability.skills[key as SkillType] = value as any;
+                    delete card.skills[key as SkillType];
+                }
+            }
+        }
+    }
 
     populateEvolution(card, spell, mult, baseHP, baseDamage);
-}
-
-function populateHeroStats(card: Card, spell: Spell, mult: LevelMultiplier, baseHP: number | null): void {
-    let ability = findAbilityData(spell);
-    if (!ability && spell.heroData && typeof spell.heroData === 'object') {
-        ability = spell.heroData;
-    }
-    const abilityRecord: Record<string, unknown> | null = (ability && typeof ability === 'object')
-        ? ability as Record<string, unknown> : null;
-
-    if (card.hero) {
-        const heroAbility = (spell.heroData && typeof spell.heroData === 'object') ? spell.heroData as Record<string, any> : null;
-
-        if (heroAbility) {
-            card.heroStats.skills = {
-                ability: {
-                    name: heroAbility.name || null,
-                    elixirCost: heroAbility.manaCost ?? null,
-                    cooldown: (heroAbility.cooldown && heroAbility.cooldown > 0) ? heroAbility.cooldown / 1000 : null
-                }
-            };
-        } else {
-            card.heroStats.skills = card.heroStats.skills || {};
-        }
-        return;
-    }
-
-    card.heroStats.skills = {};
 }
 
 function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, baseHP: number | undefined, baseDamage: number | undefined): void {
@@ -494,14 +539,14 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
     card.evoStats.cycles = evo.cycles ?? card.evoStats.cycles;
     const evoSkills = extractSkills({ spell: evo, charData: evoChar, area, proj, buff, deathArea }, mult, evoHP ?? null);
 
-    // Filter redundant skills already present in base version
     const filteredSkills: SkillsMap = {};
     for (const [type, data] of Object.entries(evoSkills)) {
         if (!isEqual(data, card.skills[type as SkillType])) {
             filteredSkills[type as SkillType] = data as any;
         }
     }
-    card.evoStats.skills = { ...card.evoStats.skills, ...filteredSkills };
+
+    card.evoStats.skills = mergeSkills(card.evoStats.skills, filteredSkills);
 }
 
 function applyDefaults(card: any, isTower: boolean = false): void {
