@@ -70,7 +70,7 @@ export interface AbilitySkill {
     name: string | null;
     elixirCost: number | null;
     cooldown: number | null;
-    skills: SkillsMap;
+    skills: Omit<SkillsMap, 'ability'>;
 }
 export interface PierceSkill {
     radius: number | null;

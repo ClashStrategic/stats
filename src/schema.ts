@@ -140,7 +140,7 @@ const skillsSchema = {
                 name: { type: 'string', nullable: true },
                 elixirCost: { type: 'number', nullable: true },
                 cooldown: { type: 'number', nullable: true },
-                skills: { $ref: '#/$defs/skills' },
+                skills: { $ref: '#/$defs/abilitySkills' },
             },
             required: ['name', 'elixirCost', 'cooldown', 'skills'],
             additionalProperties: false,
@@ -184,6 +184,13 @@ const skillsSchema = {
             additionalProperties: false,
         },
     },
+} as const;
+
+const { ability: _, ...abilitySkillsProperties } = skillsSchema.properties;
+const abilitySkillsSchema = {
+    type: 'object',
+    additionalProperties: false,
+    properties: abilitySkillsProperties,
 } as const;
 
 const cardObjectSchema = {
@@ -322,6 +329,7 @@ export const cardSchema: JSONSchemaType<CardsJson> = {
     type: 'object',
     $defs: {
         skills: skillsSchema as any,
+        abilitySkills: abilitySkillsSchema as any,
     },
     properties: {
         cards: {
