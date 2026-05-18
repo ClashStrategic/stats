@@ -4290,7 +4290,11 @@
                     "name": "MightyMinerLaneSwitch",
                     "elixirCost": 1,
                     "cooldown": 13,
-                    "skills": {}
+                    "skills": {
+                        "burrow": {
+                            "duration": null
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -4559,13 +4563,14 @@
                     "name": "ArcherQueenRapid",
                     "elixirCost": 1,
                     "cooldown": 17,
-                    "skills": {}
-                },
-                "slow": {
-                    "hitSpeedMultiplier": null,
-                    "speedMultiplier": -25,
-                    "spawnSpeedMultiplier": null,
-                    "duration": 3.5
+                    "skills": {
+                        "boost": {
+                            "hitSpeedMultiplier": 280,
+                            "speedMultiplier": null,
+                            "spawnSpeedMultiplier": null,
+                            "duration": 3.5
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -4625,19 +4630,20 @@
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "dash": {
-                    "damage": {
-                        "level11": 335,
-                        "level16": 535
-                    },
-                    "minRange": null,
-                    "maxRange": null
-                },
                 "ability": {
                     "name": "GoldenKnightChain",
                     "elixirCost": 1,
                     "cooldown": 12,
-                    "skills": {}
+                    "skills": {
+                        "dash": {
+                            "damage": {
+                                "level11": 335,
+                                "level16": 535
+                            },
+                            "minRange": null,
+                            "maxRange": null
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -4701,14 +4707,15 @@
                     "name": "Deflect",
                     "elixirCost": 1,
                     "cooldown": 17,
-                    "skills": {}
-                },
-                "shield": {
-                    "hitpoints": {
-                        "level11": null,
-                        "level16": null
-                    },
-                    "damageReductionPercent": 65
+                    "skills": {
+                        "shield": {
+                            "hitpoints": {
+                                "level11": null,
+                                "level16": null
+                            },
+                            "damageReductionPercent": 65
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -5091,11 +5098,12 @@
                     "name": "ChampGuardianAbility",
                     "elixirCost": 3,
                     "cooldown": 30,
-                    "skills": {}
-                },
-                "pushback": {
-                    "distance": null,
-                    "strength": 2.5
+                    "skills": {
+                        "pushback": {
+                            "distance": null,
+                            "strength": 2.5
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -5349,13 +5357,14 @@
                     "name": "Goblinstein_ability",
                     "elixirCost": 2,
                     "cooldown": 17,
-                    "skills": {}
-                },
-                "stun": {
-                    "hitSpeedMultiplier": -100,
-                    "speedMultiplier": -100,
-                    "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
+                    "skills": {
+                        "stun": {
+                            "hitSpeedMultiplier": -100,
+                            "speedMultiplier": -100,
+                            "spawnSpeedMultiplier": -100,
+                            "duration": 0.5
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -5536,19 +5545,20 @@
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "dash": {
-                    "damage": {
-                        "level11": 491,
-                        "level16": 785
-                    },
-                    "minRange": 3.5,
-                    "maxRange": 6
-                },
                 "ability": {
                     "name": "BossBandit_ability",
                     "elixirCost": 1,
                     "cooldown": 3,
-                    "skills": {}
+                    "skills": {
+                        "dash": {
+                            "damage": {
+                                "level11": 491,
+                                "level16": 785
+                            },
+                            "minRange": 3.5,
+                            "maxRange": 6
+                        }
+                    }
                 }
             },
             "towerDamage": {
