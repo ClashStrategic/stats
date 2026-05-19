@@ -45,6 +45,8 @@ jobs:
             **/.gitignore
             **/.github/**
             **/node_modules/**
+            **/docs/**
+            **/src/**
             **/tests/**
             **/scripts/**
             **/.releaserc*
