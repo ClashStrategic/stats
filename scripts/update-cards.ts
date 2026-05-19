@@ -513,7 +513,7 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
             ability.skills = ability.skills || {};
             for (const [key, value] of Object.entries(card.skills)) {
                 if (key !== 'ability') {
-                    ability.skills[key as SkillType] = value as any;
+                    (ability.skills as any)[key] = value;
                     delete card.skills[key as SkillType];
                 }
             }
