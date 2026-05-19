@@ -1,3 +1,57 @@
+# [2.0.0](https://github.com/ClashStrategic/stats/compare/v1.10.1...v2.0.0) (2026-05-19)
+
+
+* feat(core)!: introduce specialized tower card schema and types ([0a20582](https://github.com/ClashStrategic/stats/commit/0a205820e4a063e006a68b0d17870d7c1c3e5abd))
+* refactor!: remove generation properties from card definitions ([17d6b5f](https://github.com/ClashStrategic/stats/commit/17d6b5fbe40b79d92109a0e548f88fc3723881a6))
+* refactor(config)!: convert project to ECMAScript Modules (ESM) ([2011e4f](https://github.com/ClashStrategic/stats/commit/2011e4f6d2150b5b4fcf2d44e55936ea193a0dbb))
+* refactor(core)!: remove level 15 stats from card data and schemas ([a4d3fda](https://github.com/ClashStrategic/stats/commit/a4d3fdae5cb7e2a911f9695816ef4f7b48fe829f))
+* refactor(data)!: remove chargeDamage and migrate to skills schema ([742a53f](https://github.com/ClashStrategic/stats/commit/742a53f2fb8fbe46b767bfa204506e1994190ade))
+* refactor(data)!: remove fatalDamage property from cards ([cbf3b2f](https://github.com/ClashStrategic/stats/commit/cbf3b2fea3c3a594d920c1069a584c4f8da8008a))
+* refactor(data)!: rename evolution and hero stat keys in cards.json ([0c498b8](https://github.com/ClashStrategic/stats/commit/0c498b840c8a1d4fe3e255bba943d0765ee825ea))
+* refactor(data)!: rename suicide property to kamikaze in card definitions ([179a669](https://github.com/ClashStrategic/stats/commit/179a66971d2a61ca0ca50d15705300829b8f9635))
+* refactor(data)!: rename territory to placement in card definitions ([c985760](https://github.com/ClashStrategic/stats/commit/c985760dc1035cf10668e7be3ee66fed5619c097))
+* refactor(data)!: rename typeAttack to hitType in card definitions ([8e56b7a](https://github.com/ClashStrategic/stats/commit/8e56b7add704807caf2a892f43bcd699ceb43d24))
+* refactor(schema)!: deprecate and remove hero prestigeCost ([fdbd0f1](https://github.com/ClashStrategic/stats/commit/fdbd0f18dc1560e3a11e04d38a2c30c4ae1cb8a1))
+
+
+### Bug Fixes
+
+* **cards:** define ability and prestige costs for Dark Prince and Bowler ([677b0b1](https://github.com/ClashStrategic/stats/commit/677b0b1009a7da909b52eec84ba44c78839871f2))
+* **cards:** prevent infinite recursion in ability skill definitions ([6e1b483](https://github.com/ClashStrategic/stats/commit/6e1b483f873d9cfefdf685eab96f96d4f6864361))
+* **data:** enable kamikaze property for specific unit definitions ([fc9246f](https://github.com/ClashStrategic/stats/commit/fc9246fce8678106d397b54f6bee112b28216383))
+* **data:** ensure float types for card skill and radius values ([7de376c](https://github.com/ClashStrategic/stats/commit/7de376c3081628e0276f110d09c407592e17f7b3))
+* **data:** populate missing towerDamage values for multiple units ([69c1402](https://github.com/ClashStrategic/stats/commit/69c1402fc8d630a7e64d583a7d02ad3b77074b4b))
+* **data:** update card range values in cards.json ([e7ff0d5](https://github.com/ClashStrategic/stats/commit/e7ff0d5960a0791823629f3dc55b86c81d551177))
+* **data:** update card stats for balance tuning ([1831f9c](https://github.com/ClashStrategic/stats/commit/1831f9c59eae4d822f6fad24056c898ab210520c))
+
+
+### Features
+
+* **attributes:** add core gameplay attributes to card definitions ([ee9e1fe](https://github.com/ClashStrategic/stats/commit/ee9e1fe51a45ba7c9bab5e60a07262dd05de1f6e))
+* **cards:** populate recursive skill definitions for champion abilities ([26b78cf](https://github.com/ClashStrategic/stats/commit/26b78cfb7ea26fbc3aa924343169fccdc49bc476))
+* configure pre-compiled lib/ distribution for direct git consumption ([f33365e](https://github.com/ClashStrategic/stats/commit/f33365e622be6365aaaa7e133477a9268289130c))
+* **flying:** add flying property to card objects ([dfb06c9](https://github.com/ClashStrategic/stats/commit/dfb06c9c302a702d23735bd8495b822b9a29188b))
+* **hero:** define hero status and abilities for Dark Prince and Bowler ([6ed4b2d](https://github.com/ClashStrategic/stats/commit/6ed4b2d8b6e4866ea6b70d8120842373e3a23f7f))
+* implement TypeScript types and JSON schema for card data ([a1f66e6](https://github.com/ClashStrategic/stats/commit/a1f66e65b41fc88840d103078abfe0eec6c596e0))
+* **schema:** support recursive skill definitions in abilities ([029ef89](https://github.com/ClashStrategic/stats/commit/029ef89eab4fa7dba45dcfc1b2fefeac75a30106))
+* **skills:** add skills and hero abilities to card definitions ([0969fdf](https://github.com/ClashStrategic/stats/commit/0969fdf8a499bb84f04f48836715fe8677870487))
+
+
+### BREAKING CHANGES
+
+* Tower cards now use a dedicated `TowerCard` structure and validation schema instead of the generic `Card` model. Redundant and unused properties have been removed from tower entries, requiring consumers to update their type assumptions, schema integrations, and data mappings.
+* The `level15` property has been removed from the `Levels` interface and all card stat objects. Any consumers relying on level 15 data will need to update their logic.
+* The `territory` field has been removed from the Card interface and JSON data in favor of `placement`.
+* The `typeAttack` property has been renamed to `hitType` across card definitions, schema validation, and TypeScript interfaces. Any consumers using the old property name must update their implementations accordingly.
+* The `generationSpeed` and `generationUnits` properties have been removed from card definitions and related TypeScript interfaces. Any consumers relying on these fields must remove or replace their usage.
+* The `suicide` property has been renamed to `kamikaze`. Any integrations or scripts relying on the `suicide` key in the card JSON or TypeScript objects must be updated to use `kamikaze`.
+* The `chargeDamage` field has been removed from the card data structure and schema. Use `skills.charge.damage` instead.
+* The `fatalDamage` field has been removed from the card objects in `cards.json` and is no longer supported in `Card` types or validation schemas.
+* The `statsEvo` and `statsHero` properties have been renamed to `evoStats` and `heroStats` respectively. Any consumers parsing `cards.json` must update their property references to match the new naming convention.
+* The `prestigeCost` property has been removed from hero card definitions and related TypeScript interfaces. Any consumers relying on this field must update their integrations and data mappings accordingly.
+* Card data structure and file locations have changed. Card definitions are now stored under the `data/` directory and must comply with the new TypeScript interfaces and AJV JSON schema validation rules. Existing consumers relying on the previous schema or file paths will need to update their integrations.
+* The project now uses native ECMAScript Modules (ESM). CommonJS imports (`require`) and exports (`module.exports`) are no longer supported. Consumers must migrate to ESM syntax or use compatible interop tooling.
+
 ## [1.10.1](https://github.com/ClashStrategic/stats/compare/v1.10.0...v1.10.1) (2026-04-12)
 
 
