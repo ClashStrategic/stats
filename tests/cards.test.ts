@@ -144,6 +144,7 @@ describe('Card Data Validation', () => {
       checkLevelBasedStats(card.towerDamage);
       checkLevelBasedStats(card.damage);
       checkLevelBasedStats(card.hitpoints);
+      checkLevelBasedStats(card.evoStats.towerDamage);
       checkLevelBasedStats(card.evoStats.damage);
       checkLevelBasedStats(card.evoStats.hitpoints);
     });
@@ -210,15 +211,20 @@ describe('Card Data Validation', () => {
       expect(evoStats.damage).toBeDefined();
       expect(evoStats.damage.level11).not.toBeNull();
       expect(evoStats.damage.level16).not.toBeNull();
+      expect(evoStats.towerDamage).toBeDefined();
 
       if (type === 'spell' && units === 0) {
         expect(evoStats.hitpoints).toBeDefined();
         expect(evoStats.hitpoints.level11).toBeNull();
         expect(evoStats.hitpoints.level16).toBeNull();
+        expect(evoStats.towerDamage.level11).not.toBeNull();
+        expect(evoStats.towerDamage.level16).not.toBeNull();
       } else {
         expect(evoStats.hitpoints).toBeDefined();
         expect(evoStats.hitpoints.level11).not.toBeNull();
         expect(evoStats.hitpoints.level16).not.toBeNull();
+        expect(evoStats.towerDamage.level11).not.toBeNull();
+        expect(evoStats.towerDamage.level16).not.toBeNull();
       }
     });
   });
