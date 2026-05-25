@@ -41,6 +41,10 @@
                         "damageReductionPercent": 60
                     }
                 },
+                "towerDamage": {
+                    "level11": 202,
+                    "level16": 323
+                },
                 "damage": {
                     "level11": 202,
                     "level16": 323
@@ -107,6 +111,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 112,
+                    "level16": 179
+                },
                 "damage": {
                     "level11": 112,
                     "level16": 179
@@ -165,6 +173,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -230,6 +242,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -311,6 +327,10 @@
                         }
                     }
                 },
+                "towerDamage": {
+                    "level11": 816,
+                    "level16": 1304
+                },
                 "damage": {
                     "level11": 816,
                     "level16": 1304
@@ -370,6 +390,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -438,6 +462,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -516,6 +544,10 @@
                         "units": 4
                     }
                 },
+                "towerDamage": {
+                    "level11": 135,
+                    "level16": 216
+                },
                 "damage": {
                     "level11": 135,
                     "level16": 216
@@ -580,6 +612,10 @@
                         "spawnSpeedMultiplier": null,
                         "duration": null
                     }
+                },
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 306
                 },
                 "damage": {
                     "level11": 192,
@@ -649,6 +685,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -713,6 +753,10 @@
                         "maxUnits": 8
                     }
                 },
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 130
+                },
                 "damage": {
                     "level11": 81,
                     "level16": 130
@@ -771,6 +815,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 266,
+                    "level16": 425
+                },
                 "damage": {
                     "level11": 266,
                     "level16": 425
@@ -829,6 +877,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 130
+                },
                 "damage": {
                     "level11": 81,
                     "level16": 130
@@ -887,6 +939,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 225,
+                    "level16": 359
+                },
                 "damage": {
                     "level11": 225,
                     "level16": 359
@@ -946,6 +1002,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 217,
+                    "level16": 347
+                },
                 "damage": {
                     "level11": 217,
                     "level16": 347
@@ -1012,6 +1072,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 161,
+                    "level16": 257
+                },
                 "damage": {
                     "level11": 161,
                     "level16": 257
@@ -1083,6 +1147,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1150,6 +1218,10 @@
                         "damageReductionPercent": null
                     }
                 },
+                "towerDamage": {
+                    "level11": 281,
+                    "level16": 449
+                },
                 "damage": {
                     "level11": 281,
                     "level16": 449
@@ -1215,6 +1287,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1281,6 +1357,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1349,6 +1429,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1412,6 +1496,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1471,6 +1559,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 107,
+                    "level16": 171
+                },
                 "damage": {
                     "level11": 107,
                     "level16": 171
@@ -1537,6 +1629,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1595,6 +1691,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 307,
+                    "level16": 490
+                },
                 "damage": {
                     "level11": 307,
                     "level16": 490
@@ -1661,6 +1761,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1720,6 +1824,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1798,6 +1906,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1864,6 +1976,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1932,6 +2048,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2005,6 +2125,10 @@
                         "duration": 1.1
                     }
                 },
+                "towerDamage": {
+                    "level11": 110,
+                    "level16": 175
+                },
                 "damage": {
                     "level11": 110,
                     "level16": 175
@@ -2064,6 +2188,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2126,6 +2254,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2184,6 +2316,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2251,6 +2387,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2358,6 +2498,10 @@
                         "radius": 3.0
                     }
                 },
+                "towerDamage": {
+                    "level11": 256,
+                    "level16": 409
+                },
                 "damage": {
                     "level11": 256,
                     "level16": 409
@@ -2439,6 +2583,10 @@
                         "strength": 2.5
                     }
                 },
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 306
+                },
                 "damage": {
                     "level11": 192,
                     "level16": 306
@@ -2498,6 +2646,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 35,
+                    "level16": 57
+                },
                 "damage": {
                     "level11": 35,
                     "level16": 57
@@ -2571,6 +2723,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2637,6 +2793,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2703,6 +2863,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 151,
+                    "level16": 241
+                },
                 "damage": {
                     "level11": 151,
                     "level16": 241
@@ -2762,6 +2926,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2828,6 +2996,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2895,6 +3067,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2954,6 +3130,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 84,
+                    "level16": 134
+                },
                 "damage": {
                     "level11": 84,
                     "level16": 134
@@ -3018,6 +3198,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 179,
+                    "level16": 286
+                },
                 "damage": {
                     "level11": 179,
                     "level16": 286
@@ -3085,6 +3269,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3160,6 +3348,10 @@
                         "speedMultiplier": 200
                     }
                 },
+                "towerDamage": {
+                    "level11": 133,
+                    "level16": 212
+                },
                 "damage": {
                     "level11": 133,
                     "level16": 212
@@ -3234,6 +3426,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3309,6 +3505,10 @@
                         }
                     }
                 },
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 130
+                },
                 "damage": {
                     "level11": 81,
                     "level16": 130
@@ -3374,6 +3574,10 @@
                     "invisibility": {
                         "whenNotAttackingTime": 2.0
                     }
+                },
+                "towerDamage": {
+                    "level11": 261,
+                    "level16": 417
                 },
                 "damage": {
                     "level11": 261,
@@ -3454,6 +3658,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3520,6 +3728,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3579,6 +3791,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3637,6 +3853,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3729,6 +3949,10 @@
                         "strength": 4.0
                     }
                 },
+                "towerDamage": {
+                    "level11": 268,
+                    "level16": 429
+                },
                 "damage": {
                     "level11": 268,
                     "level16": 429
@@ -3787,6 +4011,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 129
+                },
                 "damage": {
                     "level11": 81,
                     "level16": 129
@@ -3846,6 +4074,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3904,6 +4136,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 350,
+                    "level16": 560
+                },
                 "damage": {
                     "level11": 350,
                     "level16": 560
@@ -3971,6 +4207,10 @@
                         "height": 4.0,
                         "speed": 0.16
                     }
+                },
+                "towerDamage": {
+                    "level11": 74,
+                    "level16": 118
                 },
                 "damage": {
                     "level11": 74,
@@ -4052,6 +4292,10 @@
                         "deployTime": 1.0
                     }
                 },
+                "towerDamage": {
+                    "level11": 176,
+                    "level16": 282
+                },
                 "damage": {
                     "level11": 176,
                     "level16": 282
@@ -4110,6 +4354,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4174,6 +4422,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4254,6 +4506,10 @@
                         "duration": 0.5
                     }
                 },
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 306
+                },
                 "damage": {
                     "level11": 192,
                     "level16": 306
@@ -4325,6 +4581,10 @@
                         "duration": 2.5
                     }
                 },
+                "towerDamage": {
+                    "level11": 64,
+                    "level16": 102
+                },
                 "damage": {
                     "level11": 64,
                     "level16": 102
@@ -4394,6 +4654,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4462,6 +4726,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4536,6 +4804,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4601,6 +4873,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4674,6 +4950,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4748,6 +5028,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4821,6 +5105,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4880,6 +5168,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4944,6 +5236,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5010,6 +5306,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5075,6 +5375,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5144,6 +5448,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5215,6 +5523,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5278,6 +5590,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5336,6 +5652,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5406,6 +5726,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5480,6 +5804,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5545,6 +5873,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5603,6 +5935,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5677,6 +6013,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5735,6 +6075,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 202,
+                    "level16": 323
+                },
                 "damage": {
                     "level11": 202,
                     "level16": 323
@@ -5804,6 +6148,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5862,6 +6210,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 266,
+                    "level16": 425
+                },
                 "damage": {
                     "level11": 266,
                     "level16": 425
@@ -5921,6 +6273,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5989,6 +6345,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6062,6 +6422,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6128,6 +6492,10 @@
                         "duration": 1.5
                     }
                 },
+                "towerDamage": {
+                    "level11": 220,
+                    "level16": 351
+                },
                 "damage": {
                     "level11": 220,
                     "level16": 351
@@ -6184,6 +6552,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6242,6 +6614,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6315,6 +6691,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6374,6 +6754,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 179,
+                    "level16": 286
+                },
                 "damage": {
                     "level11": 179,
                     "level16": 286
@@ -6451,6 +6835,10 @@
                         "radius": 0.5,
                         "deployTime": 1.0
                     }
+                },
+                "towerDamage": {
+                    "level11": 306,
+                    "level16": 489
                 },
                 "damage": {
                     "level11": 306,
@@ -6547,6 +6935,10 @@
                         "duration": null
                     }
                 },
+                "towerDamage": {
+                    "level11": 227,
+                    "level16": 363
+                },
                 "damage": {
                     "level11": 227,
                     "level16": 363
@@ -6611,6 +7003,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6670,6 +7066,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6744,6 +7144,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6808,6 +7212,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6867,6 +7275,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 120,
+                    "level16": 192
+                },
                 "damage": {
                     "level11": 120,
                     "level16": 192
@@ -6933,6 +7345,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6989,6 +7405,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7055,6 +7475,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7121,6 +7545,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 307
+                },
                 "damage": {
                     "level11": 192,
                     "level16": 307
@@ -7187,6 +7615,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7246,6 +7678,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7313,6 +7749,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7372,6 +7812,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7437,6 +7881,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7502,6 +7950,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7565,6 +8017,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7647,6 +8103,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7717,6 +8177,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 179,
+                    "level16": 286
+                },
                 "damage": {
                     "level11": 179,
                     "level16": 286
@@ -7784,6 +8248,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7843,6 +8311,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7902,6 +8374,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7961,6 +8437,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -8020,6 +8500,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null

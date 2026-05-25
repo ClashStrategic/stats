@@ -54,6 +54,7 @@ export type SkillsMap = Partial<SkillTemplates>;
 export interface EvoStats {
     cycles: number | null;
     skills: SkillsMap;
+    towerDamage: Levels;
     damage: Levels;
     hitpoints: Levels;
 }
