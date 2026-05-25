@@ -51,6 +51,7 @@ const CARD_SKELETON: Card = {
     hitpoints: { ...EMPTY_LEVELS },
     evoStats: {
         cycles: null, skills: {},
+        towerDamage: { ...EMPTY_LEVELS },
         damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS }
     },
     heroStats: { skills: {} },
@@ -539,8 +540,18 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
     const evoHP = evoChar.hitpoints || spawnChar.hitpoints || baseHP;
     const evoDmg = evoChar.damage || proj.damage || area.damage || buff.damagePerSecond || spawnProj.damage || spawnChar.damage || baseDamage;
 
+    const evoTowerPct = evo.crownTowerDamagePercent ?? evoChar.crownTowerDamagePercent ?? proj.crownTowerDamagePercent
+        ?? area.crownTowerDamagePercent ?? buff.crownTowerDamagePercent ?? spawnProj.crownTowerDamagePercent ?? spawnChar.crownTowerDamagePercent;
+    const evoBaseTowerDmg = evoTowerPct !== undefined && evoDmg ? evoDmg * (100 + evoTowerPct) / 100 : null;
+
     card.evoStats.hitpoints = mergeLevels(scaleLevels(evoHP, mult), card.evoStats.hitpoints);
     card.evoStats.damage = mergeLevels(scaleLevels(evoDmg, mult), card.evoStats.damage);
+    const computedEvoTowerDmg = evoBaseTowerDmg !== null ? scaleLevels(evoBaseTowerDmg, mult) : { ...EMPTY_LEVELS };
+    card.evoStats.towerDamage = mergeLevels(computedEvoTowerDmg, card.evoStats.towerDamage);
+    if (evoBaseTowerDmg === null && (card.evoStats.towerDamage.level11 == null && card.evoStats.towerDamage.level16 == null)) {
+        card.evoStats.towerDamage = { ...card.evoStats.damage };
+    }
+
     card.evoStats.cycles = evo.cycles ?? card.evoStats.cycles;
     const evoSkills = extractSkills({ spell: evo, charData: evoChar, area, proj, buff, deathArea }, mult, evoHP ?? null);
 
