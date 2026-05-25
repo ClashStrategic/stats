@@ -294,7 +294,23 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "heal": {
+                        "perAttack": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "frequency": null,
+                        "overHeal": {
+                            "level11": 5640,
+                            "level16": 9083
+                        },
+                        "onSpawn": {
+                            "level11": null,
+                            "level16": null
+                        }
+                    }
+                },
                 "damage": {
                     "level11": 816,
                     "level16": 1304
