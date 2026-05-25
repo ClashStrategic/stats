@@ -131,6 +131,10 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card[field])).toBe(true);
       });
 
+      if (card.projectileNumber !== null) {
+        expect(Number.isInteger(card.projectileNumber)).toBe(true);
+      }
+
 
 
       if (card.evoStats.cycles !== null) {
