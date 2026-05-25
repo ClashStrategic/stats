@@ -74,6 +74,7 @@ export interface Card {
     hero: boolean;
     hitType: string | null;
     projectile: boolean;
+    projectileNumber: number | null;
     kamikaze: boolean;
     flying: boolean;
     skills: SkillsMap;
