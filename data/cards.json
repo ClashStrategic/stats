@@ -2453,8 +2453,8 @@
                 "area-damage-on-death": {
                     "areaEffect": "BarbarianRage",
                     "damage": {
-                        "level11": null,
-                        "level16": null
+                        "level11": 179,
+                        "level16": 286
                     },
                     "radius": 3.0
                 },
@@ -4702,12 +4702,12 @@
             "flying": false,
             "skills": {
                 "spawn-on-death": {
-                    "character": "ElixirGolem4",
+                    "character": "ElixirGolem2",
                     "damage": {
                         "level11": null,
                         "level16": null
                     },
-                    "radius": 0.4,
+                    "radius": 0.5,
                     "deployTime": 1.0
                 }
             },
@@ -5708,7 +5708,7 @@
                         "level11": 256,
                         "level16": 409
                     },
-                    "radius": null
+                    "radius": 0.5
                 }
             },
             "towerDamage": {
@@ -7117,8 +7117,8 @@
                 "area-damage-on-death": {
                     "areaEffect": "Rage",
                     "damage": {
-                        "level11": null,
-                        "level16": null
+                        "level11": 179,
+                        "level16": 286
                     },
                     "radius": 3.0
                 },
