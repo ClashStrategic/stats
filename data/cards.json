@@ -445,6 +445,14 @@
                     },
                     "radius": 0.45,
                     "deployTime": 3.0
+                },
+                "area-damage-on-death": {
+                    "areaEffect": null,
+                    "damage": {
+                        "level11": 240,
+                        "level16": 384
+                    },
+                    "radius": 0.45
                 }
             },
             "towerDamage": {
@@ -668,6 +676,14 @@
                     },
                     "radius": 0.5,
                     "deployTime": 1.0
+                },
+                "area-damage-on-death": {
+                    "areaEffect": null,
+                    "damage": {
+                        "level11": 225,
+                        "level16": 359
+                    },
+                    "radius": 0.75
                 }
             },
             "towerDamage": {
@@ -1412,6 +1428,14 @@
                     },
                     "radius": 0.45,
                     "deployTime": 3.0
+                },
+                "area-damage-on-death": {
+                    "areaEffect": null,
+                    "damage": {
+                        "level11": 688,
+                        "level16": 1100
+                    },
+                    "radius": 0.45
                 }
             },
             "towerDamage": {
@@ -4635,6 +4659,14 @@
                     "skills": {
                         "burrow": {
                             "duration": null
+                        },
+                        "area-damage-on-death": {
+                            "areaEffect": null,
+                            "damage": {
+                                "level11": 332,
+                                "level16": 531
+                            },
+                            "radius": 0.45
                         }
                     }
                 }
@@ -6328,6 +6360,14 @@
                     },
                     "radius": 0.45,
                     "deployTime": 3.0
+                },
+                "area-damage-on-death": {
+                    "areaEffect": null,
+                    "damage": {
+                        "level11": 222,
+                        "level16": 355
+                    },
+                    "radius": 0.45
                 }
             },
             "towerDamage": {
