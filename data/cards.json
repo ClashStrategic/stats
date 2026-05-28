@@ -437,15 +437,6 @@
             "kamikaze": false,
             "flying": true,
             "skills": {
-                "spawn-on-death": {
-                    "character": "BalloonBomb",
-                    "damage": {
-                        "level11": 240,
-                        "level16": 384
-                    },
-                    "radius": 0.45,
-                    "deployTime": 3.0
-                },
                 "area-damage-on-death": {
                     "areaEffect": null,
                     "damage": {
@@ -1420,15 +1411,6 @@
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "spawn-on-death": {
-                    "character": "GiantSkeletonBomb",
-                    "damage": {
-                        "level11": 688,
-                        "level16": 1100
-                    },
-                    "radius": 0.45,
-                    "deployTime": 3.0
-                },
                 "area-damage-on-death": {
                     "areaEffect": null,
                     "damage": {
@@ -2465,15 +2447,6 @@
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "spawn-on-death": {
-                    "character": "RageBarbarianBottle",
-                    "damage": {
-                        "level11": null,
-                        "level16": null
-                    },
-                    "radius": null,
-                    "deployTime": 0.5
-                },
                 "area-damage-on-death": {
                     "areaEffect": "BarbarianRage",
                     "damage": {
@@ -2503,25 +2476,7 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {
-                    "spawn-on-death": {
-                        "character": "RageBarbarianBottle",
-                        "damage": {
-                            "level11": null,
-                            "level16": null
-                        },
-                        "radius": null,
-                        "deployTime": 0.5
-                    },
-                    "area-damage-on-death": {
-                        "areaEffect": "BarbarianRage",
-                        "damage": {
-                            "level11": null,
-                            "level16": null
-                        },
-                        "radius": 3.0
-                    }
-                },
+                "skills": {},
                 "towerDamage": {
                     "level11": 256,
                     "level16": 409
@@ -6352,15 +6307,6 @@
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "spawn-on-death": {
-                    "character": "BombTowerBomb",
-                    "damage": {
-                        "level11": 222,
-                        "level16": 355
-                    },
-                    "radius": 0.45,
-                    "deployTime": 3.0
-                },
                 "area-damage-on-death": {
                     "areaEffect": null,
                     "damage": {
@@ -6865,17 +6811,7 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {
-                    "spawn-on-death": {
-                        "character": "GoblinBrawler",
-                        "damage": {
-                            "level11": null,
-                            "level16": null
-                        },
-                        "radius": 0.5,
-                        "deployTime": 1.0
-                    }
-                },
+                "skills": {},
                 "towerDamage": {
                     "level11": 306,
                     "level16": 489
