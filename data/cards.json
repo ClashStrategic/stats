@@ -2476,7 +2476,17 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "Barbarian",
+                        "damage": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "radius": null,
+                        "deployTime": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 256,
                     "level16": 409
