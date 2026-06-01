@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll } from 'vitest';
-import Ajv from 'ajv';
+import { Ajv, ErrorObject } from 'ajv';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -81,7 +81,7 @@ describe('Card Data Validation', () => {
       const valid = validate(invalidData);
       expect(valid).toBe(false);
       
-      const hasAdditionalPropertyError = validate.errors?.some(err => 
+      const hasAdditionalPropertyError = validate.errors?.some((err: ErrorObject) => 
         err.keyword === 'additionalProperties' && 
         err.params.additionalProperty === 'ability'
       );
