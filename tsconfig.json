@@ -3,7 +3,7 @@
     "target": "ES2020",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "rootDir": "./src",
+    "rootDir": ".",
     "outDir": "./lib",
     "declaration": true,
     "declarationMap": false,
@@ -13,15 +13,19 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
-    "incremental": true
+    "incremental": true,
+    "noEmit": true,
+    "types": [
+      "node"
+    ]
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "scripts/**/*",
+    "tests/**/*"
   ],
   "exclude": [
     "node_modules",
-    "lib",
-    "scripts",
-    "tests"
+    "lib"
   ]
 }
