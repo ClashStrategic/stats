@@ -170,7 +170,14 @@ function extractSkills(
         Object.entries(data).forEach(([k, v]) => { if (v != null) map[type][k] = v; });
     };
 
-    const scan = (raw: unknown, isSpawn: boolean = false, parentDuration: number | null = null, currentGroupMaxSize: number | null = null): void => {
+    const scan = (
+        raw: unknown,
+        isSpawn: boolean = false,
+        parentDuration: number | null = null,
+        currentGroupMaxSize: number | null = null,
+        context: SkillType | null = null,
+        isRealSpawn: boolean = false
+    ): void => {
         if (!raw || typeof raw !== 'object' || visited.has(raw as object)) return;
         visited.add(raw as object);
         const obj = raw as Record<string, any>;
@@ -184,6 +191,13 @@ function extractSkills(
         const localDuration = (obj.lifeDuration > (obj.buffTime ?? 0)) ? obj.lifeDuration : (obj.buffTime ?? obj.buffOnDamageTime ?? obj.lifeDuration);
         const currentDuration = localDuration ?? parentDuration;
         const groupMaxSize = obj.groupMaxSize ?? currentGroupMaxSize;
+        const localRadius = obj.radius ?? obj.areaDamageRadius ?? obj.collisionRadius;
+
+        if (obj.damage > 0 && context) {
+            setSkill(context, {
+                damage: mult ? scaleLevels(obj.damage, mult) : { ...EMPTY_LEVELS }
+            });
+        }
 
         if (obj.healPerSecond > 0) {
             const scaledHeal = mult ? scaleLevels(obj.healPerSecond, mult) : { ...EMPTY_LEVELS };
@@ -276,14 +290,23 @@ function extractSkills(
                 whenNotAttackingTime: obj.buffWhenNotAttackingTime ? toSec(obj.buffWhenNotAttackingTime) : null
             });
 
-        if (obj.deathSpawnCharacterData) {
-            const spawn = obj.deathSpawnCharacterData as CharacterData;
-            setSkill('spawn-on-death', {
-                character: spawn.name || true,
-                damage: mult ? scaleLevels(spawn.deathDamage, mult) : { ...EMPTY_LEVELS },
-                radius: toSec(spawn.collisionRadius),
-                deployTime: toSec(spawn.deployTime as number)
+        if (obj.deathDamage > 0 && !isRealSpawn) {
+            setSkill('area-damage-on-death', {
+                damage: mult ? scaleLevels(obj.deathDamage, mult) : { ...EMPTY_LEVELS },
+                radius: localRadius ? localRadius / 1000 : null
             });
+        }
+
+        if (obj.deathSpawnCharacterData && !isRealSpawn) {
+            const spawn = obj.deathSpawnCharacterData as CharacterData;
+            if (spawn.hitpoints && spawn.hitpoints > 0) {
+                setSkill('spawn-on-death', {
+                    character: spawn.name || true,
+                    damage: mult ? scaleLevels(spawn.deathDamage, mult) : { ...EMPTY_LEVELS },
+                    radius: spawn.collisionRadius ? spawn.collisionRadius / 1000 : null,
+                    deployTime: toSec(spawn.deployTime as number)
+                });
+            }
         }
 
         if (obj.spawnPauseTime > 0)
@@ -296,9 +319,9 @@ function extractSkills(
         if (obj.deathAreaEffectData) {
             const effect = obj.deathAreaEffectData as AreaEffectData;
             setSkill('area-damage-on-death', {
-                areaEffect: effect.name || true,
+                areaEffect: effect.name || 'death-explosion',
                 damage: mult ? scaleLevels(effect.damage || obj.deathDamage, mult) : { ...EMPTY_LEVELS },
-                radius: toSec(effect.radius)
+                radius: effect.radius ? effect.radius / 1000 : (localRadius ? localRadius / 1000 : null)
             });
         }
 
@@ -312,12 +335,24 @@ function extractSkills(
         for (const key in obj) {
             if (typeof obj[key] === 'object' && key !== 'abilityData') {
                 const nextIsSpawn = isSpawn || key === 'spawnAreaObjectData' || key === 'onStartingActionData';
-                scan(obj[key], nextIsSpawn, currentDuration, groupMaxSize);
+
+                let nextContext = context;
+                if (key === 'deathAreaEffectData') {
+                    nextContext = 'area-damage-on-death';
+                } else if (key === 'deathSpawnCharacterData') {
+                    const spawn = obj[key] as CharacterData;
+                    if (spawn.hitpoints && spawn.hitpoints > 0) {
+                        scan(obj[key], nextIsSpawn, currentDuration, groupMaxSize, null, true);
+                        continue;
+                    }
+                }
+
+                scan(obj[key], nextIsSpawn, currentDuration, groupMaxSize, nextContext, isRealSpawn);
             }
         }
     };
 
-    (Array.isArray(sources) ? sources : Object.values(sources)).forEach(src => scan(src));
+    (Array.isArray(sources) ? sources : Object.values(sources)).forEach(src => scan(src, false, null, null, null, false));
     return skills;
 }
 
