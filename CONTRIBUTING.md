@@ -58,9 +58,9 @@ If you find a bug or have an idea for a new feature, please open an [Issue](http
 
 ## ⬆️ Submitting Pull Requests (PRs)
 
-1.  Ensure your branch is up-to-date with the `main` branch of the original repository.
+1.  Ensure your branch is up-to-date with the `develop` branch of the original repository.
     ```bash
-    git pull origin main
+    git pull origin develop
     ```
 2.  Commit your changes using [semantic commits](#-semantic-commits).
     ```bash
@@ -71,7 +71,7 @@ If you find a bug or have an idea for a new feature, please open an [Issue](http
     ```bash
     git push origin feature/your-feature-name
     ```
-4.  Open a Pull Request from your branch in your fork to the `main` branch of the original repository.
+4.  Open a Pull Request from your branch in your fork to the `develop` branch of the original repository.
 5.  Clearly describe the changes made and why they are necessary.
 
 Thank you again for your contribution!
