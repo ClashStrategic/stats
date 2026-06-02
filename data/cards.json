@@ -1807,7 +1807,7 @@
             "units": 1,
             "duration": null,
             "deployTime": 1.2,
-            "evolution": false,
+            "evolution": true,
             "hero": false,
             "hitType": "splash",
             "projectile": true,
@@ -1828,19 +1828,34 @@
                 "level16": 417
             },
             "evoStats": {
-                "cycles": null,
-                "skills": {},
+                "cycles": 2,
+                "skills": {
+                    "slow": {
+                        "hitSpeedMultiplier": -30,
+                        "speedMultiplier": -30,
+                        "spawnSpeedMultiplier": -30,
+                        "duration": 7.0
+                    },
+                    "area-damage-on-death": {
+                        "areaEffect": "Ice Arrows",
+                        "damage": {
+                            "level11": 168,
+                            "level16": 268
+                        },
+                        "radius": 3.0
+                    }
+                },
                 "towerDamage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 168,
+                    "level16": 268
                 },
                 "damage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 168,
+                    "level16": 268
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 261,
+                    "level16": 417
                 }
             },
             "heroStats": {
