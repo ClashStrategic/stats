@@ -2,6 +2,7 @@
 .vscode/
 .clinerules/
 node_modules/
+.atl/
 
 # typescript cache
 *.tsbuildinfo

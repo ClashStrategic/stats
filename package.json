@@ -30,7 +30,7 @@
         "data/"
     ],
     "scripts": {
-        "build": "npm run clean && tsc",
+        "build": "npm run clean && tsc -p tsconfig.build.json",
         "clean": "node -e \"require('fs').rmSync('lib', { recursive: true, force: true })\"",
         "test": "vitest run tests/cards.test.ts",
         "lint": "eslint .",
@@ -43,13 +43,13 @@
         "@semantic-release/changelog": "^6.0.3",
         "@semantic-release/git": "^10.0.1",
         "@semantic-release/github": "^11.0.2",
-        "@types/ajv": "^0.0.5",
+        "@types/node": "^25.9.1",
         "ajv": "^8.17.1",
         "eslint": "^9.39.2",
         "globals": "^17.1.0",
-        "typescript": "^5.8.3",
         "semantic-release": "^24.2.4",
         "tsx": "^4.21.0",
+        "typescript": "^5.8.3",
         "vitest": "^4.1.6"
     }
 }

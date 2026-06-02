@@ -14,6 +14,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -39,6 +40,10 @@
                         },
                         "damageReductionPercent": 60
                     }
+                },
+                "towerDamage": {
+                    "level11": 202,
+                    "level16": 323
                 },
                 "damage": {
                     "level11": 202,
@@ -87,6 +92,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -105,6 +111,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 112,
+                    "level16": 179
+                },
                 "damage": {
                     "level11": 112,
                     "level16": 179
@@ -144,6 +154,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -162,6 +173,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -208,6 +223,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -226,6 +242,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -272,6 +292,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -289,7 +310,27 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "heal": {
+                        "perAttack": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "frequency": null,
+                        "overHeal": {
+                            "level11": 5640,
+                            "level16": 9083
+                        },
+                        "onSpawn": {
+                            "level11": null,
+                            "level16": null
+                        }
+                    }
+                },
+                "towerDamage": {
+                    "level11": 816,
+                    "level16": 1304
+                },
                 "damage": {
                     "level11": 816,
                     "level16": 1304
@@ -330,6 +371,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -348,6 +390,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -387,17 +433,17 @@
             "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": true,
             "skills": {
-                "spawn-on-death": {
-                    "character": "BalloonBomb",
+                "area-damage-on-death": {
+                    "areaEffect": null,
                     "damage": {
                         "level11": 240,
                         "level16": 384
                     },
-                    "radius": 0.45,
-                    "deployTime": 3.0
+                    "radius": 0.45
                 }
             },
             "towerDamage": {
@@ -415,6 +461,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -462,6 +512,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -491,6 +542,10 @@
                         "character": "Skeleton",
                         "units": 4
                     }
+                },
+                "towerDamage": {
+                    "level11": 135,
+                    "level16": 216
                 },
                 "damage": {
                     "level11": 135,
@@ -531,6 +586,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -555,6 +611,10 @@
                         "spawnSpeedMultiplier": null,
                         "duration": null
                     }
+                },
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 306
                 },
                 "damage": {
                     "level11": 192,
@@ -595,6 +655,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -606,6 +667,14 @@
                     },
                     "radius": 0.5,
                     "deployTime": 1.0
+                },
+                "area-damage-on-death": {
+                    "areaEffect": null,
+                    "damage": {
+                        "level11": 225,
+                        "level16": 359
+                    },
+                    "radius": 0.75
                 }
             },
             "towerDamage": {
@@ -623,6 +692,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -662,6 +735,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -685,6 +759,10 @@
                         "interval": 0.05,
                         "maxUnits": 8
                     }
+                },
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 130
                 },
                 "damage": {
                     "level11": 81,
@@ -725,6 +803,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -743,6 +822,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 266,
+                    "level16": 425
+                },
                 "damage": {
                     "level11": 266,
                     "level16": 425
@@ -782,6 +865,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -800,6 +884,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 130
+                },
                 "damage": {
                     "level11": 81,
                     "level16": 130
@@ -839,6 +927,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -857,6 +946,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 225,
+                    "level16": 359
+                },
                 "damage": {
                     "level11": 225,
                     "level16": 359
@@ -897,6 +990,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -915,6 +1009,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 217,
+                    "level16": 347
+                },
                 "damage": {
                     "level11": 217,
                     "level16": 347
@@ -962,6 +1060,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -980,6 +1079,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 161,
+                    "level16": 257
+                },
                 "damage": {
                     "level11": 161,
                     "level16": 257
@@ -1019,6 +1122,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -1050,6 +1154,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1090,6 +1198,7 @@
             "hero": true,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -1115,6 +1224,10 @@
                         },
                         "damageReductionPercent": null
                     }
+                },
+                "towerDamage": {
+                    "level11": 281,
+                    "level16": 449
                 },
                 "damage": {
                     "level11": 281,
@@ -1162,6 +1275,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -1180,6 +1294,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1227,6 +1345,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -1245,6 +1364,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1284,17 +1407,17 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "spawn-on-death": {
-                    "character": "GiantSkeletonBomb",
+                "area-damage-on-death": {
+                    "areaEffect": null,
                     "damage": {
                         "level11": 688,
                         "level16": 1100
                     },
-                    "radius": 0.45,
-                    "deployTime": 3.0
+                    "radius": 0.45
                 }
             },
             "towerDamage": {
@@ -1312,6 +1435,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1351,6 +1478,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -1374,6 +1502,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1414,6 +1546,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -1432,6 +1565,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 107,
+                    "level16": 171
+                },
                 "damage": {
                     "level11": 107,
                     "level16": 171
@@ -1472,6 +1609,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -1497,6 +1635,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1536,6 +1678,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -1554,6 +1697,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 307,
+                    "level16": 490
+                },
                 "damage": {
                     "level11": 307,
                     "level16": 490
@@ -1593,6 +1740,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -1619,6 +1767,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1655,10 +1807,11 @@
             "units": 1,
             "duration": null,
             "deployTime": 1.2,
-            "evolution": false,
+            "evolution": true,
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 5,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -1675,15 +1828,34 @@
                 "level16": 417
             },
             "evoStats": {
-                "cycles": null,
-                "skills": {},
+                "cycles": 2,
+                "skills": {
+                    "slow": {
+                        "hitSpeedMultiplier": -30,
+                        "speedMultiplier": -30,
+                        "spawnSpeedMultiplier": -30,
+                        "duration": 7.0
+                    },
+                    "area-damage-on-death": {
+                        "areaEffect": "Ice Arrows",
+                        "damage": {
+                            "level11": 168,
+                            "level16": 268
+                        },
+                        "radius": 3.0
+                    }
+                },
+                "towerDamage": {
+                    "level11": 168,
+                    "level16": 268
+                },
                 "damage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 168,
+                    "level16": 268
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 261,
+                    "level16": 417
                 }
             },
             "heroStats": {
@@ -1716,6 +1888,7 @@
             "hero": true,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -1754,6 +1927,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1801,6 +1978,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -1819,6 +1997,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1858,6 +2040,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {
@@ -1886,6 +2069,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -1926,6 +2113,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": true,
             "flying": false,
             "skills": {
@@ -1957,6 +2145,10 @@
                         "spawnSpeedMultiplier": -100,
                         "duration": 1.1
                     }
+                },
+                "towerDamage": {
+                    "level11": 110,
+                    "level16": 175
                 },
                 "damage": {
                     "level11": 110,
@@ -1998,6 +2190,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": true,
             "flying": false,
             "skills": {},
@@ -2016,6 +2209,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2055,6 +2252,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -2077,6 +2275,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2116,6 +2318,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -2134,6 +2337,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2173,6 +2380,7 @@
             "hero": true,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -2200,6 +2408,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2246,23 +2458,15 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "spawn-on-death": {
-                    "character": "RageBarbarianBottle",
-                    "damage": {
-                        "level11": null,
-                        "level16": null
-                    },
-                    "radius": null,
-                    "deployTime": 0.5
-                },
                 "area-damage-on-death": {
                     "areaEffect": "BarbarianRage",
                     "damage": {
-                        "level11": null,
-                        "level16": null
+                        "level11": 179,
+                        "level16": 286
                     },
                     "radius": 3.0
                 },
@@ -2289,22 +2493,18 @@
                 "cycles": 1,
                 "skills": {
                     "spawn-on-death": {
-                        "character": "RageBarbarianBottle",
+                        "character": "Barbarian",
                         "damage": {
                             "level11": null,
                             "level16": null
                         },
                         "radius": null,
-                        "deployTime": 0.5
-                    },
-                    "area-damage-on-death": {
-                        "areaEffect": "BarbarianRage",
-                        "damage": {
-                            "level11": null,
-                            "level16": null
-                        },
-                        "radius": 3.0
+                        "deployTime": null
                     }
+                },
+                "towerDamage": {
+                    "level11": 256,
+                    "level16": 409
                 },
                 "damage": {
                     "level11": 256,
@@ -2345,6 +2545,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": true,
             "flying": false,
             "skills": {
@@ -2386,6 +2587,10 @@
                         "strength": 2.5
                     }
                 },
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 306
+                },
                 "damage": {
                     "level11": 192,
                     "level16": 306
@@ -2426,6 +2631,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -2444,6 +2650,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 35,
+                    "level16": 57
+                },
                 "damage": {
                     "level11": 35,
                     "level16": 57
@@ -2483,6 +2693,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -2516,6 +2727,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2563,6 +2778,7 @@
             "hero": true,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -2581,6 +2797,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2628,6 +2848,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -2646,6 +2867,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 151,
+                    "level16": 241
+                },
                 "damage": {
                     "level11": 151,
                     "level16": 241
@@ -2686,6 +2911,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -2704,6 +2930,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2744,6 +2974,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -2769,6 +3000,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2808,6 +3043,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -2835,6 +3071,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -2875,6 +3115,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 10,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -2893,6 +3134,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 84,
+                    "level16": 134
+                },
                 "damage": {
                     "level11": 84,
                     "level16": 134
@@ -2933,6 +3178,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -2956,6 +3202,10 @@
             "evoStats": {
                 "cycles": 1,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 179,
+                    "level16": 286
+                },
                 "damage": {
                     "level11": 179,
                     "level16": 286
@@ -2995,6 +3245,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3022,6 +3273,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3061,6 +3316,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3095,6 +3351,10 @@
                         "range": null,
                         "speedMultiplier": 200
                     }
+                },
+                "towerDamage": {
+                    "level11": 133,
+                    "level16": 212
                 },
                 "damage": {
                     "level11": 133,
@@ -3136,6 +3396,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3169,6 +3430,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3209,6 +3474,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -3242,6 +3508,10 @@
                             "level16": null
                         }
                     }
+                },
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 130
                 },
                 "damage": {
                     "level11": 81,
@@ -3282,6 +3552,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3307,6 +3578,10 @@
                     "invisibility": {
                         "whenNotAttackingTime": 2.0
                     }
+                },
+                "towerDamage": {
+                    "level11": 261,
+                    "level16": 417
                 },
                 "damage": {
                     "level11": 261,
@@ -3349,6 +3624,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3386,6 +3662,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3426,6 +3706,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3451,6 +3732,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3491,6 +3776,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -3503,12 +3789,16 @@
                 "level16": 347
             },
             "hitpoints": {
-                "level11": 1940,
-                "level16": 3100
+                "level11": 1832,
+                "level16": 2928
             },
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3548,6 +3838,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -3566,6 +3857,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3605,6 +3900,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3654,8 +3950,12 @@
                     },
                     "pushback": {
                         "distance": null,
-                        "strength": 4.0
+                        "strength": 2.5
                     }
+                },
+                "towerDamage": {
+                    "level11": 268,
+                    "level16": 429
                 },
                 "damage": {
                     "level11": 268,
@@ -3696,6 +3996,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": true,
             "flying": true,
             "skills": {},
@@ -3714,6 +4015,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 81,
+                    "level16": 129
+                },
                 "damage": {
                     "level11": 81,
                     "level16": 129
@@ -3754,6 +4059,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -3772,6 +4078,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -3811,6 +4121,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": true,
             "flying": false,
             "skills": {},
@@ -3829,6 +4140,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 350,
+                    "level16": 560
+                },
                 "damage": {
                     "level11": 350,
                     "level16": 560
@@ -3868,6 +4183,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3895,6 +4211,10 @@
                         "height": 4.0,
                         "speed": 0.16
                     }
+                },
+                "towerDamage": {
+                    "level11": 74,
+                    "level16": 118
                 },
                 "damage": {
                     "level11": 74,
@@ -3937,6 +4257,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -3959,8 +4280,8 @@
                 "level16": 282
             },
             "hitpoints": {
-                "level11": 3020,
-                "level16": 4826
+                "level11": 3110,
+                "level16": 4969
             },
             "evoStats": {
                 "cycles": 1,
@@ -3975,13 +4296,17 @@
                         "deployTime": 1.0
                     }
                 },
+                "towerDamage": {
+                    "level11": 176,
+                    "level16": 282
+                },
                 "damage": {
                     "level11": 176,
                     "level16": 282
                 },
                 "hitpoints": {
-                    "level11": 3020,
-                    "level16": 4826
+                    "level11": 3110,
+                    "level16": 4969
                 }
             },
             "heroStats": {
@@ -4014,6 +4339,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -4032,6 +4358,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4072,6 +4402,7 @@
             "hero": true,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4095,6 +4426,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4142,6 +4477,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {
@@ -4161,8 +4497,8 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 998,
-                "level16": 1595
+                "level11": 1049,
+                "level16": 1676
             },
             "evoStats": {
                 "cycles": 1,
@@ -4174,13 +4510,17 @@
                         "duration": 0.5
                     }
                 },
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 306
+                },
                 "damage": {
                     "level11": 192,
                     "level16": 306
                 },
                 "hitpoints": {
-                    "level11": 998,
-                    "level16": 1595
+                    "level11": 1049,
+                    "level16": 1676
                 }
             },
             "heroStats": {
@@ -4214,6 +4554,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 5,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4243,6 +4584,10 @@
                         "spawnSpeedMultiplier": null,
                         "duration": 2.5
                     }
+                },
+                "towerDamage": {
+                    "level11": 64,
+                    "level16": 102
                 },
                 "damage": {
                     "level11": 64,
@@ -4283,6 +4628,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4293,6 +4639,14 @@
                     "skills": {
                         "burrow": {
                             "duration": null
+                        },
+                        "area-damage-on-death": {
+                            "areaEffect": null,
+                            "damage": {
+                                "level11": 332,
+                                "level16": 531
+                            },
+                            "radius": 0.45
                         }
                     }
                 }
@@ -4312,6 +4666,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4351,16 +4709,17 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
                 "spawn-on-death": {
-                    "character": "ElixirGolem4",
+                    "character": "ElixirGolem2",
                     "damage": {
                         "level11": null,
                         "level16": null
                     },
-                    "radius": 0.4,
+                    "radius": 0.5,
                     "deployTime": 1.0
                 }
             },
@@ -4379,6 +4738,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4418,6 +4781,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4452,6 +4816,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4491,6 +4859,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4516,6 +4885,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4556,6 +4929,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4588,6 +4962,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4627,6 +5005,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4661,6 +5040,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4700,6 +5083,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4733,6 +5117,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4773,6 +5161,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": true,
             "skills": {},
@@ -4791,6 +5180,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4831,6 +5224,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4854,6 +5248,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4894,6 +5292,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": true,
             "flying": false,
             "skills": {
@@ -4919,6 +5318,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -4958,6 +5361,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -4983,6 +5387,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5023,6 +5431,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": true,
             "skills": {
@@ -5051,6 +5460,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5091,6 +5504,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5121,6 +5535,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5160,6 +5578,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5183,6 +5602,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5222,6 +5645,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -5240,6 +5664,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5279,6 +5707,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": true,
             "flying": false,
             "skills": {
@@ -5291,7 +5720,7 @@
                         "level11": 256,
                         "level16": 409
                     },
-                    "radius": null
+                    "radius": 0.5
                 }
             },
             "towerDamage": {
@@ -5309,6 +5738,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5350,6 +5783,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5382,6 +5816,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5421,6 +5859,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5432,12 +5871,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 153,
+                "level16": 245
             },
             "damage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 153,
+                "level16": 245
             },
             "hitpoints": {
                 "level11": 2662,
@@ -5446,6 +5885,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5485,6 +5928,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -5503,6 +5947,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5542,6 +5990,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5576,6 +6025,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5615,6 +6068,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -5633,6 +6087,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 202,
+                    "level16": 323
+                },
                 "damage": {
                     "level11": 202,
                     "level16": 323
@@ -5673,6 +6131,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5701,6 +6160,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5740,6 +6203,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -5758,6 +6222,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 266,
+                    "level16": 425
+                },
                 "damage": {
                     "level11": 266,
                     "level16": 425
@@ -5798,6 +6266,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -5816,6 +6285,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5855,17 +6328,17 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "spawn-on-death": {
-                    "character": "BombTowerBomb",
+                "area-damage-on-death": {
+                    "areaEffect": null,
                     "damage": {
                         "level11": 222,
                         "level16": 355
                     },
-                    "radius": 0.45,
-                    "deployTime": 3.0
+                    "radius": 0.45
                 }
             },
             "towerDamage": {
@@ -5883,6 +6356,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5922,6 +6399,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -5955,6 +6433,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -5989,12 +6471,13 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 30.0,
+            "duration": 25.0,
             "deployTime": 1.0,
             "evolution": true,
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -6019,6 +6502,10 @@
                         "spawnSpeedMultiplier": -100,
                         "duration": 1.5
                     }
+                },
+                "towerDamage": {
+                    "level11": 220,
+                    "level16": 351
                 },
                 "damage": {
                     "level11": 220,
@@ -6057,6 +6544,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -6075,6 +6563,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6114,6 +6606,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -6132,6 +6625,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6168,9 +6665,10 @@
             "duration": 30.0,
             "deployTime": 1.0,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6184,7 +6682,7 @@
                     "deployTime": 1.0
                 },
                 "periodic-spawn": {
-                    "pauseTime": 3.5,
+                    "pauseTime": 4,
                     "character": "Skeleton",
                     "units": 2
                 }
@@ -6204,6 +6702,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6214,7 +6716,29 @@
                 }
             },
             "heroStats": {
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Regal Revival",
+                        "elixirCost": 6,
+                        "cooldown": null,
+                        "skills": {
+                            "periodic-spawn": {
+                                "pauseTime": 5,
+                                "character": "Skeleton",
+                                "units": 2
+                            },
+                            "spawn-on-death": {
+                                "character": "Skeleton",
+                                "damage": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "radius": null,
+                                "deployTime": null
+                            }
+                        }
+                    }
+                }
             },
             "hitspeed": 10.0,
             "loadTime": null,
@@ -6244,6 +6768,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -6262,6 +6787,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 179,
+                    "level16": 286
+                },
                 "damage": {
                     "level11": 179,
                     "level16": 286
@@ -6279,7 +6808,7 @@
             "radius": null,
             "collisionRadius": 0.6,
             "speed": "medium",
-            "range": 6.0,
+            "range": 5.5,
             "sightRange": 6.0,
             "placement": "own-side",
             "unlockArena": "Arena_L",
@@ -6301,6 +6830,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6328,16 +6858,10 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {
-                    "spawn-on-death": {
-                        "character": "GoblinBrawler",
-                        "damage": {
-                            "level11": null,
-                            "level16": null
-                        },
-                        "radius": 0.5,
-                        "deployTime": 1.0
-                    }
+                "skills": {},
+                "towerDamage": {
+                    "level11": 306,
+                    "level16": 489
                 },
                 "damage": {
                     "level11": 306,
@@ -6379,6 +6903,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6433,6 +6958,10 @@
                         "duration": null
                     }
                 },
+                "towerDamage": {
+                    "level11": 227,
+                    "level16": 363
+                },
                 "damage": {
                     "level11": 227,
                     "level16": 363
@@ -6473,6 +7002,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6482,8 +7012,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 207,
-                "level16": 330
+                "level11": 172,
+                "level16": 274
             },
             "damage": {
                 "level11": 689,
@@ -6496,6 +7026,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6536,12 +7070,13 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 10,
             "kamikaze": false,
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 92,
-                "level16": 147
+                "level11": 75,
+                "level16": 119
             },
             "damage": {
                 "level11": 369,
@@ -6554,6 +7089,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6594,14 +7133,15 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
                 "area-damage-on-death": {
                     "areaEffect": "Rage",
                     "damage": {
-                        "level11": null,
-                        "level16": null
+                        "level11": 179,
+                        "level16": 286
                     },
                     "radius": 3.0
                 },
@@ -6613,8 +7153,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 54,
-                "level16": 86
+                "level11": 45,
+                "level16": 71
             },
             "damage": {
                 "level11": 179,
@@ -6627,6 +7167,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6667,6 +7211,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6676,8 +7221,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 371,
-                "level16": 593
+                "level11": 343,
+                "level16": 548
             },
             "damage": {
                 "level11": 1485,
@@ -6690,6 +7235,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6730,6 +7279,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -6748,6 +7298,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 120,
+                    "level16": 192
+                },
                 "damage": {
                     "level11": 120,
                     "level16": 192
@@ -6788,6 +7342,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6799,8 +7354,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 45,
-                "level16": 71
+                "level11": 37,
+                "level16": 59
             },
             "damage": {
                 "level11": 148,
@@ -6813,6 +7368,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6850,6 +7409,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -6868,6 +7428,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6908,6 +7472,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6919,8 +7484,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 285,
-                "level16": 456
+                "level11": 265,
+                "level16": 423
             },
             "damage": {
                 "level11": 1057,
@@ -6933,6 +7498,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -6973,6 +7542,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -6984,8 +7554,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 58,
-                "level16": 92
+                "level11": 48,
+                "level16": 77
             },
             "damage": {
                 "level11": 192,
@@ -6998,6 +7568,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 192,
+                    "level16": 307
+                },
                 "damage": {
                     "level11": 192,
                     "level16": 307
@@ -7038,6 +7612,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7049,8 +7624,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 23,
-                "level16": 37
+                "level11": 21,
+                "level16": 33
             },
             "damage": {
                 "level11": 92,
@@ -7063,6 +7638,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7096,13 +7675,14 @@
                 "buildings",
                 "ground"
             ],
-            "units": 19,
+            "units": 12,
             "duration": 9.0,
             "deployTime": null,
             "evolution": false,
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -7121,6 +7701,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7160,6 +7744,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7173,8 +7758,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 40,
-                "level16": 64
+                "level11": 35,
+                "level16": 57
             },
             "damage": {
                 "level11": 269,
@@ -7187,6 +7772,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7227,6 +7816,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -7245,6 +7835,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7285,6 +7879,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7309,6 +7904,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7348,6 +7947,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7359,8 +7959,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 53,
-                "level16": 85
+                "level11": 49,
+                "level16": 78
             },
             "damage": {
                 "level11": 82,
@@ -7373,6 +7973,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7412,6 +8016,7 @@
             "hero": true,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7435,6 +8040,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7482,6 +8091,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": true,
             "flying": false,
             "skills": {
@@ -7516,6 +8126,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7556,6 +8170,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7571,8 +8186,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 54,
-                "level16": 86
+                "level11": 45,
+                "level16": 71
             },
             "damage": {
                 "level11": 179,
@@ -7585,6 +8200,10 @@
             "evoStats": {
                 "cycles": 2,
                 "skills": {},
+                "towerDamage": {
+                    "level11": 179,
+                    "level16": 286
+                },
                 "damage": {
                     "level11": 179,
                     "level16": 286
@@ -7625,6 +8244,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": true,
+            "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
             "skills": {
@@ -7651,6 +8271,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7691,6 +8315,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -7709,6 +8334,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7749,6 +8378,7 @@
             "hero": false,
             "hitType": "splash",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -7767,6 +8397,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7807,6 +8441,7 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
@@ -7825,6 +8460,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7865,12 +8504,13 @@
             "hero": false,
             "hitType": "unique",
             "projectile": false,
+            "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 75,
-                "level16": 120
+                "level11": 70,
+                "level16": 111
             },
             "damage": {
                 "level11": 405,
@@ -7883,6 +8523,10 @@
             "evoStats": {
                 "cycles": null,
                 "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
                 "damage": {
                     "level11": null,
                     "level16": null
@@ -7920,6 +8564,7 @@
             "units": 1,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": null,
             "skills": {},
             "damage": {
                 "level11": 109,
@@ -7949,6 +8594,7 @@
             "units": 1,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": null,
             "skills": {},
             "damage": {
                 "level11": 273,
@@ -7978,6 +8624,7 @@
             "units": 1,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": null,
             "skills": {},
             "damage": {
                 "level11": 92,
@@ -8007,6 +8654,7 @@
             "units": 1,
             "hitType": "unique",
             "projectile": true,
+            "projectileNumber": null,
             "skills": {},
             "damage": {
                 "level11": 109,

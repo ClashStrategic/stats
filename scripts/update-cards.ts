@@ -45,12 +45,13 @@ const TARGETS_MAP: Record<TargetTid, TargetValue[]> = {
 const CARD_SKELETON: Card = {
     name: null, id: null, elixirCost: null, targets: [], units: 0,
     duration: null, deployTime: null, evolution: false, hero: false, hitType: null,
-    projectile: false, kamikaze: false, flying: false,
+    projectile: false, projectileNumber: null, kamikaze: false, flying: false,
     skills: {},
     towerDamage: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS },
     hitpoints: { ...EMPTY_LEVELS },
     evoStats: {
         cycles: null, skills: {},
+        towerDamage: { ...EMPTY_LEVELS },
         damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS }
     },
     heroStats: { skills: {} },
@@ -60,7 +61,7 @@ const CARD_SKELETON: Card = {
 
 const TOWER_CARD_SKELETON: TowerCard = {
     name: null, id: null, targets: [], units: 0, hitType: null,
-    projectile: false, skills: {},
+    projectile: false, projectileNumber: null, skills: {},
     damage: { ...EMPTY_LEVELS }, hitpoints: { ...EMPTY_LEVELS },
     hitspeed: null, collisionRadius: null,
     speed: null, range: null, sightRange: null, unlockArena: null, tribe: null, rarity: null, type: null
@@ -169,7 +170,14 @@ function extractSkills(
         Object.entries(data).forEach(([k, v]) => { if (v != null) map[type][k] = v; });
     };
 
-    const scan = (raw: unknown, isSpawn: boolean = false, parentDuration: number | null = null, currentGroupMaxSize: number | null = null): void => {
+    const scan = (
+        raw: unknown,
+        isSpawn: boolean = false,
+        parentDuration: number | null = null,
+        currentGroupMaxSize: number | null = null,
+        context: SkillType | null = null,
+        isRealSpawn: boolean = false
+    ): void => {
         if (!raw || typeof raw !== 'object' || visited.has(raw as object)) return;
         visited.add(raw as object);
         const obj = raw as Record<string, any>;
@@ -183,6 +191,13 @@ function extractSkills(
         const localDuration = (obj.lifeDuration > (obj.buffTime ?? 0)) ? obj.lifeDuration : (obj.buffTime ?? obj.buffOnDamageTime ?? obj.lifeDuration);
         const currentDuration = localDuration ?? parentDuration;
         const groupMaxSize = obj.groupMaxSize ?? currentGroupMaxSize;
+        const localRadius = obj.radius ?? obj.areaDamageRadius ?? obj.collisionRadius;
+
+        if (obj.damage > 0 && context) {
+            setSkill(context, {
+                damage: mult ? scaleLevels(obj.damage, mult) : { ...EMPTY_LEVELS }
+            });
+        }
 
         if (obj.healPerSecond > 0) {
             const scaledHeal = mult ? scaleLevels(obj.healPerSecond, mult) : { ...EMPTY_LEVELS };
@@ -275,14 +290,23 @@ function extractSkills(
                 whenNotAttackingTime: obj.buffWhenNotAttackingTime ? toSec(obj.buffWhenNotAttackingTime) : null
             });
 
-        if (obj.deathSpawnCharacterData) {
-            const spawn = obj.deathSpawnCharacterData as CharacterData;
-            setSkill('spawn-on-death', {
-                character: spawn.name || true,
-                damage: mult ? scaleLevels(spawn.deathDamage, mult) : { ...EMPTY_LEVELS },
-                radius: toSec(spawn.collisionRadius),
-                deployTime: toSec(spawn.deployTime as number)
+        if (obj.deathDamage > 0 && !isRealSpawn) {
+            setSkill('area-damage-on-death', {
+                damage: mult ? scaleLevels(obj.deathDamage, mult) : { ...EMPTY_LEVELS },
+                radius: localRadius ? localRadius / 1000 : null
             });
+        }
+
+        if (obj.deathSpawnCharacterData && !isRealSpawn) {
+            const spawn = obj.deathSpawnCharacterData as CharacterData;
+            if (spawn.hitpoints && spawn.hitpoints > 0) {
+                setSkill('spawn-on-death', {
+                    character: spawn.name || true,
+                    damage: mult ? scaleLevels(spawn.deathDamage, mult) : { ...EMPTY_LEVELS },
+                    radius: spawn.collisionRadius ? spawn.collisionRadius / 1000 : null,
+                    deployTime: toSec(spawn.deployTime as number)
+                });
+            }
         }
 
         if (obj.spawnPauseTime > 0)
@@ -295,9 +319,9 @@ function extractSkills(
         if (obj.deathAreaEffectData) {
             const effect = obj.deathAreaEffectData as AreaEffectData;
             setSkill('area-damage-on-death', {
-                areaEffect: effect.name || true,
+                areaEffect: effect.name || 'death-explosion',
                 damage: mult ? scaleLevels(effect.damage || obj.deathDamage, mult) : { ...EMPTY_LEVELS },
-                radius: toSec(effect.radius)
+                radius: effect.radius ? effect.radius / 1000 : (localRadius ? localRadius / 1000 : null)
             });
         }
 
@@ -311,12 +335,24 @@ function extractSkills(
         for (const key in obj) {
             if (typeof obj[key] === 'object' && key !== 'abilityData') {
                 const nextIsSpawn = isSpawn || key === 'spawnAreaObjectData' || key === 'onStartingActionData';
-                scan(obj[key], nextIsSpawn, currentDuration, groupMaxSize);
+
+                let nextContext = context;
+                if (key === 'deathAreaEffectData') {
+                    nextContext = 'area-damage-on-death';
+                } else if (key === 'deathSpawnCharacterData') {
+                    const spawn = obj[key] as CharacterData;
+                    if (spawn.hitpoints && spawn.hitpoints > 0) {
+                        scan(obj[key], nextIsSpawn, currentDuration, groupMaxSize, null, true);
+                        continue;
+                    }
+                }
+
+                scan(obj[key], nextIsSpawn, currentDuration, groupMaxSize, nextContext, isRealSpawn);
             }
         }
     };
 
-    (Array.isArray(sources) ? sources : Object.values(sources)).forEach(src => scan(src));
+    (Array.isArray(sources) ? sources : Object.values(sources)).forEach(src => scan(src, false, null, null, null, false));
     return skills;
 }
 
@@ -427,6 +463,11 @@ function populateCard(card: Card, spell: Spell, mult: LevelMultiplier): void {
     card.elixirCost = spell.manaCost ?? card.elixirCost;
     card.rarity = (spell.rarity || card.rarity || '').toLowerCase() as Card['rarity'];
     card.hero = card.rarity !== 'champion' && !!spell.heroData;
+    card.projectileNumber = (spell.multipleProjectiles as number)
+        ?? (charData.multipleProjectiles as number)
+        ?? (proj.spawnCount as number)
+        ?? (spawnProj.spawnCount as number)
+        ?? card.projectileNumber;
     card.kamikaze = charData.kamikaze ?? card.kamikaze;
     card.unlockArena = spell.unlockArena || card.unlockArena;
     card.tribe = spell.tribe || card.tribe;
@@ -534,8 +575,18 @@ function populateEvolution(card: Card, spell: Spell, mult: LevelMultiplier, base
     const evoHP = evoChar.hitpoints || spawnChar.hitpoints || baseHP;
     const evoDmg = evoChar.damage || proj.damage || area.damage || buff.damagePerSecond || spawnProj.damage || spawnChar.damage || baseDamage;
 
+    const evoTowerPct = evo.crownTowerDamagePercent ?? evoChar.crownTowerDamagePercent ?? proj.crownTowerDamagePercent
+        ?? area.crownTowerDamagePercent ?? buff.crownTowerDamagePercent ?? spawnProj.crownTowerDamagePercent ?? spawnChar.crownTowerDamagePercent;
+    const evoBaseTowerDmg = evoTowerPct !== undefined && evoDmg ? evoDmg * (100 + evoTowerPct) / 100 : null;
+
     card.evoStats.hitpoints = mergeLevels(scaleLevels(evoHP, mult), card.evoStats.hitpoints);
     card.evoStats.damage = mergeLevels(scaleLevels(evoDmg, mult), card.evoStats.damage);
+    const computedEvoTowerDmg = evoBaseTowerDmg !== null ? scaleLevels(evoBaseTowerDmg, mult) : { ...EMPTY_LEVELS };
+    card.evoStats.towerDamage = mergeLevels(computedEvoTowerDmg, card.evoStats.towerDamage);
+    if (evoBaseTowerDmg === null && (card.evoStats.towerDamage.level11 == null && card.evoStats.towerDamage.level16 == null)) {
+        card.evoStats.towerDamage = { ...card.evoStats.damage };
+    }
+
     card.evoStats.cycles = evo.cycles ?? card.evoStats.cycles;
     const evoSkills = extractSkills({ spell: evo, charData: evoChar, area, proj, buff, deathArea }, mult, evoHP ?? null);
 

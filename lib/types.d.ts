@@ -114,6 +114,7 @@ export type SkillsMap = Partial<SkillTemplates>;
 export interface EvoStats {
     cycles: number | null;
     skills: SkillsMap;
+    towerDamage: Levels;
     damage: Levels;
     hitpoints: Levels;
 }
@@ -132,6 +133,7 @@ export interface Card {
     hero: boolean;
     hitType: string | null;
     projectile: boolean;
+    projectileNumber: number | null;
     kamikaze: boolean;
     flying: boolean;
     skills: SkillsMap;

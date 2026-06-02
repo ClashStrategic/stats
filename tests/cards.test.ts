@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeAll } from 'vitest';
-import Ajv from 'ajv';
+import { Ajv, ErrorObject } from 'ajv';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -81,7 +81,7 @@ describe('Card Data Validation', () => {
       const valid = validate(invalidData);
       expect(valid).toBe(false);
       
-      const hasAdditionalPropertyError = validate.errors?.some(err => 
+      const hasAdditionalPropertyError = validate.errors?.some((err: ErrorObject) => 
         err.keyword === 'additionalProperties' && 
         err.params.additionalProperty === 'ability'
       );
@@ -131,6 +131,10 @@ describe('Card Data Validation', () => {
         expect(Number.isInteger(card[field])).toBe(true);
       });
 
+      if (card.projectileNumber !== null) {
+        expect(Number.isInteger(card.projectileNumber)).toBe(true);
+      }
+
 
 
       if (card.evoStats.cycles !== null) {
@@ -140,6 +144,7 @@ describe('Card Data Validation', () => {
       checkLevelBasedStats(card.towerDamage);
       checkLevelBasedStats(card.damage);
       checkLevelBasedStats(card.hitpoints);
+      checkLevelBasedStats(card.evoStats.towerDamage);
       checkLevelBasedStats(card.evoStats.damage);
       checkLevelBasedStats(card.evoStats.hitpoints);
     });
@@ -206,15 +211,20 @@ describe('Card Data Validation', () => {
       expect(evoStats.damage).toBeDefined();
       expect(evoStats.damage.level11).not.toBeNull();
       expect(evoStats.damage.level16).not.toBeNull();
+      expect(evoStats.towerDamage).toBeDefined();
 
       if (type === 'spell' && units === 0) {
         expect(evoStats.hitpoints).toBeDefined();
         expect(evoStats.hitpoints.level11).toBeNull();
         expect(evoStats.hitpoints.level16).toBeNull();
+        expect(evoStats.towerDamage.level11).not.toBeNull();
+        expect(evoStats.towerDamage.level16).not.toBeNull();
       } else {
         expect(evoStats.hitpoints).toBeDefined();
         expect(evoStats.hitpoints.level11).not.toBeNull();
         expect(evoStats.hitpoints.level16).not.toBeNull();
+        expect(evoStats.towerDamage.level11).not.toBeNull();
+        expect(evoStats.towerDamage.level16).not.toBeNull();
       }
     });
   });
