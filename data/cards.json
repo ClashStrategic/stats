@@ -3774,8 +3774,8 @@
                 "level16": 347
             },
             "hitpoints": {
-                "level11": 1940,
-                "level16": 3100
+                "level11": 1832,
+                "level16": 2928
             },
             "evoStats": {
                 "cycles": null,
@@ -3935,7 +3935,7 @@
                     },
                     "pushback": {
                         "distance": null,
-                        "strength": 4.0
+                        "strength": 2.5
                     }
                 },
                 "towerDamage": {
@@ -4265,8 +4265,8 @@
                 "level16": 282
             },
             "hitpoints": {
-                "level11": 3020,
-                "level16": 4826
+                "level11": 3110,
+                "level16": 4969
             },
             "evoStats": {
                 "cycles": 1,
@@ -4290,8 +4290,8 @@
                     "level16": 282
                 },
                 "hitpoints": {
-                    "level11": 3020,
-                    "level16": 4826
+                    "level11": 3110,
+                    "level16": 4969
                 }
             },
             "heroStats": {
@@ -4482,8 +4482,8 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 998,
-                "level16": 1595
+                "level11": 1049,
+                "level16": 1676
             },
             "evoStats": {
                 "cycles": 1,
@@ -4504,8 +4504,8 @@
                     "level16": 306
                 },
                 "hitpoints": {
-                    "level11": 998,
-                    "level16": 1595
+                    "level11": 1049,
+                    "level16": 1676
                 }
             },
             "heroStats": {
@@ -5856,12 +5856,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 153,
+                "level16": 245
             },
             "damage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 153,
+                "level16": 245
             },
             "hitpoints": {
                 "level11": 2662,
@@ -6456,7 +6456,7 @@
                 "ground"
             ],
             "units": 1,
-            "duration": 30.0,
+            "duration": 25.0,
             "deployTime": 1.0,
             "evolution": true,
             "hero": false,
@@ -6771,7 +6771,7 @@
             "radius": null,
             "collisionRadius": 0.6,
             "speed": "medium",
-            "range": 6.0,
+            "range": 5.5,
             "sightRange": 6.0,
             "placement": "own-side",
             "unlockArena": "Arena_L",
@@ -6975,8 +6975,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 207,
-                "level16": 330
+                "level11": 172,
+                "level16": 274
             },
             "damage": {
                 "level11": 689,
@@ -7038,8 +7038,8 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 92,
-                "level16": 147
+                "level11": 75,
+                "level16": 119
             },
             "damage": {
                 "level11": 369,
@@ -7116,8 +7116,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 54,
-                "level16": 86
+                "level11": 45,
+                "level16": 71
             },
             "damage": {
                 "level11": 179,
@@ -7184,8 +7184,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 371,
-                "level16": 593
+                "level11": 343,
+                "level16": 548
             },
             "damage": {
                 "level11": 1485,
@@ -7317,8 +7317,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 45,
-                "level16": 71
+                "level11": 37,
+                "level16": 59
             },
             "damage": {
                 "level11": 148,
@@ -7447,8 +7447,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 285,
-                "level16": 456
+                "level11": 265,
+                "level16": 423
             },
             "damage": {
                 "level11": 1057,
@@ -7517,8 +7517,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 58,
-                "level16": 92
+                "level11": 48,
+                "level16": 77
             },
             "damage": {
                 "level11": 192,
@@ -7587,8 +7587,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 23,
-                "level16": 37
+                "level11": 21,
+                "level16": 33
             },
             "damage": {
                 "level11": 92,
@@ -7638,7 +7638,7 @@
                 "buildings",
                 "ground"
             ],
-            "units": 19,
+            "units": 12,
             "duration": 9.0,
             "deployTime": null,
             "evolution": false,
@@ -7721,8 +7721,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 40,
-                "level16": 64
+                "level11": 35,
+                "level16": 57
             },
             "damage": {
                 "level11": 269,
@@ -7922,8 +7922,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 53,
-                "level16": 85
+                "level11": 49,
+                "level16": 78
             },
             "damage": {
                 "level11": 82,
@@ -8149,8 +8149,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 54,
-                "level16": 86
+                "level11": 45,
+                "level16": 71
             },
             "damage": {
                 "level11": 179,
@@ -8472,8 +8472,8 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 75,
-                "level16": 120
+                "level11": 70,
+                "level16": 111
             },
             "damage": {
                 "level11": 405,
