@@ -1,3 +1,23 @@
+# [2.1.0](https://github.com/ClashStrategic/stats/compare/v2.0.0...v2.1.0) (2026-06-02)
+
+
+### Bug Fixes
+
+* **data:** remove redundant spawn-on-death skill definitions ([4452773](https://github.com/ClashStrategic/stats/commit/4452773fae42da326e3d9edca4a77b65388854e0))
+* **data:** update card balance stats for multiple units ([3753f0b](https://github.com/ClashStrategic/stats/commit/3753f0b8f93c747fe0829dc10c8f05275c8faca7))
+
+
+### Features
+
+* **data:** add evolution heal skills to card data ([fdf12f7](https://github.com/ClashStrategic/stats/commit/fdf12f743d7d8bb61757a98b69d0f80a67a0b4d8))
+* **data:** add spawn-on-death skill to evolved battle ram ([7da9e4d](https://github.com/ClashStrategic/stats/commit/7da9e4d2b68f0cbb746c9bd4bd25c7fb7df5ae54))
+* **data:** update death damage and spawn stats for cards ([dc20211](https://github.com/ClashStrategic/stats/commit/dc202112c59ae86b9fb8b3a44f5db2abae0a25dc))
+* **evolution:** implement Princess evolution stats and mechanics ([0f601db](https://github.com/ClashStrategic/stats/commit/0f601db516ec1c2155141fa24f3ab321e186f966))
+* **hero:** update Tombstone hero status and ability configuration ([a64814e](https://github.com/ClashStrategic/stats/commit/a64814efd65c29e24b1872af9392474005d5c5d6))
+* **projectile-number:** add projectileNumber field to card schema and data ([f7ebe19](https://github.com/ClashStrategic/stats/commit/f7ebe195e54550f84e6cb347c45f324a2791ffc5))
+* **skills:** add area-damage-on-death stats to card definitions ([3849b2f](https://github.com/ClashStrategic/stats/commit/3849b2f2cef24310701ede1ebbd1d011f42bcbc9))
+* **tower-damage:** add towerDamage to evolution statistics ([f652fd4](https://github.com/ClashStrategic/stats/commit/f652fd467f9b726856e6e9ccdf9c57755999db0b))
+
 # [2.0.0](https://github.com/ClashStrategic/stats/compare/v1.10.1...v2.0.0) (2026-05-19)
 
 
