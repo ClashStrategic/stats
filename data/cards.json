@@ -6665,7 +6665,7 @@
             "duration": 30.0,
             "deployTime": 1.0,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "hitType": "unique",
             "projectile": false,
             "projectileNumber": null,
@@ -6682,7 +6682,7 @@
                     "deployTime": 1.0
                 },
                 "periodic-spawn": {
-                    "pauseTime": 3.5,
+                    "pauseTime": 4,
                     "character": "Skeleton",
                     "units": 2
                 }
@@ -6716,7 +6716,29 @@
                 }
             },
             "heroStats": {
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Regal Revival",
+                        "elixirCost": 6,
+                        "cooldown": null,
+                        "skills": {
+                            "periodic-spawn": {
+                                "pauseTime": 5,
+                                "character": "Skeleton",
+                                "units": 2
+                            },
+                            "spawn-on-death": {
+                                "character": "Skeleton",
+                                "damage": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "radius": null,
+                                "deployTime": null
+                            }
+                        }
+                    }
+                }
             },
             "hitspeed": 10.0,
             "loadTime": null,
