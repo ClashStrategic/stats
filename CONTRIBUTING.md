@@ -10,13 +10,22 @@ Thank you for your interest in contributing to this project! Your help is highly
     git clone https://github.com/YOUR_USERNAME/stats.git
     cd stats
     ```
-3.  **Create a New Branch**: Always work on a separate branch for your changes.
+3.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+4.  **Create a New Branch**: Always work on a separate branch for your changes.
     ```bash
     git checkout -b feature/your-feature-name
     # or fix/your-bug-fix
     ```
-4.  **Make Your Changes**: Implement features, fix bugs, or add data.
-5.  **Test Your Changes**: Ensure your modifications do not introduce new issues and that everything works as expected.
+5.  **Make Your Changes**: Implement features, fix bugs, or add data.
+6.  **Verify Your Changes**: Ensure your modifications pass all checks:
+    ```bash
+    npm test
+    npm run lint
+    npm run typecheck
+    ```
 
 ## 📝 Semantic Commits
 
@@ -26,31 +35,34 @@ The general format is: `<type>(optional scope): <description>`
 
 **Common Types:**
 
-*   `feat`: A new feature.
-*   `fix`: A bug fix.
+*   `feat`: A new feature (e.g., adding evolution data).
+*   `fix`: A bug fix (e.g., correcting elixir cost).
 *   `docs`: Documentation only changes.
-*   `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.).
-*   `refactor`: A code change that neither fixes a bug nor adds a feature.
-*   `perf`: A code change that improves performance.
 *   `test`: Adding missing tests or correcting existing tests.
-*   `build`: Changes that affect the build system or external dependencies (examples: gulp, broccoli, npm).
-*   `ci`: Changes to our CI configuration files and scripts (examples: Travis, Circle, BrowserStack, SauceLabs).
+*   `build`: Changes that affect the build system or external dependencies.
 *   `chore`: Other changes that don't modify source code or test files.
-*   `revert`: Reverts a previous commit.
+
+**Project Scopes:**
+
+*   `data`: Changes in `data/cards.json` or data structures.
+*   `scripts`: Changes in the `scripts/` directory.
+*   `hero`: Specific changes related to Hero cards.
+*   `evolution`: Specific changes related to Card Evolutions.
+*   `validation`: Changes related to schema validation or AJV.
 
 **Examples:**
 
-*   `feat: add endpoint for tower data`
-*   `fix(cards): correct card elixir retrieval bug`
-*   `docs: update contribution section`
-*   `refactor(data): optimize card data structure`
+*   `feat(evolution): add Princess evolution stats`
+*   `fix(data): correct Elixir Golem HP values`
+*   `test(validation): add tests for new card schema fields`
+*   `build(scripts): enhance card update automation`
 
 ## ✍️ Code Style
 
+*   **TypeScript**: We use TypeScript for all logic. Ensure proper typing.
+*   **JSON structure**: Data in `data/cards.json` must follow the defined schema in `src/schema.ts`.
 *   **Simplicity and Readability**: Write clear, concise, and easy-to-understand code.
-*   **Descriptive Names**: Use meaningful and consistent naming conventions for data fields and file names.
-*   **Consistency**: Ensure data formats (e.g., JSON structure, field types) are consistent across all data files.
-*   **Accuracy**: Verify the correctness of all data added or modified.
+*   **Accuracy**: Verify the correctness of all data added or modified against official Clash Royale stats.
 
 ## 🐛 Bug Reports and Suggestions
 
@@ -63,10 +75,6 @@ If you find a bug or have an idea for a new feature, please open an [Issue](http
     git pull origin main
     ```
 2.  Commit your changes using [semantic commits](#-semantic-commits).
-    ```bash
-    git add .
-    git commit -m "feat: add new feature X"
-    ```
 3.  Push your branch to your fork.
     ```bash
     git push origin feature/your-feature-name
