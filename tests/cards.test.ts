@@ -258,6 +258,7 @@ describe('Card Data Validation', () => {
       boost: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
       burrow: ['duration'],
       multiply: ['units', 'interval', 'maxUnits'],
+      reflect: ['damageReductionPercent', 'duration', 'radius'],
     };
 
     it.each(cardsData.cards)('Card "$name" should have consistent skill structures', (card) => {
