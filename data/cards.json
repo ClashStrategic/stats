@@ -5021,6 +5021,12 @@
                             },
                             "minRange": null,
                             "maxRange": null
+                        },
+                        "boost": {
+                            "hitSpeedMultiplier": null,
+                            "speedMultiplier": 200,
+                            "spawnSpeedMultiplier": null,
+                            "duration": null
                         }
                     }
                 }
