@@ -5104,6 +5104,11 @@
                                 "level16": null
                             },
                             "damageReductionPercent": 65
+                        },
+                        "reflect": {
+                            "damageReductionPercent": 65,
+                            "duration": 4.0,
+                            "radius": 1.5
                         }
                     }
                 }
@@ -8575,7 +8580,13 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "reflect": {
+                    "damageReductionPercent": null,
+                    "duration": null,
+                    "radius": null
+                }
+            },
             "towerDamage": {
                 "level11": 371,
                 "level16": 593
