@@ -8557,6 +8557,68 @@
             "tribe": null,
             "rarity": "epic",
             "type": "spell"
+        },
+        {
+            "name": "Ronin",
+            "id": 26000106,
+            "elixirCost": 5,
+            "targets": [
+                "ground"
+            ],
+            "units": 1,
+            "duration": null,
+            "deployTime": 1.0,
+            "evolution": false,
+            "hero": false,
+            "hitType": "unique",
+            "projectile": false,
+            "projectileNumber": null,
+            "kamikaze": false,
+            "flying": false,
+            "skills": {},
+            "towerDamage": {
+                "level11": 371,
+                "level16": 593
+            },
+            "damage": {
+                "level11": 371,
+                "level16": 593
+            },
+            "hitpoints": {
+                "level11": 1779,
+                "level16": 2842
+            },
+            "evoStats": {
+                "cycles": null,
+                "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
+                "damage": {
+                    "level11": null,
+                    "level16": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level16": null
+                }
+            },
+            "heroStats": {
+                "skills": {}
+            },
+            "hitspeed": 1.4,
+            "loadTime": 1.1,
+            "radius": null,
+            "collisionRadius": 0.6,
+            "speed": "fast",
+            "range": 1.2,
+            "sightRange": 5.5,
+            "placement": "own-side",
+            "unlockArena": "Arena14",
+            "tribe": null,
+            "rarity": "legendary",
+            "type": "troop"
         }
     ],
     "towerCards": [
