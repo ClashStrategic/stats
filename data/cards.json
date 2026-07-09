@@ -301,8 +301,8 @@
                 "level16": 1304
             },
             "damage": {
-                "level11": 816,
-                "level16": 1304
+                "level11": 842,
+                "level16": 1345
             },
             "hitpoints": {
                 "level11": 3760,
@@ -332,8 +332,8 @@
                     "level16": 1304
                 },
                 "damage": {
-                    "level11": 816,
-                    "level16": 1304
+                    "level11": 842,
+                    "level16": 1345
                 },
                 "hitpoints": {
                     "level11": 3760,
@@ -1069,8 +1069,8 @@
                 "level16": 257
             },
             "damage": {
-                "level11": 161,
-                "level16": 257
+                "level11": 168,
+                "level16": 269
             },
             "hitpoints": {
                 "level11": 1152,
@@ -1084,8 +1084,8 @@
                     "level16": 257
                 },
                 "damage": {
-                    "level11": 161,
-                    "level16": 257
+                    "level11": 168,
+                    "level16": 269
                 },
                 "hitpoints": {
                     "level11": 1152,
@@ -2261,8 +2261,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 48,
-                "level16": 77
+                "level11": 38,
+                "level16": 62
             },
             "damage": {
                 "level11": 194,
@@ -3656,8 +3656,8 @@
                 "level16": 400
             },
             "hitpoints": {
-                "level11": 1697,
-                "level16": 2711
+                "level11": 1766,
+                "level16": 2822
             },
             "evoStats": {
                 "cycles": null,
@@ -3876,7 +3876,7 @@
             "hitspeed": 0.9,
             "loadTime": 0.4,
             "radius": null,
-            "collisionRadius": 0.6,
+            "collisionRadius": 0.5,
             "speed": "medium",
             "range": 5.5,
             "sightRange": 6.0,
@@ -3950,7 +3950,7 @@
                     },
                     "pushback": {
                         "distance": null,
-                        "strength": 2.5
+                        "strength": 4.0
                     }
                 },
                 "towerDamage": {
@@ -5381,8 +5381,8 @@
                 "level16": 261
             },
             "hitpoints": {
-                "level11": 3855,
-                "level16": 6159
+                "level11": 3952,
+                "level16": 6314
             },
             "evoStats": {
                 "cycles": null,
@@ -6490,8 +6490,8 @@
                 "level16": 351
             },
             "hitpoints": {
-                "level11": 1152,
-                "level16": 1840
+                "level11": 1182,
+                "level16": 1889
             },
             "evoStats": {
                 "cycles": 2,
@@ -6512,8 +6512,8 @@
                     "level16": 351
                 },
                 "hitpoints": {
-                    "level11": 1152,
-                    "level16": 1840
+                    "level11": 1182,
+                    "level16": 1889
                 }
             },
             "heroStats": {
@@ -6682,7 +6682,7 @@
                     "deployTime": 1.0
                 },
                 "periodic-spawn": {
-                    "pauseTime": 4,
+                    "pauseTime": 3.5,
                     "character": "Skeleton",
                     "units": 2
                 }
@@ -6718,7 +6718,7 @@
             "heroStats": {
                 "skills": {
                     "ability": {
-                        "name": "Regal Revival",
+                        "name": "Tombstone_hero",
                         "elixirCost": 6,
                         "cooldown": null,
                         "skills": {
