@@ -4,7 +4,7 @@ export {
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
-    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill
+    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill
 } from './types.js';
 export { cardSchema } from './schema.js';
 
