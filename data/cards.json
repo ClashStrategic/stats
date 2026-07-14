@@ -301,8 +301,8 @@
                 "level16": 1304
             },
             "damage": {
-                "level11": 816,
-                "level16": 1304
+                "level11": 842,
+                "level16": 1345
             },
             "hitpoints": {
                 "level11": 3760,
@@ -332,8 +332,8 @@
                     "level16": 1304
                 },
                 "damage": {
-                    "level11": 816,
-                    "level16": 1304
+                    "level11": 842,
+                    "level16": 1345
                 },
                 "hitpoints": {
                     "level11": 3760,
@@ -1069,8 +1069,8 @@
                 "level16": 257
             },
             "damage": {
-                "level11": 161,
-                "level16": 257
+                "level11": 168,
+                "level16": 269
             },
             "hitpoints": {
                 "level11": 1152,
@@ -1084,8 +1084,8 @@
                     "level16": 257
                 },
                 "damage": {
-                    "level11": 161,
-                    "level16": 257
+                    "level11": 168,
+                    "level16": 269
                 },
                 "hitpoints": {
                     "level11": 1152,
@@ -2261,8 +2261,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 48,
-                "level16": 77
+                "level11": 38,
+                "level16": 62
             },
             "damage": {
                 "level11": 194,
@@ -2634,7 +2634,25 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": true,
-            "skills": {},
+            "skills": {
+                "ramping-damage": {
+                    "rampInterval": 1.5,
+                    "damageTiers": [
+                        {
+                            "level11": 35,
+                            "level16": 57
+                        },
+                        {
+                            "level11": 120,
+                            "level16": 192
+                        },
+                        {
+                            "level11": 422,
+                            "level16": 674
+                        }
+                    ]
+                }
+            },
             "towerDamage": {
                 "level11": 35,
                 "level16": 57
@@ -2649,7 +2667,29 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "ramping-damage": {
+                        "rampInterval": 1.5,
+                        "damageTiers": [
+                            {
+                                "level11": 35,
+                                "level16": 57
+                            },
+                            {
+                                "level11": 120,
+                                "level16": 192
+                            },
+                            {
+                                "level11": 422,
+                                "level16": 674
+                            },
+                            {
+                                "level11": 844,
+                                "level16": 1349
+                            }
+                        ]
+                    }
+                },
                 "towerDamage": {
                     "level11": 35,
                     "level16": 57
@@ -3656,8 +3696,8 @@
                 "level16": 400
             },
             "hitpoints": {
-                "level11": 1697,
-                "level16": 2711
+                "level11": 1766,
+                "level16": 2822
             },
             "evoStats": {
                 "cycles": null,
@@ -3876,7 +3916,7 @@
             "hitspeed": 0.9,
             "loadTime": 0.4,
             "radius": null,
-            "collisionRadius": 0.6,
+            "collisionRadius": 0.5,
             "speed": "medium",
             "range": 5.5,
             "sightRange": 6.0,
@@ -3950,7 +3990,7 @@
                     },
                     "pushback": {
                         "distance": null,
-                        "strength": 2.5
+                        "strength": 4.0
                     }
                 },
                 "towerDamage": {
@@ -4647,6 +4687,23 @@
                                 "level16": 531
                             },
                             "radius": 0.45
+                        },
+                        "ramping-damage": {
+                            "rampInterval": 1.5,
+                            "damageTiers": [
+                                {
+                                    "level11": 40,
+                                    "level16": 65
+                                },
+                                {
+                                    "level11": 204,
+                                    "level16": 327
+                                },
+                                {
+                                    "level11": 409,
+                                    "level16": 654
+                                }
+                            ]
                         }
                     }
                 }
@@ -5021,6 +5078,12 @@
                             },
                             "minRange": null,
                             "maxRange": null
+                        },
+                        "boost": {
+                            "hitSpeedMultiplier": null,
+                            "speedMultiplier": 200,
+                            "spawnSpeedMultiplier": null,
+                            "duration": null
                         }
                     }
                 }
@@ -5098,6 +5161,28 @@
                                 "level16": null
                             },
                             "damageReductionPercent": 65
+                        },
+                        "reflect": {
+                            "damageReductionPercent": 65,
+                            "duration": 4.0,
+                            "radius": 1.5
+                        },
+                        "ramping-damage": {
+                            "rampInterval": 1.5,
+                            "damageTiers": [
+                                {
+                                    "level11": 140,
+                                    "level16": 224
+                                },
+                                {
+                                    "level11": 140,
+                                    "level16": 224
+                                },
+                                {
+                                    "level11": 422,
+                                    "level16": 674
+                                }
+                            ]
                         }
                     }
                 }
@@ -5381,8 +5466,8 @@
                 "level16": 261
             },
             "hitpoints": {
-                "level11": 3855,
-                "level16": 6159
+                "level11": 3952,
+                "level16": 6314
             },
             "evoStats": {
                 "cycles": null,
@@ -6269,7 +6354,25 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "ramping-damage": {
+                    "rampInterval": 1.5,
+                    "damageTiers": [
+                        {
+                            "level11": 43,
+                            "level16": 69
+                        },
+                        {
+                            "level11": 158,
+                            "level16": 253
+                        },
+                        {
+                            "level11": 847,
+                            "level16": 1353
+                        }
+                    ]
+                }
+            },
             "towerDamage": {
                 "level11": 43,
                 "level16": 69
@@ -6490,8 +6593,8 @@
                 "level16": 351
             },
             "hitpoints": {
-                "level11": 1152,
-                "level16": 1840
+                "level11": 1182,
+                "level16": 1889
             },
             "evoStats": {
                 "cycles": 2,
@@ -6512,8 +6615,8 @@
                     "level16": 351
                 },
                 "hitpoints": {
-                    "level11": 1152,
-                    "level16": 1840
+                    "level11": 1182,
+                    "level16": 1889
                 }
             },
             "heroStats": {
@@ -6682,7 +6785,7 @@
                     "deployTime": 1.0
                 },
                 "periodic-spawn": {
-                    "pauseTime": 4,
+                    "pauseTime": 3.5,
                     "character": "Skeleton",
                     "units": 2
                 }
@@ -6718,7 +6821,7 @@
             "heroStats": {
                 "skills": {
                     "ability": {
-                        "name": "Regal Revival",
+                        "name": "Tombstone_hero",
                         "elixirCost": 6,
                         "cooldown": null,
                         "skills": {
@@ -6858,7 +6961,17 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "GoblinCage_EV1_GoblinBrawler",
+                        "damage": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "radius": null,
+                        "deployTime": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 306,
                     "level16": 489
@@ -8551,6 +8664,74 @@
             "tribe": null,
             "rarity": "epic",
             "type": "spell"
+        },
+        {
+            "name": "Ronin",
+            "id": 26000106,
+            "elixirCost": 5,
+            "targets": [
+                "ground"
+            ],
+            "units": 1,
+            "duration": null,
+            "deployTime": 1.0,
+            "evolution": false,
+            "hero": false,
+            "hitType": "unique",
+            "projectile": false,
+            "projectileNumber": null,
+            "kamikaze": false,
+            "flying": false,
+            "skills": {
+                "reflect": {
+                    "damageReductionPercent": null,
+                    "duration": null,
+                    "radius": null
+                }
+            },
+            "towerDamage": {
+                "level11": 371,
+                "level16": 593
+            },
+            "damage": {
+                "level11": 371,
+                "level16": 593
+            },
+            "hitpoints": {
+                "level11": 1779,
+                "level16": 2842
+            },
+            "evoStats": {
+                "cycles": null,
+                "skills": {},
+                "towerDamage": {
+                    "level11": null,
+                    "level16": null
+                },
+                "damage": {
+                    "level11": null,
+                    "level16": null
+                },
+                "hitpoints": {
+                    "level11": null,
+                    "level16": null
+                }
+            },
+            "heroStats": {
+                "skills": {}
+            },
+            "hitspeed": 1.4,
+            "loadTime": 1.1,
+            "radius": null,
+            "collisionRadius": 0.6,
+            "speed": "fast",
+            "range": 1.2,
+            "sightRange": 5.5,
+            "placement": "own-side",
+            "unlockArena": "Arena14",
+            "tribe": null,
+            "rarity": "legendary",
+            "type": "troop"
         }
     ],
     "towerCards": [

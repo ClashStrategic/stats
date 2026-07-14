@@ -107,7 +107,7 @@ describe('Card Data Validation', () => {
     it('should use floats for fields that can have decimal values', () => {
       const jsonPath = path.join(__dirname, '..', 'data', 'cards.json');
       const rawJson = fs.readFileSync(jsonPath, 'utf-8');
-      const fieldsToCheck = ['duration', 'hitspeed', 'range', 'radius', 'deployTime', 'loadTime', 'sightRange', 'collisionRadius'];
+      const fieldsToCheck = ['duration', 'hitspeed', 'range', 'radius', 'deployTime', 'loadTime', 'sightRange', 'collisionRadius', 'rampInterval'];
       const allMismatches: string[] = [];
 
       fieldsToCheck.forEach((field) => {
@@ -258,6 +258,8 @@ describe('Card Data Validation', () => {
       boost: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
       burrow: ['duration'],
       multiply: ['units', 'interval', 'maxUnits'],
+      reflect: ['damageReductionPercent', 'duration', 'radius'],
+      'ramping-damage': ['rampInterval', 'damageTiers'],
     };
 
     it.each(cardsData.cards)('Card "$name" should have consistent skill structures', (card) => {
@@ -284,6 +286,10 @@ describe('Card Data Validation', () => {
 
             if (isLevelBasedSkill) {
               checkLevelBasedStats((skillData as any)[key]);
+            } else if (skillType === 'ramping-damage' && key === 'damageTiers') {
+              (skillData as any)[key].forEach((tier: Levels) => {
+                checkLevelBasedStats(tier);
+              });
             }
           });
         });
@@ -314,6 +320,10 @@ describe('Card Data Validation', () => {
 
             if (isLevelBasedSkill) {
               checkLevelBasedStats((skillData as any)[key]);
+            } else if (skillType === 'ramping-damage' && key === 'damageTiers') {
+              (skillData as any)[key].forEach((tier: Levels) => {
+                checkLevelBasedStats(tier);
+              });
             }
           });
         });

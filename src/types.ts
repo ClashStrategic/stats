@@ -27,6 +27,8 @@ export interface PierceSkill { radius: number | null; range: number | null; }
 export interface BoostSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
 export interface BurrowSkill { duration: number | null; }
 export interface MultiplySkill { units: number | null; interval: number | null; maxUnits: number | null; }
+export interface ReflectSkill { damageReductionPercent: number | null; duration: number | null; radius: number | null; }
+export interface RampingDamageSkill { rampInterval: number | null; damageTiers: Levels[]; }
 
 export interface SkillTemplates {
     heal: HealSkill;
@@ -46,6 +48,8 @@ export interface SkillTemplates {
     boost: BoostSkill;
     burrow: BurrowSkill;
     multiply: MultiplySkill;
+    reflect: ReflectSkill;
+    'ramping-damage': RampingDamageSkill;
 }
 
 export type SkillType = keyof SkillTemplates;

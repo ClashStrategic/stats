@@ -183,6 +183,28 @@ const skillsSchema = {
             required: ['units', 'interval', 'maxUnits'],
             additionalProperties: false,
         },
+        reflect: {
+            type: 'object',
+            properties: {
+                damageReductionPercent: { type: 'number', nullable: true },
+                duration: { type: 'number', nullable: true },
+                radius: { type: 'number', nullable: true },
+            },
+            required: ['damageReductionPercent', 'duration', 'radius'],
+            additionalProperties: false,
+        },
+        'ramping-damage': {
+            type: 'object',
+            properties: {
+                rampInterval: { type: 'number', nullable: true },
+                damageTiers: {
+                    type: 'array',
+                    items: levelBasedStats,
+                },
+            },
+            required: ['rampInterval', 'damageTiers'],
+            additionalProperties: false,
+        },
     },
 } as const;
 

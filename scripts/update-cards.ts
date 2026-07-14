@@ -14,7 +14,7 @@ import {
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
-    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill
+    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill, RampingDamageSkill
 } from '../src/types.js';
 import {
     SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData,
@@ -28,6 +28,16 @@ const CARDS_FILE = path.join(__dirname, '..', 'data', 'cards.json');
 const LEVEL_MULTIPLIERS: Record<'standard' | 'tower', LevelMultiplier> = {
     standard: { level11: 2.56, level16: 4.09 },
     tower: { level11: 2.18, level16: 3.46 }
+};
+
+const levelsFromStandardLevel11 = (level11: number): Levels => {
+    const baseLevel = Math.round(level11 / LEVEL_MULTIPLIERS.standard.level11);
+    const exactLevel11 = Math.floor(baseLevel * LEVEL_MULTIPLIERS.standard.level11);
+    const level16 = exactLevel11 === level11
+        ? Math.floor(baseLevel * LEVEL_MULTIPLIERS.standard.level16)
+        : Math.floor(level11 * LEVEL_MULTIPLIERS.standard.level16 / LEVEL_MULTIPLIERS.standard.level11);
+
+    return { level11, level16 };
 };
 
 const SPEED_MAP: Record<SpeedTid, SpeedValue> = {
@@ -84,7 +94,9 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'pierce': { radius: null, range: null },
     'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
     'burrow': { duration: null },
-    'multiply': { units: null, interval: null, maxUnits: null }
+    'multiply': { units: null, interval: null, maxUnits: null },
+    'reflect': { damageReductionPercent: null, duration: null, radius: null },
+    'ramping-damage': { rampInterval: null, damageTiers: [] }
 };
 
 const cloneDeep = <T>(obj: T): T => JSON.parse(JSON.stringify(obj));
@@ -167,7 +179,14 @@ function extractSkills(
     const setSkill = (type: SkillType, data: Record<string, unknown>): void => {
         const map = skills as Record<string, Record<string, unknown>>;
         if (!map[type]) map[type] = cloneDeep(SKILL_TEMPLATES[type]) as unknown as Record<string, unknown>;
-        Object.entries(data).forEach(([k, v]) => { if (v != null) map[type][k] = v; });
+        Object.entries(data).forEach(([k, v]) => {
+            if (v != null) {
+                if (type === 'ramping-damage' && k === 'damageTiers' && Array.isArray(map[type][k]) && (map[type][k] as any[]).length > (v as any[]).length) {
+                    return;
+                }
+                map[type][k] = v;
+            }
+        });
     };
 
     const scan = (
@@ -182,11 +201,17 @@ function extractSkills(
         visited.add(raw as object);
         const obj = raw as Record<string, any>;
 
+        const isReflect = typeof obj.name === 'string' && (
+            obj.name.toLowerCase().includes('reflect') ||
+            obj.name.toLowerCase().includes('deflect') ||
+            obj.name.toLowerCase().includes('parry')
+        );
+
         const hasMultipliers = isStun(obj.hitSpeedMultiplier) || isStun(obj.speedMultiplier) || isStun(obj.spawnSpeedMultiplier) ||
             isSlow(obj.hitSpeedMultiplier) || isSlow(obj.speedMultiplier) || isSlow(obj.spawnSpeedMultiplier) ||
             isBoost(obj.hitSpeedMultiplier) || isBoost(obj.speedMultiplier) || isBoost(obj.spawnSpeedMultiplier);
 
-        if ((obj.source === 'character_abilities' || obj.source === 'character_buffs') && !hasMultipliers) return;
+        if ((obj.source === 'character_abilities' || obj.source === 'character_buffs') && !hasMultipliers && !isReflect && context !== 'reflect') return;
 
         const localDuration = (obj.lifeDuration > (obj.buffTime ?? 0)) ? obj.lifeDuration : (obj.buffTime ?? obj.buffOnDamageTime ?? obj.lifeDuration);
         const currentDuration = localDuration ?? parentDuration;
@@ -332,11 +357,43 @@ function extractSkills(
             });
         }
 
+        if (isReflect || context === 'reflect') {
+            setSkill('reflect', {
+                damageReductionPercent: typeof obj.damageReduction === 'number' ? obj.damageReduction : null,
+                duration: currentDuration ? toSec(currentDuration) : null,
+                radius: localRadius ? localRadius / 1000 : null
+            });
+        }
+
+        const damageTiersRaw: number[] = [];
+        if (Array.isArray(obj.attackSequenceList)) {
+            obj.attackSequenceList.forEach((seq: any) => {
+                if (typeof seq.damage === 'number') {
+                    damageTiersRaw.push(seq.damage);
+                }
+            });
+        } else if (obj.variableDamage2 > 0 && obj.variableDamage3 > 0) {
+            damageTiersRaw.push(obj.damage);
+            damageTiersRaw.push(obj.variableDamage2);
+            damageTiersRaw.push(obj.variableDamage3);
+        }
+
+        const notEqualDamageTiers = damageTiersRaw.some(dmg => dmg !== damageTiersRaw[0]);
+        if (damageTiersRaw.length > 0 && notEqualDamageTiers) {
+            setSkill('ramping-damage', {
+                rampInterval: 1.5,
+                damageTiers: damageTiersRaw.map(dmg => mult ? scaleLevels(dmg, mult) : { ...EMPTY_LEVELS })
+            });
+        }
+
         for (const key in obj) {
-            if (typeof obj[key] === 'object' && key !== 'abilityData') {
+            if (typeof obj[key] === 'object' && key !== 'abilityData' && key !== 'baseData') {
                 const nextIsSpawn = isSpawn || key === 'spawnAreaObjectData' || key === 'onStartingActionData';
 
                 let nextContext = context;
+                if (isReflect) {
+                    nextContext = 'reflect';
+                }
                 if (key === 'deathAreaEffectData') {
                     nextContext = 'area-damage-on-death';
                 } else if (key === 'deathSpawnCharacterData') {
@@ -352,7 +409,13 @@ function extractSkills(
         }
     };
 
-    (Array.isArray(sources) ? sources : Object.values(sources)).forEach(src => scan(src, false, null, null, null, false));
+    const sourcesArray = Array.isArray(sources)
+        ? sources
+        : (sources && typeof sources === 'object' && ('source' in (sources as any) || 'name' in (sources as any)))
+            ? [sources]
+            : Object.values(sources || {});
+
+    sourcesArray.forEach(src => scan(src, false, null, null, null, false));
     return skills;
 }
 
