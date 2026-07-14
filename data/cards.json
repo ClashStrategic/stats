@@ -2634,7 +2634,25 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": true,
-            "skills": {},
+            "skills": {
+                "ramping-damage": {
+                    "rampInterval": 1.5,
+                    "damageTiers": [
+                        {
+                            "level11": 35,
+                            "level16": 57
+                        },
+                        {
+                            "level11": 120,
+                            "level16": 192
+                        },
+                        {
+                            "level11": 422,
+                            "level16": 674
+                        }
+                    ]
+                }
+            },
             "towerDamage": {
                 "level11": 35,
                 "level16": 57
@@ -2649,7 +2667,29 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "ramping-damage": {
+                        "rampInterval": 1.5,
+                        "damageTiers": [
+                            {
+                                "level11": 35,
+                                "level16": 57
+                            },
+                            {
+                                "level11": 120,
+                                "level16": 192
+                            },
+                            {
+                                "level11": 422,
+                                "level16": 674
+                            },
+                            {
+                                "level11": 844,
+                                "level16": 1349
+                            }
+                        ]
+                    }
+                },
                 "towerDamage": {
                     "level11": 35,
                     "level16": 57
@@ -4647,6 +4687,23 @@
                                 "level16": 531
                             },
                             "radius": 0.45
+                        },
+                        "ramping-damage": {
+                            "rampInterval": 1.5,
+                            "damageTiers": [
+                                {
+                                    "level11": 40,
+                                    "level16": 65
+                                },
+                                {
+                                    "level11": 204,
+                                    "level16": 327
+                                },
+                                {
+                                    "level11": 409,
+                                    "level16": 654
+                                }
+                            ]
                         }
                     }
                 }
@@ -5109,6 +5166,23 @@
                             "damageReductionPercent": 65,
                             "duration": 4.0,
                             "radius": 1.5
+                        },
+                        "ramping-damage": {
+                            "rampInterval": 1.5,
+                            "damageTiers": [
+                                {
+                                    "level11": 140,
+                                    "level16": 224
+                                },
+                                {
+                                    "level11": 140,
+                                    "level16": 224
+                                },
+                                {
+                                    "level11": 422,
+                                    "level16": 674
+                                }
+                            ]
                         }
                     }
                 }
@@ -6280,7 +6354,25 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "ramping-damage": {
+                    "rampInterval": 1.5,
+                    "damageTiers": [
+                        {
+                            "level11": 43,
+                            "level16": 69
+                        },
+                        {
+                            "level11": 158,
+                            "level16": 253
+                        },
+                        {
+                            "level11": 847,
+                            "level16": 1353
+                        }
+                    ]
+                }
+            },
             "towerDamage": {
                 "level11": 43,
                 "level16": 69
