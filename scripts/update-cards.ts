@@ -14,7 +14,7 @@ import {
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
-    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill
+    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill, RampingDamageSkill
 } from '../src/types.js';
 import {
     SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData,
@@ -95,7 +95,8 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
     'burrow': { duration: null },
     'multiply': { units: null, interval: null, maxUnits: null },
-    'reflect': { damageReductionPercent: null, duration: null, radius: null }
+    'reflect': { damageReductionPercent: null, duration: null, radius: null },
+    'ramping-damage': { rampInterval: null, damageTiers: [] }
 };
 
 const cloneDeep = <T>(obj: T): T => JSON.parse(JSON.stringify(obj));
@@ -178,7 +179,14 @@ function extractSkills(
     const setSkill = (type: SkillType, data: Record<string, unknown>): void => {
         const map = skills as Record<string, Record<string, unknown>>;
         if (!map[type]) map[type] = cloneDeep(SKILL_TEMPLATES[type]) as unknown as Record<string, unknown>;
-        Object.entries(data).forEach(([k, v]) => { if (v != null) map[type][k] = v; });
+        Object.entries(data).forEach(([k, v]) => {
+            if (v != null) {
+                if (type === 'ramping-damage' && k === 'damageTiers' && Array.isArray(map[type][k]) && (map[type][k] as any[]).length > (v as any[]).length) {
+                    return;
+                }
+                map[type][k] = v;
+            }
+        });
     };
 
     const scan = (
@@ -357,8 +365,28 @@ function extractSkills(
             });
         }
 
+        const damageTiersRaw: number[] = [];
+        if (Array.isArray(obj.attackSequenceList)) {
+            obj.attackSequenceList.forEach((seq: any) => {
+                if (typeof seq.damage === 'number') {
+                    damageTiersRaw.push(seq.damage);
+                }
+            });
+        } else if (obj.variableDamage2 > 0 && obj.variableDamage3 > 0) {
+            damageTiersRaw.push(obj.damage);
+            damageTiersRaw.push(obj.variableDamage2);
+            damageTiersRaw.push(obj.variableDamage3);
+        }
+
+        if (damageTiersRaw.length > 0) {
+            setSkill('ramping-damage', {
+                rampInterval: 1.5,
+                damageTiers: damageTiersRaw.map(dmg => mult ? scaleLevels(dmg, mult) : { ...EMPTY_LEVELS })
+            });
+        }
+
         for (const key in obj) {
-            if (typeof obj[key] === 'object' && key !== 'abilityData') {
+            if (typeof obj[key] === 'object' && key !== 'abilityData' && key !== 'baseData') {
                 const nextIsSpawn = isSpawn || key === 'spawnAreaObjectData' || key === 'onStartingActionData';
 
                 let nextContext = context;

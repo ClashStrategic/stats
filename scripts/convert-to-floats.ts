@@ -15,7 +15,8 @@ const data: CardsJson = JSON.parse(fs.readFileSync(CARDS_FILE, 'utf8'));
 const propertiesToConvert = [
     'duration', 'hitspeed', 'range', 'radius',
     'deployTime', 'sightRange', 'collisionRadius', 'loadTime',
-    'interval', 'speed', 'height', 'distance', 'strength', 'whenNotAttackingTime'
+    'interval', 'speed', 'height', 'distance', 'strength', 'whenNotAttackingTime',
+    'rampInterval'
 ];
 
 function convertIntegersToFloats(obj: any) {
