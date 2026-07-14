@@ -28,6 +28,7 @@ export interface BoostSkill { hitSpeedMultiplier: number | null; speedMultiplier
 export interface BurrowSkill { duration: number | null; }
 export interface MultiplySkill { units: number | null; interval: number | null; maxUnits: number | null; }
 export interface ReflectSkill { damageReductionPercent: number | null; duration: number | null; radius: number | null; }
+export interface RampingDamageSkill { rampInterval: number | null; damageTiers: Levels[]; }
 
 export interface SkillTemplates {
     heal: HealSkill;
@@ -48,6 +49,7 @@ export interface SkillTemplates {
     burrow: BurrowSkill;
     multiply: MultiplySkill;
     reflect: ReflectSkill;
+    'ramping-damage': RampingDamageSkill;
 }
 
 export type SkillType = keyof SkillTemplates;
