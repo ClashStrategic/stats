@@ -1,3 +1,21 @@
+# [2.2.0](https://github.com/ClashStrategic/stats/compare/v2.1.0...v2.2.0) (2026-07-14)
+
+
+### Bug Fixes
+
+* **data:** rebalance card combat attributes ([09379f1](https://github.com/ClashStrategic/stats/commit/09379f1db00ddae17b4b22ef9ddf2984f8cc45e4))
+
+
+### Features
+
+* **api:** implement reflect skill type ([04e4e7c](https://github.com/ClashStrategic/stats/commit/04e4e7c580981da6d9412b2dc6856e0f52fadf8b))
+* **card:** add ronin troop card ([28303a7](https://github.com/ClashStrategic/stats/commit/28303a7ce3e8b65304ca8238db8f547013122ca3))
+* **cards:** add spawn-on-death skill to evolution stats ([5c2707a](https://github.com/ClashStrategic/stats/commit/5c2707a85b930fbab3687614f1a8138590e66b58))
+* **cards:** implement ramping-damage skill for selected units ([386ba57](https://github.com/ClashStrategic/stats/commit/386ba57122746899b675ae53ce236c7ed6edca40))
+* **data:** add speed boost attribute to card definitions ([fdded59](https://github.com/ClashStrategic/stats/commit/fdded59b450fa4d63fde2133776de8efea2f81a1))
+* **schema:** add ramping-damage skill type ([d92189d](https://github.com/ClashStrategic/stats/commit/d92189dd0e30340cc673f87e58b3ced60e3f6072))
+* **skills:** add reflect skill configuration to card definitions ([3d4566f](https://github.com/ClashStrategic/stats/commit/3d4566fac5c476747ede62f22cc0946b1d1fe584))
+
 # [2.1.0](https://github.com/ClashStrategic/stats/compare/v2.0.0...v2.1.0) (2026-06-02)
 
 
