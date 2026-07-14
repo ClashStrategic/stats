@@ -95,6 +95,10 @@ export interface ReflectSkill {
     duration: number | null;
     radius: number | null;
 }
+export interface RampingDamageSkill {
+    rampInterval: number | null;
+    damageTiers: Levels[];
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -114,6 +118,7 @@ export interface SkillTemplates {
     burrow: BurrowSkill;
     multiply: MultiplySkill;
     reflect: ReflectSkill;
+    'ramping-damage': RampingDamageSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;
