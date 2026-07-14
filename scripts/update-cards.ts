@@ -378,7 +378,8 @@ function extractSkills(
             damageTiersRaw.push(obj.variableDamage3);
         }
 
-        if (damageTiersRaw.length > 0) {
+        const notEqualDamageTiers = damageTiersRaw.some(dmg => dmg !== damageTiersRaw[0]);
+        if (damageTiersRaw.length > 0 && notEqualDamageTiers) {
             setSkill('ramping-damage', {
                 rampInterval: 1.5,
                 damageTiers: damageTiersRaw.map(dmg => mult ? scaleLevels(dmg, mult) : { ...EMPTY_LEVELS })
