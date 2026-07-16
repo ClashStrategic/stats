@@ -8508,8 +8508,8 @@
                     }
                 },
                 "towerDamage": {
-                    "level11": 179,
-                    "level16": 286
+                    "level11": 45,
+                    "level16": 71
                 },
                 "damage": {
                     "level11": 179,
