@@ -227,6 +227,19 @@ const skillsSchema = {
             required: ['radius', 'strength', 'duration'],
             additionalProperties: false,
         },
+        snipe: {
+            type: 'object',
+            properties: {
+                range: { type: 'number', nullable: true },
+                ammo: { type: 'number', nullable: true },
+                rootDuration: { type: 'number', nullable: true },
+                damageMultiplier: { type: 'number', nullable: true },
+                hitSpeedMultiplier: { type: 'number', nullable: true },
+                aoeRadius: { type: 'number', nullable: true },
+            },
+            required: ['range', 'ammo', 'rootDuration', 'damageMultiplier', 'hitSpeedMultiplier', 'aoeRadius'],
+            additionalProperties: false,
+        },
     },
 } as const;
 

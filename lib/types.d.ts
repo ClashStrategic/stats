@@ -111,6 +111,14 @@ export interface PullSkill {
     strength: number | null;
     duration: number | null;
 }
+export interface SnipeSkill {
+    range: number | null;
+    ammo: number | null;
+    rootDuration: number | null;
+    damageMultiplier: number | null;
+    hitSpeedMultiplier: number | null;
+    aoeRadius: number | null;
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -133,6 +141,7 @@ export interface SkillTemplates {
     'ramping-damage': RampingDamageSkill;
     taunt: TauntSkill;
     pull: PullSkill;
+    snipe: SnipeSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;

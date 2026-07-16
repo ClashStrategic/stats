@@ -31,6 +31,7 @@ export interface ReflectSkill { damageReductionPercent: number | null; duration:
 export interface RampingDamageSkill { rampInterval: number | null; damageTiers: Levels[]; }
 export interface TauntSkill { range: number | null; duration: number | null; triggerWindow: number | null; }
 export interface PullSkill { radius: number | null; strength: number | null; duration: number | null; }
+export interface SnipeSkill { range: number | null; ammo: number | null; rootDuration: number | null; damageMultiplier: number | null; hitSpeedMultiplier: number | null; aoeRadius: number | null; }
 
 export interface SkillTemplates {
     heal: HealSkill;
@@ -54,6 +55,7 @@ export interface SkillTemplates {
     'ramping-damage': RampingDamageSkill;
     taunt: TauntSkill;
     pull: PullSkill;
+    snipe: SnipeSkill;
 }
 
 export type SkillType = keyof SkillTemplates;
