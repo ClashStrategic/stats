@@ -8086,7 +8086,13 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "pull": {
+                    "radius": 5.5,
+                    "strength": null,
+                    "duration": 2.0
+                }
+            },
             "towerDamage": {
                 "level11": 46,
                 "level16": 74
@@ -9000,7 +9006,15 @@
             "hitType": "unique",
             "projectile": true,
             "projectileNumber": null,
-            "skills": {},
+            "skills": {
+                "stack": {
+                    "maxStacks": null,
+                    "hpPerStack": 10,
+                    "damagePerStack": 10,
+                    "interval": 23.0,
+                    "duration": null
+                }
+            },
             "damage": {
                 "level11": 109,
                 "level16": 173
