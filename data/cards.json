@@ -658,7 +658,8 @@
                         "hitSpeedMultiplier": 130,
                         "speedMultiplier": 130,
                         "spawnSpeedMultiplier": null,
-                        "duration": null
+                        "duration": null,
+                        "rangeMultiplier": null
                     }
                 },
                 "towerDamage": {
@@ -2579,7 +2580,8 @@
                     "hitSpeedMultiplier": 130,
                     "speedMultiplier": 130,
                     "spawnSpeedMultiplier": 130,
-                    "duration": 5.5
+                    "duration": 5.5,
+                    "rangeMultiplier": null
                 }
             },
             "towerDamage": {
@@ -3422,7 +3424,8 @@
                         "level16": 621
                     },
                     "minRange": 3.5,
-                    "maxRange": 6
+                    "maxRange": 6,
+                    "targetType": null
                 }
             },
             "towerDamage": {
@@ -4081,7 +4084,8 @@
                         "level16": 858
                     },
                     "minRange": 3.5,
-                    "maxRange": 5
+                    "maxRange": 5,
+                    "targetType": null
                 },
                 "jump": {
                     "height": 3.0,
@@ -4109,7 +4113,8 @@
                             "level16": 858
                         },
                         "minRange": 3.5,
-                        "maxRange": 5
+                        "maxRange": 5,
+                        "targetType": null
                     },
                     "jump": {
                         "height": 3.0,
@@ -5143,7 +5148,8 @@
                             "hitSpeedMultiplier": 280,
                             "speedMultiplier": null,
                             "spawnSpeedMultiplier": null,
-                            "duration": 3.5
+                            "duration": 3.5,
+                            "rangeMultiplier": null
                         }
                     }
                 }
@@ -5221,13 +5227,15 @@
                                 "level16": 535
                             },
                             "minRange": null,
-                            "maxRange": null
+                            "maxRange": null,
+                            "targetType": null
                         },
                         "boost": {
                             "hitSpeedMultiplier": null,
                             "speedMultiplier": 200,
                             "spawnSpeedMultiplier": null,
-                            "duration": null
+                            "duration": null,
+                            "rangeMultiplier": null
                         }
                     }
                 }
@@ -6234,7 +6242,8 @@
                                 "level16": 785
                             },
                             "minRange": 3.5,
-                            "maxRange": 6
+                            "maxRange": 6,
+                            "targetType": null
                         }
                     }
                 }
@@ -7406,7 +7415,8 @@
                     "hitSpeedMultiplier": 130,
                     "speedMultiplier": 130,
                     "spawnSpeedMultiplier": 130,
-                    "duration": 4.5
+                    "duration": 4.5,
+                    "rangeMultiplier": null
                 }
             },
             "towerDamage": {
