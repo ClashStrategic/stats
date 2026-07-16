@@ -60,7 +60,20 @@
                         "name": "Knight_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "taunt": {
+                                "range": 7.5,
+                                "duration": 5.0,
+                                "triggerWindow": 0.1
+                            },
+                            "shield": {
+                                "hitpoints": {
+                                    "level11": 819,
+                                    "level16": 1319
+                                },
+                                "damageReductionPercent": null
+                            }
+                        }
                     }
                 }
             },
@@ -192,7 +205,13 @@
                         "name": "Goblins_hero",
                         "elixirCost": 1,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "periodic-spawn": {
+                                "pauseTime": null,
+                                "character": "Goblin",
+                                "units": 3
+                            }
+                        }
                     }
                 }
             },
@@ -261,7 +280,18 @@
                         "name": "Giant_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "pushback": {
+                                "distance": 9.0,
+                                "strength": null
+                            },
+                            "stun": {
+                                "hitSpeedMultiplier": null,
+                                "speedMultiplier": null,
+                                "spawnSpeedMultiplier": null,
+                                "duration": 2.0
+                            }
+                        }
                     }
                 }
             },
@@ -480,7 +510,26 @@
                         "name": "Balloon_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "spawn": {
+                                "character": "Skeletrooper",
+                                "count": 1,
+                                "hitpoints": null,
+                                "damage": null,
+                                "lifetime": null,
+                                "range": null,
+                                "targets": []
+                            },
+                            "dash": {
+                                "damage": {
+                                    "level11": 263,
+                                    "level16": null
+                                },
+                                "minRange": null,
+                                "maxRange": null,
+                                "targetType": "nearest"
+                            }
+                        }
                     }
                 }
             },
@@ -1028,7 +1077,20 @@
                         "name": "Musketeer_hero",
                         "elixirCost": 3,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "spawn": {
+                                "character": "AutoTurret",
+                                "count": 1,
+                                "hitpoints": null,
+                                "damage": null,
+                                "lifetime": 10,
+                                "range": 5.5,
+                                "targets": [
+                                    "air",
+                                    "ground"
+                                ]
+                            }
+                        }
                     }
                 }
             },
@@ -1244,7 +1306,20 @@
                         "name": "Wizard_hero",
                         "elixirCost": 1,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "boost": {
+                                "hitSpeedMultiplier": null,
+                                "speedMultiplier": 50,
+                                "spawnSpeedMultiplier": null,
+                                "duration": 5.0,
+                                "rangeMultiplier": null
+                            },
+                            "pull": {
+                                "radius": 4.0,
+                                "strength": null,
+                                "duration": 0.5
+                            }
+                        }
                     }
                 }
             },
@@ -1313,7 +1388,15 @@
                         "name": "MiniPekka_hero",
                         "elixirCost": 1,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "stack": {
+                                "maxStacks": 5,
+                                "hpPerStack": 10,
+                                "damagePerStack": 10,
+                                "interval": null,
+                                "duration": null
+                            }
+                        }
                     }
                 }
             },
@@ -1946,7 +2029,20 @@
                         "name": "DarkPrince_hero",
                         "elixirCost": 3,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "charge": {
+                                "damage": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "range": 2.5,
+                                "speedMultiplier": null
+                            },
+                            "pushback": {
+                                "distance": null,
+                                "strength": 2.5
+                            }
+                        }
                     }
                 }
             },
@@ -2427,7 +2523,16 @@
                         "name": "Bowler_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "snipe": {
+                                "range": 11.5,
+                                "ammo": 4,
+                                "rootDuration": 7.3,
+                                "damageMultiplier": 200,
+                                "hitSpeedMultiplier": 30,
+                                "aoeRadius": 2
+                            }
+                        }
                     }
                 }
             },
@@ -2786,7 +2891,20 @@
                         "name": "IceGolemite_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "slow": {
+                                "hitSpeedMultiplier": -30,
+                                "speedMultiplier": -30,
+                                "spawnSpeedMultiplier": -30,
+                                "duration": 2.0
+                            },
+                            "stun": {
+                                "hitSpeedMultiplier": null,
+                                "speedMultiplier": null,
+                                "spawnSpeedMultiplier": null,
+                                "duration": 2.0
+                            }
+                        }
                     }
                 }
             },
@@ -2856,7 +2974,16 @@
                         "name": "MegaMinion_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "warp": {
+                                "targetType": "lowestHP",
+                                "damage": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "bonusDamagePercent": 50
+                            }
+                        }
                     }
                 }
             },
@@ -4485,7 +4612,24 @@
                         "name": "EliteArcher_hero",
                         "elixirCost": 2,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "pierce": {
+                                "radius": 0.5,
+                                "range": 15.5
+                            },
+                            "spawn": {
+                                "character": "Decoy",
+                                "count": 1,
+                                "hitpoints": {
+                                    "level11": 691,
+                                    "level16": null
+                                },
+                                "damage": null,
+                                "lifetime": 7,
+                                "range": null,
+                                "targets": []
+                            }
+                        }
                     }
                 }
             },
@@ -8172,7 +8316,17 @@
                         "name": "BarbLog_hero",
                         "elixirCost": 1,
                         "cooldown": null,
-                        "skills": {}
+                        "skills": {
+                            "redeploy": {
+                                "range": 3.0,
+                                "damage": {
+                                    "level11": 116,
+                                    "level16": null
+                                },
+                                "knockback": null,
+                                "healPercent": 50
+                            }
+                        }
                     }
                 }
             },
