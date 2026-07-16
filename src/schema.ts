@@ -269,6 +269,17 @@ const skillsSchema = {
             required: ['character', 'count', 'hitpoints', 'damage', 'lifetime', 'range', 'targets'],
             additionalProperties: false,
         },
+        redeploy: {
+            type: 'object',
+            properties: {
+                range: { type: 'number', nullable: true },
+                damage: levelBasedStats,
+                knockback: { type: 'number', nullable: true },
+                healPercent: { type: 'number', nullable: true },
+            },
+            required: ['range', 'damage', 'knockback', 'healPercent'],
+            additionalProperties: false,
+        },
     },
 } as const;
 
