@@ -207,6 +207,16 @@ const skillsSchema = {
             required: ['rampInterval', 'damageTiers'],
             additionalProperties: false,
         },
+        taunt: {
+            type: 'object',
+            properties: {
+                range: { type: 'number', nullable: true },
+                duration: { type: 'number', nullable: true },
+                triggerWindow: { type: 'number', nullable: true },
+            },
+            required: ['range', 'duration', 'triggerWindow'],
+            additionalProperties: false,
+        },
     },
 } as const;
 

@@ -101,6 +101,11 @@ export interface RampingDamageSkill {
     rampInterval: number | null;
     damageTiers: Levels[];
 }
+export interface TauntSkill {
+    range: number | null;
+    duration: number | null;
+    triggerWindow: number | null;
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -121,6 +126,7 @@ export interface SkillTemplates {
     multiply: MultiplySkill;
     reflect: ReflectSkill;
     'ramping-damage': RampingDamageSkill;
+    taunt: TauntSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;
