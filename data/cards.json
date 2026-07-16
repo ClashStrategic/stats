@@ -1058,7 +1058,16 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "snipe": {
+                        "range": 30.0,
+                        "ammo": 3,
+                        "rootDuration": null,
+                        "damageMultiplier": 80,
+                        "hitSpeedMultiplier": null,
+                        "aoeRadius": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 217,
                     "level16": 347
@@ -8482,7 +8491,13 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "pull": {
+                        "radius": 2.5,
+                        "strength": null,
+                        "duration": 0.75
+                    }
+                },
                 "towerDamage": {
                     "level11": 179,
                     "level16": 286
