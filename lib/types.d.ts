@@ -141,6 +141,11 @@ export interface RedeploySkill {
     knockback: number | null;
     healPercent: number | null;
 }
+export interface WarpSkill {
+    targetType: string | null;
+    damage: Levels;
+    bonusDamagePercent: number | null;
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -167,6 +172,7 @@ export interface SkillTemplates {
     stack: StackSkill;
     spawn: SpawnSkill;
     redeploy: RedeploySkill;
+    warp: WarpSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;

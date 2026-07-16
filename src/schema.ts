@@ -280,6 +280,16 @@ const skillsSchema = {
             required: ['range', 'damage', 'knockback', 'healPercent'],
             additionalProperties: false,
         },
+        warp: {
+            type: 'object',
+            properties: {
+                targetType: { type: 'string', nullable: true },
+                damage: levelBasedStats,
+                bonusDamagePercent: { type: 'number', nullable: true },
+            },
+            required: ['targetType', 'damage', 'bonusDamagePercent'],
+            additionalProperties: false,
+        },
     },
 } as const;
 
