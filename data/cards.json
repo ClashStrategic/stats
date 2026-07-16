@@ -5759,6 +5759,15 @@
                     "elixirCost": 3,
                     "cooldown": 30,
                     "skills": {
+                        "spawn": {
+                            "character": "Protector",
+                            "count": 1,
+                            "hitpoints": null,
+                            "damage": null,
+                            "lifetime": null,
+                            "range": null,
+                            "targets": []
+                        },
                         "pushback": {
                             "distance": null,
                             "strength": 2.5
