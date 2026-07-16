@@ -119,6 +119,13 @@ export interface SnipeSkill {
     hitSpeedMultiplier: number | null;
     aoeRadius: number | null;
 }
+export interface StackSkill {
+    maxStacks: number | null;
+    hpPerStack: number | null;
+    damagePerStack: number | null;
+    interval: number | null;
+    duration: number | null;
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -142,6 +149,7 @@ export interface SkillTemplates {
     taunt: TauntSkill;
     pull: PullSkill;
     snipe: SnipeSkill;
+    stack: StackSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;
