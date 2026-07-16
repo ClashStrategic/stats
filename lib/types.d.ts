@@ -82,6 +82,7 @@ export interface BoostSkill {
     speedMultiplier: number | null;
     spawnSpeedMultiplier: number | null;
     duration: number | null;
+    rangeMultiplier: number | null;
 }
 export interface BurrowSkill {
     duration: number | null;

@@ -162,6 +162,7 @@ const skillsSchema = {
                 speedMultiplier: { type: 'number', nullable: true },
                 spawnSpeedMultiplier: { type: 'number', nullable: true },
                 duration: { type: 'number', nullable: true },
+                rangeMultiplier: { type: 'number', nullable: true },
             },
             required: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
             additionalProperties: false,
