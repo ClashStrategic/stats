@@ -246,7 +246,7 @@ describe('Card Data Validation', () => {
       slow: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
       pushback: ['distance', 'strength'],
       shield: ['hitpoints', 'damageReductionPercent'],
-      dash: ['damage', 'minRange', 'maxRange'],
+      dash: ['damage', 'minRange', 'maxRange', 'targetType'],
       charge: ['damage', 'range', 'speedMultiplier'],
       jump: ['height', 'speed'],
       invisibility: ['whenNotAttackingTime'],
@@ -255,11 +255,18 @@ describe('Card Data Validation', () => {
       'area-damage-on-death': ['areaEffect', 'damage', 'radius'],
       ability: ['name', 'elixirCost', 'cooldown', 'skills'],
       pierce: ['radius', 'range'],
-      boost: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration'],
+      boost: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration', 'rangeMultiplier'],
       burrow: ['duration'],
       multiply: ['units', 'interval', 'maxUnits'],
       reflect: ['damageReductionPercent', 'duration', 'radius'],
       'ramping-damage': ['rampInterval', 'damageTiers'],
+      taunt: ['range', 'duration', 'triggerWindow'],
+      pull: ['radius', 'strength', 'duration'],
+      snipe: ['range', 'ammo', 'rootDuration', 'damageMultiplier', 'hitSpeedMultiplier', 'aoeRadius'],
+      stack: ['maxStacks', 'hpPerStack', 'damagePerStack', 'interval', 'duration'],
+      spawn: ['character', 'count', 'hitpoints', 'damage', 'lifetime', 'range', 'targets'],
+      redeploy: ['range', 'damage', 'knockback', 'healPercent'],
+      warp: ['targetType', 'damage', 'bonusDamagePercent'],
     };
 
     it.each(cardsData.cards)('Card "$name" should have consistent skill structures', (card) => {
@@ -282,7 +289,10 @@ describe('Card Data Validation', () => {
               (skillType === 'dash' && key === 'damage') ||
               (skillType === 'charge' && key === 'damage') ||
               (skillType === 'spawn-on-death' && key === 'damage') ||
-              (skillType === 'area-damage-on-death' && key === 'damage');
+              (skillType === 'area-damage-on-death' && key === 'damage') ||
+              (skillType === 'spawn' && ['hitpoints', 'damage'].includes(key)) ||
+              (skillType === 'redeploy' && key === 'damage') ||
+              (skillType === 'warp' && key === 'damage');
 
             if (isLevelBasedSkill) {
               checkLevelBasedStats((skillData as any)[key]);
@@ -296,38 +306,41 @@ describe('Card Data Validation', () => {
       });
     });
 
-    it.each(cardsData.towerCards)('Tower card "$name" should have consistent skill structures', (card) => {
-      const skillsToValidate = [card.skills];
+      it.each(cardsData.towerCards)('Tower card "$name" should have consistent skill structures', (card) => {
+        const skillsToValidate = [card.skills];
 
-      skillsToValidate.forEach((skillsObj) => {
-        Object.entries(skillsObj).forEach(([skillType, skillData]) => {
-          const expectedKeys = SKILL_KEYS[skillType];
-          expect(expectedKeys).toBeDefined();
+        skillsToValidate.forEach((skillsObj) => {
+          Object.entries(skillsObj).forEach(([skillType, skillData]) => {
+            const expectedKeys = SKILL_KEYS[skillType];
+            expect(expectedKeys).toBeDefined();
 
-          const actualKeys = Object.keys(skillData as object).sort();
-          expect(actualKeys).toEqual([...expectedKeys].sort());
+            const actualKeys = Object.keys(skillData as object).sort();
+            expect(actualKeys).toEqual([...expectedKeys].sort());
 
-          expectedKeys.forEach((key) => {
-            expect(skillData).toHaveProperty(key);
+            expectedKeys.forEach((key) => {
+              expect(skillData).toHaveProperty(key);
 
-            const isLevelBasedSkill =
-              (skillType === 'heal' && ['perAttack', 'overHeal', 'onSpawn'].includes(key)) ||
-              (skillType === 'shield' && key === 'hitpoints') ||
-              (skillType === 'dash' && key === 'damage') ||
-              (skillType === 'charge' && key === 'damage') ||
-              (skillType === 'spawn-on-death' && key === 'damage') ||
-              (skillType === 'area-damage-on-death' && key === 'damage');
+              const isLevelBasedSkill =
+                (skillType === 'heal' && ['perAttack', 'overHeal', 'onSpawn'].includes(key)) ||
+                (skillType === 'shield' && key === 'hitpoints') ||
+                (skillType === 'dash' && key === 'damage') ||
+                (skillType === 'charge' && key === 'damage') ||
+                (skillType === 'spawn-on-death' && key === 'damage') ||
+                (skillType === 'area-damage-on-death' && key === 'damage') ||
+                (skillType === 'spawn' && ['hitpoints', 'damage'].includes(key)) ||
+                (skillType === 'redeploy' && key === 'damage') ||
+                (skillType === 'warp' && key === 'damage');
 
-            if (isLevelBasedSkill) {
-              checkLevelBasedStats((skillData as any)[key]);
-            } else if (skillType === 'ramping-damage' && key === 'damageTiers') {
-              (skillData as any)[key].forEach((tier: Levels) => {
-                checkLevelBasedStats(tier);
-              });
-            }
+              if (isLevelBasedSkill) {
+                checkLevelBasedStats((skillData as any)[key]);
+              } else if (skillType === 'ramping-damage' && key === 'damageTiers') {
+                (skillData as any)[key].forEach((tier: Levels) => {
+                  checkLevelBasedStats(tier);
+                });
+              }
+            });
           });
         });
       });
     });
   });
-});
