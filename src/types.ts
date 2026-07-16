@@ -15,7 +15,7 @@ export interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier:
 export interface SlowSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
 export interface PushbackSkill { distance: number | null; strength: number | null; }
 export interface ShieldSkill { hitpoints: Levels | null; damageReductionPercent: number | null; }
-export interface DashSkill { damage: Levels; minRange: number | null; maxRange: number | null; }
+export interface DashSkill { damage: Levels; minRange: number | null; maxRange: number | null; targetType: string | null; }
 export interface ChargeSkill { damage: Levels; range: number | null; speedMultiplier: number | null; }
 export interface JumpSkill { height: number | null; speed: number | null; }
 export interface InvisibilitySkill { whenNotAttackingTime: number | null; }

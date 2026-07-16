@@ -37,6 +37,7 @@ export interface DashSkill {
     damage: Levels;
     minRange: number | null;
     maxRange: number | null;
+    targetType: string | null;
 }
 export interface ChargeSkill {
     damage: Levels;
