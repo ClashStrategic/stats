@@ -14,7 +14,9 @@ import {
     HealSkill, StunSkill, SlowSkill, PushbackSkill, ShieldSkill,
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
-    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill, RampingDamageSkill
+    PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill, RampingDamageSkill,
+    TauntSkill, PullSkill, SnipeSkill, StackSkill, SpawnSkill,
+    RedeploySkill, WarpSkill
 } from '../src/types.js';
 import {
     SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData,
@@ -83,7 +85,7 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'slow': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
     'pushback': { distance: null, strength: null },
     'shield': { hitpoints: { ...EMPTY_LEVELS }, damageReductionPercent: null },
-    'dash': { damage: { ...EMPTY_LEVELS }, minRange: null, maxRange: null },
+    'dash': { damage: { ...EMPTY_LEVELS }, minRange: null, maxRange: null, targetType: null },
     'charge': { damage: { ...EMPTY_LEVELS }, range: null, speedMultiplier: null },
     'jump': { height: null, speed: null },
     'invisibility': { whenNotAttackingTime: null },
@@ -92,11 +94,18 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'area-damage-on-death': { areaEffect: null, damage: { ...EMPTY_LEVELS }, radius: null },
     'ability': { name: null, elixirCost: null, cooldown: null, skills: {} },
     'pierce': { radius: null, range: null },
-    'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
+    'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null, rangeMultiplier: null },
     'burrow': { duration: null },
     'multiply': { units: null, interval: null, maxUnits: null },
     'reflect': { damageReductionPercent: null, duration: null, radius: null },
-    'ramping-damage': { rampInterval: null, damageTiers: [] }
+    'ramping-damage': { rampInterval: null, damageTiers: [] },
+    'taunt': { range: null, duration: null, triggerWindow: null },
+    'pull': { radius: null, strength: null, duration: null },
+    'snipe': { range: null, ammo: null, rootDuration: null, damageMultiplier: null, hitSpeedMultiplier: null, aoeRadius: null },
+    'stack': { maxStacks: null, hpPerStack: null, damagePerStack: null, interval: null, duration: null },
+    'spawn': { character: null, count: null, hitpoints: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS }, lifetime: null, range: null, targets: [] },
+    'redeploy': { range: null, damage: { ...EMPTY_LEVELS }, knockback: null, healPercent: null },
+    'warp': { targetType: null, damage: { ...EMPTY_LEVELS }, bonusDamagePercent: null }
 };
 
 const cloneDeep = <T>(obj: T): T => JSON.parse(JSON.stringify(obj));
@@ -499,7 +508,8 @@ function createAbilitySkill(existing: any, abilityData: any, mult: LevelMultipli
             hitSpeedMultiplier: 280,
             speedMultiplier: null,
             spawnSpeedMultiplier: null,
-            duration: 3.5
+            duration: 3.5,
+            rangeMultiplier: null
         };
     }
     if (abilityData.name === 'MightyMinerLaneSwitch') {
