@@ -33,6 +33,7 @@ export interface TauntSkill { range: number | null; duration: number | null; tri
 export interface PullSkill { radius: number | null; strength: number | null; duration: number | null; }
 export interface SnipeSkill { range: number | null; ammo: number | null; rootDuration: number | null; damageMultiplier: number | null; hitSpeedMultiplier: number | null; aoeRadius: number | null; }
 export interface StackSkill { maxStacks: number | null; hpPerStack: number | null; damagePerStack: number | null; interval: number | null; duration: number | null; }
+export interface SpawnSkill { character: string | null; count: number | null; hitpoints: Levels | null; damage: Levels | null; lifetime: number | null; range: number | null; targets: TargetValue[]; }
 
 export interface SkillTemplates {
     heal: HealSkill;
@@ -58,6 +59,7 @@ export interface SkillTemplates {
     pull: PullSkill;
     snipe: SnipeSkill;
     stack: StackSkill;
+    spawn: SpawnSkill;
 }
 
 export type SkillType = keyof SkillTemplates;

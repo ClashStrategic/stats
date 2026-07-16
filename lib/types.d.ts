@@ -126,6 +126,15 @@ export interface StackSkill {
     interval: number | null;
     duration: number | null;
 }
+export interface SpawnSkill {
+    character: string | null;
+    count: number | null;
+    hitpoints: Levels | null;
+    damage: Levels | null;
+    lifetime: number | null;
+    range: number | null;
+    targets: TargetValue[];
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -150,6 +159,7 @@ export interface SkillTemplates {
     pull: PullSkill;
     snipe: SnipeSkill;
     stack: StackSkill;
+    spawn: SpawnSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;
