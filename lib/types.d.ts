@@ -106,6 +106,11 @@ export interface TauntSkill {
     duration: number | null;
     triggerWindow: number | null;
 }
+export interface PullSkill {
+    radius: number | null;
+    strength: number | null;
+    duration: number | null;
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -127,6 +132,7 @@ export interface SkillTemplates {
     reflect: ReflectSkill;
     'ramping-damage': RampingDamageSkill;
     taunt: TauntSkill;
+    pull: PullSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;

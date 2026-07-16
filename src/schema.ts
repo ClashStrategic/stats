@@ -217,6 +217,16 @@ const skillsSchema = {
             required: ['range', 'duration', 'triggerWindow'],
             additionalProperties: false,
         },
+        pull: {
+            type: 'object',
+            properties: {
+                radius: { type: 'number', nullable: true },
+                strength: { type: 'number', nullable: true },
+                duration: { type: 'number', nullable: true },
+            },
+            required: ['radius', 'strength', 'duration'],
+            additionalProperties: false,
+        },
     },
 } as const;
 
