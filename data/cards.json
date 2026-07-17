@@ -950,7 +950,15 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "invincible": {
+                        "duration": null,
+                        "radius": 8.0,
+                        "moveSpeedPenalty": -33,
+                        "attackSpeedPenalty": null,
+                        "triggerType": "death-aura"
+                    }
+                },
                 "towerDamage": {
                     "level11": 81,
                     "level16": 130
@@ -1174,7 +1182,24 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "boost": {
+                        "hitSpeedMultiplier": null,
+                        "speedMultiplier": 30,
+                        "spawnSpeedMultiplier": null,
+                        "duration": null,
+                        "rangeMultiplier": null,
+                        "radius": 8.0,
+                        "enemySpeedMultiplier": null,
+                        "enemyHitSpeedMultiplier": null
+                    },
+                    "slow": {
+                        "hitSpeedMultiplier": null,
+                        "speedMultiplier": -30,
+                        "spawnSpeedMultiplier": null,
+                        "duration": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 161,
                     "level16": 257
@@ -1681,7 +1706,15 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "invincible": {
+                        "duration": 3.0,
+                        "radius": null,
+                        "moveSpeedPenalty": -33,
+                        "attackSpeedPenalty": -50,
+                        "triggerType": "on-damage"
+                    }
+                },
                 "towerDamage": {
                     "level11": 107,
                     "level16": 171
@@ -7153,7 +7186,18 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "boost": {
+                        "hitSpeedMultiplier": null,
+                        "speedMultiplier": null,
+                        "spawnSpeedMultiplier": 291,
+                        "duration": null,
+                        "rangeMultiplier": null,
+                        "radius": null,
+                        "enemySpeedMultiplier": null,
+                        "enemyHitSpeedMultiplier": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 179,
                     "level16": 286
