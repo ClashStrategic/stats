@@ -303,6 +303,17 @@ const skillsSchema = {
             required: ['targetType', 'damage', 'bonusDamagePercent'],
             additionalProperties: false,
         },
+        volley: {
+            type: 'object',
+            properties: {
+                projectileCount: { type: 'number', nullable: true },
+                damage: { ...levelBasedStats, nullable: true },
+                radius: { type: 'number', nullable: true },
+                knockback: { type: 'number', nullable: true },
+            },
+            required: ['projectileCount', 'damage'],
+            additionalProperties: false,
+        },
     },
 } as const;
 

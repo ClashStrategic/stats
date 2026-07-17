@@ -36,6 +36,7 @@ export interface StackSkill { maxStacks: number | null; hpPerStack: number | nul
 export interface SpawnSkill { character: string | null; count: number | null; hitpoints: Levels | null; damage: Levels | null; lifetime: number | null; range: number | null; targets: TargetValue[]; }
 export interface RedeploySkill { range: number | null; damage: Levels; knockback: number | null; healPercent: number | null; }
 export interface WarpSkill { targetType: string | null; damage: Levels; bonusDamagePercent: number | null; }
+export interface VolleySkill { projectileCount: number | null; damage: Levels | null; radius: number | null; knockback: number | null; }
 
 export interface SkillTemplates {
     heal: HealSkill;
@@ -64,6 +65,7 @@ export interface SkillTemplates {
     spawn: SpawnSkill;
     redeploy: RedeploySkill;
     warp: WarpSkill;
+    volley: VolleySkill;
 }
 
 export type SkillType = keyof SkillTemplates;
