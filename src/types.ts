@@ -37,6 +37,7 @@ export interface SpawnSkill { character: string | null; count: number | null; hi
 export interface RedeploySkill { range: number | null; damage: Levels; knockback: number | null; healPercent: number | null; }
 export interface WarpSkill { targetType: string | null; damage: Levels; bonusDamagePercent: number | null; }
 export interface VolleySkill { projectileCount: number | null; damage: Levels | null; radius: number | null; knockback: number | null; }
+export interface InvincibleSkill { duration: number | null; radius: number | null; moveSpeedPenalty: number | null; attackSpeedPenalty: number | null; triggerType: string | null; }
 
 export interface SkillTemplates {
     heal: HealSkill;
@@ -66,6 +67,7 @@ export interface SkillTemplates {
     redeploy: RedeploySkill;
     warp: WarpSkill;
     volley: VolleySkill;
+    invincible: InvincibleSkill;
 }
 
 export type SkillType = keyof SkillTemplates;

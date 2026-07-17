@@ -314,6 +314,18 @@ const skillsSchema = {
             required: ['projectileCount', 'damage'],
             additionalProperties: false,
         },
+        invincible: {
+            type: 'object',
+            properties: {
+                duration: { type: 'number', nullable: true },
+                radius: { type: 'number', nullable: true },
+                moveSpeedPenalty: { type: 'number', nullable: true },
+                attackSpeedPenalty: { type: 'number', nullable: true },
+                triggerType: { type: 'string', nullable: true },
+            },
+            required: ['duration', 'radius'],
+            additionalProperties: false,
+        },
     },
 } as const;
 
