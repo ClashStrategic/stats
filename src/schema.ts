@@ -56,6 +56,8 @@ const skillsSchema = {
             properties: {
                 distance: { type: 'number', nullable: true },
                 strength: { type: 'number', nullable: true },
+                damage: { ...levelBasedStats, nullable: true },
+                radius: { type: 'number', nullable: true },
             },
             required: ['distance', 'strength'],
             additionalProperties: false,
