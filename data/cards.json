@@ -123,7 +123,18 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "snipe": {
+                        "range": 4.0,
+                        "ammo": null,
+                        "rootDuration": null,
+                        "damageMultiplier": 150,
+                        "hitSpeedMultiplier": null,
+                        "aoeRadius": null,
+                        "closeRange": false,
+                        "pushbackDistance": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 112,
                     "level16": 179
@@ -995,7 +1006,14 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "pierce": {
+                        "radius": 1.5,
+                        "range": 4.5,
+                        "bounces": 2,
+                        "bounceDistance": 2.5
+                    }
+                },
                 "towerDamage": {
                     "level11": 225,
                     "level16": 359
@@ -3379,7 +3397,18 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "snipe": {
+                        "range": 3.5,
+                        "ammo": null,
+                        "rootDuration": null,
+                        "damageMultiplier": 175,
+                        "hitSpeedMultiplier": null,
+                        "aoeRadius": null,
+                        "closeRange": true,
+                        "pushbackDistance": 1.5
+                    }
+                },
                 "towerDamage": {
                     "level11": 179,
                     "level16": 286
@@ -6342,7 +6371,17 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "volley": {
+                        "projectileCount": 9,
+                        "damage": {
+                            "level11": 282,
+                            "level16": 449
+                        },
+                        "radius": 2.0,
+                        "knockback": 1
+                    }
+                },
                 "towerDamage": {
                     "level11": 202,
                     "level16": 323
