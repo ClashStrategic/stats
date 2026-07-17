@@ -294,8 +294,7 @@
                         "skills": {
                             "pushback": {
                                 "distance": 9.0,
-                                "strength": null
-,
+                                "strength": null,
                                 "damage": {
                                     "level11": null,
                                     "level16": null
@@ -306,8 +305,7 @@
                                 "hitSpeedMultiplier": null,
                                 "speedMultiplier": null,
                                 "spawnSpeedMultiplier": null,
-                                "duration": 2.0
-,
+                                "duration": 2.0,
                                 "strikes": null,
                                 "radiusGrowth": null,
                                 "delayBetweenStrikes": null
@@ -680,7 +678,10 @@
                         "speedMultiplier": 130,
                         "spawnSpeedMultiplier": null,
                         "duration": null,
-                        "rangeMultiplier": null
+                        "rangeMultiplier": null,
+                        "radius": null,
+                        "enemySpeedMultiplier": null,
+                        "enemyHitSpeedMultiplier": null
                     }
                 },
                 "towerDamage": {
@@ -737,8 +738,7 @@
                         "level16": 159
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 },
                 "area-damage-on-death": {
@@ -1109,7 +1109,9 @@
                         "rootDuration": null,
                         "damageMultiplier": 80,
                         "hitSpeedMultiplier": null,
-                        "aoeRadius": null
+                        "aoeRadius": null,
+                        "closeRange": null,
+                        "pushbackDistance": null
                     }
                 },
                 "towerDamage": {
@@ -1383,8 +1385,7 @@
                                 "speedMultiplier": 50,
                                 "spawnSpeedMultiplier": null,
                                 "duration": 5.0,
-                                "rangeMultiplier": null
-,
+                                "rangeMultiplier": null,
                                 "radius": null,
                                 "enemySpeedMultiplier": null,
                                 "enemyHitSpeedMultiplier": null
@@ -2133,8 +2134,7 @@
                             },
                             "pushback": {
                                 "distance": null,
-                                "strength": 2.5
-,
+                                "strength": 2.5,
                                 "damage": {
                                     "level11": null,
                                     "level16": null
@@ -2246,8 +2246,7 @@
                         "level16": null
                     },
                     "radius": 0.45,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 }
             },
@@ -2318,8 +2317,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 1.1
-,
+                    "duration": 1.1,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -2344,7 +2342,10 @@
                         "hitSpeedMultiplier": -100,
                         "speedMultiplier": -100,
                         "spawnSpeedMultiplier": -100,
-                        "duration": 1.1
+                        "duration": 1.1,
+                        "strikes": null,
+                        "radiusGrowth": null,
+                        "delayBetweenStrikes": null
                     }
                 },
                 "towerDamage": {
@@ -2587,8 +2588,7 @@
             "skills": {
                 "pushback": {
                     "distance": 1.0,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -2597,8 +2597,7 @@
                 },
                 "pierce": {
                     "radius": 1.8,
-                    "range": 7.5
-,
+                    "range": 7.5,
                     "bounces": null,
                     "bounceDistance": null
                 }
@@ -2644,8 +2643,7 @@
                                 "rootDuration": 7.3,
                                 "damageMultiplier": 200,
                                 "hitSpeedMultiplier": 30,
-                                "aoeRadius": 2
-,
+                                "aoeRadius": 2,
                                 "closeRange": null,
                                 "pushbackDistance": null
                             }
@@ -2697,8 +2695,7 @@
                     "speedMultiplier": 130,
                     "spawnSpeedMultiplier": 130,
                     "duration": 5.5,
-                    "rangeMultiplier": null
-,
+                    "rangeMultiplier": null,
                     "radius": null,
                     "enemySpeedMultiplier": null,
                     "enemyHitSpeedMultiplier": null
@@ -2726,7 +2723,8 @@
                             "level16": null
                         },
                         "radius": null,
-                        "deployTime": null
+                        "deployTime": null,
+                        "count": null
                     }
                 },
                 "towerDamage": {
@@ -2783,8 +2781,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 },
                 "charge": {
@@ -2813,7 +2810,12 @@
                 "skills": {
                     "pushback": {
                         "distance": null,
-                        "strength": 2.5
+                        "strength": 2.5,
+                        "damage": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "radius": null
                     }
                 },
                 "towerDamage": {
@@ -3026,8 +3028,7 @@
                                 "hitSpeedMultiplier": null,
                                 "speedMultiplier": null,
                                 "spawnSpeedMultiplier": null,
-                                "duration": 2.0
-,
+                                "duration": 2.0,
                                 "strikes": null,
                                 "radiusGrowth": null,
                                 "delayBetweenStrikes": null
@@ -3288,8 +3289,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
-,
+                    "duration": 0.5,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -3504,8 +3504,7 @@
             "skills": {
                 "pierce": {
                     "radius": 1.0,
-                    "range": 7.5
-,
+                    "range": 7.5,
                     "bounces": null,
                     "bounceDistance": null
                 }
@@ -3742,8 +3741,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 },
                 "periodic-spawn": {
@@ -4051,8 +4049,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
-,
+                    "duration": 0.5,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -4247,8 +4244,7 @@
             "skills": {
                 "pushback": {
                     "distance": 1.0,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -4299,8 +4295,7 @@
                     },
                     "pushback": {
                         "distance": null,
-                        "strength": 4.0
-,
+                        "strength": 4.0,
                         "damage": {
                             "level11": null,
                             "level16": null
@@ -4645,8 +4640,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 }
             },
@@ -4672,7 +4666,8 @@
                             "level16": null
                         },
                         "radius": 0.5,
-                        "deployTime": 1.0
+                        "deployTime": 1.0,
+                        "count": null
                     }
                 },
                 "towerDamage": {
@@ -4787,8 +4782,7 @@
             "skills": {
                 "pierce": {
                     "radius": 0.25,
-                    "range": 11.0
-,
+                    "range": 11.0,
                     "bounces": null,
                     "bounceDistance": null
                 }
@@ -4830,8 +4824,7 @@
                         "skills": {
                             "pierce": {
                                 "radius": 0.5,
-                                "range": 15.5
-,
+                                "range": 15.5,
                                 "bounces": null,
                                 "bounceDistance": null
                             },
@@ -4887,8 +4880,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
-,
+                    "duration": 0.5,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -4913,7 +4905,10 @@
                         "hitSpeedMultiplier": -100,
                         "speedMultiplier": -100,
                         "spawnSpeedMultiplier": -100,
-                        "duration": 0.5
+                        "duration": 0.5,
+                        "strikes": null,
+                        "radiusGrowth": null,
+                        "delayBetweenStrikes": null
                     }
                 },
                 "towerDamage": {
@@ -4966,8 +4961,7 @@
             "skills": {
                 "pierce": {
                     "radius": 0.4,
-                    "range": 5.0
-,
+                    "range": 5.0,
                     "bounces": null,
                     "bounceDistance": null
                 }
@@ -5146,8 +5140,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 }
             },
@@ -5371,8 +5364,7 @@
                             "speedMultiplier": null,
                             "spawnSpeedMultiplier": null,
                             "duration": 3.5,
-                            "rangeMultiplier": null
-,
+                            "rangeMultiplier": null,
                             "radius": null,
                             "enemySpeedMultiplier": null,
                             "enemyHitSpeedMultiplier": null
@@ -5461,8 +5453,7 @@
                             "speedMultiplier": 200,
                             "spawnSpeedMultiplier": null,
                             "duration": null,
-                            "rangeMultiplier": null
-,
+                            "rangeMultiplier": null,
                             "radius": null,
                             "enemySpeedMultiplier": null,
                             "enemyHitSpeedMultiplier": null
@@ -5767,8 +5758,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
-,
+                    "duration": 0.5,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -5840,8 +5830,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": null
-,
+                    "duration": null,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -5912,8 +5901,7 @@
             "skills": {
                 "pushback": {
                     "distance": 2.0,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -6005,12 +5993,8 @@
                         },
                         "pushback": {
                             "distance": null,
-                            "strength": 2.5
-,
-                            "damage": {
-                                "level11": null,
-                                "level16": null
-                            },
+                            "strength": 2.5,
+                            "damage": null,
                             "radius": null
                         }
                     }
@@ -6080,8 +6064,7 @@
             "skills": {
                 "pushback": {
                     "distance": 2.0,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -6298,8 +6281,7 @@
                             "hitSpeedMultiplier": -100,
                             "speedMultiplier": -100,
                             "spawnSpeedMultiplier": -100,
-                            "duration": 0.5
-,
+                            "duration": 0.5,
                             "strikes": null,
                             "radiusGrowth": null,
                             "delayBetweenStrikes": null
@@ -6659,8 +6641,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 }
             },
@@ -6953,8 +6934,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 },
                 "periodic-spawn": {
@@ -7045,7 +7025,10 @@
                         "hitSpeedMultiplier": -100,
                         "speedMultiplier": -100,
                         "spawnSpeedMultiplier": -100,
-                        "duration": 1.5
+                        "duration": 1.5,
+                        "strikes": null,
+                        "radiusGrowth": null,
+                        "delayBetweenStrikes": null
                     }
                 },
                 "towerDamage": {
@@ -7224,8 +7207,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 },
                 "periodic-spawn": {
@@ -7281,8 +7263,7 @@
                                     "level16": null
                                 },
                                 "radius": null,
-                                "deployTime": null
-,
+                                "deployTime": null,
                                 "count": null
                             }
                         }
@@ -7401,8 +7382,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 }
             },
@@ -7428,7 +7408,8 @@
                             "level16": null
                         },
                         "radius": null,
-                        "deployTime": null
+                        "deployTime": null,
+                        "count": null
                     }
                 },
                 "towerDamage": {
@@ -7486,8 +7467,7 @@
                         "level16": null
                     },
                     "radius": 0.5,
-                    "deployTime": 1.0
-,
+                    "deployTime": 1.0,
                     "count": null
                 },
                 "periodic-spawn": {
@@ -7521,7 +7501,8 @@
                             "level16": null
                         },
                         "radius": 0.5,
-                        "deployTime": 1.0
+                        "deployTime": 1.0,
+                        "count": null
                     },
                     "periodic-spawn": {
                         "pauseTime": 3,
@@ -7582,8 +7563,7 @@
             "skills": {
                 "pushback": {
                     "distance": 1.0,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -7730,8 +7710,7 @@
                     "speedMultiplier": 130,
                     "spawnSpeedMultiplier": 130,
                     "duration": 4.5,
-                    "rangeMultiplier": null
-,
+                    "rangeMultiplier": null,
                     "radius": null,
                     "enemySpeedMultiplier": null,
                     "enemyHitSpeedMultiplier": null
@@ -7802,8 +7781,7 @@
             "skills": {
                 "pushback": {
                     "distance": 1.8,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -7959,8 +7937,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 4.0
-,
+                    "duration": 4.0,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -8093,8 +8070,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
-,
+                    "duration": 0.5,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -8167,8 +8143,7 @@
                     "hitSpeedMultiplier": -100,
                     "speedMultiplier": -100,
                     "spawnSpeedMultiplier": -100,
-                    "duration": 0.5
-,
+                    "duration": 0.5,
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
@@ -8391,8 +8366,7 @@
             "skills": {
                 "pushback": {
                     "distance": 0.7,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
@@ -8401,8 +8375,7 @@
                 },
                 "pierce": {
                     "radius": null,
-                    "range": 10.1
-,
+                    "range": 10.1,
                     "bounces": null,
                     "bounceDistance": null
                 }
@@ -8678,8 +8651,7 @@
             "skills": {
                 "pierce": {
                     "radius": null,
-                    "range": 4.5
-,
+                    "range": 4.5,
                     "bounces": null,
                     "bounceDistance": null
                 }
@@ -8845,8 +8817,7 @@
             "skills": {
                 "pushback": {
                     "distance": 1.8,
-                    "strength": null
-,
+                    "strength": null,
                     "damage": {
                         "level11": null,
                         "level16": null
