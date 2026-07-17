@@ -1037,7 +1037,9 @@
                         "radius": 1.5,
                         "range": 4.5,
                         "bounces": 2,
-                        "bounceDistance": 2.5
+                        "bounceDistance": 2.5,
+                        "bounceMode": null,
+                        "bounceDelay": null
                     }
                 },
                 "towerDamage": {
@@ -2599,7 +2601,9 @@
                     "radius": 1.8,
                     "range": 7.5,
                     "bounces": null,
-                    "bounceDistance": null
+                    "bounceDistance": null,
+                    "bounceMode": null,
+                    "bounceDelay": null
                 }
             },
             "towerDamage": {
@@ -3506,7 +3510,9 @@
                     "radius": 1.0,
                     "range": 7.5,
                     "bounces": null,
-                    "bounceDistance": null
+                    "bounceDistance": null,
+                    "bounceMode": null,
+                    "bounceDelay": null
                 }
             },
             "towerDamage": {
@@ -4784,7 +4790,9 @@
                     "radius": 0.25,
                     "range": 11.0,
                     "bounces": null,
-                    "bounceDistance": null
+                    "bounceDistance": null,
+                    "bounceMode": null,
+                    "bounceDelay": null
                 }
             },
             "towerDamage": {
@@ -4826,9 +4834,11 @@
                                 "radius": 0.5,
                                 "range": 15.5,
                                 "bounces": null,
-                                "bounceDistance": null
-                            },
-                            "spawn": {
+                        "bounceDistance": null,
+                        "bounceMode": null,
+                        "bounceDelay": null
+                        },
+                        "spawn": {
                                 "character": "Decoy",
                                 "count": 1,
                                 "hitpoints": {
@@ -4963,7 +4973,9 @@
                     "radius": 0.4,
                     "range": 5.0,
                     "bounces": null,
-                    "bounceDistance": null
+                    "bounceDistance": null,
+                    "bounceMode": null,
+                    "bounceDelay": null
                 }
             },
             "towerDamage": {
@@ -8377,7 +8389,9 @@
                     "radius": null,
                     "range": 10.1,
                     "bounces": null,
-                    "bounceDistance": null
+                    "bounceDistance": null,
+                    "bounceMode": null,
+                    "bounceDelay": null
                 }
             },
             "towerDamage": {
@@ -8653,7 +8667,9 @@
                     "radius": null,
                     "range": 4.5,
                     "bounces": null,
-                    "bounceDistance": null
+                    "bounceDistance": null,
+                    "bounceMode": null,
+                    "bounceDelay": null
                 }
             },
             "towerDamage": {
