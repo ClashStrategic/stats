@@ -116,6 +116,7 @@ const skillsSchema = {
                 damage: { ...levelBasedStats, nullable: true },
                 radius: { type: 'number', nullable: true },
                 deployTime: { type: 'number', nullable: true },
+                count: { type: 'number', nullable: true },
             },
             required: ['character', 'damage', 'radius', 'deployTime'],
             additionalProperties: false,

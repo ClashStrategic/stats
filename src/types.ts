@@ -19,7 +19,7 @@ export interface DashSkill { damage: Levels; minRange: number | null; maxRange: 
 export interface ChargeSkill { damage: Levels; range: number | null; speedMultiplier: number | null; }
 export interface JumpSkill { height: number | null; speed: number | null; }
 export interface InvisibilitySkill { whenNotAttackingTime: number | null; }
-export interface SpawnOnDeathSkill { character: string | boolean | null; damage: Levels | null; radius: number | null; deployTime: number | null; }
+export interface SpawnOnDeathSkill { character: string | boolean | null; damage: Levels | null; radius: number | null; deployTime: number | null; count: number | null; }
 export interface PeriodicSpawnSkill { pauseTime: number | null; character: string | null; units: number | null; }
 export interface AreaDamageOnDeathSkill { areaEffect: string | boolean | null; damage: Levels | null; radius: number | null; }
 export interface AbilitySkill { name: string | null; elixirCost: number | null; cooldown: number | null; skills: Omit<SkillsMap, 'ability'>; }
