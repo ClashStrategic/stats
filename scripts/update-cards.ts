@@ -16,7 +16,7 @@ import {
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
     PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill, RampingDamageSkill,
     TauntSkill, PullSkill, SnipeSkill, StackSkill, SpawnSkill,
-    RedeploySkill, WarpSkill
+    RedeploySkill, WarpSkill, VolleySkill, InvincibleSkill, PoisonSkill
 } from '../src/types.js';
 import {
     SpeedTid, TargetTid, LevelMultiplier, CharacterData, ProjectileData,
@@ -81,31 +81,34 @@ const TOWER_CARD_SKELETON: TowerCard = {
 
 const SKILL_TEMPLATES: SkillTemplates = {
     'heal': { perAttack: { ...EMPTY_LEVELS }, frequency: null, overHeal: { ...EMPTY_LEVELS }, onSpawn: { ...EMPTY_LEVELS } },
-    'stun': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
+    'stun': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null, strikes: null, radiusGrowth: null, delayBetweenStrikes: null },
     'slow': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null },
-    'pushback': { distance: null, strength: null },
+    'pushback': { distance: null, strength: null, damage: { ...EMPTY_LEVELS }, radius: null },
     'shield': { hitpoints: { ...EMPTY_LEVELS }, damageReductionPercent: null },
     'dash': { damage: { ...EMPTY_LEVELS }, minRange: null, maxRange: null, targetType: null },
     'charge': { damage: { ...EMPTY_LEVELS }, range: null, speedMultiplier: null },
     'jump': { height: null, speed: null },
     'invisibility': { whenNotAttackingTime: null },
-    'spawn-on-death': { character: null, damage: { ...EMPTY_LEVELS }, radius: null, deployTime: null },
+    'spawn-on-death': { character: null, damage: { ...EMPTY_LEVELS }, radius: null, deployTime: null, count: null },
     'periodic-spawn': { pauseTime: null, character: null, units: null },
     'area-damage-on-death': { areaEffect: null, damage: { ...EMPTY_LEVELS }, radius: null },
     'ability': { name: null, elixirCost: null, cooldown: null, skills: {} },
-    'pierce': { radius: null, range: null },
-    'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null, rangeMultiplier: null },
+    'pierce': { radius: null, range: null, bounces: null, bounceDistance: null },
+    'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null, rangeMultiplier: null, radius: null, enemySpeedMultiplier: null, enemyHitSpeedMultiplier: null },
     'burrow': { duration: null },
     'multiply': { units: null, interval: null, maxUnits: null },
     'reflect': { damageReductionPercent: null, duration: null, radius: null },
     'ramping-damage': { rampInterval: null, damageTiers: [] },
     'taunt': { range: null, duration: null, triggerWindow: null },
     'pull': { radius: null, strength: null, duration: null },
-    'snipe': { range: null, ammo: null, rootDuration: null, damageMultiplier: null, hitSpeedMultiplier: null, aoeRadius: null },
+    'snipe': { range: null, ammo: null, rootDuration: null, damageMultiplier: null, hitSpeedMultiplier: null, aoeRadius: null, closeRange: null, pushbackDistance: null },
     'stack': { maxStacks: null, hpPerStack: null, damagePerStack: null, interval: null, duration: null },
     'spawn': { character: null, count: null, hitpoints: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS }, lifetime: null, range: null, targets: [] },
     'redeploy': { range: null, damage: { ...EMPTY_LEVELS }, knockback: null, healPercent: null },
-    'warp': { targetType: null, damage: { ...EMPTY_LEVELS }, bonusDamagePercent: null }
+    'warp': { targetType: null, damage: { ...EMPTY_LEVELS }, bonusDamagePercent: null },
+    'volley': { projectileCount: null, damage: { ...EMPTY_LEVELS }, radius: null, knockback: null },
+    'invincible': { duration: null, radius: null, moveSpeedPenalty: null, attackSpeedPenalty: null, triggerType: null },
+    'poison': { duration: null, radius: null, tickInterval: null, damage: { ...EMPTY_LEVELS }, maxStacks: null }
 };
 
 const cloneDeep = <T>(obj: T): T => JSON.parse(JSON.stringify(obj));
@@ -500,7 +503,9 @@ function createAbilitySkill(existing: any, abilityData: any, mult: LevelMultipli
     if (abilityData.name === 'ChampGuardianAbility') {
         parsedSkills.pushback = {
             distance: null,
-            strength: 2.5
+            strength: 2.5,
+            damage: null,
+            radius: null
         };
     }
     if (abilityData.name === 'ArcherQueenRapid') {
@@ -509,7 +514,10 @@ function createAbilitySkill(existing: any, abilityData: any, mult: LevelMultipli
             speedMultiplier: null,
             spawnSpeedMultiplier: null,
             duration: 3.5,
-            rangeMultiplier: null
+            rangeMultiplier: null,
+            radius: null,
+            enemySpeedMultiplier: null,
+            enemyHitSpeedMultiplier: null
         };
     }
     if (abilityData.name === 'MightyMinerLaneSwitch') {
