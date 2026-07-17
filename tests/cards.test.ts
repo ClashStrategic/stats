@@ -254,7 +254,7 @@ describe('Card Data Validation', () => {
       'periodic-spawn': ['pauseTime', 'character', 'units'],
       'area-damage-on-death': ['areaEffect', 'damage', 'radius'],
       ability: ['name', 'elixirCost', 'cooldown', 'skills'],
-      pierce: ['radius', 'range', 'bounces', 'bounceDistance'],
+      pierce: ['radius', 'range', 'bounces', 'bounceDistance', 'bounceMode', 'bounceDelay'],
       boost: ['hitSpeedMultiplier', 'speedMultiplier', 'spawnSpeedMultiplier', 'duration', 'rangeMultiplier', 'radius', 'enemySpeedMultiplier', 'enemyHitSpeedMultiplier'],
       burrow: ['duration'],
       multiply: ['units', 'interval', 'maxUnits'],

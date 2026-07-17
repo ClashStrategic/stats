@@ -76,6 +76,10 @@ export interface AbilitySkill {
 export interface PierceSkill {
     radius: number | null;
     range: number | null;
+    bounces: number | null;
+    bounceDistance: number | null;
+    bounceMode: 'nearest' | 'linear' | null;
+    bounceDelay: number | null;
 }
 export interface BoostSkill {
     hitSpeedMultiplier: number | null;

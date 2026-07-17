@@ -93,7 +93,7 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'periodic-spawn': { pauseTime: null, character: null, units: null },
     'area-damage-on-death': { areaEffect: null, damage: { ...EMPTY_LEVELS }, radius: null },
     'ability': { name: null, elixirCost: null, cooldown: null, skills: {} },
-    'pierce': { radius: null, range: null, bounces: null, bounceDistance: null },
+    'pierce': { radius: null, range: null, bounces: null, bounceDistance: null, bounceMode: null, bounceDelay: null },
     'boost': { hitSpeedMultiplier: null, speedMultiplier: null, spawnSpeedMultiplier: null, duration: null, rangeMultiplier: null, radius: null, enemySpeedMultiplier: null, enemyHitSpeedMultiplier: null },
     'burrow': { duration: null },
     'multiply': { units: null, interval: null, maxUnits: null },
