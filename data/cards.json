@@ -4834,11 +4834,11 @@
                                 "radius": 0.5,
                                 "range": 15.5,
                                 "bounces": null,
-                        "bounceDistance": null,
-                        "bounceMode": null,
-                        "bounceDelay": null
-                        },
-                        "spawn": {
+                                "bounceDistance": null,
+                                "bounceMode": null,
+                                "bounceDelay": null
+                            },
+                            "spawn": {
                                 "character": "Decoy",
                                 "count": 1,
                                 "hitpoints": {
