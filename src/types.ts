@@ -31,7 +31,7 @@ export interface ReflectSkill { damageReductionPercent: number | null; duration:
 export interface RampingDamageSkill { rampInterval: number | null; damageTiers: Levels[]; }
 export interface TauntSkill { range: number | null; duration: number | null; triggerWindow: number | null; }
 export interface PullSkill { radius: number | null; strength: number | null; duration: number | null; }
-export interface SnipeSkill { range: number | null; ammo: number | null; rootDuration: number | null; damageMultiplier: number | null; hitSpeedMultiplier: number | null; aoeRadius: number | null; }
+export interface SnipeSkill { range: number | null; ammo: number | null; rootDuration: number | null; damageMultiplier: number | null; hitSpeedMultiplier: number | null; aoeRadius: number | null; closeRange: boolean | null; pushbackDistance: number | null; }
 export interface StackSkill { maxStacks: number | null; hpPerStack: number | null; damagePerStack: number | null; interval: number | null; duration: number | null; }
 export interface SpawnSkill { character: string | null; count: number | null; hitpoints: Levels | null; damage: Levels | null; lifetime: number | null; range: number | null; targets: TargetValue[]; }
 export interface RedeploySkill { range: number | null; damage: Levels; knockback: number | null; healPercent: number | null; }

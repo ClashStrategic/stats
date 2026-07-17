@@ -247,6 +247,8 @@ const skillsSchema = {
                 damageMultiplier: { type: 'number', nullable: true },
                 hitSpeedMultiplier: { type: 'number', nullable: true },
                 aoeRadius: { type: 'number', nullable: true },
+                closeRange: { type: 'boolean', nullable: true },
+                pushbackDistance: { type: 'number', nullable: true },
             },
             required: ['range', 'ammo', 'rootDuration', 'damageMultiplier', 'hitSpeedMultiplier', 'aoeRadius'],
             additionalProperties: false,
