@@ -156,6 +156,8 @@ const skillsSchema = {
             properties: {
                 radius: { type: 'number', nullable: true },
                 range: { type: 'number', nullable: true },
+                bounces: { type: 'number', nullable: true },
+                bounceDistance: { type: 'number', nullable: true },
             },
             required: ['radius', 'range'],
             additionalProperties: false,

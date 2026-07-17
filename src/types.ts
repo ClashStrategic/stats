@@ -23,7 +23,7 @@ export interface SpawnOnDeathSkill { character: string | boolean | null; damage:
 export interface PeriodicSpawnSkill { pauseTime: number | null; character: string | null; units: number | null; }
 export interface AreaDamageOnDeathSkill { areaEffect: string | boolean | null; damage: Levels | null; radius: number | null; }
 export interface AbilitySkill { name: string | null; elixirCost: number | null; cooldown: number | null; skills: Omit<SkillsMap, 'ability'>; }
-export interface PierceSkill { radius: number | null; range: number | null; }
+export interface PierceSkill { radius: number | null; range: number | null; bounces: number | null; bounceDistance: number | null; }
 export interface BoostSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; rangeMultiplier: number | null; radius: number | null; enemySpeedMultiplier: number | null; enemyHitSpeedMultiplier: number | null; }
 export interface BurrowSkill { duration: number | null; }
 export interface MultiplySkill { units: number | null; interval: number | null; maxUnits: number | null; }
