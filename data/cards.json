@@ -4894,6 +4894,14 @@
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
+                },
+                "pierce": {
+                    "radius": null,
+                    "range": null,
+                    "bounces": 2,
+                    "bounceDistance": 4.0,
+                    "bounceMode": "nearest",
+                    "bounceDelay": 0.15
                 }
             },
             "towerDamage": {
@@ -4919,6 +4927,14 @@
                         "strikes": null,
                         "radiusGrowth": null,
                         "delayBetweenStrikes": null
+                    },
+                    "pierce": {
+                        "radius": null,
+                        "range": null,
+                        "bounces": 99,
+                        "bounceDistance": 4.5,
+                        "bounceMode": "nearest",
+                        "bounceDelay": 0.15
                     }
                 },
                 "towerDamage": {
@@ -5774,6 +5790,14 @@
                     "strikes": null,
                     "radiusGrowth": null,
                     "delayBetweenStrikes": null
+                },
+                "pierce": {
+                    "radius": null,
+                    "range": null,
+                    "bounces": 8,
+                    "bounceDistance": 4.0,
+                    "bounceMode": "nearest",
+                    "bounceDelay": 0.1
                 }
             },
             "towerDamage": {
