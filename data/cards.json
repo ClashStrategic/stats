@@ -4224,7 +4224,18 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "Skeleton",
+                        "damage": {
+                            "level11": 192,
+                            "level16": 307
+                        },
+                        "radius": 2.0,
+                        "deployTime": 0.6,
+                        "count": 2
+                    }
+                },
                 "towerDamage": {
                     "level11": 81,
                     "level16": 129
@@ -4349,7 +4360,18 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "spawn-on-death": {
+                        "character": "Runner",
+                        "damage": {
+                            "level11": 196,
+                            "level16": 314
+                        },
+                        "radius": 1.5,
+                        "deployTime": null,
+                        "count": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 350,
                     "level16": 560
@@ -6516,7 +6538,13 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "periodic-spawn": {
+                        "pauseTime": 4,
+                        "character": "Goblin",
+                        "units": 1
+                    }
+                },
                 "towerDamage": {
                     "level11": 266,
                     "level16": 425
@@ -7621,7 +7649,25 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "spawn": {
+                        "character": "Goblin",
+                        "count": 3,
+                        "hitpoints": {
+                            "level11": 81,
+                            "level16": 130
+                        },
+                        "damage": {
+                            "level11": 88,
+                            "level16": 140
+                        },
+                        "lifetime": null,
+                        "range": 0.5,
+                        "targets": [
+                            "ground"
+                        ]
+                    }
+                },
                 "towerDamage": {
                     "level11": 120,
                     "level16": 192
