@@ -882,7 +882,13 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "pull": {
+                        "radius": 5.0,
+                        "strength": 1.0,
+                        "duration": 0.5
+                    }
+                },
                 "towerDamage": {
                     "level11": 266,
                     "level16": 425
@@ -1807,7 +1813,17 @@
             },
             "evoStats": {
                 "cycles": 1,
-                "skills": {},
+                "skills": {
+                    "pushback": {
+                        "distance": 1.0,
+                        "strength": null,
+                        "damage": {
+                            "level11": 81,
+                            "level16": 119
+                        },
+                        "radius": 2.5
+                    }
+                },
                 "towerDamage": {
                     "level11": 307,
                     "level16": 490
@@ -3329,7 +3345,17 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "stun": {
+                        "hitSpeedMultiplier": null,
+                        "speedMultiplier": -100,
+                        "spawnSpeedMultiplier": null,
+                        "duration": 3.0,
+                        "strikes": null,
+                        "radiusGrowth": null,
+                        "delayBetweenStrikes": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 84,
                     "level16": 134
@@ -7937,7 +7963,17 @@
             },
             "evoStats": {
                 "cycles": 2,
-                "skills": {},
+                "skills": {
+                    "stun": {
+                        "hitSpeedMultiplier": -100,
+                        "speedMultiplier": -100,
+                        "spawnSpeedMultiplier": null,
+                        "duration": 0.5,
+                        "strikes": 2,
+                        "radiusGrowth": 0.5,
+                        "delayBetweenStrikes": null
+                    }
+                },
                 "towerDamage": {
                     "level11": 192,
                     "level16": 307
