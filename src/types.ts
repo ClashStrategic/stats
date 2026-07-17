@@ -11,7 +11,7 @@ export interface Levels {
 export const EMPTY_LEVELS: Levels = { level11: null, level16: null };
 
 export interface HealSkill { perAttack: Levels; frequency: number | null; overHeal: Levels; onSpawn: Levels; }
-export interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
+export interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; strikes: number | null; radiusGrowth: number | null; delayBetweenStrikes: number | null; }
 export interface SlowSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
 export interface PushbackSkill { distance: number | null; strength: number | null; }
 export interface ShieldSkill { hitpoints: Levels | null; damageReductionPercent: number | null; }
