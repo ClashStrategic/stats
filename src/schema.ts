@@ -326,6 +326,18 @@ const skillsSchema = {
             required: ['duration', 'radius'],
             additionalProperties: false,
         },
+        poison: {
+            type: 'object',
+            properties: {
+                duration: { type: 'number', nullable: true },
+                radius: { type: 'number', nullable: true },
+                tickInterval: { type: 'number', nullable: true },
+                damage: { ...levelBasedStats, nullable: true },
+                maxStacks: { type: 'number', nullable: true },
+            },
+            required: ['duration', 'radius', 'tickInterval', 'damage'],
+            additionalProperties: false,
+        },
     },
 } as const;
 
