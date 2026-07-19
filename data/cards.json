@@ -2348,6 +2348,17 @@
                         "strikes": null,
                         "radiusGrowth": null,
                         "delayBetweenStrikes": null
+                    },
+                    "poison": {
+                        "duration": 3.0,
+                        "radius": 2.0,
+                        "tickInterval": 3,
+                        "damage": {
+                            "level11": 43,
+                            "level16": 43
+                        },
+                        "maxStacks": 1,
+                        "tickStunDuration": 1.1
                     }
                 },
                 "towerDamage": {
@@ -3175,7 +3186,8 @@
                             "level11": 51,
                             "level16": null
                         },
-                        "maxStacks": 3
+                        "maxStacks": 3,
+                        "tickStunDuration": null
                     }
                 },
                 "towerDamage": {
@@ -8263,16 +8275,6 @@
                     "speedMultiplier": -15,
                     "spawnSpeedMultiplier": null,
                     "duration": 8.0
-                },
-                "poison": {
-                    "duration": 8.0,
-                    "radius": 3.5,
-                    "tickInterval": 1,
-                    "damage": {
-                        "level11": 92,
-                        "level16": 147
-                    },
-                    "maxStacks": 1
                 }
             },
             "towerDamage": {
