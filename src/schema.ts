@@ -336,6 +336,7 @@ const skillsSchema = {
                 tickInterval: { type: 'number', nullable: true },
                 damage: { ...levelBasedStats, nullable: true },
                 maxStacks: { type: 'number', nullable: true },
+                tickStunDuration: { type: 'number', nullable: true },
             },
             required: ['duration', 'radius', 'tickInterval', 'damage'],
             additionalProperties: false,

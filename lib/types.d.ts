@@ -18,6 +18,9 @@ export interface StunSkill {
     speedMultiplier: number | null;
     spawnSpeedMultiplier: number | null;
     duration: number | null;
+    strikes: number | null;
+    radiusGrowth: number | null;
+    delayBetweenStrikes: number | null;
 }
 export interface SlowSkill {
     hitSpeedMultiplier: number | null;
@@ -28,6 +31,8 @@ export interface SlowSkill {
 export interface PushbackSkill {
     distance: number | null;
     strength: number | null;
+    damage: Levels | null;
+    radius: number | null;
 }
 export interface ShieldSkill {
     hitpoints: Levels | null;
@@ -56,6 +61,7 @@ export interface SpawnOnDeathSkill {
     damage: Levels | null;
     radius: number | null;
     deployTime: number | null;
+    count: number | null;
 }
 export interface PeriodicSpawnSkill {
     pauseTime: number | null;
@@ -87,6 +93,9 @@ export interface BoostSkill {
     spawnSpeedMultiplier: number | null;
     duration: number | null;
     rangeMultiplier: number | null;
+    radius: number | null;
+    enemySpeedMultiplier: number | null;
+    enemyHitSpeedMultiplier: number | null;
 }
 export interface BurrowSkill {
     duration: number | null;
@@ -122,6 +131,8 @@ export interface SnipeSkill {
     damageMultiplier: number | null;
     hitSpeedMultiplier: number | null;
     aoeRadius: number | null;
+    closeRange: boolean | null;
+    pushbackDistance: number | null;
 }
 export interface StackSkill {
     maxStacks: number | null;
@@ -150,6 +161,27 @@ export interface WarpSkill {
     damage: Levels;
     bonusDamagePercent: number | null;
 }
+export interface VolleySkill {
+    projectileCount: number | null;
+    damage: Levels | null;
+    radius: number | null;
+    knockback: number | null;
+}
+export interface InvincibleSkill {
+    duration: number | null;
+    radius: number | null;
+    moveSpeedPenalty: number | null;
+    attackSpeedPenalty: number | null;
+    triggerType: string | null;
+}
+export interface PoisonSkill {
+    duration: number | null;
+    radius: number | null;
+    tickInterval: number | null;
+    damage: Levels | null;
+    maxStacks: number | null;
+    tickStunDuration: number | null;
+}
 export interface SkillTemplates {
     heal: HealSkill;
     stun: StunSkill;
@@ -177,6 +209,9 @@ export interface SkillTemplates {
     spawn: SpawnSkill;
     redeploy: RedeploySkill;
     warp: WarpSkill;
+    volley: VolleySkill;
+    invincible: InvincibleSkill;
+    poison: PoisonSkill;
 }
 export type SkillType = keyof SkillTemplates;
 export type SkillsMap = Partial<SkillTemplates>;

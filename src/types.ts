@@ -38,7 +38,7 @@ export interface RedeploySkill { range: number | null; damage: Levels; knockback
 export interface WarpSkill { targetType: string | null; damage: Levels; bonusDamagePercent: number | null; }
 export interface VolleySkill { projectileCount: number | null; damage: Levels | null; radius: number | null; knockback: number | null; }
 export interface InvincibleSkill { duration: number | null; radius: number | null; moveSpeedPenalty: number | null; attackSpeedPenalty: number | null; triggerType: string | null; }
-export interface PoisonSkill { duration: number | null; radius: number | null; tickInterval: number | null; damage: Levels | null; maxStacks: number | null; }
+export interface PoisonSkill { duration: number | null; radius: number | null; tickInterval: number | null; damage: Levels | null; maxStacks: number | null; tickStunDuration: number | null; }
 
 export interface SkillTemplates {
     heal: HealSkill;
