@@ -269,7 +269,7 @@ describe('Card Data Validation', () => {
       warp: ['targetType', 'damage', 'bonusDamagePercent'],
       volley: ['projectileCount', 'damage', 'radius', 'knockback'],
       invincible: ['duration', 'radius', 'moveSpeedPenalty', 'attackSpeedPenalty', 'triggerType'],
-      poison: ['duration', 'radius', 'tickInterval', 'damage', 'maxStacks'],
+      poison: ['duration', 'radius', 'tickInterval', 'damage', 'maxStacks', 'tickStunDuration'],
     };
 
     it.each(cardsData.cards)('Card "$name" should have consistent skill structures', (card) => {
