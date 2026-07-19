@@ -108,7 +108,7 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'warp': { targetType: null, damage: { ...EMPTY_LEVELS }, bonusDamagePercent: null },
     'volley': { projectileCount: null, damage: { ...EMPTY_LEVELS }, radius: null, knockback: null },
     'invincible': { duration: null, radius: null, moveSpeedPenalty: null, attackSpeedPenalty: null, triggerType: null },
-    'poison': { duration: null, radius: null, tickInterval: null, damage: { ...EMPTY_LEVELS }, maxStacks: null }
+    'poison': { duration: null, radius: null, tickInterval: null, damage: { ...EMPTY_LEVELS }, maxStacks: null, tickStunDuration: null }
 };
 
 const cloneDeep = <T>(obj: T): T => JSON.parse(JSON.stringify(obj));
