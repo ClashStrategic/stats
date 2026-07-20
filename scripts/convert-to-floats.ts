@@ -16,7 +16,7 @@ const propertiesToConvert = [
     'duration', 'hitspeed', 'range', 'radius',
     'deployTime', 'sightRange', 'collisionRadius', 'loadTime',
     'interval', 'speed', 'height', 'distance', 'strength', 'whenNotAttackingTime',
-    'rampInterval'
+    'rampInterval', 'bounceDistance'
 ];
 
 function convertIntegersToFloats(obj: any) {
