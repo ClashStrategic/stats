@@ -10,6 +10,14 @@ export interface Levels {
 
 export const EMPTY_LEVELS: Levels = { level11: null, level16: null };
 
+export interface SpawnCountObject {
+    base: number;
+    perStack: number | null;
+    maxStacks: number | null;
+}
+
+export type SpawnCount = number | SpawnCountObject;
+
 export interface HealSkill { perAttack: Levels; frequency: number | null; overHeal: Levels; onSpawn: Levels; }
 export interface StunSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; strikes: number | null; radiusGrowth: number | null; delayBetweenStrikes: number | null; }
 export interface SlowSkill { hitSpeedMultiplier: number | null; speedMultiplier: number | null; spawnSpeedMultiplier: number | null; duration: number | null; }
@@ -33,7 +41,8 @@ export interface TauntSkill { range: number | null; duration: number | null; tri
 export interface PullSkill { radius: number | null; strength: number | null; duration: number | null; }
 export interface SnipeSkill { range: number | null; ammo: number | null; rootDuration: number | null; damageMultiplier: number | null; hitSpeedMultiplier: number | null; aoeRadius: number | null; closeRange: boolean | null; pushbackDistance: number | null; }
 export interface StackSkill { maxStacks: number | null; hpPerStack: number | null; damagePerStack: number | null; interval: number | null; duration: number | null; }
-export interface SpawnSkill { character: string | null; count: number | null; hitpoints: Levels | null; damage: Levels | null; lifetime: number | null; range: number | null; targets: TargetValue[]; }
+export interface SpawnOnKillSkill { markDuration: number | null; character: string | null; count: SpawnCount | null; chance: number | null; radius: number | null; interval: number | null; hitpoints: Levels | null; damage: Levels | null; hitspeed: number | null; speed: SpeedValue | null; range: number | null; lifetime: number | null; targets: TargetValue[]; }
+export interface SpawnSkill { character: string | null; count: SpawnCount | null; hitpoints: Levels | null; damage: Levels | null; lifetime: number | null; range: number | null; targets: TargetValue[]; radius: number | null; interval: number | null; }
 export interface RedeploySkill { range: number | null; damage: Levels; knockback: number | null; healPercent: number | null; }
 export interface WarpSkill { targetType: string | null; damage: Levels; bonusDamagePercent: number | null; }
 export interface VolleySkill { projectileCount: number | null; damage: Levels | null; radius: number | null; knockback: number | null; }
@@ -65,6 +74,7 @@ export interface SkillTemplates {
     snipe: SnipeSkill;
     stack: StackSkill;
     spawn: SpawnSkill;
+    'spawn-on-kill': SpawnOnKillSkill;
     redeploy: RedeploySkill;
     warp: WarpSkill;
     volley: VolleySkill;

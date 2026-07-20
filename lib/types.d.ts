@@ -7,6 +7,12 @@ export interface Levels {
     level16: number | null;
 }
 export declare const EMPTY_LEVELS: Levels;
+export interface SpawnCountObject {
+    base: number;
+    perStack: number | null;
+    maxStacks: number | null;
+}
+export type SpawnCount = number | SpawnCountObject;
 export interface HealSkill {
     perAttack: Levels;
     frequency: number | null;
@@ -141,14 +147,31 @@ export interface StackSkill {
     interval: number | null;
     duration: number | null;
 }
+export interface SpawnOnKillSkill {
+    markDuration: number | null;
+    character: string | null;
+    count: SpawnCount | null;
+    chance: number | null;
+    radius: number | null;
+    interval: number | null;
+    hitpoints: Levels | null;
+    damage: Levels | null;
+    hitspeed: number | null;
+    speed: SpeedValue | null;
+    range: number | null;
+    lifetime: number | null;
+    targets: TargetValue[];
+}
 export interface SpawnSkill {
     character: string | null;
-    count: number | null;
+    count: SpawnCount | null;
     hitpoints: Levels | null;
     damage: Levels | null;
     lifetime: number | null;
     range: number | null;
     targets: TargetValue[];
+    radius: number | null;
+    interval: number | null;
 }
 export interface RedeploySkill {
     range: number | null;
@@ -207,6 +230,7 @@ export interface SkillTemplates {
     snipe: SnipeSkill;
     stack: StackSkill;
     spawn: SpawnSkill;
+    'spawn-on-kill': SpawnOnKillSkill;
     redeploy: RedeploySkill;
     warp: WarpSkill;
     volley: VolleySkill;

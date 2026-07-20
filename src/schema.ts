@@ -271,7 +271,21 @@ const skillsSchema = {
             type: 'object',
             properties: {
                 character: { type: 'string', nullable: true },
-                count: { type: 'number', nullable: true },
+                count: {
+                    oneOf: [
+                        { type: 'number', nullable: true },
+                        {
+                            type: 'object',
+                            properties: {
+                                base: { type: 'number' },
+                                perStack: { type: 'number', nullable: true },
+                                maxStacks: { type: 'number', nullable: true },
+                            },
+                            required: ['base'],
+                            additionalProperties: false,
+                        },
+                    ],
+                },
                 hitpoints: { ...levelBasedStats, nullable: true },
                 damage: { ...levelBasedStats, nullable: true },
                 lifetime: { type: 'number', nullable: true },
@@ -280,8 +294,47 @@ const skillsSchema = {
                     type: 'array',
                     items: { type: 'string', enum: ['ground', 'air', 'buildings'] },
                 },
+                radius: { type: 'number', nullable: true },
+                interval: { type: 'number', nullable: true },
             },
             required: ['character', 'count', 'hitpoints', 'damage', 'lifetime', 'range', 'targets'],
+            additionalProperties: false,
+        },
+        'spawn-on-kill': {
+            type: 'object',
+            properties: {
+                markDuration: { type: 'number', nullable: true },
+                character: { type: 'string', nullable: true },
+                count: {
+                    oneOf: [
+                        { type: 'number', nullable: true },
+                        {
+                            type: 'object',
+                            properties: {
+                                base: { type: 'number' },
+                                perStack: { type: 'number', nullable: true },
+                                maxStacks: { type: 'number', nullable: true },
+                            },
+                            required: ['base'],
+                            additionalProperties: false,
+                        },
+                    ],
+                },
+                chance: { type: 'number', nullable: true },
+                radius: { type: 'number', nullable: true },
+                interval: { type: 'number', nullable: true },
+                hitpoints: { ...levelBasedStats, nullable: true },
+                damage: { ...levelBasedStats, nullable: true },
+                hitspeed: { type: 'number', nullable: true },
+                speed: { type: 'string', nullable: true, enum: ['slow', 'medium', 'fast', 'very-fast', null] },
+                range: { type: 'number', nullable: true },
+                lifetime: { type: 'number', nullable: true },
+                targets: {
+                    type: 'array',
+                    items: { type: 'string', enum: ['ground', 'air', 'buildings'] },
+                },
+            },
+            required: ['character', 'count'],
             additionalProperties: false,
         },
         redeploy: {
