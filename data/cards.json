@@ -537,7 +537,9 @@
                                 "damage": null,
                                 "lifetime": null,
                                 "range": null,
-                                "targets": []
+                                "targets": [],
+                                "radius": null,
+                                "interval": null
                             },
                             "dash": {
                                 "damage": {
@@ -1146,7 +1148,9 @@
                                 "targets": [
                                     "air",
                                     "ground"
-                                ]
+                                ],
+                                "radius": null,
+                                "interval": null
                             }
                         }
                     }
@@ -4860,7 +4864,9 @@
                                 "damage": null,
                                 "lifetime": 7,
                                 "range": null,
-                                "targets": []
+                                "targets": [],
+                                "radius": null,
+                                "interval": null
                             }
                         }
                     }
@@ -5328,7 +5334,26 @@
                     "name": "SkeletonKing",
                     "elixirCost": 2,
                     "cooldown": 20,
-                    "skills": {}
+                    "skills": {
+                        "spawn": {
+                            "character": "Skeleton",
+                            "count": {
+                                "base": 6,
+                                "perStack": 1,
+                                "maxStacks": 10
+                            },
+                            "hitpoints": {
+                                "level11": 1,
+                                "level16": 1
+                            },
+                            "damage": null,
+                            "lifetime": null,
+                            "range": null,
+                            "targets": [],
+                            "radius": 4.0,
+                            "interval": 0.25
+                        }
+                    }
                 }
             },
             "towerDamage": {
@@ -5726,9 +5751,32 @@
             "kamikaze": false,
             "flying": false,
             "skills": {
-                "jump": {
-                    "height": 4.0,
-                    "speed": 0.16
+                "spawn-on-kill": {
+                    "markDuration": 5,
+                    "character": "Cursed Hog",
+                    "count": {
+                        "base": 1,
+                        "perStack": 1,
+                        "maxStacks": 5
+                    },
+                    "chance": 100,
+                    "radius": null,
+                    "interval": null,
+                    "hitpoints": {
+                        "level11": 529,
+                        "level16": 1006
+                    },
+                    "damage": {
+                        "level11": 53,
+                        "level16": 85
+                    },
+                    "hitspeed": 1.2,
+                    "speed": "very-fast",
+                    "range": 0.75,
+                    "lifetime": null,
+                    "targets": [
+                        "buildings"
+                    ]
                 }
             },
             "towerDamage": {
@@ -6037,7 +6085,9 @@
                             "damage": null,
                             "lifetime": null,
                             "range": null,
-                            "targets": []
+                            "targets": [],
+                            "radius": null,
+                            "interval": null
                         },
                         "pushback": {
                             "distance": null,
@@ -7349,7 +7399,13 @@
             "projectileNumber": 1,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "periodic-spawn": {
+                    "pauseTime": 7,
+                    "character": "Fire Spirit",
+                    "units": 1
+                }
+            },
             "towerDamage": {
                 "level11": 179,
                 "level16": 286
@@ -7930,7 +7986,9 @@
                         "range": 0.5,
                         "targets": [
                             "ground"
-                        ]
+                        ],
+                        "radius": null,
+                        "interval": null
                     }
                 },
                 "towerDamage": {
