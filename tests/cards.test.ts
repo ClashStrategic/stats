@@ -264,7 +264,8 @@ describe('Card Data Validation', () => {
       pull: ['radius', 'strength', 'duration'],
       snipe: ['range', 'ammo', 'rootDuration', 'damageMultiplier', 'hitSpeedMultiplier', 'aoeRadius', 'closeRange', 'pushbackDistance'],
       stack: ['maxStacks', 'hpPerStack', 'damagePerStack', 'interval', 'duration'],
-      spawn: ['character', 'count', 'hitpoints', 'damage', 'lifetime', 'range', 'targets'],
+      spawn: ['character', 'count', 'hitpoints', 'damage', 'lifetime', 'range', 'targets', 'radius', 'interval'],
+      'spawn-on-kill': ['markDuration', 'character', 'count', 'chance', 'radius', 'interval', 'hitpoints', 'damage', 'hitspeed', 'speed', 'range', 'lifetime', 'targets'],
       redeploy: ['range', 'damage', 'knockback', 'healPercent'],
       warp: ['targetType', 'damage', 'bonusDamagePercent'],
       volley: ['projectileCount', 'damage', 'radius', 'knockback'],
@@ -295,6 +296,7 @@ describe('Card Data Validation', () => {
               (skillType === 'spawn-on-death' && key === 'damage') ||
               (skillType === 'area-damage-on-death' && key === 'damage') ||
               (skillType === 'spawn' && ['hitpoints', 'damage'].includes(key)) ||
+              (skillType === 'spawn-on-kill' && ['hitpoints', 'damage'].includes(key)) ||
               (skillType === 'redeploy' && key === 'damage') ||
               (skillType === 'warp' && key === 'damage') ||
               (skillType === 'volley' && key === 'damage') ||
@@ -334,6 +336,7 @@ describe('Card Data Validation', () => {
                 (skillType === 'spawn-on-death' && key === 'damage') ||
                 (skillType === 'area-damage-on-death' && key === 'damage') ||
                 (skillType === 'spawn' && ['hitpoints', 'damage'].includes(key)) ||
+                (skillType === 'spawn-on-kill' && ['hitpoints', 'damage'].includes(key)) ||
                 (skillType === 'redeploy' && key === 'damage') ||
                 (skillType === 'warp' && key === 'damage');
 
