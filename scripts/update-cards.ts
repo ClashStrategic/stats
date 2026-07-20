@@ -15,7 +15,7 @@ import {
     DashSkill, JumpSkill, InvisibilitySkill, SpawnOnDeathSkill,
     PeriodicSpawnSkill, AreaDamageOnDeathSkill, AbilitySkill,
     PierceSkill, BoostSkill, BurrowSkill, MultiplySkill, ReflectSkill, RampingDamageSkill,
-    TauntSkill, PullSkill, SnipeSkill, StackSkill, SpawnSkill,
+    TauntSkill, PullSkill, SnipeSkill, StackSkill, SpawnSkill, SpawnOnKillSkill,
     RedeploySkill, WarpSkill, VolleySkill, InvincibleSkill, PoisonSkill
 } from '../src/types.js';
 import {
@@ -103,7 +103,8 @@ const SKILL_TEMPLATES: SkillTemplates = {
     'pull': { radius: null, strength: null, duration: null },
     'snipe': { range: null, ammo: null, rootDuration: null, damageMultiplier: null, hitSpeedMultiplier: null, aoeRadius: null, closeRange: null, pushbackDistance: null },
     'stack': { maxStacks: null, hpPerStack: null, damagePerStack: null, interval: null, duration: null },
-    'spawn': { character: null, count: null, hitpoints: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS }, lifetime: null, range: null, targets: [] },
+    'spawn': { character: null, count: null, hitpoints: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS }, lifetime: null, range: null, targets: [], radius: null, interval: null },
+    'spawn-on-kill': { markDuration: null, character: null, count: null, chance: null, radius: null, interval: null, hitpoints: { ...EMPTY_LEVELS }, damage: { ...EMPTY_LEVELS }, hitspeed: null, speed: null, range: null, lifetime: null, targets: [] },
     'redeploy': { range: null, damage: { ...EMPTY_LEVELS }, knockback: null, healPercent: null },
     'warp': { targetType: null, damage: { ...EMPTY_LEVELS }, bonusDamagePercent: null },
     'volley': { projectileCount: null, damage: { ...EMPTY_LEVELS }, radius: null, knockback: null },
