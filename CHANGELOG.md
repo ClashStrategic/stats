@@ -1,3 +1,48 @@
+# [2.3.0](https://github.com/ClashStrategic/stats/compare/v2.2.0...v2.3.0) (2026-07-20)
+
+
+### Bug Fixes
+
+* **data:** adjust tower damage scaling for card entries ([d77b90d](https://github.com/ClashStrategic/stats/commit/d77b90d8fc59376d1086673f440a2ee3126bc2cf))
+* **data:** migrate existing pierce cards to bounceMode and bounceDelay fields ([e63bbb8](https://github.com/ClashStrategic/stats/commit/e63bbb850616dc99da316550332de62738fc8480))
+
+
+### Features
+
+* **data:** add pierce chain-lightning to Electro Dragon and Electro Spirit ([7f49709](https://github.com/ClashStrategic/stats/commit/7f49709e6598145d75c0b3f344cc1c945e325856))
+* **data:** add poison skill to Poison card ([ddbab71](https://github.com/ClashStrategic/stats/commit/ddbab71016dd198e3789ea9ce2bae769413d32ba))
+* **data:** add pull and stack skill definitions to card entries ([329d673](https://github.com/ClashStrategic/stats/commit/329d673d897445bd06b277cb17af0089fa07dabb))
+* **data:** add spawn skill configuration to protector card ([6932c09](https://github.com/ClashStrategic/stats/commit/6932c0944185863815e86d0aa766cc11950ccdc9))
+* **data:** extend skill schemas with new nullable fields across all cards ([6aac072](https://github.com/ClashStrategic/stats/commit/6aac0720b4b0d54b411011cf9b07d3781760b6c8))
+* **data:** implement evolution skill mechanics for snipe and pull ([1c59d96](https://github.com/ClashStrategic/stats/commit/1c59d961c76fad20d1ba721632ab3befc9ed8e9c))
+* **data:** implement spawn and spawn-on-kill mechanics ([0f2ad27](https://github.com/ClashStrategic/stats/commit/0f2ad2728c9812a8d0cc9a001b61c5bb1864c074))
+* **evo:** add skill configurations for aura and buff evolution cards ([4c00c0c](https://github.com/ClashStrategic/stats/commit/4c00c0cfac7b52509c5d49a07b1f6b0e090a3eb5))
+* **evo:** add skill configurations for control evolution cards ([fc4e4b1](https://github.com/ClashStrategic/stats/commit/fc4e4b12deb95f0e8bded8e18749e5f5850ec31c))
+* **evo:** add skill configurations for projectile evolution cards ([1dfa63f](https://github.com/ClashStrategic/stats/commit/1dfa63f95246e02d6da1626b76bc4791b82e8c26))
+* **evo:** add skill configurations for spawn evolution cards ([5ccf033](https://github.com/ClashStrategic/stats/commit/5ccf033eb91315ab53dde4bde6faef2473b79275))
+* **hero:** populate ability skills for all hero cards ([2b3bfd7](https://github.com/ClashStrategic/stats/commit/2b3bfd79fdb58ffca8c410f13858faa932e7aba1))
+* **schema:** add invincible skill type ([c37b107](https://github.com/ClashStrategic/stats/commit/c37b107093e64b38bf66f61268a1c41697f00844))
+* **schema:** add poison skill type ([2ab03d6](https://github.com/ClashStrategic/stats/commit/2ab03d6ebf7b51bfda6a023a3c0ce2523bb87cbc))
+* **schema:** add pull skill ([1c778fb](https://github.com/ClashStrategic/stats/commit/1c778fbad9897b8f8afae1aa007eec8e79bf12f7))
+* **schema:** add rangeMultiplier to boost skill ([3b3c594](https://github.com/ClashStrategic/stats/commit/3b3c594792fb46c353cf95f91d0cd8e2c444c44c))
+* **schema:** add redeploy skill ([bfec696](https://github.com/ClashStrategic/stats/commit/bfec6968f1eb3e7bcfd5925ecbb8d70e3215c8ff))
+* **schema:** add snipe skill ([d046e4c](https://github.com/ClashStrategic/stats/commit/d046e4c2ccba028bb4e2daa4551ee27ff90b1231))
+* **schema:** add spawn skill ([0ffffd8](https://github.com/ClashStrategic/stats/commit/0ffffd81891dafe13448585658d570de9dc2b924))
+* **schema:** add stack skill ([3d52bb5](https://github.com/ClashStrategic/stats/commit/3d52bb56b6d8a1b0ec1fd0fb28889f5c062d0055))
+* **schema:** add targetType to dash skill ([8c4a575](https://github.com/ClashStrategic/stats/commit/8c4a5757da37198dfb68d318f459e70711d68d2f))
+* **schema:** add taunt skill ([eff2452](https://github.com/ClashStrategic/stats/commit/eff245231a8be1650251f08f546eef69cc4db190))
+* **schema:** add volley skill type ([b6f9fd8](https://github.com/ClashStrategic/stats/commit/b6f9fd8a83fb88d060aa84319ed0f22e19397bc7))
+* **schema:** add warp skill ([c0af3c8](https://github.com/ClashStrategic/stats/commit/c0af3c83c080e701c5d40cf1a127877bdef133fd))
+* **schema:** extend boost with aura radius and enemy debuff ([688adfd](https://github.com/ClashStrategic/stats/commit/688adfd8de3728079c499a0070a7d60e18acb9cd))
+* **schema:** extend pierce with bounces and bounceDistance ([c69498a](https://github.com/ClashStrategic/stats/commit/c69498a0567db184fdb145bfda689a446adf1c43))
+* **schema:** extend pushback with area damage and radius ([b62a930](https://github.com/ClashStrategic/stats/commit/b62a930b84aec8afe5615dc6cbb49664d0575b14))
+* **schema:** extend snipe with closeRange and pushbackDistance ([3500c91](https://github.com/ClashStrategic/stats/commit/3500c910781121aa5f5871db5a6e4229da94b8ce))
+* **schema:** extend spawn-on-death with count ([0c597fa](https://github.com/ClashStrategic/stats/commit/0c597fa2a44c8defeb33482e2a4a220a2028fcca))
+* **schema:** extend stun with strikes, radiusGrowth and delayBetweenStrikes ([f96f935](https://github.com/ClashStrategic/stats/commit/f96f93594819699a265536b4d5b870db3066ab9d))
+* **types:** add new skill definitions and update existing schemas ([e574336](https://github.com/ClashStrategic/stats/commit/e57433693769919ed4d4364ef36695a87692aa1a))
+* **types:** add spawn-on-kill skill and update spawn skill schema ([999c90d](https://github.com/ClashStrategic/stats/commit/999c90d1b6d5f130d1dd691a5746d57f3565df94))
+* **types:** extend PierceSkill with bounceMode and bounceDelay ([8b17ec1](https://github.com/ClashStrategic/stats/commit/8b17ec1709d0d473b0240a3ff0a09e4c08c32194))
+
 # [2.2.0](https://github.com/ClashStrategic/stats/compare/v2.1.0...v2.2.0) (2026-07-14)
 
 
