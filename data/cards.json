@@ -890,7 +890,7 @@
             "duration": null,
             "deployTime": 1.0,
             "evolution": true,
-            "hero": false,
+            "hero": true,
             "hitType": "splash",
             "projectile": false,
             "projectileNumber": null,
@@ -932,7 +932,41 @@
                 }
             },
             "heroStats": {
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Valkyrie_hero",
+                        "elixirCost": 3,
+                        "cooldown": null,
+                        "skills": {
+                            "boost": {
+                                "hitSpeedMultiplier": null,
+                                "speedMultiplier": 100,
+                                "spawnSpeedMultiplier": null,
+                                "duration": 3.5,
+                                "rangeMultiplier": null,
+                                "radius": null,
+                                "enemySpeedMultiplier": null,
+                                "enemyHitSpeedMultiplier": null
+                            },
+                            "dash": {
+                                "damage": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "minRange": null,
+                                "maxRange": 5.5,
+                                "targetType": "nearest"
+                            },
+                            "shield": {
+                                "hitpoints": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "damageReductionPercent": 15
+                            }
+                        }
+                    }
+                }
             },
             "hitspeed": 1.5,
             "loadTime": 1.4,
