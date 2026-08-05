@@ -6541,7 +6541,7 @@
             "duration": null,
             "deployTime": 1.0,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "hitType": "unique",
             "projectile": false,
             "projectileNumber": null,
@@ -6577,7 +6577,32 @@
                 }
             },
             "heroStats": {
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Berserker_hero",
+                        "elixirCost": 3,
+                        "cooldown": null,
+                        "skills": {
+                            "boost": {
+                                "hitSpeedMultiplier": 200,
+                                "speedMultiplier": 50,
+                                "spawnSpeedMultiplier": 100,
+                                "duration": 4.0,
+                                "rangeMultiplier": null,
+                                "radius": null,
+                                "enemySpeedMultiplier": null,
+                                "enemyHitSpeedMultiplier": null
+                            },
+                            "invincible": {
+                                "duration": 4.0,
+                                "radius": null,
+                                "moveSpeedPenalty": null,
+                                "attackSpeedPenalty": null,
+                                "triggerType": "ability"
+                            }
+                        }
+                    }
+                }
             },
             "hitspeed": 0.6,
             "loadTime": 0.4,
