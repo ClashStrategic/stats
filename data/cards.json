@@ -2338,8 +2338,8 @@
                 "level16": 175
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": 2,
@@ -2374,8 +2374,8 @@
                     "level16": 175
                 },
                 "hitpoints": {
-                    "level11": 230,
-                    "level16": 368
+                    "level11": 215,
+                    "level16": 343
                 }
             },
             "heroStats": {
@@ -2422,8 +2422,8 @@
                 "level16": 331
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": null,
@@ -5860,8 +5860,8 @@
                 "level16": 159
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": null,
@@ -8855,8 +8855,8 @@
                 "level16": 175
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": null,
