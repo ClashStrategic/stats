@@ -1749,7 +1749,7 @@
                         "duration": 3.0,
                         "radius": null,
                         "moveSpeedPenalty": -33,
-                        "attackSpeedPenalty": -50,
+                        "attackSpeedPenalty": -33,
                         "triggerType": "on-damage"
                     }
                 },
@@ -2032,7 +2032,7 @@
                         "hitSpeedMultiplier": -30,
                         "speedMultiplier": -30,
                         "spawnSpeedMultiplier": -30,
-                        "duration": 7.0
+                        "duration": 5.5
                     },
                     "area-damage-on-death": {
                         "areaEffect": "Ice Arrows",
