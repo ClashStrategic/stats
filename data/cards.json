@@ -1560,7 +1560,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 1.7,
+            "hitspeed": 1.6,
             "loadTime": 1.2,
             "radius": null,
             "collisionRadius": 0.5,
@@ -7332,8 +7332,8 @@
                 "level16": 129
             },
             "hitpoints": {
-                "level11": 529,
-                "level16": 846
+                "level11": 4224,
+                "level16": 6748
             },
             "evoStats": {
                 "cycles": null,
@@ -7383,7 +7383,7 @@
             "collisionRadius": 1.0,
             "speed": null,
             "range": 2.0,
-            "sightRange": null,
+            "sightRange": 7.0,
             "placement": "own-side",
             "unlockArena": "Arena2",
             "tribe": null,
@@ -7410,7 +7410,7 @@
             "flying": false,
             "skills": {
                 "periodic-spawn": {
-                    "pauseTime": 7,
+                    "pauseTime": 5,
                     "character": "Fire Spirit",
                     "units": 1
                 }
