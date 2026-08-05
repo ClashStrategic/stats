@@ -128,7 +128,7 @@
                         "range": 4.0,
                         "ammo": null,
                         "rootDuration": null,
-                        "damageMultiplier": 150,
+                        "damageMultiplier": 125,
                         "hitSpeedMultiplier": null,
                         "aoeRadius": null,
                         "closeRange": false,
@@ -7497,7 +7497,7 @@
                 "level16": 1247
             },
             "evoStats": {
-                "cycles": 1,
+                "cycles": 2,
                 "skills": {
                     "spawn-on-death": {
                         "character": "GoblinCage_EV1_GoblinBrawler",
@@ -7973,8 +7973,8 @@
                             "level16": 130
                         },
                         "damage": {
-                            "level11": 88,
-                            "level16": 140
+                            "level11": 66,
+                            "level16": 106
                         },
                         "lifetime": null,
                         "range": 0.5,
