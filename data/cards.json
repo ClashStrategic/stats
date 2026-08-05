@@ -3375,7 +3375,7 @@
             "units": 2,
             "duration": null,
             "deployTime": 1.0,
-            "evolution": false,
+            "evolution": true,
             "hero": false,
             "hitType": "unique",
             "projectile": false,
@@ -3405,19 +3405,40 @@
                 "level16": 2143
             },
             "evoStats": {
-                "cycles": null,
-                "skills": {},
+                "cycles": 1,
+                "skills": {
+                    "snipe": {
+                        "range": 5.0,
+                        "ammo": null,
+                        "rootDuration": null,
+                        "damageMultiplier": 74,
+                        "hitSpeedMultiplier": null,
+                        "aoeRadius": null,
+                        "closeRange": true,
+                        "pushbackDistance": null
+                    },
+                    "boost": {
+                        "hitSpeedMultiplier": 30,
+                        "speedMultiplier": 30,
+                        "spawnSpeedMultiplier": 30,
+                        "duration": 3.5,
+                        "rangeMultiplier": null,
+                        "radius": 1.0,
+                        "enemySpeedMultiplier": null,
+                        "enemyHitSpeedMultiplier": null
+                    }
+                },
                 "towerDamage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 384,
+                    "level16": 613
                 },
                 "damage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 384,
+                    "level16": 613
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 1341,
+                    "level16": 2143
                 }
             },
             "heroStats": {
