@@ -2629,7 +2629,7 @@
                 },
                 "pierce": {
                     "radius": 1.8,
-                    "range": 7.5,
+                    "range": 7.0,
                     "bounces": null,
                     "bounceDistance": null,
                     "bounceMode": null,
@@ -3530,7 +3530,7 @@
             "skills": {
                 "pierce": {
                     "radius": 1.0,
-                    "range": 7.5,
+                    "range": 7.0,
                     "bounces": null,
                     "bounceDistance": null,
                     "bounceMode": null,
@@ -4114,7 +4114,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 2.1,
+            "hitspeed": 2.2,
             "loadTime": 1.3,
             "radius": null,
             "collisionRadius": 0.6,
@@ -4515,12 +4515,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 350,
-                "level16": 560
+                "level11": 281,
+                "level16": 449
             },
             "damage": {
-                "level11": 350,
-                "level16": 560
+                "level11": 281,
+                "level16": 449
             },
             "hitpoints": {
                 "level11": 330,
@@ -4541,12 +4541,12 @@
                     }
                 },
                 "towerDamage": {
-                    "level11": 350,
-                    "level16": 560
+                    "level11": 281,
+                    "level16": 449
                 },
                 "damage": {
-                    "level11": 350,
-                    "level16": 560
+                    "level11": 281,
+                    "level16": 449
                 },
                 "hitpoints": {
                     "level11": 330,
@@ -4818,12 +4818,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 143,
-                "level16": 229
+                "level11": 135,
+                "level16": 216
             },
             "damage": {
-                "level11": 143,
-                "level16": 229
+                "level11": 135,
+                "level16": 216
             },
             "hitpoints": {
                 "level11": 529,
@@ -7246,12 +7246,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 43,
-                "level16": 69
+                "level11": 58,
+                "level16": 94
             },
             "damage": {
-                "level11": 43,
-                "level16": 69
+                "level11": 58,
+                "level16": 94
             },
             "hitpoints": {
                 "level11": 1600,
@@ -7276,7 +7276,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 0.3,
+            "hitspeed": 0.4,
             "loadTime": null,
             "radius": null,
             "collisionRadius": 0.6,
@@ -7593,8 +7593,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 26,
-                "level16": 41
+                "level11": null,
+                "level16": null
             },
             "damage": {
                 "level11": 84,
@@ -9018,12 +9018,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 438,
-                "level16": 699
+                "level11": 384,
+                "level16": 613
             },
             "damage": {
-                "level11": 438,
-                "level16": 699
+                "level11": 384,
+                "level16": 613
             },
             "hitpoints": {
                 "level11": 548,
