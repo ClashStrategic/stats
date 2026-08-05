@@ -611,6 +611,21 @@
                         "pauseTime": 7,
                         "character": "Skeleton",
                         "units": 4
+                    },
+                    "heal": {
+                        "perAttack": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "frequency": null,
+                        "overHeal": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "onSpawn": {
+                            "level11": 153,
+                            "level16": 245
+                        }
                     }
                 },
                 "towerDamage": {
@@ -622,8 +637,8 @@
                     "level16": 216
                 },
                 "hitpoints": {
-                    "level11": 839,
-                    "level16": 1341
+                    "level11": 1451,
+                    "level16": 2319
                 }
             },
             "heroStats": {
