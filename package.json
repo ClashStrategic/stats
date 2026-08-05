@@ -1,6 +1,6 @@
 {
     "name": "@clash-strategic/stats",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "type": "module",
     "description": "Statistics and data for Clash Royale cards.",
     "author": "Clash Strategic",

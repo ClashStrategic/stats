@@ -1,3 +1,30 @@
+# [2.4.0](https://github.com/ClashStrategic/stats/compare/v2.3.0...v2.4.0) (2026-08-05)
+
+
+### Bug Fixes
+
+* **data:** adjust Battle Healer, Goblin Machine, Rune Giant and Void ([c5bb00a](https://github.com/ClashStrategic/stats/commit/c5bb00ad9e35872e412ab2331de5f1f683c211dc))
+* **data:** buff underused cards ([9f92a1b](https://github.com/ClashStrategic/stats/commit/9f92a1ba2fbb68d87fd6b805441e457c9f7f31d8))
+* **data:** nerf Spirit hitpoints across all variants ([feeaaa3](https://github.com/ClashStrategic/stats/commit/feeaaa35e01f0b50484cd9ce12b799945c173834))
+* **data:** reallocate power across base forms and their variants ([3f81198](https://github.com/ClashStrategic/stats/commit/3f811987b807f7b5875ced5ec413e762b93f7b2e))
+* **data:** tune ranged units, spells and buildings ([099820b](https://github.com/ClashStrategic/stats/commit/099820b75b56ce7f793cfa4134438efa87f15361))
+* **evo:** buff Minion Horde and Princess Evolutions ([d3f13b1](https://github.com/ClashStrategic/stats/commit/d3f13b120857c45da4dceb4295053565b77dc642))
+* **evo:** nerf dominant Evolution cards ([a8c70b6](https://github.com/ClashStrategic/stats/commit/a8c70b672a9f5f1ede8a3b279d0576d3be16ff60))
+* **hero:** buff Hero Mega Minion warp damage ([2251fb4](https://github.com/ClashStrategic/stats/commit/2251fb49c411d5f71a8943958d6c50f3c2a750ce))
+* **hero:** buff Mighty Miner and Little Prince ([b64c615](https://github.com/ClashStrategic/stats/commit/b64c61531875d6c9f7a02d2a926b29a10cb03a72))
+* **hero:** make abilities single-use across Heroes and Champions ([9bec404](https://github.com/ClashStrategic/stats/commit/9bec4044ec743e75acd92f4359e022702ac30969))
+* **hero:** relocate Little Prince guardienne damage from pushback to spawn ([6890875](https://github.com/ClashStrategic/stats/commit/68908759a70047705e9af43a1271856b9693e760))
+
+
+### Features
+
+* **data:** add slowdown to Goblin Curse ([f952974](https://github.com/ClashStrategic/stats/commit/f952974e82b71bba9a0e09e00bd8294546cb1441))
+* **evo:** add evolution stats and mechanics for card ([09b4c30](https://github.com/ClashStrategic/stats/commit/09b4c30be7c98024b42afd0ec747949504d23326))
+* **evo:** add spawn-based healing to Witch Evolution ([14b3240](https://github.com/ClashStrategic/stats/commit/14b3240108ece1c7a7a4fe68dde1302963822351))
+* **hero:** configure hero attributes and berserker ability stats ([a0c2ee1](https://github.com/ClashStrategic/stats/commit/a0c2ee1a9deb7481e2854d8d341a9b9ead124e2e))
+* **hero:** implement Valkyrie hero card configuration and ability metrics ([3e0e70b](https://github.com/ClashStrategic/stats/commit/3e0e70b66e511211ae159e3f0528dc243d4f1015))
+* **hero:** rework Hero Ice Golem third blast from freeze to slow ([e90d389](https://github.com/ClashStrategic/stats/commit/e90d38995f3a0ae082a11cb4a89050063d74ec9c))
+
 # [2.3.0](https://github.com/ClashStrategic/stats/compare/v2.2.0...v2.3.0) (2026-07-20)
 
 
