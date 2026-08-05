@@ -128,7 +128,7 @@
                         "range": 4.0,
                         "ammo": null,
                         "rootDuration": null,
-                        "damageMultiplier": 150,
+                        "damageMultiplier": 125,
                         "hitSpeedMultiplier": null,
                         "aoeRadius": null,
                         "closeRange": false,
@@ -183,12 +183,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 125,
+                "level16": 200
             },
             "damage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 125,
+                "level16": 200
             },
             "hitpoints": {
                 "level11": 202,
@@ -220,7 +220,7 @@
                             "periodic-spawn": {
                                 "pauseTime": null,
                                 "character": "Goblin",
-                                "units": 3
+                                "units": 2
                             }
                         }
                     }
@@ -611,6 +611,21 @@
                         "pauseTime": 7,
                         "character": "Skeleton",
                         "units": 4
+                    },
+                    "heal": {
+                        "perAttack": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "frequency": null,
+                        "overHeal": {
+                            "level11": null,
+                            "level16": null
+                        },
+                        "onSpawn": {
+                            "level11": 153,
+                            "level16": 245
+                        }
                     }
                 },
                 "towerDamage": {
@@ -622,8 +637,8 @@
                     "level16": 216
                 },
                 "hitpoints": {
-                    "level11": 839,
-                    "level16": 1341
+                    "level11": 1451,
+                    "level16": 2319
                 }
             },
             "heroStats": {
@@ -669,8 +684,8 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 691,
-                "level16": 1104
+                "level11": 716,
+                "level16": 1145
             },
             "evoStats": {
                 "cycles": 1,
@@ -679,7 +694,7 @@
                         "hitSpeedMultiplier": 130,
                         "speedMultiplier": 130,
                         "spawnSpeedMultiplier": null,
-                        "duration": null,
+                        "duration": 5.0,
                         "rangeMultiplier": null,
                         "radius": null,
                         "enemySpeedMultiplier": null,
@@ -695,8 +710,8 @@
                     "level16": 306
                 },
                 "hitpoints": {
-                    "level11": 760,
-                    "level16": 1214
+                    "level11": 716,
+                    "level16": 1145
                 }
             },
             "heroStats": {
@@ -875,7 +890,7 @@
             "duration": null,
             "deployTime": 1.0,
             "evolution": true,
-            "hero": false,
+            "hero": true,
             "hitType": "splash",
             "projectile": false,
             "projectileNumber": null,
@@ -917,7 +932,41 @@
                 }
             },
             "heroStats": {
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Valkyrie_hero",
+                        "elixirCost": 3,
+                        "cooldown": null,
+                        "skills": {
+                            "boost": {
+                                "hitSpeedMultiplier": null,
+                                "speedMultiplier": 100,
+                                "spawnSpeedMultiplier": null,
+                                "duration": 3.5,
+                                "rangeMultiplier": null,
+                                "radius": null,
+                                "enemySpeedMultiplier": null,
+                                "enemyHitSpeedMultiplier": null
+                            },
+                            "dash": {
+                                "damage": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "minRange": null,
+                                "maxRange": 5.5,
+                                "targetType": "nearest"
+                            },
+                            "shield": {
+                                "hitpoints": {
+                                    "level11": null,
+                                    "level16": null
+                                },
+                                "damageReductionPercent": 15
+                            }
+                        }
+                    }
+                }
             },
             "hitspeed": 1.5,
             "loadTime": 1.4,
@@ -1545,7 +1594,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 1.7,
+            "hitspeed": 1.6,
             "loadTime": 1.2,
             "radius": null,
             "collisionRadius": 0.5,
@@ -1734,7 +1783,7 @@
                         "duration": 3.0,
                         "radius": null,
                         "moveSpeedPenalty": -33,
-                        "attackSpeedPenalty": -50,
+                        "attackSpeedPenalty": -33,
                         "triggerType": "on-damage"
                     }
                 },
@@ -2017,7 +2066,7 @@
                         "hitSpeedMultiplier": -30,
                         "speedMultiplier": -30,
                         "spawnSpeedMultiplier": -30,
-                        "duration": 7.0
+                        "duration": 5.5
                     },
                     "area-damage-on-death": {
                         "areaEffect": "Ice Arrows",
@@ -2338,8 +2387,8 @@
                 "level16": 175
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": 2,
@@ -2374,8 +2423,8 @@
                     "level16": 175
                 },
                 "hitpoints": {
-                    "level11": 230,
-                    "level16": 368
+                    "level11": 215,
+                    "level16": 343
                 }
             },
             "heroStats": {
@@ -2422,8 +2471,8 @@
                 "level16": 331
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": null,
@@ -2614,7 +2663,7 @@
                 },
                 "pierce": {
                     "radius": 1.8,
-                    "range": 7.5,
+                    "range": 7.0,
                     "bounces": null,
                     "bounceDistance": null,
                     "bounceMode": null,
@@ -3042,15 +3091,6 @@
                                 "speedMultiplier": -30,
                                 "spawnSpeedMultiplier": -30,
                                 "duration": 2.0
-                            },
-                            "stun": {
-                                "hitSpeedMultiplier": null,
-                                "speedMultiplier": null,
-                                "spawnSpeedMultiplier": null,
-                                "duration": 2.0,
-                                "strikes": null,
-                                "radiusGrowth": null,
-                                "delayBetweenStrikes": null
                             }
                         }
                     }
@@ -3126,8 +3166,8 @@
                             "warp": {
                                 "targetType": "lowestHP",
                                 "damage": {
-                                    "level11": null,
-                                    "level16": null
+                                    "level11": 399,
+                                    "level16": 638
                                 },
                                 "bonusDamagePercent": 50
                             }
@@ -3369,7 +3409,7 @@
             "units": 2,
             "duration": null,
             "deployTime": 1.0,
-            "evolution": false,
+            "evolution": true,
             "hero": false,
             "hitType": "unique",
             "projectile": false,
@@ -3399,19 +3439,40 @@
                 "level16": 2143
             },
             "evoStats": {
-                "cycles": null,
-                "skills": {},
+                "cycles": 1,
+                "skills": {
+                    "snipe": {
+                        "range": 5.0,
+                        "ammo": null,
+                        "rootDuration": null,
+                        "damageMultiplier": 74,
+                        "hitSpeedMultiplier": null,
+                        "aoeRadius": null,
+                        "closeRange": true,
+                        "pushbackDistance": null
+                    },
+                    "boost": {
+                        "hitSpeedMultiplier": 30,
+                        "speedMultiplier": 30,
+                        "spawnSpeedMultiplier": 30,
+                        "duration": 3.5,
+                        "rangeMultiplier": null,
+                        "radius": 1.0,
+                        "enemySpeedMultiplier": null,
+                        "enemyHitSpeedMultiplier": null
+                    }
+                },
                 "towerDamage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 384,
+                    "level16": 613
                 },
                 "damage": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 384,
+                    "level16": 613
                 },
                 "hitpoints": {
-                    "level11": null,
-                    "level16": null
+                    "level11": 1341,
+                    "level16": 2143
                 }
             },
             "heroStats": {
@@ -3524,7 +3585,7 @@
             "skills": {
                 "pierce": {
                     "radius": 1.0,
-                    "range": 7.5,
+                    "range": 7.0,
                     "bounces": null,
                     "bounceDistance": null,
                     "bounceMode": null,
@@ -4108,7 +4169,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 2.1,
+            "hitspeed": 2.2,
             "loadTime": 1.3,
             "radius": null,
             "collisionRadius": 0.6,
@@ -4509,12 +4570,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 350,
-                "level16": 560
+                "level11": 281,
+                "level16": 449
             },
             "damage": {
-                "level11": 350,
-                "level16": 560
+                "level11": 281,
+                "level16": 449
             },
             "hitpoints": {
                 "level11": 330,
@@ -4535,12 +4596,12 @@
                     }
                 },
                 "towerDamage": {
-                    "level11": 350,
-                    "level16": 560
+                    "level11": 281,
+                    "level16": 449
                 },
                 "damage": {
-                    "level11": 350,
-                    "level16": 560
+                    "level11": 281,
+                    "level16": 449
                 },
                 "hitpoints": {
                     "level11": 330,
@@ -4812,12 +4873,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 143,
-                "level16": 229
+                "level11": 135,
+                "level16": 216
             },
             "damage": {
-                "level11": 143,
-                "level16": 229
+                "level11": 135,
+                "level16": 216
             },
             "hitpoints": {
                 "level11": 529,
@@ -5084,7 +5145,7 @@
                 "ability": {
                     "name": "MightyMinerLaneSwitch",
                     "elixirCost": 1,
-                    "cooldown": 13,
+                    "cooldown": null,
                     "skills": {
                         "burrow": {
                             "duration": null
@@ -5101,8 +5162,8 @@
                             "rampInterval": 1.5,
                             "damageTiers": [
                                 {
-                                    "level11": 40,
-                                    "level16": 65
+                                    "level11": 43,
+                                    "level16": 69
                                 },
                                 {
                                     "level11": 204,
@@ -5118,12 +5179,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 40,
-                "level16": 65
+                "level11": 43,
+                "level16": 69
             },
             "damage": {
-                "level11": 40,
-                "level16": 65
+                "level11": 43,
+                "level16": 69
             },
             "hitpoints": {
                 "level11": 2250,
@@ -5263,22 +5324,22 @@
                         "level16": null
                     },
                     "onSpawn": {
-                        "level11": 202,
-                        "level16": 323
+                        "level11": null,
+                        "level16": null
                     }
                 }
             },
             "towerDamage": {
-                "level11": 148,
-                "level16": 237
+                "level11": 268,
+                "level16": 429
             },
             "damage": {
-                "level11": 148,
-                "level16": 237
+                "level11": 268,
+                "level16": 429
             },
             "hitpoints": {
-                "level11": 1717,
-                "level16": 2744
+                "level11": 1920,
+                "level16": 3067
             },
             "evoStats": {
                 "cycles": null,
@@ -5299,7 +5360,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 1.5,
+            "hitspeed": 2.0,
             "loadTime": 1.2,
             "radius": 2.5,
             "collisionRadius": 0.5,
@@ -5333,7 +5394,7 @@
                 "ability": {
                     "name": "SkeletonKing",
                     "elixirCost": 2,
-                    "cooldown": 20,
+                    "cooldown": null,
                     "skills": {
                         "spawn": {
                             "character": "Skeleton",
@@ -5422,7 +5483,7 @@
                 "ability": {
                     "name": "ArcherQueenRapid",
                     "elixirCost": 1,
-                    "cooldown": 17,
+                    "cooldown": null,
                     "skills": {
                         "boost": {
                             "hitSpeedMultiplier": 280,
@@ -5502,7 +5563,7 @@
                 "ability": {
                     "name": "GoldenKnightChain",
                     "elixirCost": 1,
-                    "cooldown": 12,
+                    "cooldown": null,
                     "skills": {
                         "dash": {
                             "damage": {
@@ -5591,7 +5652,7 @@
                 "ability": {
                     "name": "Deflect",
                     "elixirCost": 1,
-                    "cooldown": 17,
+                    "cooldown": null,
                     "skills": {
                         "shield": {
                             "hitpoints": {
@@ -5869,8 +5930,8 @@
                 "level16": 159
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": null,
@@ -6076,13 +6137,16 @@
                 "ability": {
                     "name": "ChampGuardianAbility",
                     "elixirCost": 3,
-                    "cooldown": 30,
+                    "cooldown": null,
                     "skills": {
                         "spawn": {
                             "character": "Protector",
                             "count": 1,
                             "hitpoints": null,
-                            "damage": null,
+                            "damage": {
+                                "level11": 232,
+                                "level16": 372
+                            },
                             "lifetime": null,
                             "range": null,
                             "targets": [],
@@ -6233,16 +6297,16 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 212,
-                "level16": 339
+                "level11": 232,
+                "level16": 372
             },
             "damage": {
-                "level11": 212,
-                "level16": 339
+                "level11": 232,
+                "level16": 372
             },
             "hitpoints": {
-                "level11": 2150,
-                "level16": 3435
+                "level11": 2265,
+                "level16": 3619
             },
             "evoStats": {
                 "cycles": null,
@@ -6373,7 +6437,7 @@
                 "ability": {
                     "name": "Goblinstein_ability",
                     "elixirCost": 2,
-                    "cooldown": 17,
+                    "cooldown": null,
                     "skills": {
                         "stun": {
                             "hitSpeedMultiplier": -100,
@@ -6465,8 +6529,8 @@
                 "level16": 245
             },
             "hitpoints": {
-                "level11": 2662,
-                "level16": 4253
+                "level11": 2816,
+                "level16": 4499
             },
             "evoStats": {
                 "cycles": null,
@@ -6511,7 +6575,7 @@
             "duration": null,
             "deployTime": 1.0,
             "evolution": false,
-            "hero": false,
+            "hero": true,
             "hitType": "unique",
             "projectile": false,
             "projectileNumber": null,
@@ -6547,7 +6611,32 @@
                 }
             },
             "heroStats": {
-                "skills": {}
+                "skills": {
+                    "ability": {
+                        "name": "Berserker_hero",
+                        "elixirCost": 3,
+                        "cooldown": null,
+                        "skills": {
+                            "boost": {
+                                "hitSpeedMultiplier": 200,
+                                "speedMultiplier": 50,
+                                "spawnSpeedMultiplier": 100,
+                                "duration": 4.0,
+                                "rangeMultiplier": null,
+                                "radius": null,
+                                "enemySpeedMultiplier": null,
+                                "enemyHitSpeedMultiplier": null
+                            },
+                            "invincible": {
+                                "duration": 4.0,
+                                "radius": null,
+                                "moveSpeedPenalty": null,
+                                "attackSpeedPenalty": null,
+                                "triggerType": "ability"
+                            }
+                        }
+                    }
+                }
             },
             "hitspeed": 0.6,
             "loadTime": 0.4,
@@ -6842,7 +6931,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 5.0,
+            "hitspeed": 4.7,
             "loadTime": 4.0,
             "radius": 2.0,
             "collisionRadius": 0.6,
@@ -7237,12 +7326,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 43,
-                "level16": 69
+                "level11": 58,
+                "level16": 94
             },
             "damage": {
-                "level11": 43,
-                "level16": 69
+                "level11": 58,
+                "level16": 94
             },
             "hitpoints": {
                 "level11": 1600,
@@ -7267,7 +7356,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 0.3,
+            "hitspeed": 0.4,
             "loadTime": null,
             "radius": null,
             "collisionRadius": 0.6,
@@ -7323,8 +7412,8 @@
                 "level16": 129
             },
             "hitpoints": {
-                "level11": 529,
-                "level16": 846
+                "level11": 4224,
+                "level16": 6748
             },
             "evoStats": {
                 "cycles": null,
@@ -7374,7 +7463,7 @@
             "collisionRadius": 1.0,
             "speed": null,
             "range": 2.0,
-            "sightRange": null,
+            "sightRange": 7.0,
             "placement": "own-side",
             "unlockArena": "Arena2",
             "tribe": null,
@@ -7401,7 +7490,7 @@
             "flying": false,
             "skills": {
                 "periodic-spawn": {
-                    "pauseTime": 7,
+                    "pauseTime": 5,
                     "character": "Fire Spirit",
                     "units": 1
                 }
@@ -7503,7 +7592,7 @@
                 "level16": 1247
             },
             "evoStats": {
-                "cycles": 1,
+                "cycles": 2,
                 "skills": {
                     "spawn-on-death": {
                         "character": "GoblinCage_EV1_GoblinBrawler",
@@ -7584,8 +7673,8 @@
                 }
             },
             "towerDamage": {
-                "level11": 26,
-                "level16": 41
+                "level11": null,
+                "level16": null
             },
             "damage": {
                 "level11": 84,
@@ -7979,8 +8068,8 @@
                             "level16": 130
                         },
                         "damage": {
-                            "level11": 88,
-                            "level16": 140
+                            "level11": 66,
+                            "level16": 106
                         },
                         "lifetime": null,
                         "range": 0.5,
@@ -8861,8 +8950,8 @@
                 "level16": 175
             },
             "hitpoints": {
-                "level11": 230,
-                "level16": 368
+                "level11": 215,
+                "level16": 343
             },
             "evoStats": {
                 "cycles": null,
@@ -9009,12 +9098,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 438,
-                "level16": 699
+                "level11": 384,
+                "level16": 613
             },
             "damage": {
-                "level11": 438,
-                "level16": 699
+                "level11": 384,
+                "level16": 613
             },
             "hitpoints": {
                 "level11": 548,
@@ -9055,7 +9144,7 @@
         {
             "name": "Void",
             "id": 28000023,
-            "elixirCost": 3,
+            "elixirCost": 5,
             "targets": [
                 "ground",
                 "air"
@@ -9072,12 +9161,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 144,
-                "level16": 230
+                "level11": 97,
+                "level16": 155
             },
             "damage": {
-                "level11": 256,
-                "level16": 409
+                "level11": 696,
+                "level16": 1112
             },
             "hitpoints": {
                 "level11": null,
@@ -9133,7 +9222,14 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "slow": {
+                    "hitSpeedMultiplier": null,
+                    "speedMultiplier": -15,
+                    "spawnSpeedMultiplier": null,
+                    "duration": 6.0
+                }
+            },
             "towerDamage": {
                 "level11": 42,
                 "level16": 67
