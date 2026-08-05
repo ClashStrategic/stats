@@ -3042,15 +3042,6 @@
                                 "speedMultiplier": -30,
                                 "spawnSpeedMultiplier": -30,
                                 "duration": 2.0
-                            },
-                            "stun": {
-                                "hitSpeedMultiplier": null,
-                                "speedMultiplier": null,
-                                "spawnSpeedMultiplier": null,
-                                "duration": 2.0,
-                                "strikes": null,
-                                "radiusGrowth": null,
-                                "delayBetweenStrikes": null
                             }
                         }
                     }
