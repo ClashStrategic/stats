@@ -9127,7 +9127,14 @@
             "projectileNumber": null,
             "kamikaze": false,
             "flying": false,
-            "skills": {},
+            "skills": {
+                "slow": {
+                    "hitSpeedMultiplier": null,
+                    "speedMultiplier": -15,
+                    "spawnSpeedMultiplier": null,
+                    "duration": 6.0
+                }
+            },
             "towerDamage": {
                 "level11": 42,
                 "level16": 67
