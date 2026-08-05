@@ -5254,22 +5254,22 @@
                         "level16": null
                     },
                     "onSpawn": {
-                        "level11": 202,
-                        "level16": 323
+                        "level11": null,
+                        "level16": null
                     }
                 }
             },
             "towerDamage": {
-                "level11": 148,
-                "level16": 237
+                "level11": 268,
+                "level16": 429
             },
             "damage": {
-                "level11": 148,
-                "level16": 237
+                "level11": 268,
+                "level16": 429
             },
             "hitpoints": {
-                "level11": 1717,
-                "level16": 2744
+                "level11": 1920,
+                "level16": 3067
             },
             "evoStats": {
                 "cycles": null,
@@ -5290,7 +5290,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 1.5,
+            "hitspeed": 2.0,
             "loadTime": 1.2,
             "radius": 2.5,
             "collisionRadius": 0.5,
@@ -6227,16 +6227,16 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 212,
-                "level16": 339
+                "level11": 232,
+                "level16": 372
             },
             "damage": {
-                "level11": 212,
-                "level16": 339
+                "level11": 232,
+                "level16": 372
             },
             "hitpoints": {
-                "level11": 2150,
-                "level16": 3435
+                "level11": 2265,
+                "level16": 3619
             },
             "evoStats": {
                 "cycles": null,
@@ -6459,8 +6459,8 @@
                 "level16": 245
             },
             "hitpoints": {
-                "level11": 2662,
-                "level16": 4253
+                "level11": 2816,
+                "level16": 4499
             },
             "evoStats": {
                 "cycles": null,
@@ -9049,7 +9049,7 @@
         {
             "name": "Void",
             "id": 28000023,
-            "elixirCost": 3,
+            "elixirCost": 5,
             "targets": [
                 "ground",
                 "air"
@@ -9066,12 +9066,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 144,
-                "level16": 230
+                "level11": 97,
+                "level16": 155
             },
             "damage": {
-                "level11": 256,
-                "level16": 409
+                "level11": 696,
+                "level16": 1112
             },
             "hitpoints": {
                 "level11": null,
