@@ -5092,8 +5092,8 @@
                             "rampInterval": 1.5,
                             "damageTiers": [
                                 {
-                                    "level11": 40,
-                                    "level16": 65
+                                    "level11": 43,
+                                    "level16": 69
                                 },
                                 {
                                     "level11": 204,
@@ -5109,12 +5109,12 @@
                 }
             },
             "towerDamage": {
-                "level11": 40,
-                "level16": 65
+                "level11": 43,
+                "level16": 69
             },
             "damage": {
-                "level11": 40,
-                "level16": 65
+                "level11": 43,
+                "level16": 69
             },
             "hitpoints": {
                 "level11": 2250,
@@ -6083,7 +6083,10 @@
                         "pushback": {
                             "distance": null,
                             "strength": 2.5,
-                            "damage": null,
+                            "damage": {
+                                "level11": 232,
+                                "level16": 372
+                            },
                             "radius": null
                         }
                     }
