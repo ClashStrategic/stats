@@ -6088,7 +6088,10 @@
                             "character": "Protector",
                             "count": 1,
                             "hitpoints": null,
-                            "damage": null,
+                            "damage": {
+                                "level11": 232,
+                                "level16": 372
+                            },
                             "lifetime": null,
                             "range": null,
                             "targets": [],
@@ -6098,10 +6101,7 @@
                         "pushback": {
                             "distance": null,
                             "strength": 2.5,
-                            "damage": {
-                                "level11": 232,
-                                "level16": 372
-                            },
+                            "damage": null,
                             "radius": null
                         }
                     }
