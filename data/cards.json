@@ -5084,7 +5084,7 @@
                 "ability": {
                     "name": "MightyMinerLaneSwitch",
                     "elixirCost": 1,
-                    "cooldown": 13,
+                    "cooldown": null,
                     "skills": {
                         "burrow": {
                             "duration": null
@@ -5333,7 +5333,7 @@
                 "ability": {
                     "name": "SkeletonKing",
                     "elixirCost": 2,
-                    "cooldown": 20,
+                    "cooldown": null,
                     "skills": {
                         "spawn": {
                             "character": "Skeleton",
@@ -5422,7 +5422,7 @@
                 "ability": {
                     "name": "ArcherQueenRapid",
                     "elixirCost": 1,
-                    "cooldown": 17,
+                    "cooldown": null,
                     "skills": {
                         "boost": {
                             "hitSpeedMultiplier": 280,
@@ -5502,7 +5502,7 @@
                 "ability": {
                     "name": "GoldenKnightChain",
                     "elixirCost": 1,
-                    "cooldown": 12,
+                    "cooldown": null,
                     "skills": {
                         "dash": {
                             "damage": {
@@ -5591,7 +5591,7 @@
                 "ability": {
                     "name": "Deflect",
                     "elixirCost": 1,
-                    "cooldown": 17,
+                    "cooldown": null,
                     "skills": {
                         "shield": {
                             "hitpoints": {
@@ -6076,7 +6076,7 @@
                 "ability": {
                     "name": "ChampGuardianAbility",
                     "elixirCost": 3,
-                    "cooldown": 30,
+                    "cooldown": null,
                     "skills": {
                         "spawn": {
                             "character": "Protector",
@@ -6373,7 +6373,7 @@
                 "ability": {
                     "name": "Goblinstein_ability",
                     "elixirCost": 2,
-                    "cooldown": 17,
+                    "cooldown": null,
                     "skills": {
                         "stun": {
                             "hitSpeedMultiplier": -100,
