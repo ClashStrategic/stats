@@ -3117,8 +3117,8 @@
                             "warp": {
                                 "targetType": "lowestHP",
                                 "damage": {
-                                    "level11": null,
-                                    "level16": null
+                                    "level11": 399,
+                                    "level16": 638
                                 },
                                 "bonusDamagePercent": 50
                             }
