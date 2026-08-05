@@ -183,12 +183,12 @@
             "flying": false,
             "skills": {},
             "towerDamage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 125,
+                "level16": 200
             },
             "damage": {
-                "level11": 120,
-                "level16": 192
+                "level11": 125,
+                "level16": 200
             },
             "hitpoints": {
                 "level11": 202,
@@ -220,7 +220,7 @@
                             "periodic-spawn": {
                                 "pauseTime": null,
                                 "character": "Goblin",
-                                "units": 3
+                                "units": 2
                             }
                         }
                     }
@@ -669,8 +669,8 @@
                 "level16": 306
             },
             "hitpoints": {
-                "level11": 691,
-                "level16": 1104
+                "level11": 716,
+                "level16": 1145
             },
             "evoStats": {
                 "cycles": 1,
@@ -679,7 +679,7 @@
                         "hitSpeedMultiplier": 130,
                         "speedMultiplier": 130,
                         "spawnSpeedMultiplier": null,
-                        "duration": null,
+                        "duration": 5.0,
                         "rangeMultiplier": null,
                         "radius": null,
                         "enemySpeedMultiplier": null,
@@ -695,8 +695,8 @@
                     "level16": 306
                 },
                 "hitpoints": {
-                    "level11": 760,
-                    "level16": 1214
+                    "level11": 716,
+                    "level16": 1145
                 }
             },
             "heroStats": {
@@ -6836,7 +6836,7 @@
             "heroStats": {
                 "skills": {}
             },
-            "hitspeed": 5.0,
+            "hitspeed": 4.7,
             "loadTime": 4.0,
             "radius": 2.0,
             "collisionRadius": 0.6,
